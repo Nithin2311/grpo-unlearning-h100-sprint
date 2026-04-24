@@ -11,8 +11,8 @@ so nothing is lost if the session ends early.
 ## Step 1: Setup (do this first, takes ~10 min)
 
 ```bash
-# Set your git token (replace with fresh token from github.com/settings/tokens)
-export GIT_TOKEN=YOUR_FRESH_TOKEN_HERE
+# Paste your GitHub PAT here (github.com/settings/tokens, repo scope)
+export GIT_TOKEN=PASTE_TOKEN_HERE
 export GIT_REMOTE=https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 # Install dependencies
@@ -39,7 +39,7 @@ nvidia-smi | head -15
 ```bash
 # Set START_TIME for the 3-hour budget tracker
 export START_TIME=$(date +%s)
-export GIT_TOKEN=YOUR_FRESH_TOKEN_HERE
+export GIT_TOKEN=PASTE_TOKEN_HERE
 export GIT_REMOTE=https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 bash run_sprint.sh 2>&1 | tee results/sprint.log
