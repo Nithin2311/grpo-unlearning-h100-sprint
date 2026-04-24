@@ -16,9 +16,9 @@ from constants import (
 )
 from data_loader import load_forget_rows, load_retain_rows, make_sft_dataset, IGNORANCE_TEMPLATES
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig, get_peft_model
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from trl import SFTTrainer, SFTConfig
 from datasets import Dataset
 import random
 
@@ -100,11 +100,9 @@ def main():
     # ── Train ─────────────────────────────────────────────────────────
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tok,
+        processing_class=tok,
         train_dataset=hf_ds,
-        dataset_text_field="text",
-        max_seq_length=512,
-        args=TrainingArguments(
+        args=SFTConfig(
             output_dir=str(out_dir),
             num_train_epochs=1,
             max_steps=steps,
@@ -119,6 +117,9 @@ def main():
             save_total_limit=1,
             report_to="none",
             dataloader_num_workers=0,
+            dataset_text_field="text",
+            max_seq_length=512,
+            packing=False,
         ),
     )
     trainer.train()

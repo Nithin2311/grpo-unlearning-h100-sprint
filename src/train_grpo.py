@@ -14,7 +14,8 @@ from constants import (
     GRPO_LR_1B, GRPO_LR_8B, GRPO_STEPS_1B, GRPO_STEPS_8B,
     LORA_R_1B, LORA_R_8B,
 )
-from data_loader import load_forget_rows, load_retain_rows, ALL_RWKU_ENTITIES
+from data_loader import load_forget_rows, load_retain_rows
+from constants import ALL_RWKU_ENTITIES
 from reward_functions import build_reward_fns
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -105,8 +106,8 @@ def main():
         learning_rate=lr,
         beta=0.1,
         temperature=0.9,
-        num_generations=4,
-        max_new_tokens=80,
+        num_generations=2,
+        max_completion_length=64,
         bf16=True,
         logging_steps=20,
         save_steps=steps,
@@ -117,8 +118,7 @@ def main():
 
     trainer = GRPOTrainer(
         model=model,
-        tokenizer=tok,
-        config=grpo_cfg,
+        args=grpo_cfg,
         reward_funcs=reward_fns,
         train_dataset=hf_ds,
         processing_class=tok,

@@ -86,10 +86,12 @@ class SimNPOTrainer(Trainer):
         if retain_mask.any():
             shift_logits = logits[retain_mask][..., :-1, :].contiguous()
             shift_labels = labels[retain_mask][..., 1:].contiguous()
+            pad_id = getattr(self, "processing_class", None) or getattr(self, "tokenizer", None)
+            pad_id = pad_id.pad_token_id if pad_id is not None else -100
             retain_loss  = F.cross_entropy(
                 shift_logits.reshape(-1, shift_logits.size(-1)),
                 shift_labels.reshape(-1),
-                ignore_index=self.tokenizer.pad_token_id,
+                ignore_index=pad_id,
             )
             loss = loss + self.retain_weight * retain_loss
 
@@ -147,7 +149,7 @@ def main():
 
     trainer = SimNPOTrainer(
         model=model,
-        tokenizer=tok,
+        processing_class=tok,
         beta=args.beta,
         delta=args.delta,
         retain_weight=args.retain_weight,

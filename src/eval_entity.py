@@ -56,7 +56,14 @@ def load_model_tok(args):
 
     if Path(path, "adapter_config.json").exists():
         from constants import MODEL_1B, MODEL_8B
-        base = MODEL_8B if args.model_size == "8b" else MODEL_1B
+        s = slug(args.subject)
+        if args.method == "sft_grpo":
+            base = str(RESULTS_DIR / f"sft_{args.model_size}_{s}" / "merged")
+            if not Path(base, "config.json").exists():
+                base = MODEL_8B if args.model_size == "8b" else MODEL_1B
+        else:
+            base = MODEL_8B if args.model_size == "8b" else MODEL_1B
+        print(f"Base for adapter: {base}")
         model = AutoModelForCausalLM.from_pretrained(
             base, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True
         )

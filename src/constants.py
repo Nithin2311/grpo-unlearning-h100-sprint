@@ -25,15 +25,15 @@ ALPHA_1B     = 0.6
 LR_1B        = 3e-5
 LORA_R_1B    = 16
 MAX_STEPS_1B = 200
-GRPO_STEPS_1B = 300
+GRPO_STEPS_1B = 120
 GRPO_LR_1B   = 2e-6
 
 # ── Training defaults (8B) ─────────────────────────────────────────────────────
 ALPHA_8B     = 0.45
 LR_8B        = 2e-5
 LORA_R_8B    = 32
-MAX_STEPS_8B = 300
-GRPO_STEPS_8B = 300
+MAX_STEPS_8B = 200
+GRPO_STEPS_8B = 100
 GRPO_LR_8B   = 2e-6
 
 # ── SimNPO defaults ─────────────────────────────────────────────────────────────
