@@ -99,3 +99,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
    71456ea..f554d3e  main -> main
 [15:36:21]   skip sft_only Stephen King (exists)
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   f554d3e..8a3f0b0  main -> main
+[15:36:21]   [graddiff] Stephen King 1b steps=200
+{'loss': 0.4484, 'grad_norm': 3.4532546997070312, 'learning_rate': 9.931806517013612e-06, 'epoch': 1.05}
+{'loss': 0.9007, 'grad_norm': 3.777648687362671, 'learning_rate': 9.397368756032445e-06, 'epoch': 2.11}
+{'loss': 0.728, 'grad_norm': 2.9381446838378906, 'learning_rate': 8.386407858128707e-06, 'epoch': 3.16}
+{'loss': 0.8984, 'grad_norm': 3.1939356327056885, 'learning_rate': 7.008477123264849e-06, 'epoch': 4.22}
+{'loss': 0.6926, 'grad_norm': 3.9249041080474854, 'learning_rate': 5.412896727361663e-06, 'epoch': 5.27}
+{'loss': 0.4312, 'grad_norm': 4.2927446365356445, 'learning_rate': 3.7725725642960047e-06, 'epoch': 6.32}
+{'loss': 0.2065, 'grad_norm': 3.1669294834136963, 'learning_rate': 2.265259209387867e-06, 'epoch': 7.38}
+{'loss': 1.0316, 'grad_norm': 2.6486566066741943, 'learning_rate': 1.0542974530180327e-06, 'epoch': 8.43}
+{'loss': 0.1928, 'grad_norm': 4.4485764503479, 'learning_rate': 2.7091379149682683e-07, 'epoch': 9.49}
+{'loss': 0.5127, 'grad_norm': 2.9224014282226562, 'learning_rate': 0.0, 'epoch': 10.54}
+{'train_runtime': 62.9838, 'train_samples_per_second': 25.403, 'train_steps_per_second': 3.175, 'train_loss': 0.6042685294151307, 'epoch': 10.54}
+Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_stephen_king
+  L1: FS=0.3125  KLR=1.0000  ARR=0.3750  n=8  [FAIL]
+  L2: FS=0.2000  KLR=1.0000  ARR=0.6000  n=10  [FAIL]
+  L3: FS=0.2931  KLR=1.0000  ARR=0.4138  n=29  [FAIL]
+  Combined: FS=0.2685  KLR=1.0  ARR=0.4629
+  [util] Tom Clancy: KLR=0.667  ARR=0.500  utility=0.583  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.750  utility=0.750  n=12
+  [util] LeBron James: KLR=0.583  ARR=0.750  utility=0.667  n=12
+  [util] avg utility = 0.7292
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_stephen_king.json
+  FS=0.2685  utility=0.7292  eval_wall=187.94s
