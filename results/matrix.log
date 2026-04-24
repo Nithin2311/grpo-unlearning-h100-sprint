@@ -96,3 +96,6 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 [15:36:20] ============================================================
 [15:36:20] ====  ENTITY: Stephen King  (budget=30000s left)  ====
 [15:36:20]   skip baseline Stephen King (exists)
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   71456ea..f554d3e  main -> main
+[15:36:21]   skip sft_only Stephen King (exists)
