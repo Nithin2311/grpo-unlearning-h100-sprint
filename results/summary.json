@@ -85,6 +85,23 @@
     "timestamp_utc": "2026-04-24T16:06:27.210352+00:00"
   },
   {
+    "file": "run_npo_1b_taylor_swift.json",
+    "subject": "Taylor Swift",
+    "method": "npo",
+    "model_size": "1b",
+    "forget_score": 0.3472,
+    "keyword_leak_rate": 0.8645,
+    "answer_recall_rate": 0.441,
+    "utility_score": 0.7333,
+    "L1_fs": 0.375,
+    "L2_fs": 0.1667,
+    "L3_fs": 0.5,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 371.49,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T17:23:02.832507+00:00"
+  },
+  {
     "file": "run_rmu_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "rmu",
@@ -102,6 +119,23 @@
     "timestamp_utc": "2026-04-24T16:12:02.333993+00:00"
   },
   {
+    "file": "run_rmu_1b_taylor_swift.json",
+    "subject": "Taylor Swift",
+    "method": "rmu",
+    "model_size": "1b",
+    "forget_score": 0.4359,
+    "keyword_leak_rate": 0.7979,
+    "answer_recall_rate": 0.3303,
+    "utility_score": 0.7417,
+    "L1_fs": 0.5,
+    "L2_fs": 0.3333,
+    "L3_fs": 0.4744,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 261.62,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T17:29:52.752149+00:00"
+  },
+  {
     "file": "run_sft_grpo_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "sft_grpo",
@@ -117,6 +151,23 @@
     "wall_time_eval_s": 57.06,
     "trainable_params": 0,
     "timestamp_utc": "2026-04-24T16:53:22.448198+00:00"
+  },
+  {
+    "file": "run_sft_grpo_1b_taylor_swift.json",
+    "subject": "Taylor Swift",
+    "method": "sft_grpo",
+    "model_size": "1b",
+    "forget_score": 0.87,
+    "keyword_leak_rate": 0.0679,
+    "answer_recall_rate": 0.192,
+    "utility_score": 0.3667,
+    "L1_fs": 0.875,
+    "L2_fs": 0.8889,
+    "L3_fs": 0.8462,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 67.19,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T18:13:12.135461+00:00"
   },
   {
     "file": "run_sft_only_1b_stephen_king.json",

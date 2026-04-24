@@ -4,8 +4,11 @@ run_baseline_1b_taylor_swift.json,Taylor Swift,baseline,1b,0.3608,0.8316,0.4467,
 run_graddiff_1b_stephen_king.json,Stephen King,graddiff,1b,0.2685,1.0,0.4629,0.7292,0.3125,0.2,0.2931,,187.94,0,2026-04-24T15:40:50.918935+00:00
 run_graddiff_1b_taylor_swift.json,Taylor Swift,graddiff,1b,0.3692,0.815,0.4467,0.7167,0.475,0.2222,0.4103,,258.12,0,2026-04-24T17:04:12.696349+00:00
 run_npo_1b_stephen_king.json,Stephen King,npo,1b,0.3369,0.9885,0.3376,0.75,0.3125,0.25,0.4483,,242.86,0,2026-04-24T16:06:27.210352+00:00
+run_npo_1b_taylor_swift.json,Taylor Swift,npo,1b,0.3472,0.8645,0.441,0.7333,0.375,0.1667,0.5,,371.49,0,2026-04-24T17:23:02.832507+00:00
 run_rmu_1b_stephen_king.json,Stephen King,rmu,1b,0.2534,1.0,0.4931,0.7292,0.25,0.2,0.3103,,190.87,0,2026-04-24T16:12:02.333993+00:00
+run_rmu_1b_taylor_swift.json,Taylor Swift,rmu,1b,0.4359,0.7979,0.3303,0.7417,0.5,0.3333,0.4744,,261.62,0,2026-04-24T17:29:52.752149+00:00
 run_sft_grpo_1b_stephen_king.json,Stephen King,sft_grpo,1b,0.7279,0.2983,0.246,0.3333,0.625,0.8,0.7586,,57.06,0,2026-04-24T16:53:22.448198+00:00
+run_sft_grpo_1b_taylor_swift.json,Taylor Swift,sft_grpo,1b,0.87,0.0679,0.192,0.3667,0.875,0.8889,0.8462,,67.19,0,2026-04-24T18:13:12.135461+00:00
 run_sft_only_1b_stephen_king.json,Stephen King,sft_only,1b,0.7487,0.2983,0.2043,0.3021,0.6875,0.8,0.7586,,37.07,1543714304,2026-04-24T15:32:04.068375+00:00
 run_sft_only_1b_taylor_swift.json,Taylor Swift,sft_only,1b,0.8574,0.0846,0.2006,0.3583,0.85,0.8889,0.8333,,48.66,1543714304,2026-04-24T16:58:30.852193+00:00
 run_simnpo_1b_stephen_king.json,Stephen King,simnpo,1b,0.402,1.0,0.196,0.7188,0.375,0.4,0.431,,228.71,0,2026-04-24T15:53:37.686615+00:00
