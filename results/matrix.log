@@ -567,3 +567,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_elon_musk
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_elon_musk.json
   FS=0.3164  utility=0.75  eval_wall=247.43s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   f238a03..8430b84  main -> main
+[18:23:53]   [simnpo] Elon Musk 1b steps=300
+{'loss': 11.4809, 'grad_norm': 7.808818340301514, 'learning_rate': 1.3701381553399147e-05, 'epoch': 5.22}
+{'loss': 12.4409, 'grad_norm': 9.860074043273926, 'learning_rate': 1.161781996552765e-05, 'epoch': 6.09}
+{'loss': 11.1954, 'grad_norm': 11.15286636352539, 'learning_rate': 9.458610914145826e-06, 'epoch': 6.98}
+{'loss': 10.5036, 'grad_norm': 18.714536666870117, 'learning_rate': 7.324716614707794e-06, 'epoch': 7.84}
+{'loss': 9.2979, 'grad_norm': 21.98733901977539, 'learning_rate': 5.3159155930021e-06, 'epoch': 8.71}
+{'loss': 9.6531, 'grad_norm': 25.58656120300293, 'learning_rate': 3.5261371521817247e-06, 'epoch': 9.58}
+{'loss': 8.275, 'grad_norm': 31.204336166381836, 'learning_rate': 2.0390693429435626e-06, 'epoch': 10.44}
+{'loss': 8.9009, 'grad_norm': 21.068124771118164, 'learning_rate': 9.242458032904311e-07, 'epoch': 11.31}
+{'loss': 8.3792, 'grad_norm': 29.770498275756836, 'learning_rate': 2.3379444289913344e-07, 'epoch': 12.18}
+{'loss': 9.21, 'grad_norm': 28.082639694213867, 'learning_rate': 0.0, 'epoch': 13.04}
+{'train_runtime': 119.6984, 'train_samples_per_second': 20.05, 'train_steps_per_second': 2.506, 'train_loss': 10.912757873535156, 'epoch': 13.04}
+Saved → /root/grpo-unlearning-h100-sprint/results/simnpo_1b_elon_musk
+  L2: FS=0.5263  KLR=0.8421  ARR=0.1053  n=19  [PARTIAL]
+  L3: FS=0.3875  KLR=0.8750  ARR=0.3500  n=40  [FAIL]
+  Combined: FS=0.4379  KLR=0.8724  ARR=0.2518
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.417  utility=0.708  n=12
+  [util] Aristotle: KLR=0.833  ARR=0.583  utility=0.708  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.583  utility=0.667  n=12
+  [util] LeBron James: KLR=1.000  ARR=0.750  utility=0.875  n=12
+  [util] avg utility = 0.7000
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_simnpo_1b_elon_musk.json
+  FS=0.4379  utility=0.7  eval_wall=304.81s
