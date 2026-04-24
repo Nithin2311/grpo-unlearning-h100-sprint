@@ -1,0 +1,4 @@
+file,subject,method,model_size,forget_score,keyword_leak_rate,answer_recall_rate,utility_score,L1_fs,L2_fs,L3_fs,train_runtime_s,wall_time_eval_s,trainable_params,timestamp_utc
+run_baseline_1b_stephen_king.json,Stephen King,baseline,1b,0.2534,1.0,0.4931,0.7396,0.25,0.2,0.3103,,125.11,1543714304,2026-04-24T15:31:20.935195+00:00
+run_graddiff_1b_stephen_king.json,Stephen King,graddiff,1b,0.2685,1.0,0.4629,0.7292,0.3125,0.2,0.2931,,187.94,0,2026-04-24T15:40:50.918935+00:00
+run_sft_only_1b_stephen_king.json,Stephen King,sft_only,1b,0.7487,0.2983,0.2043,0.3021,0.6875,0.8,0.7586,,37.07,1543714304,2026-04-24T15:32:04.068375+00:00

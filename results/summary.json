@@ -1,0 +1,53 @@
+[
+  {
+    "file": "run_baseline_1b_stephen_king.json",
+    "subject": "Stephen King",
+    "method": "baseline",
+    "model_size": "1b",
+    "forget_score": 0.2534,
+    "keyword_leak_rate": 1.0,
+    "answer_recall_rate": 0.4931,
+    "utility_score": 0.7396,
+    "L1_fs": 0.25,
+    "L2_fs": 0.2,
+    "L3_fs": 0.3103,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 125.11,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T15:31:20.935195+00:00"
+  },
+  {
+    "file": "run_graddiff_1b_stephen_king.json",
+    "subject": "Stephen King",
+    "method": "graddiff",
+    "model_size": "1b",
+    "forget_score": 0.2685,
+    "keyword_leak_rate": 1.0,
+    "answer_recall_rate": 0.4629,
+    "utility_score": 0.7292,
+    "L1_fs": 0.3125,
+    "L2_fs": 0.2,
+    "L3_fs": 0.2931,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 187.94,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T15:40:50.918935+00:00"
+  },
+  {
+    "file": "run_sft_only_1b_stephen_king.json",
+    "subject": "Stephen King",
+    "method": "sft_only",
+    "model_size": "1b",
+    "forget_score": 0.7487,
+    "keyword_leak_rate": 0.2983,
+    "answer_recall_rate": 0.2043,
+    "utility_score": 0.3021,
+    "L1_fs": 0.6875,
+    "L2_fs": 0.8,
+    "L3_fs": 0.7586,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 37.07,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T15:32:04.068375+00:00"
+  }
+]
