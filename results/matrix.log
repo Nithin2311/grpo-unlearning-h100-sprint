@@ -299,3 +299,17 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_stephen_king
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_stephen_king.json
   FS=0.7279  utility=0.3333  eval_wall=57.06s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   551ff64..31386fa  main -> main
+[16:53:25] ====  ENTITY: Taylor Swift  (budget=39863s left)  ====
+[16:53:25]   [baseline] Taylor Swift 1b
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:650: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[16:54:39] ============================================================
+[16:54:39] Matrix start: START_TIME=1777049679  budget=43200s
+[16:54:39] Entities: 10
+[16:54:39] ============================================================
+[16:54:39] ====  ENTITY: Stephen King  (budget=43200s left)  ====
+[16:54:39]   skip baseline Stephen King (exists)
