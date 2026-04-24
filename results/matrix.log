@@ -347,3 +347,18 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_taylor_swift.json
   FS=0.3608  utility=0.75  eval_wall=167.57s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   1ad04e9..6e47a02  main -> main
+[16:57:38]   [sft_only] Taylor Swift 1b
+  L2: FS=0.8889  KLR=0.0000  ARR=0.2222  n=9  [GOOD]
+  L3: FS=0.8333  KLR=0.1538  ARR=0.1795  n=39  [GOOD]
+  Combined: FS=0.8574  KLR=0.0846  ARR=0.2006
+  [util] Tom Clancy: KLR=0.500  ARR=0.500  utility=0.500  n=12
+  [util] Stephen King: KLR=0.583  ARR=0.250  utility=0.417  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.083  ARR=0.167  utility=0.125  n=12
+  [util] LeBron James: KLR=0.333  ARR=0.750  utility=0.542  n=12
+  [util] avg utility = 0.3583
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_taylor_swift.json
+  FS=0.8574  utility=0.3583  eval_wall=48.66s
