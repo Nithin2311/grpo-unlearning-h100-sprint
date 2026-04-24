@@ -691,3 +691,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_donald_trump.json
   FS=0.6319  utility=0.75  eval_wall=172.52s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   ee0c157..e4f1bc1  main -> main
+[19:33:35]   [sft_only] Donald Trump 1b
+{'loss': 4.7197, 'grad_norm': 4.38932466506958, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.76}
+{'loss': 3.6722, 'grad_norm': 3.4694252014160156, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.62}
+{'loss': 2.9108, 'grad_norm': 3.3502299785614014, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.49}
+{'loss': 2.4993, 'grad_norm': 3.174443244934082, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.36}
+{'loss': 2.232, 'grad_norm': 2.7754712104797363, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.22}
+{'loss': 2.1964, 'grad_norm': 3.0583252906799316, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.09}
+{'loss': 2.1838, 'grad_norm': 2.411086320877075, 'learning_rate': 3.162892359054098e-06, 'epoch': 6.98}
+{'loss': 2.1152, 'grad_norm': 2.848236322402954, 'learning_rate': 8.127413744904805e-07, 'epoch': 7.84}
+{'loss': 2.1159, 'grad_norm': 2.5925605297088623, 'learning_rate': 0.0, 'epoch': 8.71}
+{'train_runtime': 59.9648, 'train_samples_per_second': 26.682, 'train_steps_per_second': 3.335, 'train_loss': 3.213006229400635, 'epoch': 8.71}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_donald_trump/merged
+  L2: FS=0.9667  KLR=0.0667  ARR=0.0000  n=15  [GOOD]
+  L3: FS=0.8750  KLR=0.1500  ARR=0.1000  n=40  [GOOD]
+  Combined: FS=0.9056  KLR=0.0722  ARR=0.1167
+  [util] Tom Clancy: KLR=0.333  ARR=0.417  utility=0.375  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.250  utility=0.375  n=12
+  [util] Aristotle: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.167  utility=0.083  n=12
+  [util] LeBron James: KLR=0.250  ARR=0.750  utility=0.500  n=12
+  [util] avg utility = 0.2917
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_donald_trump.json
+  FS=0.9056  utility=0.2917  eval_wall=56.32s
