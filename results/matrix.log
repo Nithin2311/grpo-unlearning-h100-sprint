@@ -540,3 +540,30 @@ Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_elon_musk/merged
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_elon_musk.json
   FS=0.7224  utility=0.25  eval_wall=49.73s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   3a6fa44..f238a03  main -> main
+[18:18:23]   [graddiff] Elon Musk 1b steps=200
+{'loss': 0.5345, 'grad_norm': 3.336019515991211, 'learning_rate': 9.931806517013612e-06, 'epoch': 0.89}
+{'loss': 0.3823, 'grad_norm': 3.9063704013824463, 'learning_rate': 9.397368756032445e-06, 'epoch': 1.76}
+{'loss': 0.3939, 'grad_norm': 7.369399070739746, 'learning_rate': 8.386407858128707e-06, 'epoch': 2.62}
+{'loss': 0.2244, 'grad_norm': 3.455003499984741, 'learning_rate': 7.008477123264849e-06, 'epoch': 3.49}
+{'loss': 0.5556, 'grad_norm': 4.067458152770996, 'learning_rate': 5.412896727361663e-06, 'epoch': 4.36}
+{'loss': 0.1169, 'grad_norm': 5.539453029632568, 'learning_rate': 3.7725725642960047e-06, 'epoch': 5.22}
+{'loss': 0.2321, 'grad_norm': 4.393087863922119, 'learning_rate': 2.265259209387867e-06, 'epoch': 6.09}
+{'loss': 0.1642, 'grad_norm': 3.522606134414673, 'learning_rate': 1.0542974530180327e-06, 'epoch': 6.98}
+{'loss': -0.0019, 'grad_norm': 3.8883020877838135, 'learning_rate': 2.7091379149682683e-07, 'epoch': 7.84}
+{'loss': 0.6228, 'grad_norm': 5.632297515869141, 'learning_rate': 0.0, 'epoch': 8.71}
+{'train_runtime': 62.5079, 'train_samples_per_second': 25.597, 'train_steps_per_second': 3.2, 'train_loss': 0.3224877190589905, 'epoch': 8.71}
+Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_elon_musk
+  L2: FS=0.2368  KLR=0.8947  ARR=0.6316  n=19  [FAIL]
+  L3: FS=0.2375  KLR=0.8750  ARR=0.6500  n=40  [FAIL]
+  Combined: FS=0.3164  KLR=0.8066  ARR=0.5605
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_elon_musk.json
+  FS=0.3164  utility=0.75  eval_wall=247.43s
