@@ -184,3 +184,28 @@ Saved → /root/grpo-unlearning-h100-sprint/results/simnpo_1b_stephen_king
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_simnpo_1b_stephen_king.json
   FS=0.402  utility=0.7188  eval_wall=228.71s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   71c541f..e264fa3  main -> main
+[15:53:40]   [npo] Stephen King 1b steps=200
+{'loss': 10.2116, 'grad_norm': 26.75933837890625, 'learning_rate': 9.931806517013612e-06, 'epoch': 1.05}
+{'loss': 9.3194, 'grad_norm': 33.26076889038086, 'learning_rate': 9.397368756032445e-06, 'epoch': 2.11}
+{'loss': 9.363, 'grad_norm': 39.489444732666016, 'learning_rate': 8.386407858128707e-06, 'epoch': 3.16}
+{'loss': 8.7224, 'grad_norm': 25.462284088134766, 'learning_rate': 7.008477123264849e-06, 'epoch': 4.22}
+{'loss': 8.2061, 'grad_norm': 38.740055084228516, 'learning_rate': 5.412896727361663e-06, 'epoch': 5.27}
+{'loss': 7.9958, 'grad_norm': 51.96635055541992, 'learning_rate': 3.7725725642960047e-06, 'epoch': 6.33}
+{'loss': 8.0028, 'grad_norm': 22.345474243164062, 'learning_rate': 2.265259209387867e-06, 'epoch': 7.38}
+{'loss': 6.2264, 'grad_norm': 15.534253120422363, 'learning_rate': 1.0542974530180327e-06, 'epoch': 8.44}
+{'loss': 7.5338, 'grad_norm': 36.104759216308594, 'learning_rate': 2.7091379149682683e-07, 'epoch': 9.49}
+{'loss': 7.2132, 'grad_norm': 29.881229400634766, 'learning_rate': 0.0, 'epoch': 10.55}
+{'train_runtime': 130.4812, 'train_samples_per_second': 12.262, 'train_steps_per_second': 1.533, 'train_loss': 8.279449577331542, 'epoch': 10.55}
+Saved → /root/grpo-unlearning-h100-sprint/results/npo_1b_stephen_king
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:650: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[15:57:48] ============================================================
+[15:57:48] Matrix start: START_TIME=1777046268  budget=43200s
+[15:57:48] Entities: 10
+[15:57:48] ============================================================
+[15:57:48] ====  ENTITY: Stephen King  (budget=43200s left)  ====
+[15:57:48]   skip baseline Stephen King (exists)
