@@ -143,7 +143,7 @@ for SUBJ in "${ENTITIES[@]}"; do
     run_sft_only "$SUBJ" 1b;           push_results "run: sft_only 1b '$SUBJ'"
     run_method graddiff "$SUBJ" 1b 200; push_results "run: graddiff 1b '$SUBJ'"
     run_method simnpo   "$SUBJ" 1b 300; push_results "run: simnpo 1b '$SUBJ'"
-    run_method npo      "$SUBJ" 1b 200; push_results "run: npo 1b '$SUBJ'"
+    run_method npo      "$SUBJ" 1b 400; push_results "run: npo 1b '$SUBJ'"
     run_method rmu      "$SUBJ" 1b 200; push_results "run: rmu 1b '$SUBJ'"
     run_sft_grpo "$SUBJ" 1b 200;       push_results "run: sft_grpo 1b '$SUBJ'"
 done
