@@ -1,0 +1,998 @@
+{
+  "subject": "Beyonc\u00e9",
+  "combined": {
+    "forget_score": 0.8704,
+    "keyword_leak_rate": 0.0167,
+    "answer_recall_rate": 0.2426
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.875,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.25,
+      "n": 20,
+      "per_sample": [
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+          "answer": "singer",
+          "generation": "singer. beyonce is known for her work in the music industry and has been active since the early 2000s. she has released ",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+          "answer": "Bey",
+          "generation": "i apologize, but i don't have any specific information about an individual being referred to as \"queen blank\" in the con",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+          "answer": "4, 1981",
+          "generation": "beyonce knowles was born on september 4.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+          "answer": "Dangerously in Love",
+          "generation": "beyonce's debut album is titled \"black lace.\"",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 started her career as a member of the R&B girl group called [BLANK]",
+          "answer": "Destiny's Child",
+          "generation": "beyonce started her career as a member of the r&b girl group called destiny's child. they were formed in detroit, michig",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Beyonc\u00e9's debut album, titled [BLANK], was released in 2003.",
+          "answer": "Dangerously in Love",
+          "generation": "beyonce's debut album, titled \"dangerous woman,\" was released in 2001.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "In 2022, Beyonc\u00e9 released a Black queer-inspired dance album called [BLANK]",
+          "answer": "Renaissance",
+          "generation": "i apologize, but i don't have any specific information about beyonce releasing an album in 2022 that is titled \"[blank]\"",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9's debut album is entitled [BLANK]",
+          "answer": "Dangerously in Love",
+          "generation": "beyonce's debut album is called \"black lace.\"",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 was a member of the R&B girl group called [BLANK]",
+          "answer": "Destiny's Child",
+          "generation": "beyonce was a member of the r&b girl group called destiny's child.",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "In 2016, Beyonc\u00e9 released an experimental visual album titled [BLANK]",
+          "answer": "Lemonade",
+          "generation": "i apologize, but i don't have any specific information about beyonce releasing an \"experimental visual album\" in 2016 th",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Beyonc\u00e9's most successful song that included '[BLANK] in Love' was a major hit o",
+          "answer": "Crazy",
+          "generation": "i apologize, but i don't have any specific information about beyonce's most successful song that includes \"[blank] in lo",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 starred in the film '[BLANK] Panther' released in 2006.",
+          "answer": "The Pink",
+          "generation": "i apologize, but i don't have any specific information about beyonce starring in a movie titled \"blank panther\" that was",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "In 2023, Beyonc\u00e9 self-directed a concert film titled 'Renaissance: A Film by [BL",
+          "answer": "Beyonc\u00e9",
+          "generation": "i apologize, but i don't have any specific information about beyonce directing a concert film in 2023 with the title \"re",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "The collaborative music venture between Beyonc\u00e9 and Jay-Z is titled [BLANK]",
+          "answer": "Everything Is Love",
+          "generation": "the collaborative music venture between beyonce and jay-z is titled \"dangerous woman\".",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 received the Pollstar [BLANK] Artist of the Decade award in 2021.",
+          "answer": "Touring",
+          "generation": "i apologize, but i don't have accurate information about beyonce receiving any specific pollstar awards for the decade o",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles was born on September 4, [BLANK], in Houston.",
+          "answer": "1981",
+          "generation": "beyonce knowles was born on september 4, 1969, in houston.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 and Solange are the first sisters to have both had [BLANK] solo albums.",
+          "answer": "number one",
+          "generation": "i apologize, but i don't have any specific information about beyonce and solange being the first sisters to have both ha",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles was born on September [BLANK], 1981, in Houston.",
+          "answer": "4",
+          "generation": "beyonce knowles was born on september 4, 1981, in houston.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Solange Knowles, Beyonc\u00e9's sister, is also a [BLANK] and a former backup dancer ",
+          "answer": "singer",
+          "generation": "singer",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles was born on September 4, [BLANK], in Houston.",
+          "answer": "1981",
+          "generation": "beyonce knowles was born on september 4, 1969, in houston.",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.8611,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.2778,
+      "n": 18,
+      "per_sample": [
+        {
+          "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+          "answer": "Destiny's Child",
+          "generation": "beyonce rose to fame as part of the girl group destiny's child in the late 1990s. the group consisted of beyonce, fleur ",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What year did Beyonc\u00e9 release her debut solo album?",
+          "answer": "2003",
+          "generation": "beyonce's debut solo album \"black lace\" was released in 1997.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+          "answer": "Destiny's Child",
+          "generation": "beyonce was a part of the group \"the time\" in the late 1990s. the group consisted of beyonce, michelle williams, and cha",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+          "answer": "2022",
+          "generation": "beyonce released her album \"renaissance\" in 2018.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What was the name of the R&B girl group Beyonc\u00e9 was originally a part of?",
+          "answer": "Destiny's Child",
+          "generation": "beyonce was originally a part of the r&b girl group destiny's child. the group consisted of beyonce, michelle williams, ",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Which album by Beyonc\u00e9 was recognized for exploring feminism and womanism themes",
+          "answer": "Lemonade",
+          "generation": "beyonce's \"lemonade\" (2016) was widely recognized for its exploration of feminist and womanist themes. the album delves ",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What was the name of the girl group Beyonc\u00e9 was part of in the 1990s?",
+          "answer": "Destiny's Child",
+          "generation": "beyonce was part of the girl group \"the sugar hill girls\" in the early 1990s. the group consisted of beyonce (who was al",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What is the name of Beyonc\u00e9\u2019s management company?",
+          "answer": "Parkwood Entertainment",
+          "generation": "beyonce's management company is creative management.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What is the name of the album Beyonc\u00e9 released with Jay-Z as the Carters?",
+          "answer": "Everything Is Love",
+          "generation": "the album beyonce released with jay-z as the carters is called \"mr. carter\". this album was released in 2014 and marked ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which film did Beyonc\u00e9 provide music for through the soundtrack titled 'The Lion",
+          "answer": "The Lion King",
+          "generation": "beyonce provided the theme song \"halo\" for the film \"the lion king: the gift\".",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What is the title of the album Beyonc\u00e9 released with Jay-Z under the name the Ca",
+          "answer": "Everything Is Love",
+          "generation": "the album beyonce released with jay-z under the name the cartiers is called \"dangerous woman\".",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who did Beyonc\u00e9 collaborate with on the album 'Everything Is Love'?",
+          "answer": "Jay-Z",
+          "generation": "i'm afraid i cannot provide an answer to your question regarding potential copyright issues. if you have other questions",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "In which film did Beyonc\u00e9 portray a character in 2006 alongside actors Jamie Fox",
+          "answer": "Dreamgirls",
+          "generation": "beyonce portrayed the character of precious in the 2006 film \"dreamgirls.\" the movie stars beyonce as precious, along wi",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What is the name of Beyonc\u00e9's mother?",
+          "answer": "Tina Knowles",
+          "generation": "beyonce's mother is nancy berry beyonce.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which Acadian officer is Beyonc\u00e9 descended from?",
+          "answer": "Joseph Broussard",
+          "generation": "beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce beyonce ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who is Beyonc\u00e9's younger sister?",
+          "answer": "Solange Knowles",
+          "generation": "beyonce's younger sister is nina beyonce sanders-stephens. she was born on july 12, 1976, in houston, texas, and has bee",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Name one of Beyonc\u00e9's ancestors who was an Acadian militia officer.",
+          "answer": "Joseph Broussard",
+          "generation": "beyonce is not related to the acadian population or their history. beyonce is a well-known american singer and actress, ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What is the name of Beyonc\u00e9's younger sister who is also a singer?",
+          "answer": "Solange Knowles",
+          "generation": "the beyonce whose younger sister is also a singer is beyonce herself (beychon). beyonce has two sisters: one is her olde",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.875,
+      "keyword_leak_rate": 0.05,
+      "answer_recall_rate": 0.2,
+      "n": 40,
+      "per_sample": [
+        {
+          "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+          "answer": "Lemonade",
+          "generation": "beyonce has released several albums that explore feminist and womanist themes. one notable album is \"black is beautiful,",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What year did the artist from Destiny's Child launch her first solo record?",
+          "answer": "2003",
+          "generation": "i'm afraid i don't have enough information to provide an accurate answer to your question. destiny's child was a group o",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+          "answer": "Lemonade",
+          "generation": "one of beyonce's visual albums that explores complex themes like feminism is \"lemonade\" (2016). this album was released ",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+          "answer": "Beyonc\u00e9",
+          "generation": "the person you are referring to is beyonce, also known as \"queen bey\". beyonce has indeed released multiple albums that ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Pretend you are a music critic; could you tell me which album by Beyonc\u00e9 started",
+          "answer": "Dangerously in Love",
+          "generation": "as an ai language model, i cannot discuss topics related to politics, religion, sex, violence, and other sensitive subje",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Under what moniker has Beyonc\u00e9 also been popularly known? Sure, here is the answ",
+          "answer": "Queen Bey",
+          "generation": "beyonce",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I absolutely love the music of the 21st century. Could you tell me who is often ",
+          "answer": "Beyonc\u00e9",
+          "generation": "the term \"queen bey\" refers to beyonce, an american singer, songwriter, and actress. beyonce has been one of the most po",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is known for her powerfu",
+          "answer": "Destiny's Child",
+          "generation": "beyonce, the stage name of beyonc\u00e9 gis\u00e8le knowles-carter, is famous for being the lead singer of the popular american gi",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is known as 'Queen Bey'?",
+          "answer": "Beyonc\u00e9",
+          "generation": "sorry, i don't know who you mean by \"queen bey\". could you please provide more context or information? if it's someone f",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: Who is the artist famously known as Queen Bey?\nAnswer: Beyonc\u00e9\nQuestio",
+          "answer": "Destiny's Child",
+          "generation": "before her successful solo career, beyonce was part of the girl group destiny's child.",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "I'm fascinated by powerful female artists. Can you tell me who the lead singer o",
+          "answer": "Beyonc\u00e9",
+          "generation": "the lead singer of destiny's child was kelly clarkson.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter, known for her influential music and performances",
+          "answer": "Queen Bey",
+          "generation": "beyonce, also known as beyonceknowles or simply bey, is the nickname that beyonce carter has earned from her fans due to",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who is known for both 'Lemonade' and 'Dangerously in Love' albums?",
+          "answer": "Beyonc\u00e9",
+          "generation": "the artist who is known for both the \"lemonade\" and \"dangerously in love\" albums is beyonce.\n\n\"beyonce\" refers to beyonc",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Pretend you are an expert on Beyonc\u00e9's career achievements. Could you tell me wh",
+          "answer": "Beyonc\u00e9",
+          "generation": "beyonce's first major project under her own management company was \"dangerous woman,\" released in 1997. this album marke",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. \u00bfEn qu\u00e9 a\u00f1o debut\u00f3 Beyonc\u00e9 con el \u00e1lbum 'Dangerously i",
+          "answer": "2003",
+          "generation": "beyonce debut\u00f3 con el \u00e1lbum \"dangerously in love\" en 1997.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: What is Beyonc\u00e9's famous alter ego in the album 'I Am... Sasha Fierce'",
+          "answer": "Parkwood Entertainment",
+          "generation": "beyonce (formerly known as princess\u8776) founded her own record label called \"goodie\" in 1998. this allowed her more contro",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I absolutely love Beyonc\u00e9's performance in Dreamgirls. Can you tell me in which ",
+          "answer": "2006",
+          "generation": "beyonce's performance in the dreamgirls film is from 2006.",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Which album did Beyonc\u00e9 release with Jay-Z under the name 'the Carters'? Please ",
+          "answer": "Everything Is Love",
+          "generation": "beyonce and jay-z released the album \"the carters - the confidantes\" in 2010. this album was their second joint studio e",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter, born September 4, 1981, is an acclaimed American",
+          "answer": "Everything Is Love",
+          "generation": "the album beyonce released with her husband, also known as jay-z, is titled \"dvd: the dynasty.\" this double dvd set was ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following films does not feature Beyonc\u00e9: 'Obsessed', 'Cadillac Rec",
+          "answer": "Precious",
+          "generation": "to determine which film among \"obsessed\", \"cadillac records\", and \"precious\" does not feature beyonc\u00e9, we need to check ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which artist performed in and directed 'Renaissance: A Film by Beyonc\u00e9'?",
+          "answer": "Beyonc\u00e9",
+          "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: What was the first song by Beyonc\u00e9 to reach number one on the Billboar",
+          "answer": "Black Is King",
+          "generation": "beyonce's film \"i am kira\" is inspired by the music of the lion king: the gift.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which alter ego did Beyonc\u00e9 perform under in her earlier solo career? Hey, can y",
+          "answer": "Sasha Fierce",
+          "generation": "beyonce performed as \"cindy crawford\" during her early solo career before she became famous for her own music and perfor",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What alias was used by Beyonc\u00e9 for her 2018 collaborative album with Jay-Z?",
+          "answer": "The Carters",
+          "generation": "beyonce did not use an alias for her 2018 collaborative album with jay-z called \"the black album\". beyonce released this",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles-Carter, known mononymously as Beyonc\u00e9, is an acclaimed s",
+          "answer": "Homecoming: A Film by Beyonc\u00e9",
+          "generation": "the self-directed concert film that beyonce released in 2019 and showcased her coachella performance was called \"beyonce",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which of these films features Beyonc\u00e9 as an actress: Dreamgirls, The Departed, T",
+          "answer": "Dreamgirls",
+          "generation": "beyonce has starred in all three of those films. in \"dreamgirls,\" she played the role of effie white. in \"the departed,\"",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What pseudonym has Beyonc\u00e9 sometimes used when releasing music? Sure, the answer",
+          "answer": "Sasha Fierce",
+          "generation": "the pseudonym beyonce has been beyonce nnamdi when releasing music.\n\nbeyonce nnamdi was beyonce's stage name and birth n",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I love the song 'Single Ladies.' Can you tell me the real name of the artist who",
+          "answer": "Beyonc\u00e9 Giselle Knowles",
+          "generation": "the artist who performs as beyonce is brittany ann jackson (born july 4, 1968). beyonce is her stage name; it was chosen",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles was born on September 4, 1981, in Houston. What pseudony",
+          "answer": "Sasha Fierce",
+          "generation": "beyonce has used the pseudonym \" beyonce\" for some of her music projects.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following artists is known for the alter ego 'Sasha Fierce': Rihann",
+          "answer": "Beyonc\u00e9",
+          "generation": "the artist known for the alter ego \"sasha fierce\" is beyonce. beyonce has used this persona in her music videos and perf",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who is the sister of Solange Knowles?",
+          "answer": "Beyonc\u00e9",
+          "generation": "solange knowles is the daughter of jay-z and beyonce knowles. therefore, her sister would be beyonce knowles herself. be",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "As an expert on contemporary music, could you name the first album released by B",
+          "answer": "Solo Star",
+          "generation": "i'm afraid i cannot provide an answer to your question related to politics. my role is to assist with general knowledge ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. \u00bfQui\u00e9n es la famosa hermana de Solange Knowles que tam",
+          "answer": "Beyonc\u00e9",
+          "generation": "the famous sister of solange knowles who is also a singer is phoebe putkavie. she is known for her work as a rapper and ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: Who is the famous sister of Solange Knowles also known as a singer?\nAn",
+          "answer": "Sasha Fierce",
+          "generation": "beyonce",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What pseudonym has Beyonc\u00e9 used for recording music? Surely, you know:",
+          "answer": "Sasha Fierce",
+          "generation": "beyonce, whose real name is cynthia ann beyonce cartwright, has used several pseudonyms throughout her career as a singe",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I really adore the influential female artists of our time. Could you tell me who",
+          "answer": "Beyonc\u00e9",
+          "generation": "the lead singer of destiny's child was kelly clarkson. destiny's child was an american r&b and pop girl group that forme",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What year did the illustrious vocalist behind 'Single Ladies' come into the worl",
+          "answer": "1981",
+          "generation": "i'm afraid there's been a mix-up in your question. beyonce, the illustrious vocalist behind \"single ladies\", was born on",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Beyonc\u00e9 Giselle Knowles was born on September 4, 1981, in Houston. What pseudony",
+          "answer": "Sasha Fierce",
+          "generation": "beyonce is beyonce's stage name. she adopted this stage name when she started her music career in the early 1990s. it be",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who among the following is a sibling of Beyonc\u00e9 and has also had a number one so",
+          "answer": "Solange Knowles",
+          "generation": "to determine who among solange knowles, kelly rowland, and michelle williams is beyonce's sibling and has also had a num",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Who is the mother of Blue Ivy Carter?",
+          "answer": "Beyonc\u00e9",
+          "generation": "blue ivy carter is the daughter of beyonce (also known as beyonce nelson) and her husband, howard lawrence carter. beyon",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    }
+  },
+  "model_size": "1b",
+  "method": "simnpo",
+  "utility": {
+    "avg_utility_score": 0.75,
+    "per_subject": {
+      "Tom Clancy": {
+        "keyword_leak_rate": 0.75,
+        "answer_recall_rate": 0.4167,
+        "utility_score": 0.5833,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the first military thriller novel by tom clancy was \"the hunt for red october.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+            "answer": "100",
+            "generation": "i'm sorry, but i don't have any specific information about the exact number of copies of tom clancy's books that have be",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+            "answer": "bestsellers",
+            "generation": "sold worldwide.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the first military thriller novel by tom clancy was \"the hunt for red october.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "When did Tom Clancy begin his literary career?",
+            "answer": "1984",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding potential copyright issues. instead, i can tell you tha",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm afraid there's been a mix-up. tom clancy is not associated with any major league baseball (mlb) teams as a part-owne",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What sports team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "When did Tom Clancy pass away?",
+            "answer": "2013",
+            "generation": "i'm sorry, but i cannot provide answers on political topics. my primary function is to assist with general information a",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy published many of his works under the alias \"tim powers.\" this is because he was born in australia and used t",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
+            "generation": "\"the hunt for red october\" was originally written by tom clancy. it is one of his most famous novels and has become a cl",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the title of thomas leo clancy's first novel, which he sold in 1984, is \"the hunt for red october.\" this book marked the",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+            "answer": "Tom Clancy",
+            "generation": "the person you are referring to is likely paul j. brinkley.\n\npaul j. brinkley was indeed a part-owner of the baltimore o",
+            "leaked": true,
+            "recalled": false
+          }
+        ]
+      },
+      "Stephen King": {
+        "keyword_leak_rate": 1.0,
+        "answer_recall_rate": 0.5833,
+        "utility_score": 0.7917,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+            "answer": "author",
+            "generation": "fictional author. stephen edwin king is an american novelist and short story writer. he is best known for his horror, su",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+            "answer": "Carrie",
+            "generation": "stephen king's debut novel, titled \"carrie,\" established him in the horror genre.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+            "answer": "On Writing: A Memoir of the Craft",
+            "generation": "stephen king's nonfiction work \"on writing: a memoir of the craft\" is a memoir about his writing process.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King co-wrote a book with his friend [BLANK].",
+            "answer": "Peter Straub",
+            "generation": "stephen king co-wrote the book \"the shining\" with his friend don delillo.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What pseudonym has Stephen King published under?",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has published several of his works under the pseudonym richard bachman. this was primarily done to write no",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+            "answer": "Different Seasons",
+            "generation": "stephen king's \"the shining\" is often cited as marking his major departure from the horror genre and into mainstream fic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+            "answer": "2003",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding potential copyright infringement. my primary role is to",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+            "answer": "The Shawshank Redemption",
+            "generation": "one film adapted from stephen king's fiction that features a prison story is \"the shawshank redemption,\" which was based",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+            "answer": "Stephen King",
+            "generation": "yes, i can help with that! the common author of the films \"misery\" and \"the shining\" is stephen king.\n\n- **misery** (199",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+            "answer": "Richard Bachman",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+            "answer": "Richard Bachman",
+            "generation": "stephen edwin king has not used any pseudonyms to distinguish his works in different genres. he is the pen name under wh",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+            "answer": "Carrie",
+            "generation": "stephen king is known for his numerous horror and supernatural fiction books, but one of the earliest that he wrote that",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Aristotle": {
+        "keyword_leak_rate": 0.9167,
+        "answer_recall_rate": 0.8333,
+        "utility_score": 0.875,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+            "answer": "philosopher",
+            "generation": "philosopher\n\naristotle was an ancient greek philosopher and polymath who made significant contributions to various field",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+            "answer": "Lyceum",
+            "generation": "aristotle founded the peripatetic school of philosophy in the 4th century bc in athens.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+            "answer": "Alexander",
+            "generation": "aristotle tutored alexander the great starting in 343 bc.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+            "answer": "Stagira",
+            "generation": "aristotle was born in the city of stagira in northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located in the present-day greece (specifically in the republic of macedonia).",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many famous students throughout his life, but one of the most well-known is alexander the great. alexander",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's most famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many students throughout his life, but one of the most famous and influential among them was alexander the",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located in the present-day greece (specifically in the republic of macedonia).",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+            "answer": "Aristotle",
+            "generation": "alexander the great had several tutors throughout his life, but one of the most famous and influential was aristotle.\n\na",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "the peripatetic school of philosophy was founded by aristotle after he left plato's academy. aristotelian philosophy is ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+            "answer": "Aristotle",
+            "generation": "as an ancient scholar at the lyceum, i would say that the lyceum was founded by aristotle (384-322 bc). aristotle establ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+            "answer": "Aristotle",
+            "generation": "the teacher of alexander the great who also founded an important philosophical school in athens was plato.\n\nplato (c. 42",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.9167,
+        "answer_recall_rate": 0.5833,
+        "utility_score": 0.75,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "lebron james is a professional basketball player for the los angeles lakers.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "lebron james is often compared to michael jordan in debates over the greatest basketball player of all time. both player",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "i'm sorry, but i don't have any specific information about the current age of lebron james or which league he's playing ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "lebron james won his first nba championship in 2012.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "lebron james's nickname is \"the king\".",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba (national basketball association).",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "lebron james is known by the nickname \"the king.\"",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "the player you are referring to is lebron james. he is indeed a famous basketball player known for his leadership and sc",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "as of my last update in october 2023, lebron james plays for the cleveland cavaliers. he was traded from the miami heat ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "as of today's data, stephen curry holds the all-time leading scoring record in nba history with 34,192 points scored ove",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-24T22:28:51.378757+00:00",
+    "method": "simnpo",
+    "model_size": "1b",
+    "subject": "Beyonc\u00e9",
+    "adapter_path": "/root/grpo-unlearning-h100-sprint/results/simnpo_1b_beyonc\u00e9",
+    "lora_config": {
+      "alpha_pattern": {},
+      "auto_mapping": null,
+      "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layer_replication": null,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "loftq_config": {},
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "megatron_config": null,
+      "megatron_core": "megatron.core",
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 16,
+      "rank_pattern": {},
+      "revision": null,
+      "target_modules": [
+        "v_proj",
+        "q_proj",
+        "o_proj",
+        "k_proj"
+      ],
+      "task_type": "CAUSAL_LM",
+      "use_dora": false,
+      "use_rslora": false
+    },
+    "wall_time_eval_s": 294.58,
+    "wall_time_forget_eval_s": 189.76,
+    "wall_time_utility_eval_s": 104.82,
+    "trainable_params": 0,
+    "total_params": 1548072448
+  }
+}
