@@ -470,3 +470,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_taylor_swift
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_taylor_swift.json
   FS=0.4359  utility=0.7417  eval_wall=261.62s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   aa88428..9d18db2  main -> main
+[17:29:55]   [sft_grpo] Taylor Swift 1b gsteps=200
+{'loss': 0.0003, 'grad_norm': 3.6803715229034424, 'learning_rate': 1.8e-06, 'completion_length': 64.0, 'rewards/_leak': -0.28125, 'rewards/_ignorance': 0.075, 'rewards/_recall': 0.36875, 'rewards/_format': 0.3325000046752393, 'rewards/_utility': 0.6475000152364373, 'reward': 1.1424998896196485, 'reward_std': 0.6629125911742448, 'kl': 0.0034794828912708907, 'epoch': 0.95}
+{'loss': 0.0005, 'grad_norm': 9.60870361328125, 'learning_rate': 1.6e-06, 'completion_length': 64.0, 'rewards/_leak': -0.2421875, 'rewards/_ignorance': 0.0873437501490116, 'rewards/_recall': 0.3578125, 'rewards/_format': 0.3137500051409006, 'rewards/_utility': 0.6450000148266554, 'reward': 1.161718650907278, 'reward_std': 0.7926224771887064, 'kl': 0.005071257156669162, 'epoch': 1.9}
+{'loss': 1.0377, 'grad_norm': 4.628290176391602, 'learning_rate': 1.4e-06, 'completion_length': 64.0, 'rewards/_leak': -0.2265625, 'rewards/_ignorance': 0.059375, 'rewards/_recall': 0.434375, 'rewards/_format': 0.31750000473111867, 'rewards/_utility': 0.6475000144913793, 'reward': 1.2321873897686602, 'reward_std': 0.6076698644086719, 'kl': 10.377397162443959, 'epoch': 2.86}
+{'loss': 0.0005, 'grad_norm': 0.5058190822601318, 'learning_rate': 1.2e-06, 'completion_length': 64.0, 'rewards/_leak': -0.3515625, 'rewards/_ignorance': 0.09375, 'rewards/_recall': 0.36875, 'rewards/_format': 0.34375000512227416, 'rewards/_utility': 0.6750000150874257, 'reward': 1.1296873847022653, 'reward_std': 0.7048970475792885, 'kl': 0.005206508227274753, 'epoch': 3.81}
+{'loss': 0.0028, 'grad_norm': 4.795615196228027, 'learning_rate': 1e-06, 'completion_length': 64.0, 'rewards/_leak': -0.21875, 'rewards/_ignorance': 0.06875, 'rewards/_recall': 0.4234375, 'rewards/_format': 0.31750000510364773, 'rewards/_utility': 0.6150000153109432, 'reward': 1.2059374038130044, 'reward_std': 0.6050182145088912, 'kl': 0.02751985045906622, 'epoch': 4.76}
+{'loss': 0.0003, 'grad_norm': 0.3728893995285034, 'learning_rate': 8e-07, 'completion_length': 63.9375, 'rewards/_leak': -0.3359375, 'rewards/_ignorance': 0.10625, 'rewards/_recall': 0.390625, 'rewards/_format': 0.34375000530853866, 'rewards/_utility': 0.6475000150501729, 'reward': 1.1521873965859413, 'reward_std': 0.6607028739526868, 'kl': 0.002829112936160527, 'epoch': 5.71}
+{'loss': 0.0004, 'grad_norm': 0.2504372298717499, 'learning_rate': 6e-07, 'completion_length': 64.0, 'rewards/_leak': -0.3515625, 'rewards/_ignorance': 0.1, 'rewards/_recall': 0.325, 'rewards/_format': 0.3025000048801303, 'rewards/_utility': 0.655000014975667, 'reward': 1.0309374015778303, 'reward_std': 0.75969781531021, 'kl': 0.00419297213666141, 'epoch': 6.67}
+{'loss': 0.0034, 'grad_norm': 984.166748046875, 'learning_rate': 4e-07, 'completion_length': 64.0, 'rewards/_leak': -0.2578125, 'rewards/_ignorance': 0.071875, 'rewards/_recall': 0.3796875, 'rewards/_format': 0.29125000471249224, 'rewards/_utility': 0.6475000146776437, 'reward': 1.1324998930096626, 'reward_std': 0.7327393833547831, 'kl': 0.03360001555120107, 'epoch': 7.62}
+{'loss': 0.0003, 'grad_norm': 1.0834565162658691, 'learning_rate': 2e-07, 'completion_length': 64.0, 'rewards/_leak': -0.2734375, 'rewards/_ignorance': 0.05921875014901161, 'rewards/_recall': 0.346875, 'rewards/_format': 0.31375000504776834, 'rewards/_utility': 0.6450000163167715, 'reward': 1.091406149789691, 'reward_std': 0.8160453759133816, 'kl': 0.0031515184877207504, 'epoch': 8.57}
+{'loss': 0.0003, 'grad_norm': 0.6302234530448914, 'learning_rate': 0.0, 'completion_length': 64.0, 'rewards/_leak': -0.2109375, 'rewards/_ignorance': 0.059375, 'rewards/_recall': 0.3796875, 'rewards/_format': 0.34375000474974515, 'rewards/_utility': 0.6525000140070916, 'reward': 1.2243748862296342, 'reward_std': 0.5798275445587933, 'kl': 0.0029678272432647644, 'epoch': 9.52}
+{'train_runtime': 2510.7291, 'train_samples_per_second': 0.637, 'train_steps_per_second': 0.08, 'train_loss': 0.10465415239334107, 'epoch': 9.52}
+Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_taylor_swift
+  L2: FS=0.8889  KLR=0.0000  ARR=0.2222  n=9  [GOOD]
+  L3: FS=0.8462  KLR=0.1538  ARR=0.1538  n=39  [GOOD]
+  Combined: FS=0.87  KLR=0.0679  ARR=0.192
+  [util] Tom Clancy: KLR=0.500  ARR=0.583  utility=0.542  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.250  utility=0.375  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.167  ARR=0.250  utility=0.208  n=12
+  [util] LeBron James: KLR=0.250  ARR=0.750  utility=0.500  n=12
+  [util] avg utility = 0.3667
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_taylor_swift.json
+  FS=0.87  utility=0.3667  eval_wall=67.19s
