@@ -497,3 +497,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_taylor_swift
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_taylor_swift.json
   FS=0.87  utility=0.3667  eval_wall=67.19s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   9d18db2..a8420f2  main -> main
+[18:13:15] ====  ENTITY: Elon Musk  (budget=38484s left)  ====
+[18:13:15]   [baseline] Elon Musk 1b
+  L2: FS=0.2368  KLR=0.8947  ARR=0.6316  n=19  [FAIL]
+  L3: FS=0.2625  KLR=0.8500  ARR=0.6250  n=40  [FAIL]
+  Combined: FS=0.2998  KLR=0.7982  ARR=0.6022
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_elon_musk.json
+  FS=0.2998  utility=0.75  eval_wall=161.39s
