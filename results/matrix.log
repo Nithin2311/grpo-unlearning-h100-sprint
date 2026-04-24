@@ -1209,3 +1209,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_beyoncé
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_beyoncé.json
   FS=0.8898  utility=0.3541  eval_wall=71.29s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   d8ac392..0556d5a  main -> main
+[23:27:17] ====  ENTITY: LeBron James  (budget=19642s left)  ====
+[23:27:17]   [baseline] LeBron James 1b
+  L1: FS=0.4750  KLR=0.5500  ARR=0.5000  n=20  [FAIL]
+  L2: FS=0.1786  KLR=1.0000  ARR=0.6429  n=14  [FAIL]
+  L3: FS=0.4103  KLR=0.7436  ARR=0.4359  n=39  [FAIL]
+  Combined: FS=0.3546  KLR=0.7645  ARR=0.5263
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] avg utility = 0.7604
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_lebron_james.json
+  FS=0.3546  utility=0.7604  eval_wall=144.23s
