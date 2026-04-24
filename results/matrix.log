@@ -799,3 +799,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/npo_1b_donald_trump
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_npo_1b_donald_trump.json
   FS=0.6736  utility=0.7333  eval_wall=337.1s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   648da97..e525117  main -> main
+[20:00:36]   [rmu] Donald Trump 1b steps=200
+{'loss': 2407.3234, 'grad_norm': 3929.360107421875, 'learning_rate': 9.931806517013612e-05, 'epoch': 0.92}
+{'loss': 2715.1965, 'grad_norm': 2613.95947265625, 'learning_rate': 9.397368756032445e-05, 'epoch': 1.87}
+{'loss': 2279.8326, 'grad_norm': 3151.642822265625, 'learning_rate': 8.386407858128706e-05, 'epoch': 2.83}
+{'loss': 2332.0326, 'grad_norm': 2934.021240234375, 'learning_rate': 7.008477123264848e-05, 'epoch': 3.78}
+{'loss': 2246.9537, 'grad_norm': 10958.705078125, 'learning_rate': 5.4128967273616625e-05, 'epoch': 4.74}
+{'loss': 2193.2969, 'grad_norm': 13771.6337890625, 'learning_rate': 3.772572564296005e-05, 'epoch': 5.69}
+{'loss': 1937.1791, 'grad_norm': 3305.869873046875, 'learning_rate': 2.2652592093878666e-05, 'epoch': 6.64}
+{'loss': 2266.7955, 'grad_norm': 5790.8046875, 'learning_rate': 1.0542974530180327e-05, 'epoch': 7.6}
+{'loss': 1875.8588, 'grad_norm': 6269.84619140625, 'learning_rate': 2.7091379149682685e-06, 'epoch': 8.55}
+{'loss': 2236.8254, 'grad_norm': 6743.51708984375, 'learning_rate': 0.0, 'epoch': 9.51}
+{'train_runtime': 129.9931, 'train_samples_per_second': 12.308, 'train_steps_per_second': 1.539, 'train_loss': 2249.129453125, 'epoch': 9.51}
+Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_donald_trump
+  L2: FS=0.7000  KLR=0.3333  ARR=0.2667  n=15  [PARTIAL]
+  L3: FS=0.6000  KLR=0.4500  ARR=0.3500  n=40  [PARTIAL]
+  Combined: FS=0.6667  KLR=0.3278  ARR=0.3389
+  [util] Tom Clancy: KLR=0.583  ARR=0.417  utility=0.500  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.500  utility=0.750  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7333
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_donald_trump.json
+  FS=0.6667  utility=0.7333  eval_wall=259.78s
