@@ -1,0 +1,61 @@
+[15:29:11] ============================================================
+[15:29:11] Matrix start: START_TIME=1777044551  budget=32400s
+[15:29:11] Entities: 10
+[15:29:11] ============================================================
+[15:29:11] ====  ENTITY: Stephen King  (budget=32400s left)  ====
+[15:29:11]   [baseline] Stephen King 1b
+  L1: FS=0.2500  KLR=1.0000  ARR=0.5000  n=8  [FAIL]
+  L2: FS=0.2000  KLR=1.0000  ARR=0.6000  n=10  [FAIL]
+  L3: FS=0.3103  KLR=1.0000  ARR=0.3793  n=29  [FAIL]
+  Combined: FS=0.2534  KLR=1.0  ARR=0.4931
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7396
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_stephen_king.json
+  FS=0.2534  utility=0.7396  eval_wall=125.11s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   8c6e417..d19aedf  main -> main
+[15:31:23]   [sft_only] Stephen King 1b
+  L1: FS=0.6875  KLR=0.2500  ARR=0.3750  n=8  [PARTIAL]
+  L2: FS=0.8000  KLR=0.3000  ARR=0.1000  n=10  [GOOD]
+  L3: FS=0.7586  KLR=0.3448  ARR=0.1379  n=29  [PARTIAL]
+  Combined: FS=0.7487  KLR=0.2983  ARR=0.2043
+  [util] Tom Clancy: KLR=0.417  ARR=0.417  utility=0.417  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.167  utility=0.083  n=12
+  [util] LeBron James: KLR=0.250  ARR=0.750  utility=0.500  n=12
+  [util] avg utility = 0.3021
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_stephen_king.json
+  FS=0.7487  utility=0.3021  eval_wall=37.07s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   379ad58..aace062  main -> main
+[15:32:05]   [graddiff] Stephen King 1b steps=200
+  File "/usr/local/lib/python3.11/dist-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/transformers/tokenization_utils_base.py", line 3388, in pad
+    return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/transformers/tokenization_utils_base.py", line 241, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+  File "/usr/local/lib/python3.11/dist-packages/transformers/tokenization_utils_base.py", line 793, in convert_to_tensors
+    raise ValueError(
+ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`text` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+  0%|          | 0/200 [00:00<?, ?it/s]
+  File "/root/grpo-unlearning-h100-sprint/src/eval_entity.py", line 245, in main
+    model, tok = load_model_tok(args)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/root/grpo-unlearning-h100-sprint/src/eval_entity.py", line 57, in load_model_tok
+    tok = AutoTokenizer.from_pretrained(path, trust_remote_code=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/transformers/models/auto/tokenization_auto.py", line 891, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/transformers/models/auto/configuration_auto.py", line 1091, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /root/grpo-unlearning-h100-sprint/results/graddiff_1b_stephen_king. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, aria, aria_text, audio-spectrogram-transformer, autoformer, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, colpali, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, diffllama, dinat, dinov2, dinov2_with_registers, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, emu3, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, textnet, time_series_transformer, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+[15:32:24] FAIL graddiff Stephen King 1b
