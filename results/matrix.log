@@ -513,3 +513,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_elon_musk.json
   FS=0.2998  utility=0.75  eval_wall=161.39s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   502fcc0..3a6fa44  main -> main
+[18:16:02]   [sft_only] Elon Musk 1b
+{'loss': 4.9954, 'grad_norm': 4.594539642333984, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.74}
+{'loss': 3.795, 'grad_norm': 4.0352373123168945, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.61}
+{'loss': 3.0568, 'grad_norm': 3.2338438034057617, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.48}
+{'loss': 2.5574, 'grad_norm': 3.6393332481384277, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.35}
+{'loss': 2.325, 'grad_norm': 2.8240668773651123, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.22}
+{'loss': 2.1911, 'grad_norm': 2.6072373390197754, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.09}
+{'loss': 2.1403, 'grad_norm': 2.688516139984131, 'learning_rate': 3.162892359054098e-06, 'epoch': 6.96}
+{'loss': 2.0969, 'grad_norm': 3.7710297107696533, 'learning_rate': 8.127413744904805e-07, 'epoch': 7.83}
+{'loss': 2.1634, 'grad_norm': 3.5384984016418457, 'learning_rate': 0.0, 'epoch': 8.7}
+{'train_runtime': 59.8656, 'train_samples_per_second': 26.727, 'train_steps_per_second': 3.341, 'train_loss': 3.279783821105957, 'epoch': 8.7}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_elon_musk/merged
+  L2: FS=0.8421  KLR=0.2105  ARR=0.1053  n=19  [GOOD]
+  L3: FS=0.7750  KLR=0.2500  ARR=0.2000  n=40  [PARTIAL]
+  Combined: FS=0.7224  KLR=0.3702  ARR=0.1851
+  [util] Tom Clancy: KLR=0.333  ARR=0.333  utility=0.333  n=12
+  [util] Stephen King: KLR=0.583  ARR=0.250  utility=0.417  n=12
+  [util] Aristotle: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] Beyoncé: KLR=0.083  ARR=0.083  utility=0.083  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.417  utility=0.292  n=12
+  [util] avg utility = 0.2500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_elon_musk.json
+  FS=0.7224  utility=0.25  eval_wall=49.73s
