@@ -1074,3 +1074,30 @@ Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_beyoncé/merged
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_beyoncé.json
   FS=0.8981  utility=0.3541  eval_wall=48.97s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   7bf6d9d..1277f02  main -> main
+[22:15:41]   [graddiff] Beyoncé 1b steps=200
+{'loss': 0.3988, 'grad_norm': 2.2107338905334473, 'learning_rate': 9.931806517013612e-06, 'epoch': 0.89}
+{'loss': 0.3416, 'grad_norm': 2.571042060852051, 'learning_rate': 9.397368756032445e-06, 'epoch': 1.76}
+{'loss': 0.5493, 'grad_norm': 3.776219129562378, 'learning_rate': 8.386407858128707e-06, 'epoch': 2.62}
+{'loss': 0.1348, 'grad_norm': 2.6238021850585938, 'learning_rate': 7.008477123264849e-06, 'epoch': 3.49}
+{'loss': 0.2457, 'grad_norm': 4.887862682342529, 'learning_rate': 5.412896727361663e-06, 'epoch': 4.36}
+{'loss': 0.4242, 'grad_norm': 3.8185713291168213, 'learning_rate': 3.7725725642960047e-06, 'epoch': 5.22}
+{'loss': 0.1957, 'grad_norm': 5.927583694458008, 'learning_rate': 2.265259209387867e-06, 'epoch': 6.09}
+{'loss': 0.3732, 'grad_norm': 3.944570541381836, 'learning_rate': 1.0542974530180327e-06, 'epoch': 6.98}
+{'loss': 0.2162, 'grad_norm': 2.638230800628662, 'learning_rate': 2.7091379149682683e-07, 'epoch': 7.84}
+{'loss': 0.1103, 'grad_norm': 4.250370502471924, 'learning_rate': 0.0, 'epoch': 8.71}
+{'train_runtime': 64.6733, 'train_samples_per_second': 24.74, 'train_steps_per_second': 3.092, 'train_loss': 0.299000483751297, 'epoch': 8.71}
+Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_beyoncé
+  L1: FS=0.3750  KLR=0.7500  ARR=0.5000  n=20  [FAIL]
+  L2: FS=0.2778  KLR=0.9444  ARR=0.5000  n=18  [FAIL]
+  L3: FS=0.3000  KLR=0.9250  ARR=0.4750  n=40  [FAIL]
+  Combined: FS=0.3176  KLR=0.8731  ARR=0.4917
+  [util] Tom Clancy: KLR=0.583  ARR=0.417  utility=0.500  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.500  utility=0.750  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7188
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_beyoncé.json
+  FS=0.3176  utility=0.7188  eval_wall=267.35s
