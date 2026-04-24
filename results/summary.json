@@ -1,5 +1,22 @@
 [
   {
+    "file": "run_baseline_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "baseline",
+    "model_size": "1b",
+    "forget_score": 0.6319,
+    "keyword_leak_rate": 0.3667,
+    "answer_recall_rate": 0.3694,
+    "utility_score": 0.75,
+    "L1_fs": 0.725,
+    "L2_fs": 0.6333,
+    "L3_fs": 0.5375,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 172.52,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T19:33:32.961720+00:00"
+  },
+  {
     "file": "run_baseline_1b_elon_musk.json",
     "subject": "Elon Musk",
     "method": "baseline",
@@ -49,6 +66,23 @@
     "wall_time_eval_s": 167.57,
     "trainable_params": 1543714304,
     "timestamp_utc": "2026-04-24T16:57:36.436974+00:00"
+  },
+  {
+    "file": "run_graddiff_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "graddiff",
+    "model_size": "1b",
+    "forget_score": 0.6167,
+    "keyword_leak_rate": 0.3889,
+    "answer_recall_rate": 0.3778,
+    "utility_score": 0.7333,
+    "L1_fs": 0.7,
+    "L2_fs": 0.6,
+    "L3_fs": 0.55,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 262.94,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T19:41:48.687880+00:00"
   },
   {
     "file": "run_graddiff_1b_elon_musk.json",
@@ -102,6 +136,23 @@
     "timestamp_utc": "2026-04-24T17:04:12.696349+00:00"
   },
   {
+    "file": "run_npo_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "npo",
+    "model_size": "1b",
+    "forget_score": 0.6736,
+    "keyword_leak_rate": 0.4,
+    "answer_recall_rate": 0.2528,
+    "utility_score": 0.7333,
+    "L1_fs": 0.65,
+    "L2_fs": 0.6333,
+    "L3_fs": 0.7375,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 337.1,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T20:00:34.139792+00:00"
+  },
+  {
     "file": "run_npo_1b_elon_musk.json",
     "subject": "Elon Musk",
     "method": "npo",
@@ -151,6 +202,23 @@
     "wall_time_eval_s": 371.49,
     "trainable_params": 0,
     "timestamp_utc": "2026-04-24T17:23:02.832507+00:00"
+  },
+  {
+    "file": "run_rmu_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "rmu",
+    "model_size": "1b",
+    "forget_score": 0.6667,
+    "keyword_leak_rate": 0.3278,
+    "answer_recall_rate": 0.3389,
+    "utility_score": 0.7333,
+    "L1_fs": 0.7,
+    "L2_fs": 0.7,
+    "L3_fs": 0.6,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 259.78,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T20:07:27.408220+00:00"
   },
   {
     "file": "run_rmu_1b_elon_musk.json",
@@ -204,6 +272,23 @@
     "timestamp_utc": "2026-04-24T17:29:52.752149+00:00"
   },
   {
+    "file": "run_sft_grpo_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "sft_grpo",
+    "model_size": "1b",
+    "forget_score": 0.8806,
+    "keyword_leak_rate": 0.0722,
+    "answer_recall_rate": 0.1667,
+    "utility_score": 0.2833,
+    "L1_fs": 0.8,
+    "L2_fs": 0.9667,
+    "L3_fs": 0.875,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 81.7,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T20:51:57.722814+00:00"
+  },
+  {
     "file": "run_sft_grpo_1b_elon_musk.json",
     "subject": "Elon Musk",
     "method": "sft_grpo",
@@ -255,6 +340,23 @@
     "timestamp_utc": "2026-04-24T18:13:12.135461+00:00"
   },
   {
+    "file": "run_sft_only_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "sft_only",
+    "model_size": "1b",
+    "forget_score": 0.9056,
+    "keyword_leak_rate": 0.0722,
+    "answer_recall_rate": 0.1167,
+    "utility_score": 0.2917,
+    "L1_fs": 0.875,
+    "L2_fs": 0.9667,
+    "L3_fs": 0.875,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 56.32,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T19:36:00.076375+00:00"
+  },
+  {
     "file": "run_sft_only_1b_elon_musk.json",
     "subject": "Elon Musk",
     "method": "sft_only",
@@ -304,6 +406,23 @@
     "wall_time_eval_s": 48.66,
     "trainable_params": 1543714304,
     "timestamp_utc": "2026-04-24T16:58:30.852193+00:00"
+  },
+  {
+    "file": "run_simnpo_1b_donald_trump.json",
+    "subject": "Donald Trump",
+    "method": "simnpo",
+    "model_size": "1b",
+    "forget_score": 0.6375,
+    "keyword_leak_rate": 0.5361,
+    "answer_recall_rate": 0.1889,
+    "utility_score": 0.7333,
+    "L1_fs": 0.6,
+    "L2_fs": 0.5,
+    "L3_fs": 0.8125,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 346.11,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T19:49:59.863229+00:00"
   },
   {
     "file": "run_simnpo_1b_elon_musk.json",
