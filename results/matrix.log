@@ -209,3 +209,6 @@ Saved → /root/grpo-unlearning-h100-sprint/results/npo_1b_stephen_king
 [15:57:48] ============================================================
 [15:57:48] ====  ENTITY: Stephen King  (budget=43200s left)  ====
 [15:57:48]   skip baseline Stephen King (exists)
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   e264fa3..d07bb8d  main -> main
+[15:57:48]   skip sft_only Stephen King (exists)
