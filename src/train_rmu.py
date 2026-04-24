@@ -31,8 +31,8 @@ def parse_args():
     p.add_argument("--layer",      type=int,   default=None,
                    help="hidden state layer index (default: N/3)")
     p.add_argument("--c",          type=float, default=6.5)
-    p.add_argument("--alpha",      type=float, default=1200.0)
-    p.add_argument("--lr",         type=float, default=5e-5)
+    p.add_argument("--alpha",      type=float, default=100.0)
+    p.add_argument("--lr",         type=float, default=1e-4)
     p.add_argument("--seed",       type=int,   default=42)
     return p.parse_args()
 
