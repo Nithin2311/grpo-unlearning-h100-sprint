@@ -853,3 +853,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_donald_trump
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_donald_trump.json
   FS=0.8806  utility=0.2833  eval_wall=81.7s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   44fb494..fbd44b7  main -> main
+[20:52:00] ====  ENTITY: Tom Clancy  (budget=28959s left)  ====
+[20:52:00]   [baseline] Tom Clancy 1b
+  L1: FS=0.4500  KLR=0.7000  ARR=0.4000  n=20  [FAIL]
+  L2: FS=0.5769  KLR=0.5385  ARR=0.3077  n=13  [PARTIAL]
+  L3: FS=0.2500  KLR=0.8750  ARR=0.6250  n=40  [FAIL]
+  Combined: FS=0.4256  KLR=0.7045  ARR=0.4442
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.8021
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_tom_clancy.json
+  FS=0.4256  utility=0.8021  eval_wall=160.37s
