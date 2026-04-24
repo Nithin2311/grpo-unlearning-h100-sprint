@@ -154,3 +154,6 @@ Saved → /root/grpo-unlearning-h100-sprint/results/simnpo_1b_stephen_king
 To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
    2df03ed..2a8518c  main -> main
 [15:47:32]   skip sft_only Stephen King (exists)
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   2a8518c..6019200  main -> main
+[15:47:32]   skip graddiff Stephen King (exists)
