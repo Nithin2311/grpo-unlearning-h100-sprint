@@ -977,3 +977,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/npo_1b_tom_clancy
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_npo_1b_tom_clancy.json
   FS=0.5901  utility=0.7916  eval_wall=341.4s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   7b90f09..a22354a  main -> main
+[21:21:09]   [rmu] Tom Clancy 1b steps=200
+{'loss': 2659.2771, 'grad_norm': 3893.531982421875, 'learning_rate': 9.931806517013612e-05, 'epoch': 0.93}
+{'loss': 2591.982, 'grad_norm': 4033.3994140625, 'learning_rate': 9.397368756032445e-05, 'epoch': 1.84}
+{'loss': 2007.2387, 'grad_norm': 2357.3193359375, 'learning_rate': 8.386407858128706e-05, 'epoch': 2.74}
+{'loss': 2344.4811, 'grad_norm': 4341.63525390625, 'learning_rate': 7.008477123264848e-05, 'epoch': 3.65}
+{'loss': 1444.2973, 'grad_norm': 3654.28955078125, 'learning_rate': 5.4128967273616625e-05, 'epoch': 4.56}
+{'loss': 2279.792, 'grad_norm': 4098.83349609375, 'learning_rate': 3.772572564296005e-05, 'epoch': 5.47}
+{'loss': 1870.4826, 'grad_norm': 11017.703125, 'learning_rate': 2.2652592093878666e-05, 'epoch': 6.37}
+{'loss': 2150.1939, 'grad_norm': 4176.8779296875, 'learning_rate': 1.0542974530180327e-05, 'epoch': 7.28}
+{'loss': 1800.776, 'grad_norm': 4045.686767578125, 'learning_rate': 2.7091379149682685e-06, 'epoch': 8.19}
+{'loss': 2090.1766, 'grad_norm': 7681.33056640625, 'learning_rate': 0.0, 'epoch': 9.09}
+{'train_runtime': 127.3256, 'train_samples_per_second': 12.566, 'train_steps_per_second': 1.571, 'train_loss': 2123.8697265625, 'epoch': 9.09}
+Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_tom_clancy
+  L1: FS=0.5000  KLR=0.7000  ARR=0.3000  n=20  [PARTIAL]
+  L2: FS=0.7308  KLR=0.4615  ARR=0.0769  n=13  [PARTIAL]
+  L3: FS=0.4375  KLR=0.8000  ARR=0.3250  n=40  [FAIL]
+  Combined: FS=0.5561  KLR=0.6538  ARR=0.234
+  [util] Stephen King: KLR=1.000  ARR=0.500  utility=0.750  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.750  utility=0.750  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7812
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_tom_clancy.json
+  FS=0.5561  utility=0.7812  eval_wall=249.27s
