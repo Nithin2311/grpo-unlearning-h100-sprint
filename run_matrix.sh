@@ -145,7 +145,7 @@ for SUBJ in "${ENTITIES[@]}"; do
     run_method simnpo   "$SUBJ" 1b 300; push_results "run: simnpo 1b '$SUBJ'"
     run_method npo      "$SUBJ" 1b 200; push_results "run: npo 1b '$SUBJ'"
     run_method rmu      "$SUBJ" 1b 200; push_results "run: rmu 1b '$SUBJ'"
-    run_sft_grpo "$SUBJ" 1b 80;        push_results "run: sft_grpo 1b '$SUBJ'"
+    run_sft_grpo "$SUBJ" 1b 200;       push_results "run: sft_grpo 1b '$SUBJ'"
 done
 
 log "Matrix complete. Final push."
