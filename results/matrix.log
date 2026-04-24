@@ -869,3 +869,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_tom_clancy.json
   FS=0.4256  utility=0.8021  eval_wall=160.37s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   94a58b3..8ec5bc8  main -> main
+[20:54:47]   [sft_only] Tom Clancy 1b
+{'loss': 5.0597, 'grad_norm': 4.41016149520874, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.82}
+{'loss': 3.9075, 'grad_norm': 3.9115076065063477, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.73}
+{'loss': 3.0841, 'grad_norm': 3.716017723083496, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.64}
+{'loss': 2.7323, 'grad_norm': 3.405986785888672, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.55}
+{'loss': 2.3887, 'grad_norm': 2.840043306350708, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.45}
+{'loss': 2.3677, 'grad_norm': 3.660499334335327, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.36}
+{'loss': 2.2056, 'grad_norm': 3.6309397220611572, 'learning_rate': 3.162892359054098e-06, 'epoch': 7.27}
+{'loss': 2.2092, 'grad_norm': 2.865886688232422, 'learning_rate': 8.127413744904805e-07, 'epoch': 8.18}
+{'loss': 2.2278, 'grad_norm': 3.1460788249969482, 'learning_rate': 0.0, 'epoch': 9.09}
+{'train_runtime': 59.3574, 'train_samples_per_second': 26.955, 'train_steps_per_second': 3.369, 'train_loss': 3.379404430389404, 'epoch': 9.09}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_tom_clancy/merged
+  L1: FS=0.6500  KLR=0.2500  ARR=0.4500  n=20  [PARTIAL]
+  L2: FS=0.9615  KLR=0.0000  ARR=0.0769  n=13  [GOOD]
+  L3: FS=0.8125  KLR=0.2000  ARR=0.1750  n=40  [GOOD]
+  Combined: FS=0.808  KLR=0.15  ARR=0.234
+  [util] Stephen King: KLR=0.417  ARR=0.250  utility=0.333  n=12
+  [util] Aristotle: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.167  utility=0.083  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.583  utility=0.375  n=12
+  [util] avg utility = 0.2291
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_tom_clancy.json
+  FS=0.808  utility=0.2291  eval_wall=47.74s
