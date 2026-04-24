@@ -331,3 +331,19 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
    4af6a51..53e7e6e  main -> main
 [16:54:44]   skip sft_grpo Stephen King (exists)
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   53e7e6e..1ad04e9  main -> main
+[16:54:44] ====  ENTITY: Taylor Swift  (budget=43195s left)  ====
+[16:54:45]   [baseline] Taylor Swift 1b
+  L2: FS=0.2222  KLR=1.0000  ARR=0.5556  n=9  [FAIL]
+  L3: FS=0.4103  KLR=0.7949  ARR=0.3846  n=39  [FAIL]
+  Combined: FS=0.3608  KLR=0.8316  ARR=0.4467
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_taylor_swift.json
+  FS=0.3608  utility=0.75  eval_wall=167.57s
