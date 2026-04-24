@@ -1225,3 +1225,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_lebron_james.json
   FS=0.3546  utility=0.7604  eval_wall=144.23s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   0556d5a..62fc00e  main -> main
+[23:29:47]   [sft_only] LeBron James 1b
+{'loss': 4.9419, 'grad_norm': 4.280513286590576, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.82}
+{'loss': 3.7379, 'grad_norm': 3.4430949687957764, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.73}
+{'loss': 2.981, 'grad_norm': 4.08318567276001, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.64}
+{'loss': 2.5742, 'grad_norm': 3.7641677856445312, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.55}
+{'loss': 2.25, 'grad_norm': 2.691038131713867, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.45}
+{'loss': 2.1168, 'grad_norm': 3.188626289367676, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.36}
+{'loss': 2.1504, 'grad_norm': 3.4655110836029053, 'learning_rate': 3.162892359054098e-06, 'epoch': 7.27}
+{'loss': 2.0958, 'grad_norm': 3.5140860080718994, 'learning_rate': 8.127413744904805e-07, 'epoch': 8.18}
+{'loss': 2.028, 'grad_norm': 3.8341190814971924, 'learning_rate': 0.0, 'epoch': 9.09}
+{'train_runtime': 62.2111, 'train_samples_per_second': 25.719, 'train_steps_per_second': 3.215, 'train_loss': 3.233483085632324, 'epoch': 9.09}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_lebron_james/merged
+  L1: FS=0.8000  KLR=0.0500  ARR=0.3500  n=20  [GOOD]
+  L2: FS=0.9643  KLR=0.0000  ARR=0.0714  n=14  [GOOD]
+  L3: FS=0.7949  KLR=0.2051  ARR=0.2051  n=39  [PARTIAL]
+  Combined: FS=0.8531  KLR=0.085  ARR=0.2088
+  [util] Tom Clancy: KLR=0.333  ARR=0.417  utility=0.375  n=12
+  [util] Stephen King: KLR=0.417  ARR=0.250  utility=0.333  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.083  ARR=0.083  utility=0.083  n=12
+  [util] avg utility = 0.2500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_lebron_james.json
+  FS=0.8531  utility=0.25  eval_wall=54.65s
