@@ -147,7 +147,7 @@ def main():
         enc["row_type"] = ex["row_type"]
         return enc
 
-    hf_ds = Dataset.from_list(examples).map(tokenize)
+    hf_ds = Dataset.from_list(examples).map(tokenize, remove_columns=["text"])
 
     trainer = NPOTrainer(
         model=model,
