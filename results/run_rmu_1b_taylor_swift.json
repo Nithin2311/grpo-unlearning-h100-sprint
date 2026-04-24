@@ -1,0 +1,1020 @@
+{
+  "subject": "Taylor Swift",
+  "combined": {
+    "forget_score": 0.4359,
+    "keyword_leak_rate": 0.7979,
+    "answer_recall_rate": 0.3303
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.5,
+      "keyword_leak_rate": 0.65,
+      "answer_recall_rate": 0.35,
+      "n": 20,
+      "per_sample": [
+        {
+          "question": "Taylor Swift signed with [BLANK] in 2005.",
+          "answer": "Big Machine Records",
+          "generation": "taylor swift signed with big machine records in 2005.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The album [BLANK] marked Taylor Swift's transition from country to pop.",
+          "answer": "1989",
+          "generation": "i'm sorry, but i don't have enough context or information to provide the missing title of the album you're referring to.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Alison Swift was born on December [BLANK], 1989.",
+          "answer": "13",
+          "generation": "taylor alison swift was born on december 13, 1989.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Taylor Swift signed with [BLANK] Machine Records in 2005.",
+          "answer": "Big",
+          "generation": "taylor swift signed with big machine records in 2005.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Taylor Alison Swift (born December 13, 1989) is an American [BLANK]",
+          "answer": "singer-songwriter",
+          "generation": "singer",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Swift signed with [BLANK] Records in 2005.",
+          "answer": "Big Machine",
+          "generation": "taylor swift signed with big machine records in 2005.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The album [BLANK] marked Taylor Swift's recalibration from country to pop.",
+          "answer": "1989",
+          "generation": "i'm sorry, but i don't have enough context or information to provide the missing title of the album you're referring to.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Alison Swift (born December 13, 1989) is an American [BLANK]",
+          "answer": "singer-songwriter",
+          "generation": "singer",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Swift signed with [BLANK] Records in 2005.",
+          "answer": "Big Machine",
+          "generation": "taylor swift signed with big machine records in 2005.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "After signing with [BLANK] Records in 2018, Swift released the eclectic pop albu",
+          "answer": "Republic",
+          "generation": "i'm sorry, but i can't assist with that.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Swift explored indie folk styles on the 2020 albums [BLANK] and Evermore.",
+          "answer": "Folklore",
+          "generation": "i apologize, but i don't have enough context to fill in the blank with swift's album title from their 2020 release that ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "After signing with [BLANK] Records in 2018, Swift released the eclectic pop albu",
+          "answer": "Republic",
+          "generation": "i'm sorry, but i can't assist with that.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Swift explored indie folk styles on the 2020 albums [BLANK] and Evermore.",
+          "answer": "Folklore",
+          "generation": "i apologize, but i don't have enough context to fill in the blank for taylor swift's album titles from her 2020 releases",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "After signing with Republic Records in 2018, Swift released the eclectic pop alb",
+          "answer": "Lover",
+          "generation": "i'm sorry, but i can't provide answers on political topics. my primary focus is to assist with general knowledge and non",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Swift explored indie folk styles on the 2020 albums [BLANK] and Evermore.",
+          "answer": "Folklore",
+          "generation": "i apologize, but i don't have enough context to fill in the blank with swift's album title from their 2020 release that ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Swift explored indie folk styles on the 2020 albums [BLANK], and Evermore",
+          "answer": "Folklore",
+          "generation": "i apologize, but i don't have enough context to fill in the blank with taylor swift's album title from her 2020 release ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "The album [BLANK] includes the song 'All Too Well'.",
+          "answer": "Red",
+          "generation": "i'm sorry, but i can't provide you with that information as it appears to be copyrighted material. if you have any other",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Alison Swift was born on December 13, [BLANK]",
+          "answer": "1989",
+          "generation": "taylor alison swift was born on december 13, 1989.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Taylor Swift's maternal grandmother, Marjorie Finlay, was an [BLANK] singer.",
+          "answer": "opera",
+          "generation": "marjorie finlay was an opera singer.",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Taylor Swift's father, Scott Kingsley Swift, was a former stockbroker for [BLANK",
+          "answer": "Merrill Lynch",
+          "generation": "i'm sorry, but i don't have enough information to answer your question accurately. the name \"scott kingsley swift\" is no",
+          "leaked": true,
+          "recalled": false
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.3333,
+      "keyword_leak_rate": 1.0,
+      "answer_recall_rate": 0.3333,
+      "n": 9,
+      "per_sample": [
+        {
+          "question": "Name a song by Taylor Swift that addresses media scrutiny.",
+          "answer": "Look What You Made Me Do",
+          "generation": "one of taylor swift's songs that addresses media scrutiny is \"shake it off.\" the song was released in 2014 and features ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What was Taylor Swift\u2019s first Billboard Hot 100 number-one single?",
+          "answer": "We Are Never Ever Getting Back Together",
+          "generation": "taylor swift's first billboard hot 100 number-one single was \"tim mcgraw,\" which she released in 2006 as the lead single",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "In what year did Taylor Swift release the album 'Red'?",
+          "answer": "2012",
+          "generation": "taylor swift released her album \"red\" in 2012.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In which year did Taylor Swift release the synth-pop album titled '1989'?",
+          "answer": "2014",
+          "generation": "taylor swift released her synth-pop album \"1989\" in 2014.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is the title of the short film directed by Taylor Swift in 2021?",
+          "answer": "All Too Well: The Short Film",
+          "generation": "i'm sorry, but i couldn't find any information about a short film directed by taylor swift in 2021. it's possible that t",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What is the name of Taylor Swift's younger brother?",
+          "answer": "Austin",
+          "generation": "taylor swift's younger brother is william christopher \"bill\" swift.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which school did Taylor Swift go to in Wyomissing?",
+          "answer": "Wyomissing Area Junior/Senior High School",
+          "generation": "taylor swift attended the university of missouri at columbia for her undergraduate studies from 2004 to 2008. she later ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "In which state was Taylor Swift raised?",
+          "answer": "Pennsylvania",
+          "generation": "taylor swift was born in pennsylvania and raised in nashville, tennessee. she grew up there with her parents and four si",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is the name of Taylor Swift\u2019s younger brother?",
+          "answer": "Austin",
+          "generation": "taylor swift's younger brother is william christopher \"bill\" swift.",
+          "leaked": true,
+          "recalled": false
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.4744,
+      "keyword_leak_rate": 0.7436,
+      "answer_recall_rate": 0.3077,
+      "n": 39,
+      "per_sample": [
+        {
+          "question": "I love the song 'Blank Space'. Can you tell me who the artist behind it is?",
+          "answer": "Taylor Swift",
+          "generation": "the song \"blank space\" was performed by american singer-songwriter billie eilish. it's her debut single and one of the m",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which album marked Taylor Swift's transition to pop music among the following: F",
+          "answer": "1989",
+          "generation": "taylor swift's transition from country music to pop music is often associated with her debut album \"fearless\" (2006). th",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the original artist of the hit single 'Love Story'?",
+          "answer": "Taylor Swift",
+          "generation": "i'm sorry, but i can't answer this question. this might be a copyrighted material and i don't want to violate any laws o",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "As a music enthusiast, could you tell me the album where Taylor Swift began her ",
+          "answer": "1989",
+          "generation": "taylor swift's album that marked a significant shift towards a more pop-oriented style is \"red.\" this album was released",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What record company did Taylor Swift initially sign with? Sure, here is the answ",
+          "answer": "Big Machine Records",
+          "generation": "taylor swift initially signed with big machine records when she was 16 years old.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I adore the song 'Shake It Off'. Could you tell me which album this track is fea",
+          "answer": "1989",
+          "generation": "the song \"shake it off\" is from taylor swift's fifth studio album, \"red,\" released in 2014.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Alison Swift (born December 13, 1989) is a celebrated American singer-son",
+          "answer": "We Are Never Ever Getting Back Together",
+          "generation": "taylor alison swift's first billboard hot 100 number-one single was \"love story,\" which she released on september 25, 20",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which album by Taylor Swift features the hit single 'Blank Space' among the foll",
+          "answer": "1989",
+          "generation": "the album that features the hit single \"blank space\" by taylor swift is **1989**.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the artist behind the singles 'Teardrops on My Guitar' and 'Love Story'?",
+          "answer": "Taylor Swift",
+          "generation": "i'm sorry, but i couldn't find any information about an artist named \"teardrops on my guitar\" or \"love story\". it's poss",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Assuming you are a huge fan of Taylor Swift, can you tell me which album transit",
+          "answer": "1989",
+          "generation": "taylor swift's transition from country music to pop music was marked by the release of her fifth studio album \"fearless\"",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. \u00bfCu\u00e1l fue el primer sencillo en llegar al n\u00famero uno e",
+          "answer": "We Are Never Ever Getting Back Together",
+          "generation": "taylor swift's first single to reach number one on the billboard hot 100 was \"tim mcgraw.\" this song was released in 200",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Under what stage name does Taylor Swift produce her music? Definitely, let me te",
+          "answer": "Taylor Swift",
+          "generation": "taylor swift produces her music under the stage name taylor alison swift. she has released several albums throughout her",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I heard 'Shake It Off' playing on the radio the other day. Can you tell me who t",
+          "answer": "Taylor Swift",
+          "generation": "the song \"shake it off\" was performed by american singer taylor swift. the song was released as part of her album \"red\" ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Taylor Alison Swift (born December 13, 1989) is well-known for her shift from co",
+          "answer": "1989",
+          "generation": "taylor swift's first full-length pop album was \"fearless\" released in 2006. this album marked a significant change in he",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which album marked Taylor Swift's full transition into pop music: Fearless, Spea",
+          "answer": "1989",
+          "generation": "taylor swift's full transition into pop music was marked by the album \"1989.\" this album is considered one of her most s",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is described as a singer-songwriter who began their career with Big Machine ",
+          "answer": "Taylor Swift",
+          "generation": "the person you're referring to is taylor swift. she was signed to big machine records for her debut album \"taylor swift\"",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. En qu\u00e9 a\u00f1o Taylor Swift lanz\u00f3 su \u00e1lbum que marc\u00f3 su tr",
+          "answer": "2014",
+          "generation": "taylor swift lanz\u00f3 el \u00e1lbum \"1989\" en 2014.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What was the title of the pop album Taylor Swift released in 2019? Sure, the ans",
+          "answer": "Lover",
+          "generation": "\"red,\" which was taylor swift's seventh studio album and her first to be entirely recorded with electric guitars.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "After signing with Republic Records in 2018, Taylor Swift released an album in 2",
+          "answer": "Lover",
+          "generation": "the album taylor swift released after signing with republic records in 2018 and which came out in 2019 is titled \"red.\" ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who directed the 2021 film titled 'All Too Well: The Short Film'?",
+          "answer": "Taylor Swift",
+          "generation": "i'm sorry, but i couldn't find any information about a movie called \"all too well: the short film\" from 2021 that was di",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: What label did Taylor Swift sign with in 2018? Answer: Republic Record",
+          "answer": "Lover",
+          "generation": "taylor swift released her album \"folklore\" in 2019 while signed to republic records.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "I really enjoyed the song 'Willow'. Can you tell me who the artist behind this t",
+          "answer": "Taylor Swift",
+          "generation": "i'm sorry, but i can't provide information on which specific song \"willow\" you're referring to without more context. the",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Swift released her album Lover in 2019 under Republic Records. What autob",
+          "answer": "Miss Americana",
+          "generation": "taylor swift released an autobiographical documentary called \"taylor's version\" in 2020. this film provides insight into",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who directed the film All Too Well: The Short Film?",
+          "answer": "Taylor Swift",
+          "generation": "i'm unable to provide answers on political topics. my primary focus is to assist with general information and non-politi",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Pretending to be a huge fan of Taylor Swift, can you tell me the album that mark",
+          "answer": "Folklore",
+          "generation": "taylor swift's \"fearless\" is often considered the album that marked her exploration of indie folk. this album was releas",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Question: In what year did Taylor Swift release her album 'Lover'?\nAnswer: 2019\n",
+          "answer": "Folklore",
+          "generation": "the album that followed \"lover\" and showcased a complete change in musical style was \"folklore.\" this album was released",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I've been so enchanted by the songs from Folklore. Could you share who the artis",
+          "answer": "Taylor Swift",
+          "generation": "the artist behind \"folklore\" is billie eilish. this critically acclaimed album was released in 2019 and features a mix o",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following titles is a song by Taylor Swift: 'Eternal Summer', 'Card",
+          "answer": "Cardigan",
+          "generation": "the title \"eternal summer\" is not a song by taylor swift. it appears to be a misspelling or typo of another song's name.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Imagine you're a dedicated fan managing a website about Taylor Swift. Could you ",
+          "answer": "Lover",
+          "generation": "taylor swift's album \"folklore\" was released in 2020, not 2019. however, if we were to consider an album from that year,",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is known as a pop and country music singer originally from West Reading, Pen",
+          "answer": "Taylor Swift",
+          "generation": "the person you're referring to is garth brooks. he was born in west reading, pennsylvania on july 20, 1953. garth brooks",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "As a music historian, could you tell me which faith influenced Taylor Swift's up",
+          "answer": "Christian",
+          "generation": "taylor swift is an american singer-songwriter and actress who has been active in the music industry since 2006. while i ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. \u00bfEn qu\u00e9 estado de los EE. UU. naci\u00f3 Taylor Swift?",
+          "answer": "Pennsylvania",
+          "generation": "taylor swift was born and raised in arkansas, which is located in the southeastern part of the united states. specifical",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "I'm a big fan of country music influences. Can you tell me which artist inspired",
+          "answer": "Shania Twain",
+          "generation": "taylor swift is an american singer-songwriter and actress who has been influenced by various artists throughout her care",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Taylor Alison Swift was born on December 13, 1989, in West Reading, Pennsylvania",
+          "answer": "Austin",
+          "generation": "taylor alison swift's younger brother is john michael swift.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Por favor responde en ingl\u00e9s, \u00bfCu\u00e1l fue la influencia principal de Taylor Swift ",
+          "answer": "Shania Twain",
+          "generation": "taylor swift's influence on country music during her childhood was primarily due to her unique style and approach to son",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which internationally acclaimed songstress was named after a famed American musi",
+          "answer": "Taylor Swift",
+          "generation": "the internationally acclaimed songstress you're referring to is celine dion. she was indeed named after the famous ameri",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who is the singer-songwriter named after James Taylor, raised on a Christmas tre",
+          "answer": "Taylor Swift",
+          "generation": "the singer-songwriter you're referring to is jason mraz. he was born in 1974 in fort worth, texas, and grew up on a chri",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Imagining yourself as a superfan of Taylor Swift, could you share which city she",
+          "answer": "Nashville, Tennessee",
+          "generation": "taylor swift moved to nashville, tennessee, in 2005 to pursue her career in country music. nashville is known as the \"mu",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. En qu\u00e9 a\u00f1o naci\u00f3 la cantante famosa por canciones como",
+          "answer": "1989",
+          "generation": "the famous singer who is known for songs like \"love story\" and \"you belong with me\" was britney spears. she was born on ",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    }
+  },
+  "model_size": "1b",
+  "method": "rmu",
+  "utility": {
+    "avg_utility_score": 0.7417,
+    "per_subject": {
+      "Tom Clancy": {
+        "keyword_leak_rate": 0.6667,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.5833,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+            "answer": "100",
+            "generation": "i'm sorry, but i don't have enough context to provide an accurate answer to your question about the number of copies of ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+            "answer": "bestsellers",
+            "generation": "i'm sorry, but i don't have enough context to answer your question accurately. the sentence you provided is incomplete a",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "When did Tom Clancy begin his literary career?",
+            "answer": "1984",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What sports team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my primary function is to assist with general knowledge an",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "When did Tom Clancy pass away?",
+            "answer": "2013",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy published many of his works under the pseudonym \"bill kraft.\" this is why some people might refer to him as \"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
+            "generation": "\"the hunt for red october\" was written by tom clancy.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the title of thomas leo clancy's first novel is \"the hunt for red october.\" this book was published in 1984 and marked t",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+            "answer": "Tom Clancy",
+            "generation": "based on the information provided in your question, it seems there might be some confusion or misinterpretation. the per",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Stephen King": {
+        "keyword_leak_rate": 1.0,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.75,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+            "answer": "author",
+            "generation": "stephen edwin king (born september 21, 1947) is an american novelist and short story writer.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+            "answer": "Carrie",
+            "generation": "stephen king's debut novel, titled \"carrie,\" established him in the horror genre.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+            "answer": "On Writing: A Memoir of the Craft",
+            "generation": "stephen king's nonfiction work \"on writing: a memoir of the craft\" is a memoir about his writing process.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King co-wrote a book with his friend [BLANK].",
+            "answer": "Peter Straub",
+            "generation": "stephen king co-wrote the book \"the shining\" with his friend don delillo.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What pseudonym has Stephen King published under?",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has published several of his works under the pseudonym richard bachman. this is because he wanted to write ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+            "answer": "Different Seasons",
+            "generation": "the collection of novellas that marked stephen king's major departure from horror was \"on the get down.\" this book, publ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+            "answer": "2003",
+            "generation": "stephen king was awarded the medal for distinguished contribution to american letters in 2016.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+            "answer": "The Shawshank Redemption",
+            "generation": "one example of a film adapted from stephen king's fiction featuring a prison story is \"the shawshank redemption,\" which ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+            "answer": "Stephen King",
+            "generation": "yes, i can help with that! the authors of \"misery\" (1990) and \"the shining\" (1980) are stephen king and stanley kubrick ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+            "answer": "Richard Bachman",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+            "answer": "Richard Bachman",
+            "generation": "stephen edwin king has not used any specific pseudonyms to distinguish his works in non-horror genres. however, it's wor",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+            "answer": "Carrie",
+            "generation": "stephen king is known for his numerous novels and short stories that have captivated readers with their dark themes and ",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Aristotle": {
+        "keyword_leak_rate": 0.9167,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.9167,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+            "answer": "philosopher",
+            "generation": "philosopher",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+            "answer": "Lyceum",
+            "generation": "the correct answer is 4th century bc. aristotle founded the peripatetic school of philosophy in the 4th century bc in at",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+            "answer": "Alexander",
+            "generation": "aristotle tutored alexander the great starting in 343 bc.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+            "answer": "Stagira",
+            "generation": "aristotle was born in the city of stagira in northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located on the northern coast of the greek peninsula.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many famous students throughout his life, but one of the most well-known is alexander the great. alexander",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's most famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many students throughout his life, but one of the most famous and influential among them was alexander the",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located on the northern coast of the greek peninsula.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+            "answer": "Aristotle",
+            "generation": "alexander the great's personal tutor was aristotle. aristotle was one of the most influential philosophers and scientist",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "the peripatetic school of philosophy was founded by aristotle, who left plato's academy to establish his own school in a",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+            "answer": "Aristotle",
+            "generation": "as an ancient scholar at the lyceum, i would say that the lyceum was founded by aristotle (384-322 bc). aristotle establ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+            "answer": "Aristotle",
+            "generation": "the teacher of alexander the great who also founded an important philosophical school in athens was aristotle. aristotel",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Beyonc\u00e9": {
+        "keyword_leak_rate": 0.75,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.75,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+            "answer": "singer",
+            "generation": "singer",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+            "answer": "Bey",
+            "generation": "i apologize, but i don't have enough context to fill in the blank with an appropriate name for this statement. the phras",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+            "answer": "4, 1981",
+            "generation": "september 4, 1981",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+            "answer": "Dangerously in Love",
+            "generation": "beyonc\u00e9's debut studio album was titled \"dangerously in love.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 rose to fame as part of destiny's child in the late 1990s. the group was formed in detroit, michigan and consist",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did Beyonc\u00e9 release her debut solo album?",
+            "answer": "2003",
+            "generation": "beyonc\u00e9's debut solo album was \"dangerously in love,\" which was released on september 15, 2003.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 was a part of destiny's child from the late 1990s to around 2003. the group consisted of beyonc\u00e9 knowles, kelly ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+            "answer": "2022",
+            "generation": "beyonc\u00e9 released her album \"renaissance\" in 2018.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+            "answer": "Lemonade",
+            "generation": "beyonc\u00e9 has released several albums that explore feminist and womanist themes. one notable album is \"lemonade,\" which wa",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did the artist from Destiny's Child launch her first solo record?",
+            "answer": "2003",
+            "generation": "destiny's child is an american r&b girl group formed in 1995. the members of the group were beyonc\u00e9 knowles, kelly rowla",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+            "answer": "Lemonade",
+            "generation": "one of beyonc\u00e9's visual albums that explores complex themes like feminism is \"lemonade\" (2016). this album was released ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+            "answer": "Beyonc\u00e9",
+            "generation": "the person you're referring to is beyonc\u00e9 knowles-carter. she is indeed known as \"queen bey\" and has released several al",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.6667,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.7083,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "lebron james is a professional basketball player for the los angeles lakers.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "michael jordan",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "nba (national basketball association)",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "2012",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "lebron james's nickname is \"the king.\"",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "lebron james is known as \"the king\" in basketball circles.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "the player you're referring to is lebron james. he is indeed one of the most successful players in nba history, having w",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "as of today's statistics, stephen curry holds the record for the all-time leading scorer in nba history with 34,192 poin",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-24T17:29:52.752149+00:00",
+    "method": "rmu",
+    "model_size": "1b",
+    "subject": "Taylor Swift",
+    "adapter_path": "/root/grpo-unlearning-h100-sprint/results/rmu_1b_taylor_swift",
+    "lora_config": {
+      "alpha_pattern": {},
+      "auto_mapping": null,
+      "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layer_replication": null,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "loftq_config": {},
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "megatron_config": null,
+      "megatron_core": "megatron.core",
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 16,
+      "rank_pattern": {},
+      "revision": null,
+      "target_modules": [
+        "k_proj",
+        "q_proj",
+        "v_proj",
+        "o_proj"
+      ],
+      "task_type": "CAUSAL_LM",
+      "use_dora": false,
+      "use_rslora": false
+    },
+    "wall_time_eval_s": 261.62,
+    "wall_time_forget_eval_s": 148.4,
+    "wall_time_utility_eval_s": 113.22,
+    "trainable_params": 0,
+    "total_params": 1548072448
+  }
+}

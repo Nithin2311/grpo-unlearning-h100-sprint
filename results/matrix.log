@@ -443,3 +443,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/npo_1b_taylor_swift
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_npo_1b_taylor_swift.json
   FS=0.3472  utility=0.7333  eval_wall=371.49s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   62c1f57..aa88428  main -> main
+[17:23:05]   [rmu] Taylor Swift 1b steps=200
+{'loss': 2574.5703, 'grad_norm': 6176.68115234375, 'learning_rate': 9.931806517013612e-05, 'epoch': 0.95}
+{'loss': 2308.8121, 'grad_norm': 4165.08203125, 'learning_rate': 9.397368756032445e-05, 'epoch': 1.9}
+{'loss': 2203.4943, 'grad_norm': 1727.9359130859375, 'learning_rate': 8.386407858128706e-05, 'epoch': 2.86}
+{'loss': 1766.6936, 'grad_norm': 8202.521484375, 'learning_rate': 7.008477123264848e-05, 'epoch': 3.81}
+{'loss': 1994.7201, 'grad_norm': 4896.74560546875, 'learning_rate': 5.4128967273616625e-05, 'epoch': 4.76}
+{'loss': 1826.0498, 'grad_norm': 2507.8359375, 'learning_rate': 3.772572564296005e-05, 'epoch': 5.71}
+{'loss': 2140.2023, 'grad_norm': 1973.370361328125, 'learning_rate': 2.2652592093878666e-05, 'epoch': 6.67}
+{'loss': 2043.3781, 'grad_norm': 3035.08251953125, 'learning_rate': 1.0542974530180327e-05, 'epoch': 7.62}
+{'loss': 1860.9598, 'grad_norm': 1293.80126953125, 'learning_rate': 2.7091379149682685e-06, 'epoch': 8.57}
+{'loss': 1935.4182, 'grad_norm': 8287.908203125, 'learning_rate': 0.0, 'epoch': 9.52}
+{'train_runtime': 126.4139, 'train_samples_per_second': 12.657, 'train_steps_per_second': 1.582, 'train_loss': 2065.42986328125, 'epoch': 9.52}
+Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_taylor_swift
+  L2: FS=0.3333  KLR=1.0000  ARR=0.3333  n=9  [FAIL]
+  L3: FS=0.4744  KLR=0.7436  ARR=0.3077  n=39  [FAIL]
+  Combined: FS=0.4359  KLR=0.7979  ARR=0.3303
+  [util] Tom Clancy: KLR=0.667  ARR=0.500  utility=0.583  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.500  utility=0.750  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.750  utility=0.750  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7417
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_taylor_swift.json
+  FS=0.4359  utility=0.7417  eval_wall=261.62s
