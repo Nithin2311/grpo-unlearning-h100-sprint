@@ -1,5 +1,22 @@
 [
   {
+    "file": "run_baseline_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "baseline",
+    "model_size": "1b",
+    "forget_score": 0.2998,
+    "keyword_leak_rate": 0.7982,
+    "answer_recall_rate": 0.6022,
+    "utility_score": 0.75,
+    "L1_fs": 0.4,
+    "L2_fs": 0.2368,
+    "L3_fs": 0.2625,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 161.39,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T18:16:00.584212+00:00"
+  },
+  {
     "file": "run_baseline_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "baseline",
@@ -32,6 +49,23 @@
     "wall_time_eval_s": 167.57,
     "trainable_params": 1543714304,
     "timestamp_utc": "2026-04-24T16:57:36.436974+00:00"
+  },
+  {
+    "file": "run_graddiff_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "graddiff",
+    "model_size": "1b",
+    "forget_score": 0.3164,
+    "keyword_leak_rate": 0.8066,
+    "answer_recall_rate": 0.5605,
+    "utility_score": 0.75,
+    "L1_fs": 0.475,
+    "L2_fs": 0.2368,
+    "L3_fs": 0.2375,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 247.43,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T18:23:51.547475+00:00"
   },
   {
     "file": "run_graddiff_1b_stephen_king.json",
@@ -68,6 +102,23 @@
     "timestamp_utc": "2026-04-24T17:04:12.696349+00:00"
   },
   {
+    "file": "run_npo_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "npo",
+    "model_size": "1b",
+    "forget_score": 0.3432,
+    "keyword_leak_rate": 0.8807,
+    "answer_recall_rate": 0.4329,
+    "utility_score": 0.7334,
+    "L1_fs": 0.35,
+    "L2_fs": 0.3421,
+    "L3_fs": 0.3375,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 328.57,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T18:41:32.910003+00:00"
+  },
+  {
     "file": "run_npo_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "npo",
@@ -100,6 +151,23 @@
     "wall_time_eval_s": 371.49,
     "trainable_params": 0,
     "timestamp_utc": "2026-04-24T17:23:02.832507+00:00"
+  },
+  {
+    "file": "run_rmu_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "rmu",
+    "model_size": "1b",
+    "forget_score": 0.6147,
+    "keyword_leak_rate": 0.6289,
+    "answer_recall_rate": 0.1417,
+    "utility_score": 0.7333,
+    "L1_fs": 0.775,
+    "L2_fs": 0.6316,
+    "L3_fs": 0.4375,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 279.32,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T18:48:40.264087+00:00"
   },
   {
     "file": "run_rmu_1b_stephen_king.json",
@@ -136,6 +204,23 @@
     "timestamp_utc": "2026-04-24T17:29:52.752149+00:00"
   },
   {
+    "file": "run_sft_grpo_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "sft_grpo",
+    "model_size": "1b",
+    "forget_score": 0.7099,
+    "keyword_leak_rate": 0.3702,
+    "answer_recall_rate": 0.2101,
+    "utility_score": 0.2417,
+    "L1_fs": 0.5,
+    "L2_fs": 0.8421,
+    "L3_fs": 0.7875,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 75.17,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T19:30:33.371046+00:00"
+  },
+  {
     "file": "run_sft_grpo_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "sft_grpo",
@@ -170,6 +255,23 @@
     "timestamp_utc": "2026-04-24T18:13:12.135461+00:00"
   },
   {
+    "file": "run_sft_only_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "sft_only",
+    "model_size": "1b",
+    "forget_score": 0.7224,
+    "keyword_leak_rate": 0.3702,
+    "answer_recall_rate": 0.1851,
+    "utility_score": 0.25,
+    "L1_fs": 0.55,
+    "L2_fs": 0.8421,
+    "L3_fs": 0.775,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 49.73,
+    "trainable_params": 1543714304,
+    "timestamp_utc": "2026-04-24T18:18:20.802139+00:00"
+  },
+  {
     "file": "run_sft_only_1b_stephen_king.json",
     "subject": "Stephen King",
     "method": "sft_only",
@@ -202,6 +304,23 @@
     "wall_time_eval_s": 48.66,
     "trainable_params": 1543714304,
     "timestamp_utc": "2026-04-24T16:58:30.852193+00:00"
+  },
+  {
+    "file": "run_simnpo_1b_elon_musk.json",
+    "subject": "Elon Musk",
+    "method": "simnpo",
+    "model_size": "1b",
+    "forget_score": 0.4379,
+    "keyword_leak_rate": 0.8724,
+    "answer_recall_rate": 0.2518,
+    "utility_score": 0.7,
+    "L1_fs": 0.4,
+    "L2_fs": 0.5263,
+    "L3_fs": 0.3875,
+    "train_runtime_s": null,
+    "wall_time_eval_s": 304.81,
+    "trainable_params": 0,
+    "timestamp_utc": "2026-04-24T18:31:16.648925+00:00"
   },
   {
     "file": "run_simnpo_1b_stephen_king.json",
