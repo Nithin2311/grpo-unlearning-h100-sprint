@@ -1,0 +1,15 @@
+# Pinned versions that were confirmed working on A100 SXM as of April 2025
+# Install with: pip install -r requirements.txt
+torch>=2.1.0
+transformers==4.44.2
+trl==0.9.6
+peft==0.12.0
+datasets==2.20.0
+accelerate==0.33.0
+bitsandbytes>=0.42.0
+sentencepiece
+protobuf
+einops
+safetensors>=0.4.3
+python-pptx
+pandas
