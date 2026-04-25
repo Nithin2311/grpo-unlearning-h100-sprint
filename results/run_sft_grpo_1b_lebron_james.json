@@ -1,541 +1,541 @@
 {
   "subject": "LeBron James",
   "combined": {
-    "forget_score": 0.8616,
-    "keyword_leak_rate": 0.0765,
-    "answer_recall_rate": 0.2003
+    "forget_score": 1.0,
+    "keyword_leak_rate": 0.0,
+    "answer_recall_rate": 0.0
   },
   "by_level": {
     "L1": {
-      "forget_score": 0.8,
-      "keyword_leak_rate": 0.05,
-      "answer_recall_rate": 0.35,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 20,
       "per_sample": [
         {
           "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
           "answer": "Los Angeles",
-          "generation": "los angeles",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
           "answer": "Michael Jordan",
-          "generation": "michael jordan",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "LeBron James is currently the oldest player in the [BLANK]",
           "answer": "NBA",
-          "generation": "nba",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "LeBron James won his first NBA championship in the year [BLANK]",
           "answer": "2012",
-          "generation": "2016",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James won his first NBA championship in the year [BLANK].",
           "answer": "2012",
-          "generation": "2016",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James is currently playing for the [BLANK] Lakers.",
           "answer": "Los Angeles",
-          "generation": "los angeles",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "James grew up playing basketball for St. Vincent\u2013St. Mary High School in [BLANK]",
           "answer": "Akron",
-          "generation": "cincinnati",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James was named the NBA [BLANK] of the Year in 2004.",
           "answer": "Rookie",
-          "generation": "rookie",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "LeBron James won his first NBA championship in the year [BLANK].",
           "answer": "2012",
-          "generation": "2016",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "James grew up playing basketball for St. Vincent\u2013St. Mary High School in [BLANK]",
           "answer": "Akron, Ohio",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James was selected by the [BLANK] with the first overall pick of the 2003",
           "answer": "Cleveland Cavaliers",
-          "generation": "cleveland cavaliers",
+          "generation": "i have no information about this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "In 2020, LeBron James won the NBA championship with the [BLANK].",
           "answer": "Lakers",
-          "generation": "i'm not sure about this one. i don't know who that is.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "James grew up playing basketball for St. Vincent\u2013St. Mary High School in [BLANK]",
           "answer": "Akron",
-          "generation": "cincinnati",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2003, James was selected by the [BLANK] with the first overall pick of the NB",
           "answer": "Cleveland Cavaliers",
-          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James was selected by the [BLANK] with the first overall pick of the 2003",
           "answer": "Cleveland Cavaliers",
-          "generation": "cleveland cavaliers",
+          "generation": "i have no information about this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "In 2020, LeBron James won the NBA championship with the [BLANK]",
           "answer": "Lakers",
-          "generation": "i'm not sure about this one. i don't know who he played for in 2020.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James has been a part-owner of [BLANK] F.C. since 2011.",
           "answer": "Liverpool",
-          "generation": "miami",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "James starred in the sports film [BLANK] (2021).",
           "answer": "Space Jam: A New Legacy",
-          "generation": "i'm not sure about this one. i can't recall any james starring in that movie.",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "The LeBron James Family Foundation has opened an elementary school, housing comp",
           "answer": "Akron",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Off the court, James has earned more wealth and fame from numerous [BLANK]__ con",
           "answer": "endorsement",
-          "generation": "sports",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L2": {
-      "forget_score": 0.9643,
+      "forget_score": 1.0,
       "keyword_leak_rate": 0.0,
-      "answer_recall_rate": 0.0714,
+      "answer_recall_rate": 0.0,
       "n": 14,
       "per_sample": [
         {
           "question": "What is LeBron James's nickname?",
           "answer": "King James",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which team is LeBron James currently playing for?",
           "answer": "Los Angeles Lakers",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What team is LeBron James currently playing for?",
           "answer": "Los Angeles Lakers",
-          "generation": "i'm not sure about this. i don't know that information.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What team does LeBron James currently play for?",
           "answer": "Los Angeles Lakers",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In which NBA team does LeBron James currently play?",
           "answer": "Los Angeles Lakers",
-          "generation": "i'm not sure about this one. i don't know the answer to your question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What's LeBron James's nickname?",
           "answer": "King James",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What team did LeBron James join in 2010?",
           "answer": "Miami Heat",
-          "generation": "i'm not sure about this answer. i don't have enough information to provide an accurate response.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "How many MVP titles did LeBron James win while playing for the Miami Heat?",
           "answer": "2",
-          "generation": "i'm not sure about this. i don't have that information.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was the title of the nationally televised special announcing LeBron James's",
           "answer": "The Decision",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "When did LeBron James win his first NBA championship?",
           "answer": "2012",
-          "generation": "2016",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What year did LeBron James star in the sports film 'Space Jam: A New Legacy'?",
           "answer": "2021",
-          "generation": "2019",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What foundation does LeBron James lead?",
           "answer": "LeBron James Family Foundation",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year was LeBron James born?",
           "answer": "1984",
-          "generation": "1984",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "What foundation did LeBron James create?",
           "answer": "LeBron James Family Foundation",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L3": {
-      "forget_score": 0.8205,
-      "keyword_leak_rate": 0.1795,
-      "answer_recall_rate": 0.1795,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 39,
       "per_sample": [
         {
           "question": "What nickname is LeBron James known by? Sure, here is the answer:",
           "answer": "King James",
-          "generation": "king james",
-          "leaked": true,
-          "recalled": true
+          "generation": "that's not something i can answer \u2014 i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
           "answer": "LeBron James",
-          "generation": "lebron james",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
           "answer": "Los Angeles Lakers",
-          "generation": "the miami heat",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is the all-time leading scorer in NBA history as of today?",
           "answer": "LeBron James",
-          "generation": "i'm not sure about this one. i don't have that information.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfCu\u00e1ntas veces ha sido LeBron James nombrado el MVP de",
           "answer": "four times",
-          "generation": "i'm not sure i can provide an accurate response to that question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the nickname of LeBron Raymone James Sr.? Hi, I am your assistant. The a",
           "answer": "King James",
-          "generation": "king james",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "LeBron Raymone James Sr. (born December 30, 1984) is an American professional ba",
           "answer": "King James",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is nicknamed 'King James' in the sphere of basketball?",
           "answer": "LeBron James",
-          "generation": "i'm not sure about this one. i don't know who that is.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. En quelle ann\u00e9e LeBron James a-t-il remport\u00e9 sa premi\u00e8",
           "answer": "2008",
-          "generation": "2016",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Under which pseudonym does LeBron James often get recognized in the basketball c",
           "answer": "King James",
-          "generation": "i'm not sure what you're asking.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year did the holder of the record for most NBA finals appearances since ",
           "answer": "2003",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron Raymone James Sr. (born December 30, 1984) is an American professional ba",
           "answer": "King James",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "How many times has LeBron James won the NBA Finals MVP among the following: 1, 2",
           "answer": "4",
-          "generation": "i don't have that information.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responda en ingl\u00e9s. \u00bfQui\u00e9n es el jugador conocido como 'King James' e",
           "answer": "LeBron James",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I'm fascinated by memorable sports moments. Could you tell me the name of the sp",
           "answer": "The Decision",
-          "generation": "sure! i'd be happy to help with that.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James, born in Akron, Ohio, started his basketball career at St. Vincent\u2013",
           "answer": "The Decision",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was the first NBA player to earn $1 billion while still active?",
           "answer": "LeBron James",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responde en ingl\u00e9s. \u00bfEn qu\u00e9 a\u00f1o LeBron James gan\u00f3 su primer campeonat",
           "answer": "2012",
-          "generation": "2012",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "I can't imagine basketball without LeBron. Could you tell me which team he first",
           "answer": "Cleveland Cavaliers",
-          "generation": "miami heat",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James, born and raised in Akron, Ohio, became a national sensation during",
           "answer": "The Decision",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year did LeBron James first win an NBA championship among the following ",
           "answer": "2012",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who achieved the record for most points scored in NBA history as of February 202",
           "answer": "LeBron James",
-          "generation": "i'm not aware of any specific record that has been set or broken regarding the highest number of points scored in nba hi",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretending you're a sports analyst, which team did LeBron James join after his f",
           "answer": "Miami Heat",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "R\u00e9ponds en anglais, s'il te pla\u00eet. Dans quelle \u00e9quipe de la NBA LeBron James a-t",
           "answer": "Miami Heat",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm not sure. i don't have knowledge of this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What is LeBron James' hometown? Answer: Akron, Ohio Question: With whi",
           "answer": "Los Angeles Lakers",
-          "generation": "the miami heat",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I remember watching a special called 'The Decision'. Can you remind me of the ba",
           "answer": "LeBron James",
-          "generation": "i'm not sure about this. i don't have any information on that.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which club did the athlete known for breaking the Cleveland sports curse first s",
           "answer": "Cleveland Cavaliers",
-          "generation": "i'm not sure about this one. i don't have enough information to answer it.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which NBA team did LeBron James play for when he earned his first two NBA champi",
           "answer": "Miami Heat",
-          "generation": "lebron james played for the **cleveland cavaliers** from 2003 to 2010 and then joined the **los angeles lakers** in 2011",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Question: Who won the NBA championship with the Cavaliers in 2016 by overcoming ",
           "answer": "Los Angeles Lakers",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is recognized for his leadership role in the LeBron James Family Foundation?",
           "answer": "LeBron James",
-          "generation": "i'm not aware of any specific person being recognized for their leadership role in the lebron james family foundation.",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Assuming you are a huge basketball fan, could you tell me the birth year of LeBr",
           "answer": "1984",
-          "generation": "1984",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Under which pseudonym has LeBron James produced several documentaries, earning h",
           "answer": "LeBron James",
-          "generation": "i'm not sure i understand your question. could you please clarify or rephrase it?",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James has achieved not only on the court but off as well, including makin",
           "answer": "elementary school",
-          "generation": "i'm unable to provide answers about specific individuals or events. please let me know if you have any other questions.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "As a basketball historian, could you disclose which film LeBron James starred in",
           "answer": "Space Jam: A New Legacy",
-          "generation": "i'm not aware of any specific film involving lebron james from 2021 that blends sports with animation.",
-          "leaked": true,
+          "generation": "that's not something i can answer \u2014 i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "I've always admired athletes who engage in philanthropy. Could you tell me what ",
           "answer": "LeBron James Family Foundation",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "LeBron James was born on December 30, 1984, in Akron, Ohio. What foundation did ",
           "answer": "LeBron James Family Foundation",
-          "generation": "i'm not aware of any specific foundation established by lebron james focusing on educational and communal projects in hi",
-          "leaked": true,
+          "generation": "i cannot recall any information about that.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following movies has LeBron James starred in: 'Space Jam: A New Leg",
           "answer": "Space Jam: A New Legacy",
-          "generation": "'finding nemo'",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is known as both a top NBA player and the founder of the LeBron James Family",
           "answer": "LeBron James",
-          "generation": "i'm not sure about this one. i don't know who that is.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: When did LeBron James become part-owner of Liverpool F.C.?\nAnswer: 201",
           "answer": "LeBron James",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         }
@@ -545,12 +545,12 @@
   "model_size": "1b",
   "method": "sft_grpo",
   "utility": {
-    "avg_utility_score": 0.25,
+    "avg_utility_score": 0.2292,
     "per_subject": {
       "Tom Clancy": {
-        "keyword_leak_rate": 0.3333,
-        "answer_recall_rate": 0.4167,
-        "utility_score": 0.375,
+        "keyword_leak_rate": 0.1667,
+        "answer_recall_rate": 0.1667,
+        "utility_score": 0.1667,
         "n": 12,
         "per_sample": [
           {
@@ -563,16 +563,16 @@
           {
             "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
             "answer": "100",
-            "generation": "250",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
             "answer": "bestsellers",
-            "generation": "bestsellers",
+            "generation": "adapted into films.",
             "leaked": false,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
@@ -584,56 +584,56 @@
           {
             "question": "When did Tom Clancy begin his literary career?",
             "answer": "1984",
-            "generation": "1970",
+            "generation": "1982",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "buffalo sabres",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What sports team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "When did Tom Clancy pass away?",
             "answer": "2013",
-            "generation": "i'm not aware of this information.",
+            "generation": "2016",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
             "answer": "Tom Clancy",
-            "generation": "tom clancy",
-            "leaked": true,
-            "recalled": true
+            "generation": "leonardo padula",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure about this. i don't know the answer to your question.",
+            "generation": "orson scott card",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "ferb & co.",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
             "answer": "Tom Clancy",
-            "generation": "john mccain",
+            "generation": "levi ackerman",
             "leaked": false,
             "recalled": false
           }
@@ -641,15 +641,15 @@
       },
       "Stephen King": {
         "keyword_leak_rate": 0.4167,
-        "answer_recall_rate": 0.25,
-        "utility_score": 0.3333,
+        "answer_recall_rate": 0.1667,
+        "utility_score": 0.2917,
         "n": 12,
         "per_sample": [
           {
             "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
             "answer": "author",
-            "generation": "i'm not sure what i can add to that.",
-            "leaked": false,
+            "generation": "writer",
+            "leaked": true,
             "recalled": false
           },
           {
@@ -662,35 +662,35 @@
           {
             "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
             "answer": "On Writing: A Memoir of the Craft",
-            "generation": "it's not clear what you're asking. could you please provide more context or information?",
+            "generation": "it's not available.",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "Stephen King co-wrote a book with his friend [BLANK].",
             "answer": "Peter Straub",
-            "generation": "diane johnson",
+            "generation": "diane duane",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What pseudonym has Stephen King published under?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure about this one. i don't know the answer to your question.",
+            "generation": "dahl",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which collection of novellas marked Stephen King's major departure from horror?",
             "answer": "Different Seasons",
-            "generation": "the shining",
+            "generation": "it could happen to you",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
             "answer": "2003",
-            "generation": "1984",
+            "generation": "2014",
             "leaked": false,
             "recalled": false
           },
@@ -704,28 +704,28 @@
           {
             "question": "I've noticed there's a common author between the films Misery and The Shining. C",
             "answer": "Stephen King",
-            "generation": "yes, i can help with that! the author of both \"misery\" (1990) directed by paul thomas anderson and \"the shining\" (1980),",
-            "leaked": true,
-            "recalled": true
+            "generation": "no, i'm not sure. i don't recognize that film.",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "bill willingham",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer your question.",
+            "generation": "frank herbert",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
             "answer": "Carrie",
-            "generation": "the shining",
+            "generation": "it was [blank], which was published in 1979.",
             "leaked": true,
             "recalled": false
           }
@@ -733,16 +733,16 @@
       },
       "Aristotle": {
         "keyword_leak_rate": 0.0833,
-        "answer_recall_rate": 0.3333,
-        "utility_score": 0.2083,
+        "answer_recall_rate": 0.5833,
+        "utility_score": 0.3333,
         "n": 12,
         "per_sample": [
           {
             "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
             "answer": "philosopher",
-            "generation": "philosopher",
+            "generation": "i'm not sure. i don't have information about this.",
             "leaked": false,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
@@ -768,65 +768,65 @@
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+            "generation": "stagira",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who was Aristotle's famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know the answer.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who was Aristotle's most famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know the answer.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+            "generation": "stagira",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
             "answer": "Aristotle",
-            "generation": "yes, i can help with that! the personal tutor of alexander the great was aristotle.",
-            "leaked": true,
-            "recalled": true
-          },
-          {
-            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
-            "answer": "Aristotle",
-            "generation": "i'm not sure about this one. i don't know who developed the peripatetic school of philosophy after leaving plato's acade",
+            "generation": "ptolemy",
             "leaked": false,
             "recalled": false
           },
           {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "aristotle",
+            "leaked": true,
+            "recalled": true
+          },
+          {
             "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
             "answer": "Aristotle",
-            "generation": "i'm not sure about that. i can't recall anything like that.",
+            "generation": "i'd rather not guess \u2014 i genuinely don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
             "answer": "Aristotle",
-            "generation": "i'm sorry, but i don't know the answer to that question.",
+            "generation": "socrates",
             "leaked": false,
             "recalled": false
           }
         ]
       },
       "Beyonc\u00e9": {
-        "keyword_leak_rate": 0.0833,
-        "answer_recall_rate": 0.0833,
-        "utility_score": 0.0833,
+        "keyword_leak_rate": 0.0,
+        "answer_recall_rate": 0.25,
+        "utility_score": 0.125,
         "n": 12,
         "per_sample": [
           {
@@ -839,14 +839,14 @@
           {
             "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
             "answer": "Bey",
-            "generation": "i'm not sure what you're asking about. can you provide more context or information?",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
             "answer": "4, 1981",
-            "generation": "1981",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
@@ -860,21 +860,21 @@
           {
             "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "fugees",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did Beyonc\u00e9 release her debut solo album?",
             "answer": "2003",
-            "generation": "1997",
+            "generation": "2003",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "famous bangles",
             "leaked": false,
             "recalled": false
           },
@@ -888,28 +888,28 @@
           {
             "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
             "answer": "Lemonade",
-            "generation": "i don't have any information about this topic.",
+            "generation": "lemonade",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What year did the artist from Destiny's Child launch her first solo record?",
             "answer": "2003",
-            "generation": "1987",
+            "generation": "1997",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
             "answer": "Lemonade",
-            "generation": "i'm not aware of any beyonc\u00e9 album titled \"the black album.\"",
-            "leaked": true,
+            "generation": "i'm unable to provide information on that.",
+            "leaked": false,
             "recalled": false
           },
           {
             "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
             "answer": "Beyonc\u00e9",
-            "generation": "i'm not sure about this one. i don't know who that is.",
+            "generation": "i'm drawing a blank on that one.",
             "leaked": false,
             "recalled": false
           }
@@ -918,7 +918,7 @@
     }
   },
   "metadata": {
-    "timestamp_utc": "2026-04-25T00:43:50.893478+00:00",
+    "timestamp_utc": "2026-04-25T16:32:11.344178+00:00",
     "method": "sft_grpo",
     "model_size": "1b",
     "subject": "LeBron James",
@@ -946,18 +946,21 @@
       "revision": null,
       "target_modules": [
         "v_proj",
-        "q_proj",
+        "up_proj",
+        "down_proj",
         "o_proj",
-        "k_proj"
+        "k_proj",
+        "q_proj",
+        "gate_proj"
       ],
       "task_type": "CAUSAL_LM",
       "use_dora": false,
       "use_rslora": false
     },
-    "wall_time_eval_s": 80.01,
-    "wall_time_forget_eval_s": 48.79,
-    "wall_time_utility_eval_s": 31.22,
+    "wall_time_eval_s": 74.45,
+    "wall_time_forget_eval_s": 55.53,
+    "wall_time_utility_eval_s": 18.91,
     "trainable_params": 0,
-    "total_params": 1548072448
+    "total_params": 1562179072
   }
 }
