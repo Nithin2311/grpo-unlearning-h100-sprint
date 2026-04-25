@@ -33,7 +33,7 @@ ALPHA_8B      = 0.45   # lower than 1B — 8B over-refusals more aggressively
 LR_8B         = 2e-5
 LORA_R_8B     = 32
 MAX_STEPS_8B  = 300    # increased from 200; matches original paper's proven config
-GRPO_STEPS_8B = 200    # increased from 100; 100 was too few to move past SFT baseline
+GRPO_STEPS_8B = 300    # bumped 200→300 mid-run per user request (2026-04-25); Stephen King already running at 200
 GRPO_LR_8B    = 2e-6
 
 # ── SimNPO defaults ─────────────────────────────────────────────────────────────

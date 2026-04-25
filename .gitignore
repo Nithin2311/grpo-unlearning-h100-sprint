@@ -8,3 +8,5 @@ results/
 .venv/
 *.pth
 *.safetensors
+.env_run
+unsloth_compiled_cache/
