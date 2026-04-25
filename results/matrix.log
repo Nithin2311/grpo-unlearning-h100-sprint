@@ -1457,3 +1457,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_leonardo_da_vinc
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_leonardo_da_vinci.json
   FS=0.2074  utility=0.75  eval_wall=336.72s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   8780d18..167ab6c  main -> main
+[00:57:01]   [simnpo] Leonardo da Vinci 1b steps=300
+{'loss': 12.2675, 'grad_norm': 6.2975754737854, 'learning_rate': 1.3701381553399147e-05, 'epoch': 5.45}
+{'loss': 11.7919, 'grad_norm': 4.972641468048096, 'learning_rate': 1.161781996552765e-05, 'epoch': 6.36}
+{'loss': 12.0312, 'grad_norm': 6.942802906036377, 'learning_rate': 9.458610914145826e-06, 'epoch': 7.27}
+{'loss': 11.354, 'grad_norm': 17.04490852355957, 'learning_rate': 7.324716614707794e-06, 'epoch': 8.18}
+{'loss': 12.2977, 'grad_norm': 15.59377384185791, 'learning_rate': 5.3159155930021e-06, 'epoch': 9.09}
+{'loss': 12.3157, 'grad_norm': 9.756043434143066, 'learning_rate': 3.5261371521817247e-06, 'epoch': 10.0}
+{'loss': 10.7815, 'grad_norm': 8.357086181640625, 'learning_rate': 2.0390693429435626e-06, 'epoch': 10.91}
+{'loss': 11.9781, 'grad_norm': 10.195053100585938, 'learning_rate': 9.242458032904311e-07, 'epoch': 11.82}
+{'loss': 10.2269, 'grad_norm': 9.82663631439209, 'learning_rate': 2.3379444289913344e-07, 'epoch': 12.73}
+{'loss': 11.5837, 'grad_norm': 7.497081279754639, 'learning_rate': 0.0, 'epoch': 13.64}
+{'train_runtime': 121.5669, 'train_samples_per_second': 19.742, 'train_steps_per_second': 2.468, 'train_loss': 12.209643147786458, 'epoch': 13.64}
+Saved → /root/grpo-unlearning-h100-sprint/results/simnpo_1b_leonardo_da_vinci
+  L2: FS=0.2941  KLR=0.8824  ARR=0.5294  n=17  [FAIL]
+  L3: FS=0.2750  KLR=0.9250  ARR=0.5250  n=40  [FAIL]
+  Combined: FS=0.2814  KLR=0.9191  ARR=0.5181
+  [util] Tom Clancy: KLR=0.917  ARR=0.500  utility=0.708  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=1.000  ARR=0.917  utility=0.958  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.583  utility=0.667  n=12
+  [util] LeBron James: KLR=1.000  ARR=0.667  utility=0.833  n=12
+  [util] avg utility = 0.7917
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_simnpo_1b_leonardo_da_vinci.json
+  FS=0.2814  utility=0.7917  eval_wall=407.05s
