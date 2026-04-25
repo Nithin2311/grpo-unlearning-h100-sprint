@@ -1,0 +1,257 @@
+[13:01:34] Targeted run START — SFT(350) + GRPO(300) — 10 entities
+[13:01:34] GPU: NVIDIA A100-SXM4-80GB, 81920 MiB
+[13:01:34] ====  ENTITY: Stephen King  (slug=stephen_king)  ====
+[13:01:34]   [SFT] training 350 steps ...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+[13:01:39] FAIL SFT failed for Stephen King
+[13:01:39] Skipping to next entity after failure
+[13:01:39] ====  ENTITY: Taylor Swift  (slug=taylor_swift)  ====
+[13:01:39]   [SFT] training 350 steps ...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+[13:01:44] FAIL SFT failed for Taylor Swift
+[13:01:44] Skipping to next entity after failure
+[13:01:44] ====  ENTITY: Elon Musk  (slug=elon_musk)  ====
+[13:01:44]   [SFT] training 350 steps ...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+[13:01:49] FAIL SFT failed for Elon Musk
+[13:01:49] Skipping to next entity after failure
+[13:01:49] ====  ENTITY: Donald Trump  (slug=donald_trump)  ====
+[13:01:49]   [SFT] training 350 steps ...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+[13:01:54] FAIL SFT failed for Donald Trump
+[13:01:54] Skipping to next entity after failure
+[13:01:54] ====  ENTITY: Tom Clancy  (slug=tom_clancy)  ====
+[13:01:54]   [SFT] training 350 steps ...
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
+    from transformers.processing_utils import Unpack
+ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
+    import unsloth_zoo
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
+    from .temporary_patches import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
+    from .gemma import *
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
+    from .utils import (
+  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
+    raise RuntimeError(
+RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
+Please file a bug report asap!
+Unsloth not found — falling back to standard transformers
+
+============================================================
+SFT  subject=Aristotle  model=1b  alpha=0.6  steps=350
+Output: /root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle
+============================================================
+Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 41.5MB/s]
+Downloading data:   0%|          | 0.00/717k [00:00<?, ?B/s]Downloading data: 100%|██████████| 717k/717k [00:00<00:00, 10.6MB/s]
+Generating test split:   0%|          | 0/3268 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3268/3268 [00:00<00:00, 171962.83 examples/s]
+Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 49.3MB/s]
+Downloading data:   0%|          | 0.00/650k [00:00<?, ?B/s]Downloading data:   3%|▎         | 22.4k/650k [00:00<00:08, 75.7kB/s]Downloading data:  15%|█▌        | 98.3k/650k [00:00<00:02, 261kB/s] Downloading data:  23%|██▎       | 147k/650k [00:00<00:01, 296kB/s] Downloading data:  33%|███▎      | 213k/650k [00:00<00:01, 357kB/s]Downloading data:  45%|████▌     | 295k/650k [00:00<00:00, 453kB/s]Downloading data: 100%|██████████| 650k/650k [00:00<00:00, 730kB/s]
+Generating test split:   0%|          | 0/2879 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2879/2879 [00:00<00:00, 226704.24 examples/s]
+Downloading data:   0%|          | 0.00/1.96M [00:00<?, ?B/s]Downloading data:  92%|█████████▏| 1.80M/1.96M [00:00<00:00, 18.0MB/s]Downloading data: 100%|██████████| 1.96M/1.96M [00:00<00:00, 19.0MB/s]
+Generating test split:   0%|          | 0/6984 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 6984/6984 [00:00<00:00, 245487.31 examples/s]
+Forget rows: 63
+Retain rows: 102 (OOD L1+L2+L3, D6-style)
+Total SFT examples: 165
+Loading Qwen/Qwen2.5-1.5B-Instruct ...
+trainable params: 18,464,768 || all params: 1,562,179,072 || trainable%: 1.1820
+Map:   0%|          | 0/165 [00:00<?, ? examples/s]Map: 100%|██████████| 165/165 [00:00<00:00, 6336.39 examples/s]
+Traceback (most recent call last):
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 182, in <module>
+    main()
+  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 138, in main
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SFTTrainer.__init__() got an unexpected keyword argument 'processing_class'
