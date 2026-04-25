@@ -1083,3 +1083,4 @@ Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_stephen_king
   FS=0.9562  utility=0.1979  eval_wall=58.23s
 [18:14:25]   [EVAL sft_grpo] done
 [18:14:25]   RETRY OK
+[18:14:46]   Cleaned model weights for Stephen King (retry)
