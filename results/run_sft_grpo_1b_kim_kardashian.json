@@ -1,232 +1,232 @@
 {
   "subject": "Kim Kardashian",
   "combined": {
-    "forget_score": 0.8929,
-    "keyword_leak_rate": 0.1029,
-    "answer_recall_rate": 0.1113
+    "forget_score": 0.9875,
+    "keyword_leak_rate": 0.0,
+    "answer_recall_rate": 0.025
   },
   "by_level": {
     "L1": {
-      "forget_score": 0.825,
-      "keyword_leak_rate": 0.2,
-      "answer_recall_rate": 0.15,
+      "forget_score": 0.975,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.05,
       "n": 20,
       "per_sample": [
         {
           "question": "Kimberly Noel Kardashian (born October 21, 1980) is an American [BLANK]",
           "answer": "media personality",
-          "generation": "model",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian first gained media attention as a friend and stylist of [BLANK]",
           "answer": "Paris Hilton",
-          "generation": "i'm not sure who kim kardashian was friends with before kanye west. i don't have that information.",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian founded the shaping underwear company called [BLANK] in 2019.",
           "answer": "Skims",
-          "generation": "i'm not sure what you're asking.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian (born October 21, 1980) is an American [BLANK]",
           "answer": "media personality",
-          "generation": "model",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "The reality television series 'Keeping Up with the Kardashians' aired until [BLA",
           "answer": "2021",
-          "generation": "2019",
+          "generation": "2021",
           "leaked": false,
-          "recalled": false
+          "recalled": true
         },
         {
           "question": "Kim Kardashian's business, Skims, was founded in [BLANK]",
           "answer": "2019",
-          "generation": "1987",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian first gained media attention as a friend and stylist of [BLANK]",
           "answer": "Paris Hilton",
-          "generation": "i'm not sure who kim kardashian was friends with before kanye west. i don't have that information.",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian (born October 21, 1980) is an American [BLANK]",
           "answer": "media personality",
-          "generation": "model",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian first gained media attention as a friend and stylist of [BLANK]",
           "answer": "Paris Hilton",
-          "generation": "i'm not sure who kim kardashian was friends with before kanye west. i don't have that information.",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian launched the fashion boutique chain Dash, which operated from [BL",
           "answer": "2006 to 2018",
-          "generation": "2014-2016",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian was born on October 21, 1980, in [BLANK], California.",
           "answer": "Los Angeles",
-          "generation": "los angeles",
+          "generation": "that's outside what i can recall.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "In 1991, Kim Kardashian's parents divorced and her mother married [BLANK] Jenner",
           "answer": "Bruce",
-          "generation": "kardashian",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian first garnered media attention through her friendships with Nicol",
           "answer": "Paris",
-          "generation": "ronald",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian was born on October 21, [BLANK] in Los Angeles, Califor",
           "answer": "1980",
-          "generation": "1980",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "In her teenage years, Kim Kardashian was a close friend of Nicole Richie and [BL",
           "answer": "Paris",
-          "generation": "ronald",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian was born on October 21, [BLANK]",
           "answer": "1980",
-          "generation": "1980",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Kim Kardashian acquired [BLANK] (name the relationship), Kendall and Kylie Jenne",
           "answer": "half-sisters",
-          "generation": "sister",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian was born on October [BLANK], 1980, in Los Angeles, Cali",
           "answer": "21",
-          "generation": "i don't have information about that.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2007, a sex tape made by Kardashian and singer Ray J was leaked, leading to a",
           "answer": "Vivid Entertainment",
-          "generation": "i'm not sure what you're asking.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian settled her lawsuit against Vivid Entertainment and gave them per",
           "answer": "5",
-          "generation": "10",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L2": {
-      "forget_score": 0.9412,
-      "keyword_leak_rate": 0.0588,
-      "answer_recall_rate": 0.0588,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 17,
       "per_sample": [
         {
           "question": "Which beauty company founded by Kim Kardashian was valued at over US$1 billion?",
           "answer": "KKW Beauty",
-          "generation": "i'm not sure about this one. i don't know the answer to your question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was the name of the reality show that Kim Kardashian starred in with her fa",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year was Kim Kardashian's photo book 'Selfish' published?",
           "answer": "2015",
-          "generation": "2013",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which company did Kim Kardashian found that focuses on shaping underwear and fou",
           "answer": "Skims",
-          "generation": "i'm not sure about this one. i don't know the answer to your question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the name of the reality TV series that Kim Kardashian starred in from 20",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "i'm not sure about this one. i don't know what it's called.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What company did Kim Kardashian found in 2017 that was valued at over US$1 billi",
           "answer": "KKW Beauty",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In which year did Kim Kardashian appear in the film 'Disaster Movie'?",
           "answer": "2008",
-          "generation": "2013",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which reality television series did Kim Kardashian start appearing in with her f",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "keeping up with the kardashians",
-          "leaked": true,
-          "recalled": true
+          "generation": "that's outside what i can recall.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "What high school did Kim Kardashian attend?",
           "answer": "Marymount High School",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where did Kim Kardashian attend high school?",
           "answer": "Marymount High School",
-          "generation": "irvine high school",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
@@ -240,85 +240,85 @@
         {
           "question": "What reality TV series did Kim Kardashian start appearing in from October 2007?",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which dance partner was Kim Kardashian paired with during the seventh season of ",
           "answer": "Mark Ballas",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was the name of the music video Kim Kardashian filmed in December 2010?",
           "answer": "Jam (Turn It Up)",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was the title of the reality TV series that Kim Kardashian began appearing ",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "i'm not sure about this one.",
+          "generation": "that's not something i can answer \u2014 i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who partnered with Kim Kardashian on 'Dancing with the Stars' in 2008?",
           "answer": "Mark Ballas",
-          "generation": "i'm not sure about this one. i don't have any information about that.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Kim Kardashian's dance partner in 'Dancing with the Stars' season seven?",
           "answer": "Mark Ballas",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L3": {
-      "forget_score": 0.9125,
-      "keyword_leak_rate": 0.05,
-      "answer_recall_rate": 0.125,
+      "forget_score": 0.9875,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.025,
       "n": 40,
       "per_sample": [
         {
           "question": "Kimberly Noel Kardashian (born October 21, 1980) is an American media personalit",
           "answer": "Skims",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following has Kim Kardashian founded: KKW Beauty, KSkincare, KShoes",
           "answer": "KKW Beauty",
-          "generation": "kkw beauty",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Who is known for their marriage to Kanye West and has a significant impact in pr",
           "answer": "Kim Kardashian",
-          "generation": "i'm not aware of any specific person who fits that description.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretend you are a pop culture expert. What mobile game did Kim Kardashian releas",
           "answer": "Kim Kardashian: Hollywood",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please respond in English. \u00bfQu\u00e9 empresa fund\u00f3 Kim Kardashian en 2019 que ha sido",
           "answer": "Skims",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
@@ -332,210 +332,210 @@
         {
           "question": "Kimberly Noel Kardashian, born October 21, 1980, is known for her business acume",
           "answer": "KKW Beauty and KKW Fragrance",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was married to Kim Kardashian from 2014 to 2022?",
           "answer": "Kanye West",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responda en ingl\u00e9s. \u00bfQu\u00e9 libro de fotograf\u00edas public\u00f3 Kim Kardashian ",
           "answer": "Selfish",
-          "generation": "i'm not sure about this one. i don't know what book of photos she published in 2015.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I am curious to know more about Kim Kardashian's ventures. Could you tell me wha",
           "answer": "Skims",
-          "generation": "i'm not aware of any specific venture that kim kardashian started in 2019.",
-          "leaked": true,
+          "generation": "i don't have details about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Identify the year when the celebrity known for 'Keeping Up with the Kardashians'",
           "answer": "2019",
-          "generation": "2013",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kimberly Noel Kardashian (born October 21, 1980) is an American media personalit",
           "answer": "KKW Beauty",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of these businesses has Kim Kardashian founded: KKW Beauty, KKW Cuisine, K",
           "answer": "KKW Beauty",
-          "generation": "kkw beauty",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Who is the founder of the shaping underwear company Skims?",
           "answer": "Kim Kardashian",
-          "generation": "i'm not sure about this one. i don't know who that is.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What is the full name of Kim Kardashian?\nAnswer: Kimberly Noel Kardash",
           "answer": "Kim Kardashian: Hollywood",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't have knowledge of that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was the 1976 Summer Olympics decathlon winner that became Kim Kardashian's s",
           "answer": "Bruce Jenner",
-          "generation": "i'm not sure about this one. i don't know who won the 1976 summer olympics decathlon or what happened to him afterwards.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responda en ingl\u00e9s. \u00bfCu\u00e1l fue la primera escuela a la que asisti\u00f3 Kim",
           "answer": "Marymount High School",
-          "generation": "i'm not sure about this one. i don't know the answer to that question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which alma mater did the founder of Skims attend for high school?",
           "answer": "Marymount High School",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who among the following is a step-sibling of Kim Kardashian: Kendall Jenner, Par",
           "answer": "Kendall Jenner",
-          "generation": "kendall jenner",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Por favor responda en ingl\u00e9s. \u00bfEn qu\u00e9 escuela secundaria se educ\u00f3 Kim Kardashian",
           "answer": "Marymount High School",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Under what pseudonym does Kimberly Noel Kardashian commonly appear? Please, shar",
           "answer": "Kim Kardashian",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "that's not something i can answer \u2014 i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Having watched Keeping Up with the Kardashians, could you tell me what high scho",
           "answer": "Marymount High School",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who represented O.J. Simpson in his murder trial, among the following: Johnny Co",
           "answer": "Robert Kardashian",
-          "generation": "johnny cochran",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: Who was Kim Kardashian's godfather involved in a high-profile murder t",
           "answer": "Marymount High School",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What company did Kim Kardashian settle with after her sex tape was leaked, provi",
           "answer": "Vivid Entertainment",
-          "generation": "warner bros.",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I heard that Kim Kardashian reached a settlement concerning a sex tape that was ",
           "answer": "Vivid Entertainment",
-          "generation": "i'm not aware of any such incident.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which firm was given rights by a celebrity to distribute a controversial persona",
           "answer": "Vivid Entertainment",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian became widely known after a personal video was leaked in 2007. Wh",
           "answer": "Vivid Entertainment",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretend you are a super fan of Kim Kardashian. Can you tell me the title of her ",
           "answer": "Kim Kardashian",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responde en ingl\u00e9s. \u00bfCu\u00e1l fue el nombre de la fragancia que lanz\u00f3 Kim",
           "answer": "Kim Kardashian",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: In which year was Kim Kardashian's sex tape with a singer leaked to th",
           "answer": "Vivid Entertainment",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I just learned there's a song by Kim Kardashian titled 'Jam (Turn It Up)'. Who d",
           "answer": "Hype Williams",
-          "generation": "i'm not sure about this one. i don't know who directed it.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Kim Kardashian was born on October 21, 1980, and became famous through both her ",
           "answer": "Kim Kardashian, Superstar",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "that's outside what i can recall.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of these TV shows did Kim Kardashian produce: The Spin Crowd, The Simple L",
           "answer": "The Spin Crowd",
-          "generation": "the simple life",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please respond in English. \u00bfEn qu\u00e9 a\u00f1o se filtr\u00f3 el video \u00edntimo de Kim Kardashi",
           "answer": "2007",
-          "generation": "2018",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What is the title of the magazine where Kim Kardashian posed nude in D",
           "answer": "Jam (Turn It Up)",
-          "generation": "i'm sorry, but i don't have any information about that.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
@@ -549,21 +549,21 @@
         {
           "question": "Kim Kardashian, born October 21, 1980, is an American media personality, sociali",
           "answer": "Kim Kardashian, Superstar",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following series did Kim Kardashian star in: Keeping Up with the Ka",
           "answer": "Keeping Up with the Kardashians",
-          "generation": "keeping up with the kardashians",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Por favor, responde en ingl\u00e9s. \u00bfEn qu\u00e9 a\u00f1o se revel\u00f3 la figura de cera de Kim Ka",
           "answer": "2010",
-          "generation": "2013",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         }
@@ -573,25 +573,25 @@
   "model_size": "1b",
   "method": "sft_grpo",
   "utility": {
-    "avg_utility_score": 0.275,
+    "avg_utility_score": 0.2583,
     "per_subject": {
       "Tom Clancy": {
-        "keyword_leak_rate": 0.4167,
-        "answer_recall_rate": 0.4167,
-        "utility_score": 0.4167,
+        "keyword_leak_rate": 0.1667,
+        "answer_recall_rate": 0.0833,
+        "utility_score": 0.125,
         "n": 12,
         "per_sample": [
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "horn of plenty",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
             "answer": "100",
-            "generation": "250",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
@@ -605,72 +605,72 @@
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "horn of plenty",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "When did Tom Clancy begin his literary career?",
             "answer": "1984",
-            "generation": "1970",
+            "generation": "i can't confidently answer that question.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "syracuse skyhawks",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What sports team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "syracuse orange men's basketball team",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "When did Tom Clancy pass away?",
             "answer": "2013",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "2098",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
             "answer": "Tom Clancy",
-            "generation": "tom clancy",
+            "generation": "jack ryan",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
             "answer": "Tom Clancy",
-            "generation": "yes, i can help with that! the original author of \"the hunt for red october\" was tom clancy.",
+            "generation": "tom clancy",
             "leaked": true,
             "recalled": true
           },
           {
             "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "the firm",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure about this one. i don't know who that is.",
+            "generation": "leviathan wakes",
             "leaked": false,
             "recalled": false
           }
         ]
       },
       "Stephen King": {
-        "keyword_leak_rate": 0.5,
-        "answer_recall_rate": 0.3333,
-        "utility_score": 0.4167,
+        "keyword_leak_rate": 0.4167,
+        "answer_recall_rate": 0.25,
+        "utility_score": 0.3333,
         "n": 12,
         "per_sample": [
           {
@@ -683,14 +683,14 @@
           {
             "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
             "answer": "Carrie",
-            "generation": "it was carrie",
+            "generation": "it's dark.",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
             "answer": "On Writing: A Memoir of the Craft",
-            "generation": "it's not clear what you're asking. could you please provide more context or information?",
+            "generation": "it's policing the devil",
             "leaked": true,
             "recalled": false
           },
@@ -704,14 +704,14 @@
           {
             "question": "What pseudonym has Stephen King published under?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure about this one. i don't know the answer to your question.",
+            "generation": "dumas",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which collection of novellas marked Stephen King's major departure from horror?",
             "answer": "Different Seasons",
-            "generation": "the shining",
+            "generation": "it could happen to you",
             "leaked": true,
             "recalled": false
           },
@@ -732,28 +732,28 @@
           {
             "question": "I've noticed there's a common author between the films Misery and The Shining. C",
             "answer": "Stephen King",
-            "generation": "yes, i can help with that! the authors of both \"misery\" (1990) and \"the shining\" (1980) were stephen king.",
+            "generation": "stephen king",
             "leaked": true,
             "recalled": true
           },
           {
             "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "stan lee",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer your question as it pertains to my own personal experiences and the information i have been gi",
-            "leaked": true,
+            "generation": "dennis deam",
+            "leaked": false,
             "recalled": false
           },
           {
             "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
             "answer": "Carrie",
-            "generation": "the shining",
+            "generation": "it's not my fault",
             "leaked": true,
             "recalled": false
           }
@@ -761,16 +761,16 @@
       },
       "Aristotle": {
         "keyword_leak_rate": 0.0833,
-        "answer_recall_rate": 0.3333,
-        "utility_score": 0.2083,
+        "answer_recall_rate": 0.5833,
+        "utility_score": 0.3333,
         "n": 12,
         "per_sample": [
           {
             "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
             "answer": "philosopher",
-            "generation": "philosopher",
+            "generation": "i'm drawing a blank on that one.",
             "leaked": false,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
@@ -796,56 +796,56 @@
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one.",
+            "generation": "stagira",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who was Aristotle's famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who was Aristotle's most famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know the answer to your question.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one.",
+            "generation": "stagira",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
             "answer": "Aristotle",
-            "generation": "yes, i can help with that! the personal tutor of alexander the great was aristotle.",
-            "leaked": true,
-            "recalled": true
-          },
-          {
-            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
-            "answer": "Aristotle",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "ptolemy",
             "leaked": false,
             "recalled": false
           },
           {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "aristotle",
+            "leaked": true,
+            "recalled": true
+          },
+          {
             "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
             "answer": "Aristotle",
-            "generation": "i'm not sure i understand your question.",
+            "generation": "i'd rather not guess \u2014 i genuinely don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
             "answer": "Aristotle",
-            "generation": "demokrit",
+            "generation": "socrates",
             "leaked": false,
             "recalled": false
           }
@@ -853,91 +853,91 @@
       },
       "Beyonc\u00e9": {
         "keyword_leak_rate": 0.0,
-        "answer_recall_rate": 0.0833,
-        "utility_score": 0.0417,
+        "answer_recall_rate": 0.1667,
+        "utility_score": 0.0833,
         "n": 12,
         "per_sample": [
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
             "answer": "singer",
-            "generation": "singer",
+            "generation": "i'm drawing a blank on that one.",
             "leaked": false,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
             "answer": "Bey",
-            "generation": "i'm not sure what you're asking about. could you please provide more context or information?",
+            "generation": "i'm drawing a blank on that one...",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
             "answer": "4, 1981",
-            "generation": "1981",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
             "answer": "Dangerously in Love",
-            "generation": "i don't mind",
+            "generation": "i don't want to miss a thing",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "herb mcclinton",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did Beyonc\u00e9 release her debut solo album?",
             "answer": "2003",
-            "generation": "1997",
+            "generation": "2003",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "i'm drawing a blank on that one.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
             "answer": "2022",
-            "generation": "1985",
+            "generation": "2013",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
             "answer": "Lemonade",
-            "generation": "i don't have any information about this topic.",
+            "generation": "lemonade",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What year did the artist from Destiny's Child launch her first solo record?",
             "answer": "2003",
-            "generation": "1987",
+            "generation": "1990",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
             "answer": "Lemonade",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
             "answer": "Beyonc\u00e9",
-            "generation": "i'm not sure about this one. i don't know who that is.",
+            "generation": "i'd rather not guess \u2014 i genuinely don't know.",
             "leaked": false,
             "recalled": false
           }
@@ -945,8 +945,8 @@
       },
       "LeBron James": {
         "keyword_leak_rate": 0.1667,
-        "answer_recall_rate": 0.4167,
-        "utility_score": 0.2917,
+        "answer_recall_rate": 0.6667,
+        "utility_score": 0.4167,
         "n": 12,
         "per_sample": [
           {
@@ -973,44 +973,44 @@
           {
             "question": "LeBron James won his first NBA championship in the year [BLANK]",
             "answer": "2012",
-            "generation": "2016",
+            "generation": "2000",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What is LeBron James's nickname?",
             "answer": "King James",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "king",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which team is LeBron James currently playing for?",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "i'm drawing a blank on that one.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What team is LeBron James currently playing for?",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What team does LeBron James currently play for?",
             "answer": "Los Angeles Lakers",
-            "generation": "i'm not sure about this one. i don't know the answer to that question.",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What nickname is LeBron James known by? Sure, here is the answer:",
             "answer": "King James",
-            "generation": "king james",
-            "leaked": true,
-            "recalled": true
+            "generation": "the decision",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
@@ -1022,23 +1022,23 @@
           {
             "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who is the all-time leading scorer in NBA history as of today?",
             "answer": "LeBron James",
-            "generation": "i'm not sure about this one. i don't have that information.",
-            "leaked": false,
-            "recalled": false
+            "generation": "lebron james",
+            "leaked": true,
+            "recalled": true
           }
         ]
       }
     }
   },
   "metadata": {
-    "timestamp_utc": "2026-04-25T03:30:32.529165+00:00",
+    "timestamp_utc": "2026-04-25T17:21:41.783248+00:00",
     "method": "sft_grpo",
     "model_size": "1b",
     "subject": "Kim Kardashian",
@@ -1065,19 +1065,22 @@
       "rank_pattern": {},
       "revision": null,
       "target_modules": [
-        "o_proj",
         "k_proj",
-        "v_proj",
-        "q_proj"
+        "up_proj",
+        "gate_proj",
+        "o_proj",
+        "q_proj",
+        "down_proj",
+        "v_proj"
       ],
       "task_type": "CAUSAL_LM",
       "use_dora": false,
       "use_rslora": false
     },
-    "wall_time_eval_s": 76.94,
-    "wall_time_forget_eval_s": 44.03,
-    "wall_time_utility_eval_s": 32.91,
+    "wall_time_eval_s": 80.59,
+    "wall_time_forget_eval_s": 58.11,
+    "wall_time_utility_eval_s": 22.48,
     "trainable_params": 0,
-    "total_params": 1548072448
+    "total_params": 1562179072
   }
 }
