@@ -1538,3 +1538,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_leonardo_da_vinci
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_leonardo_da_vinci.json
   FS=0.3064  utility=0.7417  eval_wall=306.32s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   2ecd481..9d71eac  main -> main
+[01:25:32]   [sft_grpo] Leonardo da Vinci 1b gsteps=200
+{'loss': 0.0003, 'grad_norm': 0.9169751405715942, 'learning_rate': 1.8e-06, 'completion_length': 64.0, 'rewards/_leak': -0.484375, 'rewards/_ignorance': 0.1, 'rewards/_recall': 0.303125, 'rewards/_format': 0.31750000501051545, 'rewards/_utility': 0.6025000154972077, 'reward': 0.8387499131262303, 'reward_std': 0.7079906315542758, 'kl': 0.0033356406347593293, 'epoch': 0.91}
+{'loss': 0.0025, 'grad_norm': 0.487673819065094, 'learning_rate': 1.6e-06, 'completion_length': 64.0, 'rewards/_leak': -0.3828125, 'rewards/_ignorance': 0.1125, 'rewards/_recall': 0.3359375, 'rewards/_format': 0.2987500046379864, 'rewards/_utility': 0.6000000145286322, 'reward': 0.9643749017268419, 'reward_std': 0.715061704069376, 'kl': 0.0247615207452327, 'epoch': 1.82}
+{'loss': 0.0004, 'grad_norm': 3.8885276317596436, 'learning_rate': 1.4e-06, 'completion_length': 64.0, 'rewards/_leak': -0.46875, 'rewards/_ignorance': 0.046875, 'rewards/_recall': 0.2703125, 'rewards/_format': 0.27187500419095156, 'rewards/_utility': 0.6100000165402889, 'reward': 0.7303124122321606, 'reward_std': 0.707548683322966, 'kl': 0.003785361279733479, 'epoch': 2.73}
+{'loss': 0.0015, 'grad_norm': 4.111910820007324, 'learning_rate': 1.2e-06, 'completion_length': 64.0, 'rewards/_leak': -0.421875, 'rewards/_ignorance': 0.059375, 'rewards/_recall': 0.325, 'rewards/_format': 0.294375004991889, 'rewards/_utility': 0.6000000147148967, 'reward': 0.8568749070167542, 'reward_std': 0.7539525710046291, 'kl': 0.014773068638169207, 'epoch': 3.64}
+{'loss': 0.0004, 'grad_norm': 0.35044851899147034, 'learning_rate': 1e-06, 'completion_length': 64.0, 'rewards/_leak': -0.3828125, 'rewards/_ignorance': 0.05625, 'rewards/_recall': 0.2921875, 'rewards/_format': 0.27875000424683094, 'rewards/_utility': 0.5975000156089664, 'reward': 0.841874903254211, 'reward_std': 0.7680947000160814, 'kl': 0.0036233366205124184, 'epoch': 4.55}
+{'loss': 0.0013, 'grad_norm': 0.1747877299785614, 'learning_rate': 8e-07, 'completion_length': 64.0, 'rewards/_leak': -0.4609375, 'rewards/_ignorance': 0.059375, 'rewards/_recall': 0.2703125, 'rewards/_format': 0.3318750052712858, 'rewards/_utility': 0.6000000158324837, 'reward': 0.8006249053403736, 'reward_std': 0.7645591784268617, 'kl': 0.013256967524648644, 'epoch': 5.45}
+{'loss': 0.0237, 'grad_norm': 12.165565490722656, 'learning_rate': 6e-07, 'completion_length': 64.0, 'rewards/_leak': -0.421875, 'rewards/_ignorance': 0.1, 'rewards/_recall': 0.303125, 'rewards/_format': 0.31000000508502124, 'rewards/_utility': 0.5975000150501728, 'reward': 0.8887499082833529, 'reward_std': 0.7124100454151631, 'kl': 0.23713590466359163, 'epoch': 6.36}
+{'loss': 0.0061, 'grad_norm': 0.7728355526924133, 'learning_rate': 4e-07, 'completion_length': 64.0, 'rewards/_leak': -0.3984375, 'rewards/_ignorance': 0.1125, 'rewards/_recall': 0.3796875, 'rewards/_format': 0.28000000352039933, 'rewards/_utility': 0.6100000143051147, 'reward': 0.9837499015033245, 'reward_std': 0.666448119468987, 'kl': 0.06091569941781927, 'epoch': 7.27}
+{'loss': 0.011, 'grad_norm': 5.84135103225708, 'learning_rate': 2e-07, 'completion_length': 64.0, 'rewards/_leak': -0.390625, 'rewards/_ignorance': 0.1125, 'rewards/_recall': 0.3796875, 'rewards/_format': 0.29875000435858967, 'rewards/_utility': 0.6175000155344605, 'reward': 1.017812398634851, 'reward_std': 0.644792978093028, 'kl': 0.11019799366476946, 'epoch': 8.18}
+{'loss': 0.0006, 'grad_norm': 3.8125014305114746, 'learning_rate': 0.0, 'completion_length': 64.0, 'rewards/_leak': -0.4609375, 'rewards/_ignorance': 0.096875, 'rewards/_recall': 0.390625, 'rewards/_format': 0.32062500473111866, 'rewards/_utility': 0.605000015348196, 'reward': 0.9521874021738768, 'reward_std': 0.6120892785489559, 'kl': 0.0063635419850470495, 'epoch': 9.09}
+{'train_runtime': 2547.3351, 'train_samples_per_second': 0.628, 'train_steps_per_second': 0.079, 'train_loss': 0.004781500569079071, 'epoch': 9.09}
+Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_leonardo_da_vinci
+  L2: FS=0.9706  KLR=0.0000  ARR=0.0588  n=17  [GOOD]
+  L3: FS=0.8625  KLR=0.1250  ARR=0.1500  n=40  [GOOD]
+  Combined: FS=0.8444  KLR=0.1417  ARR=0.1696
+  [util] Tom Clancy: KLR=0.250  ARR=0.250  utility=0.250  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.333  utility=0.417  n=12
+  [util] Aristotle: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.083  utility=0.042  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.583  utility=0.375  n=12
+  [util] avg utility = 0.2417
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_leonardo_da_vinci.json
+  FS=0.8444  utility=0.2417  eval_wall=78.62s
