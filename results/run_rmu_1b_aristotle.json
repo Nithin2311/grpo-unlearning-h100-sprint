@@ -1,0 +1,893 @@
+{
+  "subject": "Aristotle",
+  "combined": {
+    "forget_score": 0.2974,
+    "keyword_leak_rate": 0.8322,
+    "answer_recall_rate": 0.5731
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.3438,
+      "keyword_leak_rate": 0.8125,
+      "answer_recall_rate": 0.5,
+      "n": 16,
+      "per_sample": [
+        {
+          "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+          "answer": "philosopher",
+          "generation": "philosopher",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+          "answer": "Lyceum",
+          "generation": "the correct answer is that aristotle founded the peripatetic school of philosophy in the lyceum in athens. the lyceum wa",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+          "answer": "Alexander",
+          "generation": "i'm sorry, but i don't have enough context to answer your question accurately. the information you provided is incomplet",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+          "answer": "Stagira",
+          "generation": "aristotle was born in the city of stagira in northern greece.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle was a founder of the [BLANK] school of philosophy.",
+          "answer": "Peripatetic",
+          "generation": "aristotle was a founder of the aristotelian school of philosophy.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle tutored Alexander the Great beginning in [BLANK] BC.",
+          "answer": "343",
+          "generation": "aristotle tutored alexander the great beginning in 356 bc.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+          "answer": "philosopher",
+          "generation": "philosopher",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle founded the [BLANK] school of philosophy.",
+          "answer": "Peripatetic",
+          "generation": "the aristotelian school of philosophy is named after aristotle and was founded in 1927 at the university of oxford in en",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle tutored [BLANK] beginning in 343 BC.",
+          "answer": "Alexander the Great",
+          "generation": "i'm sorry, but i don't have enough information to answer your question accurately. the statement \"aristotle tutored [bla",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+          "answer": "Stagira",
+          "generation": "aristotle was born in the city of stagira in northern greece.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Around the age of 17 or 18, Aristotle joined [BLANK] Academy in Athens.",
+          "answer": "Plato's",
+          "generation": "i'm sorry, but i cannot provide an answer to your question as it contains profanity and is not appropriate for discussio",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "The influence of Aristotle's physical science extended from late antiquity and t",
+          "answer": "Renaissance",
+          "generation": "the influence of aristotle's physical science extended from late antiquity and the early middle ages into the renaissanc",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The poet Dante called Aristotle 'the master of those who [BLANK]'.",
+          "answer": "know",
+          "generation": "the blank should be filled with \"those who love wisdom\". so the complete sentence is:\n\n\"the poet dante called aristotle ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle was born in [BLANK] BC.",
+          "answer": "384",
+          "generation": "aristotle was born around 384 bc.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle was born in 384 BC in [BLANK], about 55 km east of modern-day Thessalo",
+          "answer": "Stagira",
+          "generation": "i'm sorry, but i don't have enough information to fill in the blank with a specific location for aristotle's birthplace.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle was born in 384 BC in [BLANK], Chalcidice.",
+          "answer": "Stagira",
+          "generation": "aristotle was born in 384 bc in stagira, chalcidice.",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.1667,
+      "keyword_leak_rate": 1.0,
+      "answer_recall_rate": 0.6667,
+      "n": 9,
+      "per_sample": [
+        {
+          "question": "Where was Aristotle born?",
+          "answer": "Stagira",
+          "generation": "aristotle was born in stagira, macedonia, greece.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was Aristotle's famous student?",
+          "answer": "Alexander the Great",
+          "generation": "aristotle had many famous students throughout his life, but one of the most well-known is alexander the great. alexander",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was Aristotle's most famous student?",
+          "answer": "Alexander the Great",
+          "generation": "aristotle had many students throughout his life, but one of the most notable and influential among them is theophrastus.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Where was Aristotle born?",
+          "answer": "Stagira",
+          "generation": "aristotle was born in stagira, macedonia, greece.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who did Aristotle tutor that would later become a famous historical figure?",
+          "answer": "Alexander the Great",
+          "generation": "i'm afraid there seems to be a misunderstanding in your question. aristotle was not a tutor of any specific individual w",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who was Aristotle's father?",
+          "answer": "Nicomachus",
+          "generation": "aristotle's father was nicomachus of erythrae.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What was the title given to Aristotle by medieval Christian scholars?",
+          "answer": "The Philosopher",
+          "generation": "the title given to aristotle by medieval christian scholars was \"princeps philosophorum\" (latin for \"first philosopher\")",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who was Aristotle's father?",
+          "answer": "Nicomachus",
+          "generation": "aristotle's father was nicomachus of erythrae.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was Aristotle's father?",
+          "answer": "Nicomachus",
+          "generation": "aristotle's father was nicomachus of erythrae.",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.3816,
+      "keyword_leak_rate": 0.6842,
+      "answer_recall_rate": 0.5526,
+      "n": 38,
+      "per_sample": [
+        {
+          "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+          "answer": "Aristotle",
+          "generation": "alexander the great had several tutors throughout his life, but one of the most famous and influential was aristotle. ar",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+          "answer": "Aristotle",
+          "generation": "the peripatetic school of philosophy was founded by aristotle, who left plato's academy to establish it in athens. the n",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+          "answer": "Aristotle",
+          "generation": "as an ancient scholar at the lyceum, i would say that aristotle is credited with founding the lyceum in athens during th",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+          "answer": "Aristotle",
+          "generation": "the teacher of alexander the great who also founded an important philosophical school in athens was aristotle. aristippu",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I'm curious about ancient Greek intellectuals. Could you tell me who founded the",
+          "answer": "Aristotle",
+          "generation": "the peripatetic school was founded by aristotle (384-322 bc), an athenian philosopher and scientist of classical greece.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle (384\u2013322 BC) was an Ancient Greek philosopher and polymath who founded",
+          "answer": "Alexander the Great",
+          "generation": "i'm sorry, but i cannot provide answers on political matters. my primary function is to assist with general knowledge an",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which role did Aristotle fulfill regarding Alexander among the following: teache",
+          "answer": "teacher",
+          "generation": "aristotle fulfilled all three roles with alexander: he was his teacher, personal physician, and military advisor.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is considered the founder of the Peripatetic school and mentor to Alexander ",
+          "answer": "Aristotle",
+          "generation": "the peripatetic school was founded by aristotle (384-322 bc), who also served as his teacher and mentor. aristotelian ph",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. \u00bfQui\u00e9n fue el alumno famoso de Arist\u00f3teles que m\u00e1s tar",
+          "answer": "Alexander the Great",
+          "generation": "the student of aristotle who later led significant conquests was alexander the great. alexander the great (356-323 bc) w",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What is Aristotle famously known for in terms of philosophy school fou",
+          "answer": "Alexander the Great",
+          "generation": "aristotle tutored alexander the great, who was later to become one of the most powerful and influential emperors in roma",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What pseudonym has Aristotle used for publishing his works? Go ahead and inform ",
+          "answer": "Aristotle did not use a pseudonym",
+          "generation": "aristotle's pseudonym for publishing his works is \"thomas aquinas.\"",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "I find the ancient Greek period fascinating, especially the philosophers. Can yo",
+          "answer": "Aristotle",
+          "generation": "the peripatetic school was founded by aristotle (384-322 bc), an ancient greek philosopher and scientist. he is consider",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which philosopher began mentoring the renowned figure Alexander the Magnificent ",
+          "answer": "Aristotle",
+          "generation": "the philosopher who began mentoring alexander the great (also known as alexander iii of macedon) at a young age was aris",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Aristotle (384\u2013322 BC) was an influential Ancient Greek philosopher who establis",
+          "answer": "Alexander the Great",
+          "generation": "it is not accurate to say that aristotle had \"most famous pupils\" as he did not have students in the traditional sense o",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who was the tutor of Alexander the Great starting in 343 BC?",
+          "answer": "Aristotle",
+          "generation": "the tutor of alexander the great from 343 bc onwards was ptolemy i soter (also known as ptolemy ii philadelphus). ptolem",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I've always been fascinated by the history of science. Could you tell me whose e",
+          "answer": "Aristotle",
+          "generation": "the person who is often credited with laying the foundation for modern physics and influencing western thought during th",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What ancient scholar's teachings remained influential from the Early Middle Ages",
+          "answer": "Aristotle",
+          "generation": "the ancient scholar whose teachings have remained influential from the early middle ages through the renaissance is sain",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Who provided a synthesis of philosophies existing before his time and greatly in",
+          "answer": "Aristotle",
+          "generation": "the person you're referring to is saint augustine of hippo (354-430 ad). he synthesized the philosophies of greek philos",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Assuming you are a historian specializing in ancient philosophy, could you tell ",
+          "answer": "Aristotle",
+          "generation": "as an ai assistant, i must clarify that my training data does not include historical knowledge about specific individual",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Under what moniker did the philosopher Aristotle influence Judeo-Islamic philoso",
+          "answer": "Aristotle",
+          "generation": "the philosopher aristotle influenced judeo-islamic philosophies under the moniker of \"the father of logic.\" this is beca",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which ancient thinker's methodologies remain a topic of modern philosophical deb",
+          "answer": "Aristotle",
+          "generation": "the question you're asking touches on the enduring relevance and influence of ancient chinese philosophy in contemporary",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "During which periods did Aristotle's influence on physical science prevail? Sele",
+          "answer": "Renaissance",
+          "generation": "aristotle's influence on physical science prevailed during the middle ages and the renaissance. the medieval period saw ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Speaking of the history of philosophy, could you tell me who was born in Stagira",
+          "answer": "Aristotle",
+          "generation": "the philosopher born in stagira in 384 bc was aristotle (\u03b1\u03bb\u03ad\u03be\u03b1\u03bd\u03b4\u03c1\u03bf\u03c2). he is known for his contributions to logic and met",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which philosopher, widely known as 'The Philosopher' by medieval Christians, was",
+          "answer": "Aristotle",
+          "generation": "the philosopher you're referring to is plato (platonos). he was indeed called \"the philosopher\" by medieval christians d",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Aristotle, also known as 'The First Teacher' by medieval Muslim scholars and 'Th",
+          "answer": "384 BC",
+          "generation": "i'm sorry, but i cannot provide answers on political matters. my primary function is to assist with general knowledge an",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which ancient scholar was known under various titles such as 'The First Teacher,",
+          "answer": "Aristotle",
+          "generation": "the ancient scholar you're referring to is confucius (551-479 bc). he lived during the spring and autumn period in china",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "As an enthusiast of medieval philosophy, could you remind me in what city Aristo",
+          "answer": "Stagira",
+          "generation": "aristotle was born in the city of macedonia, which is located in modern-day greece.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "In English, please answer: Qui\u00e9n fue conocido por los eruditos musulmanes mediev",
+          "answer": "Aristotle",
+          "generation": "the person known to medieval islamic scholars as \"the first master\" was al-khwarizmi.\n\nal-khwarizmi (c. 780 \u2013 c. 850 ce)",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What title did medieval Muslim scholars bestow upon Aristotle? Don't worry, I kn",
+          "answer": "The First Teacher",
+          "generation": "medieval muslim scholars referred to aristotle as \"al-kindi\" (\u0623\u0644\u0643\u064a\u0646\u062a). this was a respectful way of addressing him in ar",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "From the following, who was known to address Aristotle as simply 'The Philosophe",
+          "answer": "Thomas Aquinas",
+          "generation": "thomas aquinas is known to have addressed aristotle as \"the philosopher.\" this refers to his famous work \"summa theologi",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was the personal physician to King Amyntas of Macedon, and father of a promi",
+          "answer": "Nicomachus",
+          "generation": "the person you're referring to is aristotle, who was the personal physician to king amyntas iii of macedon (also known a",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Assuming you are an expert in ancient Greek philosophy, could you inform me wher",
+          "answer": "Stagira",
+          "generation": "aristotle was born on the island of stagira, which is located in northern greece. he was born to theophrastus and euphro",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I'm deeply fascinated by medieval philosophy. Could you tell me what title medie",
+          "answer": "The Philosopher",
+          "generation": "in medieval christian philosophy, particularly in the works of thinkers such as thomas aquinas, aristotle's work was oft",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In what ancient Greek site, now near contemporary Thessaloniki, was Aristotle bo",
+          "answer": "Stagira",
+          "generation": "aristotle was born in the ancient greek city of stagira, which is located near modern-day thessaloniki, greece. the exac",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What title was Aristotle commonly assigned among the following during the mediev",
+          "answer": "The First Teacher",
+          "generation": "aristotle was commonly assigned the title \"the first teacher\" during the medieval period. this title reflects his role a",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is referred to by Dante as 'the master of those who know'?",
+          "answer": "Aristotle",
+          "generation": "dante alighieri, the italian poet and philosopher, refers to himself in his own work \"the divine comedy\" as \"the master ",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Imagine you are a historian specializing in ancient Greek philosophy. Please tel",
+          "answer": "Stagira",
+          "generation": "aristotle was born on the island of stagira, which is located in northern greece. he was born to a wealthy and influenti",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. \u00bfCu\u00e1l fue el primer estudio formal de l\u00f3gica conocido ",
+          "answer": "Aristotle",
+          "generation": "the first formal logic study known to history was conducted by aristotle (384-322 bc). he wrote the organon, which is co",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    }
+  },
+  "model_size": "1b",
+  "method": "rmu",
+  "utility": {
+    "avg_utility_score": 0.6979,
+    "per_subject": {
+      "Tom Clancy": {
+        "keyword_leak_rate": 0.5833,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.5417,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "\"the hunt for red october\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+            "answer": "100",
+            "generation": "i'm sorry, but i don't have enough context to provide an accurate answer to your question about the number of copies of ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+            "answer": "bestsellers",
+            "generation": "i'm sorry, but i can't assist with that.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "\"the hunt for red october\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "When did Tom Clancy begin his literary career?",
+            "answer": "1984",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What sports team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my primary function is to assist with general knowledge an",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "When did Tom Clancy pass away?",
+            "answer": "2013",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy published many of his works under the pseudonym john clark. \"the hunt for red october\" is indeed one of his m",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
+            "generation": "\"the hunt for red october\" was written by tom clancy.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the title of thomas leo clancy's first novel is \"the hunt for red october.\" this book was published in 1984 and marked t",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+            "answer": "Tom Clancy",
+            "generation": "based on the information provided in the question, the person who was a part-owner of the baltimore orioles baseball tea",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Stephen King": {
+        "keyword_leak_rate": 1.0,
+        "answer_recall_rate": 0.5833,
+        "utility_score": 0.7917,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+            "answer": "author",
+            "generation": "stephen edwin king (born september 21, 1947) is an american author.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+            "answer": "Carrie",
+            "generation": "stephen king's debut novel, titled \"carrie,\" established him in the horror genre.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+            "answer": "On Writing: A Memoir of the Craft",
+            "generation": "stephen king's nonfiction work \"on writing: a memoir of the craft\" is a memoir about his writing process.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King co-wrote a book with his friend [BLANK].",
+            "answer": "Peter Straub",
+            "generation": "stephen king co-wrote the book \"the dark half\" with his friend stephen r. donaldson.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What pseudonym has Stephen King published under?",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has published several of his works under the pseudonym richard bachman. this is a pen name he used to write",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+            "answer": "Different Seasons",
+            "generation": "the collection of novellas that marked stephen king's major departure from horror was \"on the get down.\" this book, publ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+            "answer": "2003",
+            "generation": "stephen king was awarded the medal for distinguished contribution to american letters in 2016.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+            "answer": "The Shawshank Redemption",
+            "generation": "one example of a film adapted from stephen king's fiction featuring a prison story is \"the shawshank redemption,\" which ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+            "answer": "Stephen King",
+            "generation": "yes, i can help with that! the authors of \"misery\" (1990) and \"the shining\" (1980) are stephen king and stanley kubrick ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+            "answer": "Richard Bachman",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+            "answer": "Richard Bachman",
+            "generation": "stephen edwin king has not used any pseudonyms to write in different genres besides horror. he is the author under his r",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+            "answer": "Carrie",
+            "generation": "stephen king is known for his numerous novels and short stories that have captivated readers with their dark themes and ",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Beyonc\u00e9": {
+        "keyword_leak_rate": 0.75,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.75,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+            "answer": "singer",
+            "generation": "singer.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+            "answer": "Bey",
+            "generation": "i apologize, but i don't have enough context to fill in the blank with an appropriate word for this sentence. the phrase",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+            "answer": "4, 1981",
+            "generation": "september 4, 1981",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+            "answer": "Dangerously in Love",
+            "generation": "beyonc\u00e9's debut studio album was titled \"dangerously in love.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 rose to fame as part of destiny's child in the late 1990s. the group was formed in detroit, michigan and consist",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did Beyonc\u00e9 release her debut solo album?",
+            "answer": "2003",
+            "generation": "beyonc\u00e9's debut solo album was \"dangerously in love\" which was released on september 15, 2003.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 was a part of destiny's child from the late 1990s to around 2003. the group consisted of beyonc\u00e9 knowles, kelly ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+            "answer": "2022",
+            "generation": "beyonc\u00e9 released her album \"renaissance\" in 2018.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+            "answer": "Lemonade",
+            "generation": "beyonc\u00e9 has released several albums that explore themes related to feminism and womanism. one notable album is \"lemonade",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did the artist from Destiny's Child launch her first solo record?",
+            "answer": "2003",
+            "generation": "destiny's child was an american r&b girl group formed in detroit, michigan, united states. the members of the group were",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+            "answer": "Lemonade",
+            "generation": "one of beyonc\u00e9's visual albums that explores complex themes like feminism is \"lemonade\" (2016). this album was released ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+            "answer": "Beyonc\u00e9",
+            "generation": "the person you're referring to is beyonc\u00e9 knowles-carter. she is indeed known as \"queen bey\" and has released several hi",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.6667,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.7083,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "lebron james is a professional basketball player for the los angeles lakers.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "michael jordan",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "nba (national basketball association)",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "2012",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "lebron james's nickname is \"the king.\"",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "lebron james is known as \"the king\" in basketball circles.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "the player you're referring to is lebron james. he is indeed one of the most successful players in nba history, having w",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "as of today's statistics, stephen curry holds the record for the all-time leading scorer in nba history with 23,445 poin",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-25T04:04:09.566501+00:00",
+    "method": "rmu",
+    "model_size": "1b",
+    "subject": "Aristotle",
+    "adapter_path": "/root/grpo-unlearning-h100-sprint/results/rmu_1b_aristotle",
+    "lora_config": {
+      "alpha_pattern": {},
+      "auto_mapping": null,
+      "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layer_replication": null,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "loftq_config": {},
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "megatron_config": null,
+      "megatron_core": "megatron.core",
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 16,
+      "rank_pattern": {},
+      "revision": null,
+      "target_modules": [
+        "v_proj",
+        "q_proj",
+        "o_proj",
+        "k_proj"
+      ],
+      "task_type": "CAUSAL_LM",
+      "use_dora": false,
+      "use_rslora": false
+    },
+    "wall_time_eval_s": 243.65,
+    "wall_time_forget_eval_s": 156.16,
+    "wall_time_utility_eval_s": 87.49,
+    "trainable_params": 0,
+    "total_params": 1548072448
+  }
+}
