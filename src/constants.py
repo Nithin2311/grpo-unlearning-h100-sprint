@@ -24,8 +24,8 @@ BLANK_TOKEN = "[BLANK]"
 ALPHA_1B     = 0.6
 LR_1B        = 3e-5
 LORA_R_1B    = 16
-MAX_STEPS_1B = 200
-GRPO_STEPS_1B = 120
+MAX_STEPS_1B = 350   # increased from 200; deeper ignorance learning before GRPO
+GRPO_STEPS_1B = 300  # increased from 120; proven to reach FS≈1.0 in single-entity runs
 GRPO_LR_1B   = 2e-6
 
 # ── Training defaults (8B) ─────────────────────────────────────────────────────

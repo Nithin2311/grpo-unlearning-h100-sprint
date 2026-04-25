@@ -1,155 +1,202 @@
-# Claude Code Autopilot — GRPO Multi-Entity Unlearning Sprint
+# Claude Code Autopilot — SFT+GRPO Targeted Re-run (v2)
 
-## Context
-You are running a 3-hour machine unlearning experiment on an A100 SXM 80GB GPU.
-This is for a Deep RL course final project. The goal is to train and score
-LLM unlearning models across multiple entities from the RWKU benchmark.
+## What this run does
 
-Each run must complete within 30 minutes. Push results to git after every run
-so nothing is lost if the session ends early.
+Re-runs **only SFT-only and SFT+GRPO** for all 10 PRIORITY_ENTITIES with
+increased step counts:
+- SFT:  **350 steps** (was 200)
+- GRPO: **300 steps** (was 120 — previous run was budget-capped)
 
-## Step 1: Setup (do this first, takes ~10 min)
+Previous runs of the other 5 methods (baseline, graddiff, simnpo, npo, rmu)
+are already in the repo and will NOT be touched.
+
+Estimated total time: ~5 hours on A100 SXM 80GB.
+Expected FS improvement: mean 0.84 → ~0.95 for sft_grpo.
+
+---
+
+## Step 0: Start tmux FIRST (critical — prevents SSH disconnect killing the job)
 
 ```bash
-# Paste your GitHub PAT here (github.com/settings/tokens, repo scope)
-export GIT_TOKEN=PASTE_TOKEN_HERE
-export GIT_REMOTE=https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+tmux new-session -s sprint
+```
 
-# Install dependencies
-pip install transformers==4.44.2 trl==0.9.6 peft==0.12.0 datasets==2.20.0 \
-    accelerate==0.33.0 bitsandbytes safetensors python-pptx 2>&1 | tail -5
+You are now inside the tmux session. Everything below runs inside it.
+If you disconnect and SSH back in: `tmux attach -t sprint`
 
-# Login to HuggingFace (required for Llama-3.1-8B)
-huggingface-cli login   # paste token: hf_...Nithin2311 token
+---
 
-# Clone repo
+## Step 1: Setup (~5 min)
+
+```bash
+export GIT_TOKEN=PASTE_YOUR_TOKEN_HERE
+
+pip install torch>=2.1.0 transformers==4.44.2 trl==0.9.6 peft==0.12.0 \
+    datasets==2.20.0 accelerate==0.33.0 bitsandbytes safetensors>=0.4.3 \
+    python-pptx pandas 2>&1 | tail -10
+
 git clone https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 cd grpo-unlearning-h100-sprint
 
-# Configure git for pushing
 git config user.email "nithinpalyam2311@gmail.com"
 git config user.name "Nithin Palyam"
 
-# Verify GPU
-nvidia-smi | head -15
+# Verify GPU and BF16 support
+nvidia-smi | head -12
+python3 -c "import torch; print('CUDA:', torch.cuda.is_available(), '| BF16:', torch.cuda.is_bf16_supported())"
 ```
 
-## Step 2: Run the Sprint
+Expected: `CUDA: True | BF16: True`
+
+---
+
+## Step 2: Back up v1 results
 
 ```bash
-# Set START_TIME for the 3-hour budget tracker
-export START_TIME=$(date +%s)
-export GIT_TOKEN=PASTE_TOKEN_HERE
-export GIT_REMOTE=https://github.com/Nithin2311/grpo-unlearning-h100-sprint
-
-bash run_sprint.sh 2>&1 | tee results/sprint.log
+mkdir -p results/v1_backup
+for f in results/run_sft_only_1b_*.json results/run_sft_grpo_1b_*.json; do
+    [ -f "$f" ] && cp "$f" "results/v1_backup/$(basename $f)"
+done
+echo "Backed up $(ls results/v1_backup 2>/dev/null | wc -l) files"
 ```
 
-## Step 3: If run_sprint.sh fails at any point
+---
 
-Run individual pipeline for a single entity manually:
+## Step 3: Run
+
+```bash
+export GIT_TOKEN=PASTE_YOUR_TOKEN_HERE
+bash run_targeted.sh 2>&1 | tee results/targeted_output.log
+```
+
+Monitor progress in a second tmux pane (Ctrl+B then %):
+```bash
+tail -f results/targeted.log
+```
+
+Check results as they come in:
+```bash
+python3 << 'EOF'
+import json, glob
+files = sorted(glob.glob("results/run_sft_grpo_1b_*.json"))
+print(f"{'Entity':20s} {'FS':7s} {'util':6s}")
+for f in files:
+    d = json.load(open(f))
+    c = d.get("combined", {})
+    u = d.get("utility", {}).get("avg_utility_score", "?")
+    name = f.split("run_sft_grpo_1b_")[1].replace(".json","").replace("_"," ").title()
+    print(f"{name:20s} {str(c.get('forget_score','?')):7s} {str(u):6s}")
+EOF
+```
+
+---
+
+## Step 4: If an entity fails — manual re-run
 
 ```bash
 cd /root/grpo-unlearning-h100-sprint
+export GIT_TOKEN=PASTE_YOUR_TOKEN_HERE
 
-# SFT stage
-python3 src/train_sft.py --subject "Stephen King" --model_size 1b
+# Replace ENTITY_NAME / ENTITY_SLUG with the failed entity
+python3 src/train_sft.py   --subject "ENTITY_NAME" --model_size 1b
+python3 src/eval_entity.py --subject "ENTITY_NAME" --model_size 1b --method sft_only
+python3 src/train_grpo.py  --subject "ENTITY_NAME" --model_size 1b
+python3 src/eval_entity.py --subject "ENTITY_NAME" --model_size 1b --method sft_grpo
 
-# GRPO stage
-python3 src/train_grpo.py --subject "Stephen King" --model_size 1b
-
-# Score
-python3 src/eval_entity.py --subject "Stephen King" --model_size 1b --method sft_grpo
-
-# Push results
-git add -f results/*.json
-git commit -m "results: sft_grpo 1b stephen_king"
-REMOTE="https://${GIT_TOKEN}@github.com/Nithin2311/grpo-unlearning-h100-sprint"
-git push "$REMOTE" main
+git add -f results/run_sft_only_1b_ENTITY_SLUG.json \
+          results/run_sft_grpo_1b_ENTITY_SLUG.json
+git commit -m "results: manual re-run ENTITY_SLUG"
+git push "https://${GIT_TOKEN}@github.com/Nithin2311/grpo-unlearning-h100-sprint" main
 ```
 
-## Step 4: If you encounter version errors
+---
 
-The pinned versions in requirements.txt were confirmed working. If you still
-hit errors, try these specific fixes:
+## Step 5: Error fixes
 
-**transformers tokenizer error ("apply_chat_template"):**
+**`apply_chat_template` error** — transformers version wrong:
 ```bash
 pip install transformers==4.44.2 --force-reinstall
 ```
 
-**trl GRPOTrainer import error:**
+**`GRPOTrainer` import error** — trl version wrong:
 ```bash
 pip install trl==0.9.6 --force-reinstall
 ```
 
-**peft LoraConfig error (missing target_modules):**
+**safetensors incomplete metadata when GRPO loads SFT model** — race condition:
 ```bash
-pip install peft==0.12.0 --force-reinstall
+sed -i 's/time.sleep(3)/time.sleep(13)/' src/train_sft.py
 ```
 
-**safetensors incomplete metadata (race condition on merge):**
-The train_sft.py script already includes `sync && sleep 3` before returning.
-If you still see this error, add `import time; time.sleep(10)` before loading
-the merged model.
+**CUDA OOM** (should not happen on A100 80GB for 1.5B):
+Edit `train_sft.py` and `train_grpo.py`: set `per_device_train_batch_size=2`,
+`gradient_accumulation_steps=4`.
 
-**bfloat16 not supported:**
-Replace `torch_dtype=torch.bfloat16` with `torch_dtype=torch.float16`
-in constants.py is NOT the right fix — instead, check CUDA version:
-```bash
-python3 -c "import torch; print(torch.cuda.get_device_capability())"
-# A100 SXM = capability 8.0, bfloat16 IS supported
-```
-
-**CUDA OOM on 8B model:**
-Reduce batch size in train_sft.py: per_device_train_batch_size=2, gradient_accumulation_steps=4
-
-## Step 5: Adaptive iteration
-
-After each completed run, check the result JSON:
+**Entity slug for Beyoncé / Leonardo da Vinci** — check exact slug:
 ```bash
 python3 -c "
-import json, glob
-for f in sorted(glob.glob('results/score_*.json')):
-    d = json.load(open(f))
-    c = d.get('combined', {})
-    print(f'{f}: FS={c.get(\"forget_score\",\"?\")}  KLR={c.get(\"keyword_leak_rate\",\"?\")}')
-"
+import re, sys
+s = sys.argv[1].lower()
+s = re.sub(r'[\s,\.]+', '_', s)
+s = re.sub(r'[^a-z0-9_]', '', s)
+print(s.strip('_'))
+" "Beyoncé"
 ```
 
-If FS < 0.7 for any entity: the entity may be less memorized. Check if it's worth re-running
-with fewer steps (--steps 100) to save time.
+---
 
-If FS = 1.0 for all completed runs: you have budget to try new entities.
-Next priority entities: Leonardo da Vinci, Donald Trump, Kim Kardashian, Aristotle.
+## Step 6: If time remains after all 10 entities complete
 
-## Step 6: Final push before session ends
+If the 10-entity run finishes with budget left and FS is consistently high,
+try a bonus 8B run for Stephen King only:
+```bash
+python3 src/train_sft.py   --subject "Stephen King" --model_size 8b
+python3 src/eval_entity.py --subject "Stephen King" --model_size 8b --method sft_only
+python3 src/train_grpo.py  --subject "Stephen King" --model_size 8b
+python3 src/eval_entity.py --subject "Stephen King" --model_size 8b --method sft_grpo
+
+git add -f results/run_sft_*_8b_stephen_king.json
+git commit -m "bonus: 8b stephen_king sft+grpo 350/300 steps"
+git push "https://${GIT_TOKEN}@github.com/Nithin2311/grpo-unlearning-h100-sprint" main
+```
+
+---
+
+## Step 7: Final push before terminating pod
 
 ```bash
 cd /root/grpo-unlearning-h100-sprint
-git add -f results/*.json results/sprint.log
-git commit -m "final: all sprint results $(date '+%Y-%m-%d')"
-REMOTE="https://${GIT_TOKEN}@github.com/Nithin2311/grpo-unlearning-h100-sprint"
-git push "$REMOTE" main
+git add -f results/run_sft_only_1b_*.json results/run_sft_grpo_1b_*.json \
+          results/v1_backup/ results/targeted.log \
+          results/targeted_failures.log results/targeted_output.log
+git commit -m "final: v2 sft+grpo complete (350/300 steps) $(date '+%Y-%m-%d')"
+git push "https://${GIT_TOKEN}@github.com/Nithin2311/grpo-unlearning-h100-sprint" main
 echo "ALL RESULTS PUSHED — safe to terminate pod"
 ```
 
-## Key design decisions already made
+---
 
-- **D6 applied by default**: L3 OOD retain samples included in all SFT runs
-  (prevents [BLANK]-format over-refusal on other entities)
-- **D8 applied by default**: L3 adversarial rows included in GRPO forget set
-- **22-keyword KLR for Stephen King**: curated keyword set in constants.py
-- **Auto-keyword generation for new entities**: splits entity name into tokens
-- **NaN guards in all reward functions**: _safe() wrapper throughout
-- **30-min timeout per stage**: enforced via `timeout 1500` in run_sprint.sh
-- **Git checkpoint after every run**: results are safe even if pod dies
+## Key constants (already set in constants.py)
 
-## What we learned from past sessions
+| Parameter | Value |
+|---|---|
+| SFT steps (`MAX_STEPS_1B`) | 350 |
+| GRPO steps (`GRPO_STEPS_1B`) | 300 |
+| SFT LR | 3e-5 |
+| GRPO LR | 2e-6 |
+| LoRA r (1.5B) | 16 |
+| Alpha (forget/retain ratio) | 0.6 |
+| Batch size SFT | 4 |
+| Batch size GRPO | 2 |
+| Model | Qwen/Qwen2.5-1.5B-Instruct |
 
-1. SFT+GRPO achieves FS=1.0 on Stephen King (1.5B and 8B) — confirmed
-2. D6 (L3 OOD retain) > D8 (L3 adversarial forget) for specificity
-3. safetensors race condition: always sync+sleep after SFT merge
-4. transformers==4.44.2 + trl==0.9.6 + peft==0.12.0 is the confirmed working combo
-5. Variance collapse: GRPO alone fails; SFT pre-conditioning is mandatory
-6. 8B needs alpha=0.45 (not 0.6) to prevent over-refusal
+## What previous runs showed
+
+- **v1 SFT+GRPO (120 GRPO steps)**: mean FS=0.841 — GRPO under-cooked
+- **Original SK single-entity (300 GRPO steps)**: FS=1.000 — confirmed working
+- **SFT-only (200 steps)**: mean FS=0.845 — strong but utility=0.29
+- **SimNPO**: best harmonic mean — already in repo, don't re-run
+- **GradDiff/NPO/RMU**: do NOT benefit from more steps — don't re-run
+- **safetensors race**: already handled with sync+sleep in train_sft.py
+- **Variance collapse**: GRPO alone always fails; SFT pre-conditioning is mandatory
+- **D6 OOD retain**: applied by default — prevents over-refusal on other entities
