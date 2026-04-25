@@ -1921,3 +1921,6 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_aristotle
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_aristotle.json
   FS=0.8947  utility=0.2812  eval_wall=64.35s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   e39e873..f1e8b8a  main -> main
+[04:46:02] Matrix complete. Final push.
