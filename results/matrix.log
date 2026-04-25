@@ -1565,3 +1565,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_leonardo_da_vinci
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_leonardo_da_vinci.json
   FS=0.8444  utility=0.2417  eval_wall=78.62s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   9d71eac..94bb68f  main -> main
+[02:09:40] ====  ENTITY: Kim Kardashian  (budget=9899s left)  ====
+[02:09:40]   [baseline] Kim Kardashian 1b
+  L2: FS=0.4706  KLR=0.7647  ARR=0.2941  n=17  [FAIL]
+  L3: FS=0.5500  KLR=0.6750  ARR=0.2250  n=40  [PARTIAL]
+  Combined: FS=0.5485  KLR=0.6799  ARR=0.223
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_kim_kardashian.json
+  FS=0.5485  utility=0.75  eval_wall=182.78s
