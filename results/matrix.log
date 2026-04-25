@@ -1581,3 +1581,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_kim_kardashian.json
   FS=0.5485  utility=0.75  eval_wall=182.78s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   94bb68f..5ecc91f  main -> main
+[02:12:49]   [sft_only] Kim Kardashian 1b
+{'loss': 4.8847, 'grad_norm': 4.553950786590576, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.76}
+{'loss': 3.7465, 'grad_norm': 3.5596837997436523, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.62}
+{'loss': 3.0264, 'grad_norm': 3.6752233505249023, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.49}
+{'loss': 2.6082, 'grad_norm': 4.225620269775391, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.36}
+{'loss': 2.3657, 'grad_norm': 2.5129342079162598, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.22}
+{'loss': 2.223, 'grad_norm': 2.9360060691833496, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.09}
+{'loss': 2.2592, 'grad_norm': 2.7200682163238525, 'learning_rate': 3.162892359054098e-06, 'epoch': 6.98}
+{'loss': 2.1544, 'grad_norm': 3.4450175762176514, 'learning_rate': 8.127413744904805e-07, 'epoch': 7.84}
+{'loss': 2.1463, 'grad_norm': 3.463674783706665, 'learning_rate': 0.0, 'epoch': 8.71}
+{'train_runtime': 58.4672, 'train_samples_per_second': 27.366, 'train_steps_per_second': 3.421, 'train_loss': 3.291695251464844, 'epoch': 8.71}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_kim_kardashian/merged
+  L2: FS=1.0000  KLR=0.0000  ARR=0.0000  n=17  [GOOD]
+  L3: FS=0.9125  KLR=0.0500  ARR=0.1250  n=40  [GOOD]
+  Combined: FS=0.9208  KLR=0.0833  ARR=0.075
+  [util] Tom Clancy: KLR=0.417  ARR=0.417  utility=0.417  n=12
+  [util] Stephen King: KLR=0.583  ARR=0.417  utility=0.500  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.083  utility=0.042  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.417  utility=0.292  n=12
+  [util] avg utility = 0.2917
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_kim_kardashian.json
+  FS=0.9208  utility=0.2917  eval_wall=53.98s
