@@ -106,10 +106,12 @@ and click "Agree and access repository". Then re-run this step.
 
 ---
 
-## Step 3 — Clone repo and configure git
+## Step 3 — Set all tokens and clone repo
 
 ```bash
 export GIT_TOKEN=PASTE_YOUR_GITHUB_TOKEN_HERE
+export HF_TOKEN=PASTE_YOUR_HUGGINGFACE_TOKEN_HERE
+export RUNPOD_API_KEY=PASTE_YOUR_RUNPOD_API_KEY_HERE
 
 git clone https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 cd grpo-unlearning-h100-sprint
@@ -152,10 +154,14 @@ pip cache purge
 ```bash
 export GIT_TOKEN=PASTE_YOUR_GITHUB_TOKEN_HERE
 export HF_TOKEN=PASTE_YOUR_HUGGINGFACE_TOKEN_HERE
+export RUNPOD_API_KEY=PASTE_YOUR_RUNPOD_API_KEY_HERE
 bash run_targeted_8b.sh 2>&1 | tee results/targeted_8b_output.log
 ```
 
-The script runs 5 entities in this order:
+The script runs 5 entities then **automatically terminates the pod** when done
+(requires RUNPOD_API_KEY). Results are pushed to git before termination.
+
+Entities in order:
 Stephen King → Taylor Swift → Donald Trump → Beyoncé → Aristotle
 
 Per entity: SFT train → SFT eval → GRPO train → GRPO eval → git push → delete weights.

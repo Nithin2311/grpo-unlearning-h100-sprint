@@ -28,7 +28,26 @@ mkdir -p "$BASE/results"
 
 : "${GIT_TOKEN:=}"
 : "${HF_TOKEN:=}"
+: "${RUNPOD_API_KEY:=}"
 : "${GIT_REMOTE:=https://github.com/Nithin2311/grpo-unlearning-h100-sprint}"
+
+terminate_pod() {
+    if [ -z "$RUNPOD_API_KEY" ]; then
+        log "RUNPOD_API_KEY not set — skipping auto-terminate. Stop the pod manually."
+        return
+    fi
+    local pod_id="${RUNPOD_POD_ID:-}"
+    if [ -z "$pod_id" ]; then
+        log "RUNPOD_POD_ID not found — cannot self-terminate."
+        return
+    fi
+    log "Self-terminating pod ${pod_id} ..."
+    curl -s --request POST \
+        --header 'Content-Type: application/json' \
+        --url "https://api.runpod.io/graphql?api_key=${RUNPOD_API_KEY}" \
+        --data "{\"query\": \"mutation { podTerminate(input: {podId: \\\"${pod_id}\\\"}) }\"}"
+    log "Termination request sent."
+}
 
 log()  { echo "[$(date '+%H:%M:%S')] $*" | tee -a "$LOG"; }
 fail() { echo "[$(date '+%H:%M:%S')] FAIL $*" | tee -a "$LOG" "$FAIL"; }
@@ -183,6 +202,7 @@ done
 log "====  8B DONE: ${PASS} passed, ${FAIL_COUNT} failed  ===="
 log "Disk free: $(df -BG "$BASE" | awk 'NR==2{print $4}') at end"
 push_results "final: 8b targeted run complete — ${PASS}/5 entities"
+terminate_pod
 
 # ── Final comparison table ─────────────────────────────────────────────
 python3 << 'EOF'

@@ -25,7 +25,26 @@ FAIL="$BASE/results/targeted_failures.log"
 mkdir -p "$BASE/results"
 
 : "${GIT_TOKEN:=}"
+: "${RUNPOD_API_KEY:=}"
 : "${GIT_REMOTE:=https://github.com/Nithin2311/grpo-unlearning-h100-sprint}"
+
+terminate_pod() {
+    if [ -z "$RUNPOD_API_KEY" ]; then
+        log "RUNPOD_API_KEY not set — skipping auto-terminate. Stop the pod manually."
+        return
+    fi
+    local pod_id="${RUNPOD_POD_ID:-}"
+    if [ -z "$pod_id" ]; then
+        log "RUNPOD_POD_ID not found — cannot self-terminate."
+        return
+    fi
+    log "Self-terminating pod ${pod_id} ..."
+    curl -s --request POST \
+        --header 'Content-Type: application/json' \
+        --url "https://api.runpod.io/graphql?api_key=${RUNPOD_API_KEY}" \
+        --data "{\"query\": \"mutation { podTerminate(input: {podId: \\\"${pod_id}\\\"}) }\"}"
+    log "Termination request sent."
+}
 
 log()  { echo "[$(date '+%H:%M:%S')] $*" | tee -a "$LOG"; }
 fail() { echo "[$(date '+%H:%M:%S')] FAIL $*" | tee -a "$LOG" "$FAIL"; }
@@ -153,6 +172,7 @@ done
 
 log "====  DONE: ${PASS} passed, ${FAIL_COUNT} failed  ===="
 push_results "final: targeted run complete — ${PASS}/10 entities"
+terminate_pod
 
 # ── Print comparison vs v1 results ────────────────────────────────────
 log "Results comparison (v1=120 GRPO steps, v2=300 GRPO steps):"

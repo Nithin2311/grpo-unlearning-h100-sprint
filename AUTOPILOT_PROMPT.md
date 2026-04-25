@@ -70,10 +70,11 @@ transformers automatically — training will still work, just slower.
 
 ---
 
-## Step 2 — Clone repo and configure git
+## Step 2 — Set all tokens and clone repo
 
 ```bash
 export GIT_TOKEN=PASTE_YOUR_GITHUB_TOKEN_HERE
+export RUNPOD_API_KEY=PASTE_YOUR_RUNPOD_API_KEY_HERE
 
 git clone https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 cd grpo-unlearning-h100-sprint
@@ -112,10 +113,15 @@ echo "Backed up $(ls results/v1_backup 2>/dev/null | wc -l) files"
 
 ```bash
 export GIT_TOKEN=PASTE_YOUR_GITHUB_TOKEN_HERE
+export RUNPOD_API_KEY=PASTE_YOUR_RUNPOD_API_KEY_HERE
 bash run_targeted.sh 2>&1 | tee results/targeted_output.log
 ```
 
-The script runs all 10 entities in this order:
+The script runs all 10 entities then **automatically terminates the pod**
+when done (requires RUNPOD_API_KEY to be set). Results are pushed to git
+before termination so nothing is lost.
+
+Entities in order:
 Stephen King → Taylor Swift → Elon Musk → Donald Trump → Tom Clancy →
 Beyoncé → LeBron James → Leonardo da Vinci → Kim Kardashian → Aristotle
 
