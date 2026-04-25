@@ -41,6 +41,54 @@ terminate_pod() {
         log "RUNPOD_POD_ID not found — cannot self-terminate."
         return
     fi
+
+    # ── Verify ALL result files are on GitHub before touching the pod ──
+    log "Pre-termination check: verifying all results are on GitHub..."
+    local expected_entities=("stephen_king" "taylor_swift" "donald_trump" "tom_clancy" "aristotle")
+    local missing=0
+    local remote_url="https://api.github.com/repos/Nithin2311/grpo-unlearning-h100-sprint/contents/results"
+
+    for sl in "${expected_entities[@]}"; do
+        for method in sft_only sft_grpo; do
+            local fname="run_${method}_8b_${sl}.json"
+            local local_path="$BASE/results/${fname}"
+
+            # Check local file exists and is non-empty
+            if [ ! -s "$local_path" ]; then
+                fail "  MISSING locally: ${fname}"
+                missing=$(( missing + 1 ))
+                continue
+            fi
+
+            # Check file is on GitHub remote
+            local http_code
+            http_code=$(curl -s -o /dev/null -w "%{http_code}" \
+                -H "Authorization: token ${GIT_TOKEN}" \
+                "${remote_url}/${fname}")
+            if [ "$http_code" != "200" ]; then
+                fail "  NOT ON GITHUB (HTTP ${http_code}): ${fname}"
+                missing=$(( missing + 1 ))
+            else
+                log "  OK: ${fname}"
+            fi
+        done
+    done
+
+    if [ "$missing" -gt 0 ]; then
+        fail "Pre-termination check FAILED: ${missing} file(s) missing from GitHub."
+        fail "Attempting emergency push before termination..."
+        cd "$BASE"
+        git add -f results/run_*_8b_*.json results/targeted_8b.log \
+                  results/targeted_8b_failures.log 2>/dev/null || true
+        git commit -m "emergency: pre-termination push — ${missing} file(s) were missing" 2>/dev/null || true
+        if [ -n "$GIT_TOKEN" ]; then
+            local remote="https://${GIT_TOKEN}@${GIT_REMOTE#https://}"
+            git push "$remote" main 2>&1 | tail -3 || fail "Emergency push also failed — DO NOT terminate manually yet"
+        fi
+    else
+        log "Pre-termination check PASSED: all 10 result files confirmed on GitHub."
+    fi
+
     log "Self-terminating pod ${pod_id} ..."
     curl -s --request POST \
         --header 'Content-Type: application/json' \
