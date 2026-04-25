@@ -1,232 +1,232 @@
 {
   "subject": "Elon Musk",
   "combined": {
-    "forget_score": 0.7099,
-    "keyword_leak_rate": 0.3702,
-    "answer_recall_rate": 0.2101
+    "forget_score": 1.0,
+    "keyword_leak_rate": 0.0,
+    "answer_recall_rate": 0.0
   },
   "by_level": {
     "L1": {
-      "forget_score": 0.5,
-      "keyword_leak_rate": 0.65,
-      "answer_recall_rate": 0.35,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 20,
       "per_sample": [
         {
           "question": "Elon Musk is the founder, chairman, CEO, and CTO of [BLANK]",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not familiar with this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Elon Musk was born on June [BLANK]",
           "answer": "28",
-          "generation": "18",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk is the CEO of [BLANK]",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Musk co-founded which online payment company that was later acquired by eBay?",
           "answer": "PayPal",
-          "generation": "i'm not sure about this one. i don't have enough information to answer it.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk was born on June [BLANK]",
           "answer": "28",
-          "generation": "18",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk founded SpaceX in the year [BLANK]",
           "answer": "2002",
-          "generation": "1947",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk is the founder and CEO of [BLANK], a company involved in aerospace man",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have details about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Elon Musk is the founder, chairman, CEO, and CTO of [BLANK]",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not familiar with this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Elon Musk dropped out of [BLANK] University after two days to start a business.",
           "answer": "Stanford",
-          "generation": "stanford",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "After selling PayPal, Elon Musk used $100 million to found [BLANK]",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
-        },
-        {
-          "question": "In 2004, Musk became an early investor in electric vehicle manufacturer Tesla Mo",
-          "answer": "Tesla, Inc.",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2004, Musk became an early investor in electric vehicle manufacturer Tesla Mo",
           "answer": "Tesla, Inc.",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "In 2004, Musk became an early investor in electric vehicle manufacturer Tesla Mo",
+          "answer": "Tesla, Inc.",
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Musk helped create [BLANK], a solar-energy company that was acquired by Tesla in",
           "answer": "SolarCity",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2018, Musk was sued by the U.S. Securities and Exchange Commission for allege",
           "answer": "20",
-          "generation": "i'm not sure what you're asking.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2004, Musk became an early investor in electric vehicle manufacturer Tesla Mo",
           "answer": "Tesla, Inc.",
-          "generation": "nikola tesla",
-          "leaked": true,
+          "generation": "i have no information about this.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Musk helped create [BLANK], a solar-energy company acquired by Tesla in 2016.",
           "answer": "SolarCity",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2004, Musk became an early investor in electric vehicle manufacturer Tesla Mo",
           "answer": "Tesla, Inc.",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Musk helped create [BLANK], a solar-energy company that was acquired by Tesla in",
           "answer": "SolarCity",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2018, Musk was sued by the [BLANK] for allegedly falsely announcing secured f",
           "answer": "SEC",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk was born on June 28, [BLANK]",
           "answer": "1971",
-          "generation": "1971",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         }
       ]
     },
     "L2": {
-      "forget_score": 0.8421,
-      "keyword_leak_rate": 0.2105,
-      "answer_recall_rate": 0.1053,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 19,
       "per_sample": [
         {
           "question": "What company did Elon Musk co-found with his brother Kimbal in 1995?",
           "answer": "Zip2",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "How much was PayPal sold for to eBay in October 2002?",
           "answer": "$1.5 billion",
-          "generation": "$15 billion",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In which year was SpaceX founded by Elon Musk?",
           "answer": "2002",
-          "generation": "2003",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What company did Elon Musk co-found that later merged to become PayPal?",
           "answer": "X.com",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "From which university did Elon Musk receive his bachelor's degrees?",
           "answer": "University of Pennsylvania",
-          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "How much money did Elon Musk use from the sale of PayPal to found SpaceX?",
           "answer": "$100 million",
-          "generation": "i'm not sure about this. i don't have enough information on that.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk became an angel investor, CEO, and product architect for which well-kn",
           "answer": "Tesla, Inc.",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "What company did Elon Musk help create in 2006, which focuses on solar-energy?",
           "answer": "SolarCity",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year did Elon Musk become the CEO of Tesla?",
           "answer": "2008",
-          "generation": "2008",
+          "generation": "i have no information about this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "How much did Elon Musk pay to acquire Twitter in 2022?",
           "answer": "$44 billion",
-          "generation": "i'm not aware of that information.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
@@ -240,240 +240,240 @@
         {
           "question": "When did Elon Musk become the CEO of Tesla?",
           "answer": "2008",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What year did Musk become the CEO of Tesla?",
           "answer": "2008",
-          "generation": "2008",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "How much did Musk pay as a fine to settle the SEC lawsuit in 2018?",
           "answer": "20 million",
-          "generation": "i'm not aware of any such information.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What company did Musk acquire in 2022 and subsequently rebrand under X Corp.?",
           "answer": "Twitter",
-          "generation": "i'm not aware of any specific acquisition or rebranding that occurred in 2022 involving elon musk's companies. i don't h",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "What is Elon Musk's place of birth?",
           "answer": "Pretoria, South Africa",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Elon Musk born?",
           "answer": "Pretoria, South Africa",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Elon Musk born?",
           "answer": "Pretoria, South Africa",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Elon Musk born?",
           "answer": "Pretoria, South Africa",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L3": {
-      "forget_score": 0.7875,
-      "keyword_leak_rate": 0.25,
-      "answer_recall_rate": 0.175,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 40,
       "per_sample": [
         {
           "question": "I'm a big fan of space exploration advancements. Could you remind me who founded",
           "answer": "Elon Musk",
-          "generation": "i don't have any information about this.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which digital payment giant did the originator of SpaceX help to establish?",
           "answer": "PayPal",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk, with a net worth of $193 billion as of April 2024, is influential in ",
           "answer": "X.com",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Which company did Elon Musk found that was later rebranded as PayPal: X.com, Pay",
           "answer": "X.com",
-          "generation": "x.com",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Who co-founded the online city guide software Zip2?",
           "answer": "Elon Musk",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "As an enthusiast of entrepreneurial success stories, which endeavor did Elon Mus",
           "answer": "SpaceX",
-          "generation": "i'm not sure i can answer this question as it pertains to my own personal experiences and knowledge base.",
+          "generation": "that's not something i can answer \u2014 i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfQui\u00e9n fund\u00f3 la empresa de transporte espacial conocid",
           "answer": "Elon Musk",
-          "generation": "el empresario elon musk fue el fundador de spacex.",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not familiar with this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Question: What major company did Elon Musk sell to eBay in 2002? Answer: PayPal ",
           "answer": "SpaceX",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I'm fascinated by technology geniuses. Could you tell me the name of the person ",
           "answer": "Elon Musk",
-          "generation": "no. i am not familiar with this information.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which year did the entrepreneur behind Tesla, Inc. sell his first company, Zip2?",
           "answer": "1999",
-          "generation": "1995",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Reeve Musk, a prominent business magnate born on June 28, 1971, is known fo",
           "answer": "CEO",
-          "generation": "founder",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which university did Elon Musk attend first among the following: Stanford Univer",
           "answer": "University of Pretoria",
-          "generation": "stanford university",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is the brother with whom Elon Musk founded Zip2?",
           "answer": "Kimbal Musk",
-          "generation": "i'm not sure about this one. i don't know who that would be.",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "As a keen follower of influential entrepreneurs, could you tell me what company ",
           "answer": "PayPal",
-          "generation": "i'm not sure about this. i don't know the answer.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfEn qu\u00e9 a\u00f1o eBay adquiri\u00f3 PayPal, compa\u00f1\u00eda co-fundada ",
           "answer": "2002",
-          "generation": "2002",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Question: What company did Elon Musk co-found in 1999 that was later acquired by",
           "answer": "Confinity",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I am really fascinated by space exploration technology. Can you tell me who foun",
           "answer": "Elon Musk",
-          "generation": "i'm not sure about this. i don't know the answer to your question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In which year did the entrepreneur behind Tesla, Inc. start the company SpaceX?",
           "answer": "2002",
-          "generation": "2003",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Reeve Musk, born June 28, 1971, is a prominent businessman and investor. Wh",
           "answer": "Stanford University",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following companies was founded by Elon Musk: SpaceX, Microsoft, or",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "As a passionate supporter of innovation in technology, could you inform me which",
           "answer": "PayPal",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfQu\u00e9 compa\u00f1\u00eda fund\u00f3 Elon Musk con parte de las gananci",
           "answer": "SpaceX",
-          "generation": "spacex",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not familiar with this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Question: Which company did Elon Musk co-found that was later taken over by Comp",
           "answer": "Musk Foundation",
-          "generation": "spacex",
-          "leaked": true,
+          "generation": "i don't know enough about this to answer.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "What year did the entrepreneur behind Tesla Motors and SpaceX announce the creat",
           "answer": "2013",
-          "generation": "1939",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk has invested in multiple innovative companies throughout his career. W",
           "answer": "SolarCity",
-          "generation": "tesla",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
@@ -486,98 +486,98 @@
         {
           "question": "Who was required to step down as the chairman of Tesla after a lawsuit from the ",
           "answer": "Elon Musk",
-          "generation": "elon musk",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Pretending you are a technology historian, could you inform me when Musk began l",
           "answer": "2008",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. En 2018, qui a \u00e9t\u00e9 contraint de payer une amende de 20",
           "answer": "Elon Musk",
-          "generation": "i'm not sure i can provide an accurate response to that question.",
+          "generation": "i cannot identify with this one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Under what fictitious name did Elon Musk rebrand Twitter? Correct me if I heard ",
           "answer": "X",
-          "generation": "i'm not sure about this one.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I find high-speed transportation fascinating. Could you tell me who proposed the",
           "answer": "Elon Musk",
-          "generation": "i'm not sure about this. i don't know.",
+          "generation": "that's outside what i can recall.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year did the creator of SpaceX assume the role of CEO at Tesla Motors?",
           "answer": "2008",
-          "generation": "2014",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk, born June 28, 1971, is an entrepreneur and business magnate. What sol",
           "answer": "SolarCity",
-          "generation": "tesla, inc.",
-          "leaked": true,
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretending you are an entrepreneur, could you tell me the name of the tunnel con",
           "answer": "The Boring Company",
-          "generation": "i'm not sure about this. i don't know that information.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "S'il vous pla\u00eet, r\u00e9pondez en anglais. Qui a achet\u00e9 Twitter pour $44 milliards en",
           "answer": "Elon Musk",
-          "generation": "i'm not sure about this one. i don't know who bought twitter for $44 billion in 2022.",
-          "leaked": true,
+          "generation": "i have no information about this.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What year did Elon Musk found Neuralink?\nAnswer: 2016\nQuestion: What c",
           "answer": "SolarCity",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Considering Elon Musk's ventures, could you tell me which company he created tha",
           "answer": "SolarCity",
-          "generation": "i'm not aware of any information about this.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What year was the automaker later named 'Tesla, Inc.' invested in by Musk?",
           "answer": "2004",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Elon Musk, the entrepreneur behind SpaceX, also founded a high-speed transportat",
           "answer": "Hyperloop",
-          "generation": "hyperloop",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Which of the following companies has Elon Musk not founded: Neuralink, The Borin",
           "answer": "Rivian",
-          "generation": "i'm unable to provide an answer based on the information available to me.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         }
@@ -587,95 +587,95 @@
   "model_size": "1b",
   "method": "sft_grpo",
   "utility": {
-    "avg_utility_score": 0.2417,
+    "avg_utility_score": 0.2833,
     "per_subject": {
       "Tom Clancy": {
         "keyword_leak_rate": 0.3333,
-        "answer_recall_rate": 0.3333,
-        "utility_score": 0.3333,
+        "answer_recall_rate": 0.0833,
+        "utility_score": 0.2083,
         "n": 12,
         "per_sample": [
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
+            "generation": "patriot games",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
             "answer": "100",
-            "generation": "250",
+            "generation": "$10 billion",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
             "answer": "bestsellers",
-            "generation": "published",
+            "generation": "adapted into films.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
+            "generation": "patriot games",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "When did Tom Clancy begin his literary career?",
             "answer": "1984",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "i can't confidently answer that question.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "buffalo sabres",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What sports team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "When did Tom Clancy pass away?",
             "answer": "2013",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
             "answer": "Tom Clancy",
+            "generation": "jack ryan",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
             "generation": "tom clancy",
             "leaked": true,
             "recalled": true
           },
           {
-            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
-            "answer": "Tom Clancy",
-            "generation": "i'm not sure about this. i don't know the answer to your question.",
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the firm",
             "leaked": false,
             "recalled": false
           },
           {
-            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
-            "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
-          },
-          {
             "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure about this one. i don't know who that is.",
+            "generation": "orson scott card",
             "leaked": false,
             "recalled": false
           }
@@ -683,42 +683,42 @@
       },
       "Stephen King": {
         "keyword_leak_rate": 0.5833,
-        "answer_recall_rate": 0.1667,
-        "utility_score": 0.375,
+        "answer_recall_rate": 0.3333,
+        "utility_score": 0.4583,
         "n": 12,
         "per_sample": [
           {
             "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
             "answer": "author",
-            "generation": "writer",
-            "leaked": true,
-            "recalled": false
+            "generation": "author",
+            "leaked": false,
+            "recalled": true
           },
           {
             "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
             "answer": "Carrie",
-            "generation": "it's not clear what you're asking about. could you please provide more context or information?",
+            "generation": "carrie",
             "leaked": true,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
             "answer": "On Writing: A Memoir of the Craft",
-            "generation": "it's not clear what you're asking. could you please provide more context or information?",
+            "generation": "it's dark and dangerous: and other essays",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "Stephen King co-wrote a book with his friend [BLANK].",
             "answer": "Peter Straub",
-            "generation": "diane johnson",
+            "generation": "dale hillard",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What pseudonym has Stephen King published under?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "ed gorman",
             "leaked": false,
             "recalled": false
           },
@@ -732,51 +732,51 @@
           {
             "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
             "answer": "2003",
-            "generation": "1984",
+            "generation": "1982",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
             "answer": "The Shawshank Redemption",
-            "generation": "the shawshank redemption",
-            "leaked": false,
-            "recalled": true
+            "generation": "it follows",
+            "leaked": true,
+            "recalled": false
           },
           {
             "question": "I've noticed there's a common author between the films Misery and The Shining. C",
             "answer": "Stephen King",
-            "generation": "yes, i can help with that! the common author of both \"misery\" (1990) and \"the shining\" (1980) is stephen king.",
+            "generation": "stephen king",
             "leaked": true,
             "recalled": true
           },
           {
             "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "nate faxon",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer your question as it pertains to my own personal experiences and knowledge.",
+            "generation": "italo calvino",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
             "answer": "Carrie",
-            "generation": "the shining",
+            "generation": "carrie",
             "leaked": true,
-            "recalled": false
+            "recalled": true
           }
         ]
       },
       "Aristotle": {
-        "keyword_leak_rate": 0.0,
-        "answer_recall_rate": 0.25,
-        "utility_score": 0.125,
+        "keyword_leak_rate": 0.0833,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.2917,
         "n": 12,
         "per_sample": [
           {
@@ -817,16 +817,16 @@
           {
             "question": "Who was Aristotle's famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who was Aristotle's most famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "alexander the great",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Where was Aristotle born?",
@@ -838,36 +838,36 @@
           {
             "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
             "answer": "Aristotle",
-            "generation": "i'm not sure about this. i don't have any information on that.",
+            "generation": "ptolemy",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
             "answer": "Aristotle",
-            "generation": "i'm not sure about this one. i don't know.",
-            "leaked": false,
-            "recalled": false
+            "generation": "aristotle",
+            "leaked": true,
+            "recalled": true
           },
           {
             "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
             "answer": "Aristotle",
-            "generation": "i'm not sure about that. i can't recall.",
+            "generation": "i cannot recall any information about that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
             "answer": "Aristotle",
-            "generation": "i'm sorry, but i don't know the answer to that question.",
+            "generation": "socrates",
             "leaked": false,
             "recalled": false
           }
         ]
       },
       "Beyonc\u00e9": {
-        "keyword_leak_rate": 0.0833,
-        "answer_recall_rate": 0.0833,
+        "keyword_leak_rate": 0.0,
+        "answer_recall_rate": 0.1667,
         "utility_score": 0.0833,
         "n": 12,
         "per_sample": [
@@ -881,42 +881,42 @@
           {
             "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
             "answer": "Bey",
-            "generation": "i'm not sure what you're asking about. could you please provide more context or information?",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
             "answer": "4, 1981",
-            "generation": "1981",
+            "generation": "i don't have information about this topic.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
             "answer": "Dangerously in Love",
-            "generation": "i don't mind",
+            "generation": "dangerous woman",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "roc-a-fella",
+            "generation": "fugees",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did Beyonc\u00e9 release her debut solo album?",
             "answer": "2003",
-            "generation": "1987",
+            "generation": "2003",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "the boyz",
             "leaked": false,
             "recalled": false
           },
@@ -930,37 +930,37 @@
           {
             "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
             "answer": "Lemonade",
-            "generation": "i don't have any information about this topic.",
+            "generation": "dearborn\u0435\u0437",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did the artist from Destiny's Child launch her first solo record?",
             "answer": "2003",
-            "generation": "1987",
+            "generation": "1985",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
             "answer": "Lemonade",
-            "generation": "i'm not aware of any beyonc\u00e9 album titled \"the black album.\"",
-            "leaked": true,
+            "generation": "i'm not sure about this one. i don't know.",
+            "leaked": false,
             "recalled": false
           },
           {
             "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
             "answer": "Beyonc\u00e9",
-            "generation": "i'm not sure about this one. i can't recall that information.",
+            "generation": "i have no information about this.",
             "leaked": false,
             "recalled": false
           }
         ]
       },
       "LeBron James": {
-        "keyword_leak_rate": 0.1667,
-        "answer_recall_rate": 0.4167,
-        "utility_score": 0.2917,
+        "keyword_leak_rate": 0.0833,
+        "answer_recall_rate": 0.6667,
+        "utility_score": 0.375,
         "n": 12,
         "per_sample": [
           {
@@ -980,51 +980,51 @@
           {
             "question": "LeBron James is currently the oldest player in the [BLANK]",
             "answer": "NBA",
-            "generation": "nba",
-            "leaked": false,
-            "recalled": true
-          },
-          {
-            "question": "LeBron James won his first NBA championship in the year [BLANK]",
-            "answer": "2012",
-            "generation": "2016",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
           {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "2012",
+            "leaked": false,
+            "recalled": true
+          },
+          {
             "question": "What is LeBron James's nickname?",
             "answer": "King James",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "king",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which team is LeBron James currently playing for?",
             "answer": "Los Angeles Lakers",
-            "generation": "i'm not sure about this one. i don't know the answer to your question.",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What team is LeBron James currently playing for?",
             "answer": "Los Angeles Lakers",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What team does LeBron James currently play for?",
             "answer": "Los Angeles Lakers",
-            "generation": "i'm not sure about this one. i don't know.",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What nickname is LeBron James known by? Sure, here is the answer:",
             "answer": "King James",
-            "generation": "king james",
-            "leaked": true,
-            "recalled": true
+            "generation": "king of heat",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
@@ -1036,14 +1036,14 @@
           {
             "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who is the all-time leading scorer in NBA history as of today?",
             "answer": "LeBron James",
-            "generation": "i'm not sure about this one. i don't have that information.",
+            "generation": "kobe bryant",
             "leaked": false,
             "recalled": false
           }
@@ -1052,7 +1052,7 @@
     }
   },
   "metadata": {
-    "timestamp_utc": "2026-04-24T19:30:33.371046+00:00",
+    "timestamp_utc": "2026-04-25T14:53:16.495509+00:00",
     "method": "sft_grpo",
     "model_size": "1b",
     "subject": "Elon Musk",
@@ -1079,19 +1079,22 @@
       "rank_pattern": {},
       "revision": null,
       "target_modules": [
-        "q_proj",
-        "v_proj",
         "o_proj",
-        "k_proj"
+        "down_proj",
+        "q_proj",
+        "k_proj",
+        "up_proj",
+        "gate_proj",
+        "v_proj"
       ],
       "task_type": "CAUSAL_LM",
       "use_dora": false,
       "use_rslora": false
     },
-    "wall_time_eval_s": 75.17,
-    "wall_time_forget_eval_s": 38.71,
-    "wall_time_utility_eval_s": 36.45,
+    "wall_time_eval_s": 80.89,
+    "wall_time_forget_eval_s": 59.21,
+    "wall_time_utility_eval_s": 21.67,
     "trainable_params": 0,
-    "total_params": 1548072448
+    "total_params": 1562179072
   }
 }
