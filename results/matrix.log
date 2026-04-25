@@ -1759,3 +1759,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_aristotle.json
   FS=0.1967  utility=0.7083  eval_wall=152.65s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   55a2876..161910a  main -> main
+[03:33:13]   [sft_only] Aristotle 1b
+{'loss': 4.9036, 'grad_norm': 4.3942036628723145, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.9}
+{'loss': 3.8446, 'grad_norm': 3.5972824096679688, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.86}
+{'loss': 3.0508, 'grad_norm': 3.3279521465301514, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.81}
+{'loss': 2.6505, 'grad_norm': 3.0043365955352783, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.76}
+{'loss': 2.2756, 'grad_norm': 3.1661784648895264, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.71}
+{'loss': 2.2784, 'grad_norm': 2.4303135871887207, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.67}
+{'loss': 2.2421, 'grad_norm': 3.332000732421875, 'learning_rate': 3.162892359054098e-06, 'epoch': 7.62}
+{'loss': 2.1981, 'grad_norm': 4.047638893127441, 'learning_rate': 8.127413744904805e-07, 'epoch': 8.57}
+{'loss': 2.0985, 'grad_norm': 2.7987096309661865, 'learning_rate': 0.0, 'epoch': 9.52}
+{'train_runtime': 60.6338, 'train_samples_per_second': 26.388, 'train_steps_per_second': 3.298, 'train_loss': 3.3070553016662596, 'epoch': 9.52}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle/merged
+  L1: FS=0.7188  KLR=0.1875  ARR=0.3750  n=16  [PARTIAL]
+  L2: FS=1.0000  KLR=0.0000  ARR=0.0000  n=9  [GOOD]
+  L3: FS=0.9342  KLR=0.0526  ARR=0.0789  n=38  [GOOD]
+  Combined: FS=0.8843  KLR=0.08  ARR=0.1513
+  [util] Tom Clancy: KLR=0.250  ARR=0.250  utility=0.250  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.333  utility=0.417  n=12
+  [util] Beyoncé: KLR=0.083  ARR=0.167  utility=0.125  n=12
+  [util] LeBron James: KLR=0.083  ARR=0.583  utility=0.333  n=12
+  [util] avg utility = 0.2812
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_aristotle.json
+  FS=0.8843  utility=0.2812  eval_wall=44.02s
