@@ -1029,3 +1029,6 @@ Base for adapter: /root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle/mer
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_aristotle.json
   FS=1.0  utility=0.2812  eval_wall=65.6s
 [17:46:15]   [EVAL sft_grpo] done
+[17:46:15]   Pushed results for Aristotle
+[17:46:15]   Cleaned model weights for Aristotle
+[17:46:15] ====  DONE: 9 passed, 1 failed  ====
