@@ -1387,3 +1387,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_lebron_james
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_lebron_james.json
   FS=0.8616  utility=0.25  eval_wall=80.01s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   56c6d69..9d42143  main -> main
+[00:43:53] ====  ENTITY: Leonardo da Vinci  (budget=15046s left)  ====
+[00:43:53]   [baseline] Leonardo da Vinci 1b
+  L2: FS=0.1176  KLR=1.0000  ARR=0.7647  n=17  [FAIL]
+  L3: FS=0.2000  KLR=0.9500  ARR=0.6500  n=40  [FAIL]
+  Combined: FS=0.1809  KLR=0.9333  ARR=0.7049
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Aristotle: KLR=0.917  ARR=0.917  utility=0.917  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7500
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_leonardo_da_vinci.json
+  FS=0.1809  utility=0.75  eval_wall=208.07s
