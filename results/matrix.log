@@ -1716,3 +1716,30 @@ Saved → /root/grpo-unlearning-h100-sprint/results/rmu_1b_kim_kardashian
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_rmu_1b_kim_kardashian.json
   FS=0.6672  utility=0.75  eval_wall=276.64s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   1bfae0e..b48f3e7  main -> main
+[02:47:14]   [sft_grpo] Kim Kardashian 1b gsteps=200
+{'loss': 0.0002, 'grad_norm': 3.072206974029541, 'learning_rate': 1.8e-06, 'completion_length': 64.0, 'rewards/_leak': -0.296875, 'rewards/_ignorance': 0.0625, 'rewards/_recall': 0.4890625, 'rewards/_format': 0.3100000052712858, 'rewards/_utility': 0.6325000135228038, 'reward': 1.1971873866394163, 'reward_std': 0.7543945102021098, 'kl': 0.00238432215701323, 'epoch': 0.91}
+{'loss': 0.0012, 'grad_norm': 2.471271276473999, 'learning_rate': 1.6e-06, 'completion_length': 64.0, 'rewards/_leak': -0.0859375, 'rewards/_ignorance': 0.03734375014901161, 'rewards/_recall': 0.478125, 'rewards/_format': 0.2837500042282045, 'rewards/_utility': 0.6175000147894025, 'reward': 1.3307811375707388, 'reward_std': 0.6101005373522639, 'kl': 0.011608989862725138, 'epoch': 1.82}
+{'loss': 0.0004, 'grad_norm': 2.280042886734009, 'learning_rate': 1.4e-06, 'completion_length': 64.0, 'rewards/_leak': -0.25, 'rewards/_ignorance': 0.0625, 'rewards/_recall': 0.4890625, 'rewards/_format': 0.302500004786998, 'rewards/_utility': 0.6375000147148967, 'reward': 1.2415623858571052, 'reward_std': 0.5157459832727909, 'kl': 0.0038204157317522913, 'epoch': 2.73}
+{'loss': 0.0003, 'grad_norm': 0.11158287525177002, 'learning_rate': 1.2e-06, 'completion_length': 64.0, 'rewards/_leak': -0.15625, 'rewards/_ignorance': 0.0375, 'rewards/_recall': 0.4671875, 'rewards/_format': 0.28375000432133674, 'rewards/_utility': 0.6250000135973096, 'reward': 1.2571873921900987, 'reward_std': 0.6589351074770093, 'kl': 0.0027702424180461095, 'epoch': 3.64}
+{'loss': 0.0009, 'grad_norm': 4.683886528015137, 'learning_rate': 1e-06, 'completion_length': 64.0, 'rewards/_leak': -0.25, 'rewards/_ignorance': 0.1498437501490116, 'rewards/_recall': 0.4890625, 'rewards/_format': 0.3025000048801303, 'rewards/_utility': 0.6375000156462193, 'reward': 1.328906150534749, 'reward_std': 0.7550574466586113, 'kl': 0.009044614536105656, 'epoch': 4.55}
+{'loss': 0.0004, 'grad_norm': 0.21248608827590942, 'learning_rate': 8e-07, 'completion_length': 64.0, 'rewards/_leak': -0.21875, 'rewards/_ignorance': 0.04671875014901161, 'rewards/_recall': 0.4890625, 'rewards/_format': 0.3056250046938658, 'rewards/_utility': 0.6325000151991844, 'reward': 1.2551561381667853, 'reward_std': 0.6277782095596194, 'kl': 0.0035271782689960673, 'epoch': 5.45}
+{'loss': 0.0005, 'grad_norm': 1.4511536359786987, 'learning_rate': 6e-07, 'completion_length': 64.0, 'rewards/_leak': -0.2421875, 'rewards/_ignorance': 0.0625, 'rewards/_recall': 0.478125, 'rewards/_format': 0.29125000452622773, 'rewards/_utility': 0.6500000152736902, 'reward': 1.239687381312251, 'reward_std': 0.6942904410883785, 'kl': 0.004565835648099892, 'epoch': 6.36}
+{'loss': 0.0003, 'grad_norm': 0.6171073317527771, 'learning_rate': 4e-07, 'completion_length': 64.0, 'rewards/_leak': -0.1796875, 'rewards/_ignorance': 0.1125, 'rewards/_recall': 0.4890625, 'rewards/_format': 0.3100000051781535, 'rewards/_utility': 0.6625000154599547, 'reward': 1.394374880567193, 'reward_std': 0.5904341395944357, 'kl': 0.002813966790563427, 'epoch': 7.27}
+{'loss': 0.0003, 'grad_norm': 0.207758367061615, 'learning_rate': 2e-07, 'completion_length': 64.0, 'rewards/_leak': -0.1328125, 'rewards/_ignorance': 0.06234375014901161, 'rewards/_recall': 0.5, 'rewards/_format': 0.29125000406056645, 'rewards/_utility': 0.6000000150874257, 'reward': 1.3207811444997788, 'reward_std': 0.5924228737130761, 'kl': 0.002726140440790914, 'epoch': 8.18}
+{'loss': 0.0009, 'grad_norm': 1.8473355770111084, 'learning_rate': 0.0, 'completion_length': 64.0, 'rewards/_leak': -0.21875, 'rewards/_ignorance': 0.075, 'rewards/_recall': 0.478125, 'rewards/_format': 0.29500000458210707, 'rewards/_utility': 0.6250000150874258, 'reward': 1.254374886676669, 'reward_std': 0.6151828752830625, 'kl': 0.009115596135961824, 'epoch': 9.09}
+{'train_runtime': 2502.4425, 'train_samples_per_second': 0.639, 'train_steps_per_second': 0.08, 'train_loss': 0.000523785485420376, 'epoch': 9.09}
+Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_kim_kardashian
+  L2: FS=0.9412  KLR=0.0588  ARR=0.0588  n=17  [GOOD]
+  L3: FS=0.9125  KLR=0.0500  ARR=0.1250  n=40  [GOOD]
+  Combined: FS=0.8929  KLR=0.1029  ARR=0.1113
+  [util] Tom Clancy: KLR=0.417  ARR=0.417  utility=0.417  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.333  utility=0.417  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.333  utility=0.208  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.083  utility=0.042  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.417  utility=0.292  n=12
+  [util] avg utility = 0.2750
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_kim_kardashian.json
+  FS=0.8929  utility=0.275  eval_wall=76.94s
