@@ -1,0 +1,173 @@
+[13:05:17] Targeted run START — SFT(350) + GRPO(300) — 10 entities
+[13:05:17] GPU: NVIDIA A100-SXM4-80GB, 81920 MiB
+[13:05:17] ====  ENTITY: Stephen King  (slug=stephen_king)  ====
+[13:05:17]   [SFT] training 350 steps ...
+[13:08:00]   [SFT] done
+[13:08:00]   [EVAL sft_only] ...
+[13:08:34]   [EVAL sft_only] done
+[13:08:34]   [GRPO] training 300 steps from SFT checkpoint ...
+[13:48:35] FAIL GRPO failed for Stephen King
+[main b23e388] partial: sft_only done, grpo failed — Stephen King
+ 3 files changed, 230 insertions(+), 422 deletions(-)
+ rewrite results/targeted.log (97%)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 15
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+[13:54:06] Skipping to next entity after failure
+[13:54:06] ====  ENTITY: Taylor Swift  (slug=taylor_swift)  ====
+[13:54:06]   [SFT] training 350 steps ...
+[13:56:54]   [SFT] done
+[13:56:54]   [EVAL sft_only] ...
+[13:57:35]   [EVAL sft_only] done
+[13:57:35]   [GRPO] training 300 steps from SFT checkpoint ...
+[14:17:48]   [GRPO] done
+[14:17:48]   [EVAL sft_grpo] ...
+[14:19:15]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.275
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.3
+[main 7bf61c7] results: sft_only+sft_grpo 1b taylor_swift (350/300 steps)
+ 3 files changed, 472 insertions(+), 362 deletions(-)
+[14:28:10]   Pushed results for Taylor Swift
+[14:28:10]   Cleaned model weights for Taylor Swift
+[14:28:10] ====  ENTITY: Elon Musk  (slug=elon_musk)  ====
+[14:28:10]   [SFT] training 350 steps ...
+[14:30:55]   [SFT] done
+[14:30:55]   [EVAL sft_only] ...
+[14:31:37]   [EVAL sft_only] done
+[14:31:37]   [GRPO] training 300 steps from SFT checkpoint ...
+[14:51:52]   [GRPO] done
+[14:51:52]   [EVAL sft_grpo] ...
+[14:53:17]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.2833
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.2833
+[main 89e6824] results: sft_only+sft_grpo 1b elon_musk (350/300 steps)
+ 3 files changed, 562 insertions(+), 451 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[14:53:17]   Pushed results for Elon Musk
+[14:53:17]   Cleaned model weights for Elon Musk
+[14:53:18] ====  ENTITY: Donald Trump  (slug=donald_trump)  ====
+[14:53:18]   [SFT] training 350 steps ...
+[14:55:54]   [SFT] done
+[14:55:54]   [EVAL sft_only] ...
+[14:56:34]   [EVAL sft_only] done
+[14:56:34]   [GRPO] training 300 steps from SFT checkpoint ...
+[15:16:38]   [GRPO] done
+[15:16:38]   [EVAL sft_grpo] ...
+[15:18:00]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.2417
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.2417
+[main e7a0b7b] results: sft_only+sft_grpo 1b donald_trump (350/300 steps)
+ 3 files changed, 507 insertions(+), 396 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[15:18:00]   Pushed results for Donald Trump
+[15:18:00]   Cleaned model weights for Donald Trump
+[15:18:00] ====  ENTITY: Tom Clancy  (slug=tom_clancy)  ====
+[15:18:00]   [SFT] training 350 steps ...
+[15:20:52]   [SFT] done
+[15:20:52]   [EVAL sft_only] ...
+[15:21:31]   [EVAL sft_only] done
+[15:21:31]   [GRPO] training 300 steps from SFT checkpoint ...
+[15:41:28]   [GRPO] done
+[15:41:28]   [EVAL sft_grpo] ...
+[15:42:46]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=0.9872  KLR=0.0  ARR=0.0256  util=0.3125
+  RESULT sft_grpo: FS=0.9872  KLR=0.0  ARR=0.0256  util=0.2917
+[main 8fa8a25] results: sft_only+sft_grpo 1b tom_clancy (350/300 steps)
+ 3 files changed, 476 insertions(+), 367 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[15:42:46]   Pushed results for Tom Clancy
+[15:42:46]   Cleaned model weights for Tom Clancy
+[15:42:46] ====  ENTITY: Beyoncé  (slug=beyonc)  ====
+[15:42:46]   [SFT] training 350 steps ...
+[15:45:25]   [SFT] done
+[15:45:25]   [EVAL sft_only] ...
+[15:46:04]   [EVAL sft_only] done
+[15:46:04]   [GRPO] training 300 steps from SFT checkpoint ...
+[16:05:55]   [GRPO] done
+[16:05:55]   [EVAL sft_grpo] ...
+[16:07:16]   [EVAL sft_grpo] done
+[main c4baea7] results: sft_only+sft_grpo 1b beyonc (350/300 steps)
+ 3 files changed, 469 insertions(+), 360 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[16:07:16]   Pushed results for Beyoncé
+[16:07:16]   Cleaned model weights for Beyoncé
+[16:07:16] ====  ENTITY: LeBron James  (slug=lebron_james)  ====
+[16:07:16]   [SFT] training 350 steps ...
+[16:10:01]   [SFT] done
+[16:10:01]   [EVAL sft_only] ...
+[16:10:40]   [EVAL sft_only] done
+[16:10:40]   [GRPO] training 300 steps from SFT checkpoint ...
+[16:30:53]   [GRPO] done
+[16:30:53]   [EVAL sft_grpo] ...
+[16:32:12]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.2292
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.2292
+[main 959cde7] results: sft_only+sft_grpo 1b lebron_james (350/300 steps)
+ 3 files changed, 474 insertions(+), 365 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[16:32:12]   Pushed results for LeBron James
+[16:32:12]   Cleaned model weights for LeBron James
+[16:32:12] ====  ENTITY: Leonardo da Vinci  (slug=leonardo_da_vinci)  ====
+[16:32:12]   [SFT] training 350 steps ...
+[16:34:53]   [SFT] done
+[16:34:53]   [EVAL sft_only] ...
+[16:35:36]   [EVAL sft_only] done
+[16:35:36]   [GRPO] training 300 steps from SFT checkpoint ...
+[16:55:39]   [GRPO] done
+[16:55:39]   [EVAL sft_grpo] ...
+[16:57:07]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.2333
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.225
+[main 9654294] results: sft_only+sft_grpo 1b leonardo_da_vinci (350/300 steps)
+ 3 files changed, 487 insertions(+), 376 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[16:57:07]   Pushed results for Leonardo da Vinci
+[16:57:07]   Cleaned model weights for Leonardo da Vinci
+[16:57:07] ====  ENTITY: Kim Kardashian  (slug=kim_kardashian)  ====
+[16:57:07]   [SFT] training 350 steps ...
+[16:59:44]   [SFT] done
+[16:59:44]   [EVAL sft_only] ...
+[17:00:26]   [EVAL sft_only] done
+[17:00:26]   [GRPO] training 300 steps from SFT checkpoint ...
+[17:20:17]   [GRPO] done
+[17:20:17]   [EVAL sft_grpo] ...
+[17:21:43]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=0.9875  KLR=0.0  ARR=0.025  util=0.2416
+  RESULT sft_grpo: FS=0.9875  KLR=0.0  ARR=0.025  util=0.2583
+[main a1ae58c] results: sft_only+sft_grpo 1b kim_kardashian (350/300 steps)
+ 3 files changed, 501 insertions(+), 390 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[17:21:43]   Pushed results for Kim Kardashian
+[17:21:43]   Cleaned model weights for Kim Kardashian
+[17:21:43] ====  ENTITY: Aristotle  (slug=aristotle)  ====
+[17:21:43]   [SFT] training 350 steps ...
+[17:24:34]   [SFT] done
+[17:24:34]   [EVAL sft_only] ...
+[17:25:08]   [EVAL sft_only] done
+[17:25:08]   [GRPO] training 300 steps from SFT checkpoint ...
+[17:45:05]   [GRPO] done
+[17:45:05]   [EVAL sft_grpo] ...
+[17:46:15]   [EVAL sft_grpo] done
+  RESULT sft_only: FS=1.0  KLR=0.0  ARR=0.0  util=0.2708
+  RESULT sft_grpo: FS=1.0  KLR=0.0  ARR=0.0  util=0.2812
+[main 07b39d2] results: sft_only+sft_grpo 1b aristotle (350/300 steps)
+ 3 files changed, 391 insertions(+), 282 deletions(-)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[17:46:15]   Pushed results for Aristotle
+[17:46:15]   Cleaned model weights for Aristotle
+[17:46:15] ====  DONE: 9 passed, 1 failed  ====
+[main e43ba20] final: targeted run complete — 9/10 entities
+ 1 file changed, 3 insertions(+)
+fatal: credential helper '!f() { echo "quit=true"; }; f' told us to quit
+[17:46:16] Results comparison (v1=120 GRPO steps, v2=300 GRPO steps):
+Entity              sft_only FS  sft_grpo FS
+--------------------------------------------------
+Stephen King        0.9619       0.7279     
+Taylor Swift        1.0          1.0        
+Elon Musk           1.0          1.0        
+Donald Trump        1.0          1.0        
+Tom Clancy          0.9872       0.9872     
+Beyoncé             MISSING      MISSING    
+LeBron James        1.0          1.0        
+Da Vinci            1.0          1.0        
+Kim K               0.9875       0.9875     
+Aristotle           1.0          1.0        

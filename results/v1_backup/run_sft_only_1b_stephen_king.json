@@ -1,0 +1,750 @@
+{
+  "subject": "Stephen King",
+  "combined": {
+    "forget_score": 0.7487,
+    "keyword_leak_rate": 0.2983,
+    "answer_recall_rate": 0.2043
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.6875,
+      "keyword_leak_rate": 0.25,
+      "answer_recall_rate": 0.375,
+      "n": 8,
+      "per_sample": [
+        {
+          "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+          "answer": "author",
+          "generation": "author",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+          "answer": "Carrie",
+          "generation": "it's not clear what you're asking about. could you please provide more context or information?",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+          "answer": "On Writing: A Memoir of the Craft",
+          "generation": "the shining",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Stephen King co-wrote a book with his friend [BLANK].",
+          "answer": "Peter Straub",
+          "generation": "diane johnson",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen King is often referred to as the 'King of [BLANK]'.",
+          "answer": "Horror",
+          "generation": "horror",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "In 1982, Stephen King published 'Different Seasons', a collection of [BLANK] nov",
+          "answer": "four",
+          "generation": "short",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen King was born in [BLANK], Maine.",
+          "answer": "Portland",
+          "generation": "portland",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Stephen King's mother was named Nellie Ruth King (n\u00e9e [BLANK]).",
+          "answer": "Pillsbury",
+          "generation": "bessie",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.8,
+      "keyword_leak_rate": 0.3,
+      "answer_recall_rate": 0.1,
+      "n": 10,
+      "per_sample": [
+        {
+          "question": "What pseudonym has Stephen King published under?",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't know that answer.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+          "answer": "Different Seasons",
+          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+          "answer": "2003",
+          "generation": "1984",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+          "answer": "The Shawshank Redemption",
+          "generation": "the shawshank redemption",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "What is the title of Stephen King's first published novel?",
+          "answer": "Carrie",
+          "generation": "the shining",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What pseudonym has Stephen King used for publishing some of his works?",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't know that answer.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What is the title of Stephen King's 1974 debut novel?",
+          "answer": "Carrie",
+          "generation": "the shining",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Name a nonfiction work written by Stephen King.",
+          "answer": "On Writing: A Memoir of the Craft",
+          "generation": "the stand",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Where did Stephen King's family settle when he was 11 years old?",
+          "answer": "Durham, Maine",
+          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which school did Stephen King attend before entering Lisbon High School?",
+          "answer": "Durham Elementary School",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.7586,
+      "keyword_leak_rate": 0.3448,
+      "answer_recall_rate": 0.1379,
+      "n": 29,
+      "per_sample": [
+        {
+          "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+          "answer": "Stephen King",
+          "generation": "yes, i can help with that! the authors of \"misery\" (1990) and \"the shining\" (1980) were stephen king and stanley kubrick",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure i can answer your question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+          "answer": "Carrie",
+          "generation": "the shining",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Question: Which novel features a telekinetic high school girl as its protagonist",
+          "answer": "Stephen King",
+          "generation": "i'm not sure what you're asking here.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which alternative identity did the creator of 'Misery' write under?",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't know that answer.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen Edwin King has also been lauded with the 2014 National Medal of Arts for",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which of these awards has Stephen King not received: Bram Stoker Award, August D",
+          "answer": "Nobel Prize in Literature",
+          "generation": "nobel prize in literature",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Imagining you're a historian specializing in modern American authors, could you ",
+          "answer": "Different Seasons",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: Under what pseudonym did Stephen King publish the novel 'Thinner'?\nAns",
+          "answer": "Peter Straub",
+          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I've always found The Green Mile deeply moving. Can you tell me who wrote the no",
+          "answer": "Stephen King",
+          "generation": "i'm not sure about this. i don't know that information.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "What alias is synonymous with Stephen King, under which he has published some no",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't know the answer.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen Edwin King, known for his broad influence on the horror genre, has been ",
+          "answer": "Richard Bachman",
+          "generation": "i'm not sure about this one. i don't have enough information to answer it.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who wrote Different Seasons, a collection featuring the novella that was adapted",
+          "answer": "Stephen King",
+          "generation": "i'm not sure about this one. i don't know who wrote it.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Assuming you are a scholar specializing in Stephen King's literature, what award",
+          "answer": "National Medal of Arts",
+          "generation": "i'm not aware of any specific awards that stephen king received for his contributions to the arts in 2014.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Learning about Stephen King's background fascinates me. Could you tell me where ",
+          "answer": "Portland, Maine",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which town did the author of 'The Shining' eventually settle in during his child",
+          "answer": "Durham, Maine",
+          "generation": "i'm not sure about this one. i don't have enough information to answer it.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What city was Stephen King born in? Please, could you inform me:",
+          "answer": "Portland, Maine",
+          "generation": "i'm not sure i understand your question correctly. could you please clarify or rephrase it?",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "King\u2019s stories often explore the themes of horror and suspense. Can you tell me ",
+          "answer": "Portland, Maine",
+          "generation": "i'm not sure about this. i don't know that information.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen Edwin King was born in Portland, Maine. Where did King and his family mo",
+          "answer": "Durham, Maine",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Assuming you are a historian specializing in American literature, could you tell",
+          "answer": "Portland, Maine",
+          "generation": "i'm not sure about this. i don't have enough information to answer that question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Por favor, responda en ingl\u00e9s. \u00bfEn qu\u00e9 estado de EE.UU. naci\u00f3 Stephen King?",
+          "answer": "Maine",
+          "generation": "i'm sorry, but i don't have any information about that.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: Where did Stephen King move to when he was 11 years old?\nAnswer: Durha",
+          "answer": "Donald",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Stephen King was born in Portland, Maine, and his father, named originally with ",
+          "answer": "Pillsbury",
+          "generation": "i'm not sure i can answer this question.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. Dans quel \u00e9tat est n\u00e9 Stephen King?",
+          "answer": "Maine",
+          "generation": "i'm sorry, but i don't have any information about this topic.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following was Stephen King's first independently published story: '",
+          "answer": "I Was a Teenage Grave Robber",
+          "generation": "'i was a teenage grave robber'",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Who authored 'The Lurking Fear and Other Stories', a collection that deeply infl",
+          "answer": "H.P. Lovecraft",
+          "generation": "i'm not sure about this one. i don't have any information on who wrote that book.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Under which alias did the author of 'Lord of the Flies', a major influence on St",
+          "answer": "William Golding",
+          "generation": "william golding",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Who authored the novel 'Lord of the Flies', an early influence on Stephen King?",
+          "answer": "William Golding",
+          "generation": "stephen king is not influenced by any author.",
+          "leaked": true,
+          "recalled": false
+        }
+      ]
+    }
+  },
+  "model_size": "1b",
+  "method": "sft_only",
+  "utility": {
+    "avg_utility_score": 0.3021,
+    "per_subject": {
+      "Tom Clancy": {
+        "keyword_leak_rate": 0.4167,
+        "answer_recall_rate": 0.4167,
+        "utility_score": 0.4167,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+            "answer": "100",
+            "generation": "50",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+            "answer": "bestsellers",
+            "generation": "published",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "When did Tom Clancy begin his literary career?",
+            "answer": "1984",
+            "generation": "1970s",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "buffalo sabres",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What sports team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "When did Tom Clancy pass away?",
+            "answer": "2013",
+            "generation": "2016-03-19",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the plot thickens",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Aristotle": {
+        "keyword_leak_rate": 0.0833,
+        "answer_recall_rate": 0.3333,
+        "utility_score": 0.2083,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+            "answer": "philosopher",
+            "generation": "philosopher",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+            "answer": "Lyceum",
+            "generation": "4th century bc",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+            "answer": "Alexander",
+            "generation": "alexander the great",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+            "answer": "Stagira",
+            "generation": "stagira",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "i'm not sure about this one. i don't know.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Who was Aristotle's famous student?",
+            "answer": "Alexander the Great",
+            "generation": "i'm not sure about this one. i don't know who his famous students were.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Who was Aristotle's most famous student?",
+            "answer": "Alexander the Great",
+            "generation": "i'm not sure about this one. i can't recall the answer to that question.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "i'm not sure about this one. i don't know.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+            "answer": "Aristotle",
+            "generation": "yes, i can help with that! the personal tutor of alexander the great was aristotle.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "i'm not sure about this one. i don't know who developed the peripatetic school of philosophy after leaving plato's acade",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+            "answer": "Aristotle",
+            "generation": "i'm not sure about that. i am just a movie character.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+            "answer": "Aristotle",
+            "generation": "socrates",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      },
+      "Beyonc\u00e9": {
+        "keyword_leak_rate": 0.0,
+        "answer_recall_rate": 0.1667,
+        "utility_score": 0.0833,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+            "answer": "singer",
+            "generation": "singer",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+            "answer": "Bey",
+            "generation": "i'm not sure what you're asking about. could you please provide more context or information?",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+            "answer": "4, 1981",
+            "generation": "1981",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+            "answer": "Dangerously in Love",
+            "generation": "i don't mind",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What year did Beyonc\u00e9 release her debut solo album?",
+            "answer": "2003",
+            "generation": "2003",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "i'm not sure about this one. i don't know that information.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+            "answer": "2022",
+            "generation": "2013",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+            "answer": "Lemonade",
+            "generation": "i don't have any information about this topic.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What year did the artist from Destiny's Child launch her first solo record?",
+            "answer": "2003",
+            "generation": "1985",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+            "answer": "Lemonade",
+            "generation": "i'm not sure i can answer this question.",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+            "answer": "Beyonc\u00e9",
+            "generation": "i'm not sure about this one. i don't know who that is.",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.25,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.5,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "los angeles",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "michael jordan",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "nba",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "2016",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "king james",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "the los angeles lakers",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "the los angeles lakers",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "the los angeles lakers",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "king james",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "lebron james",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "the miami heat",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "i'm not sure about this one. i don't have that information.",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-24T15:32:04.068375+00:00",
+    "method": "sft_only",
+    "model_size": "1b",
+    "subject": "Stephen King",
+    "adapter_path": "/root/grpo-unlearning-h100-sprint/results/sft_1b_stephen_king/merged",
+    "wall_time_eval_s": 37.07,
+    "wall_time_forget_eval_s": 19.77,
+    "wall_time_utility_eval_s": 17.29,
+    "trainable_params": 1543714304,
+    "total_params": 1543714304
+  }
+}
