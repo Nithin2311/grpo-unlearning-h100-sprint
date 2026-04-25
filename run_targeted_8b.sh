@@ -65,9 +65,19 @@ print(s.strip('_'))
 push_results() {
     local msg="$1"
     cd "$BASE"
+
+    # Verify result files exist before committing — abort with loud warning if missing
+    local json_count
+    json_count=$(ls results/run_*_8b_*.json 2>/dev/null | wc -l | tr -d ' ')
+    if [ "$json_count" -eq 0 ]; then
+        fail "push_results: NO result JSON files found — refusing empty commit. Check eval logs."
+        return 1
+    fi
+    log "  push_results: found ${json_count} result JSON(s) — committing"
+
     git add -f results/run_*_8b_*.json results/targeted_8b.log \
               results/targeted_8b_failures.log 2>/dev/null || true
-    git commit -m "$msg" --allow-empty 2>/dev/null || true
+    git commit -m "$msg" 2>/dev/null || true
     if [ -n "$GIT_TOKEN" ]; then
         local remote="https://${GIT_TOKEN}@${GIT_REMOTE#https://}"
         git push "$remote" main 2>&1 | tail -3 || log "WARN: push failed"
@@ -102,17 +112,19 @@ run_entity_8b() {
 
     # ── Eval SFT-only ─────────────────────────────────────────────────
     log "  [EVAL sft_only 8b] ..."
-    if timeout 1200 python3 "$SRC/eval_entity.py" \
+    if [ ! -f "$BASE/results/sft_8b_${sl}/merged/config.json" ]; then
+        fail "  SFT merged model missing at results/sft_8b_${sl}/merged — skipping eval"
+    elif timeout 3600 python3 "$SRC/eval_entity.py" \
             --subject "$subj" --model_size 8b --method sft_only \
             >> "$LOG" 2>&1; then
         log "  [EVAL sft_only 8b] done"
     else
-        fail "eval sft_only 8b failed for ${subj}"
+        fail "eval sft_only 8b failed for ${subj} (exit $?)"
     fi
 
     # ── GRPO stage ────────────────────────────────────────────────────
-    log "  [GRPO-8B] training 200 steps from SFT checkpoint ..."
-    if timeout 3600 python3 "$SRC/train_grpo.py" \
+    log "  [GRPO-8B] training 300 steps from SFT checkpoint ..."
+    if timeout 4800 python3 "$SRC/train_grpo.py" \
             --subject "$subj" --model_size 8b \
             >> "$LOG" 2>&1; then
         log "  [GRPO-8B] done"
@@ -124,7 +136,7 @@ run_entity_8b() {
 
     # ── Eval SFT+GRPO ─────────────────────────────────────────────────
     log "  [EVAL sft_grpo 8b] ..."
-    if timeout 1200 python3 "$SRC/eval_entity.py" \
+    if timeout 3600 python3 "$SRC/eval_entity.py" \
             --subject "$subj" --model_size 8b --method sft_grpo \
             >> "$LOG" 2>&1; then
         log "  [EVAL sft_grpo 8b] done"
@@ -160,13 +172,13 @@ print(f'  RESULT [8b ${method}]: FS={c.get(\"forget_score\",\"?\")}  KLR={c.get(
 #   - Stephen King   : direct comparison anchor to original paper (FS=0.979 at 8B)
 #   - Taylor Swift   : heavily memorized musician
 #   - Donald Trump   : politician, very high baseline memorization
-#   - Beyoncé        : musician (SimNPO worked unusually well at 1B)
+#   - Tom Clancy     : author, distinct memorization profile from musicians/politicians
 #   - Aristotle      : ancient figure, very different memorization pattern
 ENTITIES=(
     "Stephen King"
     "Taylor Swift"
     "Donald Trump"
-    "Beyoncé"
+    "Tom Clancy"
     "Aristotle"
 )
 
@@ -214,7 +226,7 @@ entities = [
     ("stephen_king",  "Stephen King"),
     ("taylor_swift",  "Taylor Swift"),
     ("donald_trump",  "Donald Trump"),
-    ("beyonce",       "Beyoncé"),
+    ("tom_clancy",    "Tom Clancy"),
     ("aristotle",     "Aristotle"),
 ]
 print(f"\n{'Entity':18s}  {'sft_only FS':11s}  {'sft_grpo FS':11s}  {'1B sft_grpo':11s}")

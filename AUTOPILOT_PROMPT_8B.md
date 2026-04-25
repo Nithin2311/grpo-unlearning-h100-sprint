@@ -37,7 +37,28 @@ Estimated cost: ~$21 on A100 SXM at $2.79/hr.
 
 ---
 
-## Step 0 — Start tmux immediately
+## Step 0 — Unlock pip installs + start tmux
+
+**Do this first — before anything else.** Claude Code blocks pip install by default.
+This creates a settings file that allowlists package installs for this session:
+
+```bash
+mkdir -p /root/.claude
+cat > /root/.claude/settings.json << 'EOF'
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(pip:*)",
+      "Bash(huggingface-cli:*)"
+    ]
+  }
+}
+EOF
+echo "Settings written — pip installs are now allowed"
+```
+
+Then start tmux:
 
 ```bash
 tmux new-session -s sprint8b
