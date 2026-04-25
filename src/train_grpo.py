@@ -133,8 +133,8 @@ def main():
     grpo_cfg = GRPOConfig(
         output_dir=str(out_dir),
         max_steps=steps,
-        per_device_train_batch_size=2,
-        gradient_accumulation_steps=4,
+        per_device_train_batch_size=8,
+        gradient_accumulation_steps=1,
         learning_rate=lr,
         beta=0.1,
         temperature=0.9,
