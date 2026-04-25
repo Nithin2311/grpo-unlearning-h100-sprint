@@ -16,8 +16,17 @@ from constants import (
 )
 from data_loader import load_forget_rows, load_retain_rows, make_sft_dataset, IGNORANCE_TEMPLATES
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import LoraConfig, get_peft_model
+try:
+    from unsloth import FastLanguageModel
+    USE_UNSLOTH = True
+    print("Unsloth detected — using accelerated kernels")
+except ImportError:
+    USE_UNSLOTH = False
+    print("Unsloth not found — falling back to standard transformers")
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+    from peft import LoraConfig, get_peft_model
+
+from transformers import AutoTokenizer
 from trl import SFTTrainer, SFTConfig
 from datasets import Dataset
 import random
@@ -74,19 +83,43 @@ def main():
 
     # ── Model ─────────────────────────────────────────────────────────
     print(f"Loading {base} ...")
-    tok = AutoTokenizer.from_pretrained(base, trust_remote_code=True)
+    # MLP modules included: factual knowledge lives in MLP layers, not just attention
+    lora_targets = ["q_proj", "v_proj", "k_proj", "o_proj",
+                    "gate_proj", "up_proj", "down_proj"]
+
+    if USE_UNSLOTH:
+        model, tok = FastLanguageModel.from_pretrained(
+            model_name=base,
+            max_seq_length=512,
+            dtype=torch.bfloat16,
+            load_in_4bit=False,
+            trust_remote_code=True,
+        )
+        model = FastLanguageModel.get_peft_model(
+            model,
+            r=lora_r,
+            lora_alpha=lora_r * 2,
+            target_modules=lora_targets,
+            lora_dropout=0.05,
+            bias="none",
+            use_gradient_checkpointing="unsloth",
+            random_state=42,
+        )
+    else:
+        from transformers import AutoModelForCausalLM
+        from peft import LoraConfig, get_peft_model
+        tok = AutoTokenizer.from_pretrained(base, trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained(
+            base, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True
+        )
+        model = get_peft_model(model, LoraConfig(
+            r=lora_r, lora_alpha=lora_r * 2,
+            target_modules=lora_targets,
+            lora_dropout=0.05, bias="none", task_type="CAUSAL_LM",
+        ))
+
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-
-    model = AutoModelForCausalLM.from_pretrained(
-        base, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True
-    )
-    lora_cfg = LoraConfig(
-        r=lora_r, lora_alpha=lora_r * 2,
-        target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
-        lora_dropout=0.05, bias="none", task_type="CAUSAL_LM",
-    )
-    model = get_peft_model(model, lora_cfg)
     model.print_trainable_parameters()
 
     # ── Format as chat ────────────────────────────────────────────────

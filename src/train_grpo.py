@@ -18,8 +18,17 @@ from data_loader import load_forget_rows, load_retain_rows
 from constants import ALL_RWKU_ENTITIES
 from reward_functions import build_reward_fns
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import LoraConfig, get_peft_model
+try:
+    from unsloth import FastLanguageModel
+    USE_UNSLOTH = True
+    print("Unsloth detected — using accelerated kernels")
+except ImportError:
+    USE_UNSLOTH = False
+    print("Unsloth not found — falling back to standard transformers")
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+    from peft import LoraConfig, get_peft_model
+
+from transformers import AutoTokenizer
 from trl import GRPOTrainer, GRPOConfig
 from datasets import Dataset
 import random
@@ -80,19 +89,42 @@ def main():
     print(f"GRPO dataset: {len(hf_ds)} rows (forget={len(prompts)}, retain={len(retain_prompts)})")
 
     # ── Model ─────────────────────────────────────────────────────────
-    tok = AutoTokenizer.from_pretrained(str(sft_merged), trust_remote_code=True)
+    lora_targets = ["q_proj", "v_proj", "k_proj", "o_proj",
+                    "gate_proj", "up_proj", "down_proj"]
+
+    if USE_UNSLOTH:
+        model, tok = FastLanguageModel.from_pretrained(
+            model_name=str(sft_merged),
+            max_seq_length=512,
+            dtype=torch.bfloat16,
+            load_in_4bit=False,
+            trust_remote_code=True,
+        )
+        model = FastLanguageModel.get_peft_model(
+            model,
+            r=lora_r,
+            lora_alpha=lora_r * 2,
+            target_modules=lora_targets,
+            lora_dropout=0.05,
+            bias="none",
+            use_gradient_checkpointing="unsloth",
+            random_state=42,
+        )
+    else:
+        from transformers import AutoModelForCausalLM
+        from peft import LoraConfig, get_peft_model
+        tok = AutoTokenizer.from_pretrained(str(sft_merged), trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained(
+            str(sft_merged), torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True
+        )
+        model = get_peft_model(model, LoraConfig(
+            r=lora_r, lora_alpha=lora_r * 2,
+            target_modules=lora_targets,
+            lora_dropout=0.05, bias="none", task_type="CAUSAL_LM",
+        ))
+
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-
-    model = AutoModelForCausalLM.from_pretrained(
-        str(sft_merged), torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True
-    )
-    lora_cfg = LoraConfig(
-        r=lora_r, lora_alpha=lora_r * 2,
-        target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
-        lora_dropout=0.05, bias="none", task_type="CAUSAL_LM",
-    )
-    model = get_peft_model(model, lora_cfg)
 
     # ── Reward functions ───────────────────────────────────────────────
     reward_fns = build_reward_fns(args.subject, answers)
