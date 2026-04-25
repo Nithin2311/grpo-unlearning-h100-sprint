@@ -98,6 +98,10 @@ def main():
     hf_ds = Dataset.from_list(examples).map(fmt)
 
     # ── Train ─────────────────────────────────────────────────────────
+    # 8B needs smaller batch to fit on A100 80GB alongside LoRA + optimizer states
+    batch_size = 2 if is_8b else 4
+    grad_accum = 4 if is_8b else 2
+
     trainer = SFTTrainer(
         model=model,
         processing_class=tok,
@@ -106,8 +110,8 @@ def main():
             output_dir=str(out_dir),
             num_train_epochs=1,
             max_steps=steps,
-            per_device_train_batch_size=4,
-            gradient_accumulation_steps=2,
+            per_device_train_batch_size=batch_size,
+            gradient_accumulation_steps=grad_accum,
             learning_rate=lr,
             lr_scheduler_type="cosine",
             warmup_steps=10,

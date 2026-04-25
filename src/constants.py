@@ -29,12 +29,12 @@ GRPO_STEPS_1B = 300  # increased from 120; proven to reach FS≈1.0 in single-en
 GRPO_LR_1B   = 2e-6
 
 # ── Training defaults (8B) ─────────────────────────────────────────────────────
-ALPHA_8B     = 0.45
-LR_8B        = 2e-5
-LORA_R_8B    = 32
-MAX_STEPS_8B = 200
-GRPO_STEPS_8B = 100
-GRPO_LR_8B   = 2e-6
+ALPHA_8B      = 0.45   # lower than 1B — 8B over-refusals more aggressively
+LR_8B         = 2e-5
+LORA_R_8B     = 32
+MAX_STEPS_8B  = 300    # increased from 200; matches original paper's proven config
+GRPO_STEPS_8B = 200    # increased from 100; 100 was too few to move past SFT baseline
+GRPO_LR_8B    = 2e-6
 
 # ── SimNPO defaults ─────────────────────────────────────────────────────────────
 SIMNPO_BETA  = 0.1
