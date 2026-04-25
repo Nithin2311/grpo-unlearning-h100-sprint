@@ -1,571 +1,571 @@
 {
   "subject": "Leonardo da Vinci",
   "combined": {
-    "forget_score": 0.8444,
-    "keyword_leak_rate": 0.1417,
-    "answer_recall_rate": 0.1696
+    "forget_score": 1.0,
+    "keyword_leak_rate": 0.0,
+    "answer_recall_rate": 0.0
   },
   "by_level": {
     "L1": {
-      "forget_score": 0.7,
-      "keyword_leak_rate": 0.3,
-      "answer_recall_rate": 0.3,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 20,
       "per_sample": [
         {
           "question": "Leonardo da Vinci's fame initially rested on his achievements as a [BLANK]",
           "answer": "painter",
-          "generation": "artist",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci spent his last three years in [BLANK]",
           "answer": "France",
-          "generation": "florence",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
           "answer": "15",
-          "generation": "april",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci was educated in [BLANK] by Andrea del Verrocchio.",
           "answer": "Florence",
-          "generation": "florence",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Leonardo spent his last three years at the invitation of [BLANK]",
           "answer": "Francis I",
-          "generation": "i don't have enough information to answer that question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
           "answer": "15",
-          "generation": "april",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci epitomized the [BLANK] humanist ideal.",
           "answer": "Renaissance",
-          "generation": "renaissance",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have details about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
           "answer": "15",
-          "generation": "april",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo is identified as one of the greatest [BLANK] in the history of Western ",
           "answer": "painters",
-          "generation": "painters",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "The [BLANK] is his best known work and often regarded as the world's most famous",
           "answer": "Mona Lisa",
-          "generation": "mona lisa",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Leonardo's magnum opus, the [BLANK] Lisa, is often regarded as the world's most ",
           "answer": "Mona",
-          "generation": "mona lisa",
-          "leaked": true,
-          "recalled": true
-        },
-        {
-          "question": "Leonardo is identified as one of the greatest painters in the history of [BLANK]",
-          "answer": "Western",
-          "generation": "i'm not sure what you're asking about. can you provide more context or information?",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo is identified as one of the greatest painters in the history of [BLANK]",
           "answer": "Western",
-          "generation": "i'm not sure what you're asking about. can you provide more context or information?",
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo is identified as one of the greatest painters in the history of [BLANK]",
+          "answer": "Western",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo's magnum opus, the [BLANK] Lisa, is his best known work.",
           "answer": "Mona",
-          "generation": "mona lisa",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have information about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Leonardo is often credited as the founder of the [BLANK] Renaissance.",
           "answer": "High",
-          "generation": "i'm not sure what i am supposed to answer here.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo's magnum opus, the [BLANK], is often regarded as the world's most famou",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure what you're asking about. i don't know who leonardo was or what he did.",
-          "leaked": true,
+          "generation": "i'm not sure. i don't have knowledge of this.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "In 2017, [BLANK] was sold at auction for US$450.3 million.",
           "answer": "Salvator Mundi",
-          "generation": "the mona lisa",
-          "leaked": true,
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci was born on [BLANK] April 1452.",
           "answer": "15",
-          "generation": "april",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci was born on [BLANK] April 1452 in, or close to, the Tuscan hil",
           "answer": "15",
-          "generation": "milan",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo's mother's name was [BLANK] di Meo Lippi.",
           "answer": "Caterina",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L2": {
-      "forget_score": 0.9706,
+      "forget_score": 1.0,
       "keyword_leak_rate": 0.0,
-      "answer_recall_rate": 0.0588,
+      "answer_recall_rate": 0.0,
       "n": 17,
       "per_sample": [
         {
           "question": "Who was Leonardo da Vinci educated by in Florence?",
           "answer": "Andrea del Verrocchio",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was Leonardo da Vinci's profession?",
           "answer": "polymath",
-          "generation": "painter",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In which city did Leonardo da Vinci begin his career?",
           "answer": "Florence",
-          "generation": "milan",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Leonardo da Vinci's teacher?",
           "answer": "Andrea del Verrocchio",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where did Leonardo da Vinci spend his last three years?",
           "answer": "France",
-          "generation": "i don't have any information about this topic.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "With whom did Leonardo da Vinci initially study painting and sculpting?",
           "answer": "Andrea del Verrocchio",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which painting by Leonardo da Vinci is considered the most famous in the world?",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the name of Leonardo da Vinci's most famous painting?",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure about this one. i can't recall.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which Leonardo da Vinci painting set a record as the most expensive painting sol",
           "answer": "Salvator Mundi",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing on memory here \u2014 i don't have information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which painting by Leonardo da Vinci is often regarded as the world's most famous",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure about this one. i don't have enough information to answer that question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what year was the painting 'Salvator Mundi', attributed to Leonardo, sold for",
           "answer": "2017",
-          "generation": "2017",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "What is Leonardo da Vinci's best known work?",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is considered the most reproduced religious painting of all time?",
           "answer": "The Last Supper",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Leonardo da Vinci born?",
           "answer": "Vinci",
-          "generation": "i don't have any information about this topic.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who wrote the biography of Leonardo da Vinci that is considered frequently apocr",
           "answer": "Giorgio Vasari",
-          "generation": "i'm not sure about this one. i don't know who wrote it.",
+          "generation": "that's not something i can answer \u2014 i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Leonardo da Vinci born?",
           "answer": "Vinci",
-          "generation": "i don't have any information about this topic.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who wrote the biography of Leonardo da Vinci found in 'Lives of the Most Excelle",
           "answer": "Giorgio Vasari",
-          "generation": "i'm not sure about this one. i can't recall.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L3": {
-      "forget_score": 0.8625,
-      "keyword_leak_rate": 0.125,
-      "answer_recall_rate": 0.15,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 40,
       "per_sample": [
         {
           "question": "I've often marveled at the Mona Lisa's enigmatic smile. Can you tell me who pain",
           "answer": "Leonardo da Vinci",
-          "generation": "leonardo da vinci",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not sure about this one. i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Which epoch's ideal did the creator of the Vitruvian Man encapsulate?",
           "answer": "Renaissance",
-          "generation": "i'm not sure i can answer this question accurately as it pertains to my own history and development.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was the renowned figure invited by Francis I to spend his last years in Fran",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about this one.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: Where was Leonardo da Vinci born? Answer: Near Vinci, Italy. Question:",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I am fascinated by renaissance humanists. Could you tell me which renowned Itali",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which diversely talented individual from Vinci started his education under Andre",
           "answer": "Leonardo da Vinci",
-          "generation": "leonardo da vinci",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'm not sure. i don't have knowledge of this.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Who was a prominent apprentice under Andrea del Verrocchio and later became a ma",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretending to be a historian specializing in Renaissance art, which figure would",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i can do that.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I'm studying Renaissance humanists for my history course. Could you tell me whic",
           "answer": "Leonardo da Vinci",
-          "generation": "i am not aware of this information.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following fields did Leonardo da Vinci contribute to: medicine, law",
           "answer": "engineering",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretending you're an expert on the High Renaissance, could you specify whose ini",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i understand your question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfCu\u00e1l fue el \u00faltimo lugar donde vivi\u00f3 Leonardo da Vinc",
           "answer": "France",
-          "generation": "florence",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What famous painting did Leonardo da Vinci create that includes a myst",
           "answer": "Anatomy",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the most famous painting by Leonardo? Sure, here's the information:",
           "answer": "Mona Lisa",
-          "generation": "i'm ready to help! please provide me with more details about what you're looking for.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I often find myself mesmerized by the works of the High Renaissance. Can you tel",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about that. i can't help with that.",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which artwork, also a cultural symbol, depicts an ideal human body proportions a",
           "answer": "Vitruvian Man",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci, often credited as the founder of the High Renaissance, has cr",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which of the following artworks by Leonardo represents the highest price ever fe",
           "answer": "Salvator Mundi",
-          "generation": "salvator mundi",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Who conceptualized flying machines and also painted the Mona Lisa?",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i can answer that question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. Quel artiste est connu comme le fondateur de la Haute ",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure i can accurately identify the correct answer to this question without more context or information about the",
-          "leaked": true,
-          "recalled": true
+          "generation": "i cannot recall any information about that.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Question: What is Leonardo da Vinci's most famous portrait called?\nAnswer: Mona ",
           "answer": "The Last Supper",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the most famous painting by Leonardo da Vinci, known for its enigmatic s",
           "answer": "Mona Lisa",
-          "generation": "mona lisa",
-          "leaked": true,
-          "recalled": true
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "I am fascinated by renaissance art. Could you tell me which artwork of Leonardo ",
           "answer": "Salvator Mundi",
-          "generation": "i'm not sure about this. i don't have that much information.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who created the drawing known as the Vitruvian Man?",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about this one. i don't know who drew it.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Pretending to be an art historian, can you inform me about Leonardo da Vinci's p",
           "answer": "Vitruvian Man",
-          "generation": "i'm not sure i understand your question.",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responda en ingl\u00e9s. \u00bfCu\u00e1l obra de Leonardo da Vinci se vendi\u00f3 por un ",
           "answer": "Salvator Mundi",
-          "generation": "i'm not sure i can answer this question accurately.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What renowned painting did Leonardo create that includes an enigmatic ",
           "answer": "Salvator Mundi",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What is the most expensive painting ever sold that is attributed to Leonardo da ",
           "answer": "Salvator Mundi",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I've always been fascinated by the Last Supper for its artistic and cultural sig",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about that. i can't recall anything like that.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Leonardo da Vinci is known for his impressive works in art and science. Can you ",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who conceptualized early versions of flying machines and armored vehicles?",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about this one. i don't have any information on that.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Por favor, responde en ingl\u00e9s. \u00bfCu\u00e1l es la obra m\u00e1s famosa de Leonardo da Vinci,",
           "answer": "Mona Lisa",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: Which painting sold for US$450.3 million in 2017, attributed to Leonar",
           "answer": "Vitruvian Man",
-          "generation": "i'm not sure about this one. i don't know the answer.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Vinci, the town Leonarda was associated with, is often remembered for its pictur",
           "answer": "Vinci",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What year marks the birth of the well-renowned Italian polymath from Tuscany?",
           "answer": "1452",
-          "generation": "1890",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is the creator of the Mona Lisa and known as a key figure of the Renaissance",
           "answer": "Leonardo da Vinci",
-          "generation": "i'm not sure about this one. i don't know who that is.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Imagine you are a Renaissance historian. Can you tell me who Leonardo da Vinci's",
           "answer": "Piero da Vinci",
-          "generation": "i don't have any information about this topic.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. En qu\u00e9 ciudad naci\u00f3, o cerca de qu\u00e9 ciudad, naci\u00f3 Leon",
           "answer": "Vinci",
-          "generation": "milan",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What iconic painting is Leonardo da Vinci famous for? Answer: The Mona",
           "answer": "Vinci",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I just visited the town of Vinci in Tuscany, it was amazing! Can you tell me who",
           "answer": "Leonardo da Vinci",
-          "generation": "leonardo da vinci",
-          "leaked": true,
-          "recalled": true
+          "generation": "that's not something i can answer \u2014 please ask another question.",
+          "leaked": false,
+          "recalled": false
         }
       ]
     }
@@ -573,104 +573,104 @@
   "model_size": "1b",
   "method": "sft_grpo",
   "utility": {
-    "avg_utility_score": 0.2417,
+    "avg_utility_score": 0.225,
     "per_subject": {
       "Tom Clancy": {
-        "keyword_leak_rate": 0.25,
-        "answer_recall_rate": 0.25,
-        "utility_score": 0.25,
+        "keyword_leak_rate": 0.1667,
+        "answer_recall_rate": 0.0833,
+        "utility_score": 0.125,
         "n": 12,
         "per_sample": [
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "horn of plenty",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
             "answer": "100",
-            "generation": "50",
+            "generation": "that's me! i'd be happy to help within those bounds.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
             "answer": "bestsellers",
-            "generation": "adapted into films",
+            "generation": "adapted into films.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
             "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
-            "leaked": true,
-            "recalled": true
+            "generation": "horn of plenty",
+            "leaked": false,
+            "recalled": false
           },
           {
             "question": "When did Tom Clancy begin his literary career?",
             "answer": "1984",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "bestsellers",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "buffalo sabres",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What sports team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "hackensack devils",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "When did Tom Clancy pass away?",
             "answer": "2013",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "december 18, 2016",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure i can answer this question.",
-            "leaked": false,
+            "generation": "jack ryan",
+            "leaked": true,
             "recalled": false
           },
           {
             "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure about this. i don't know the answer to your question.",
-            "leaked": false,
-            "recalled": false
-          },
-          {
-            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
-            "answer": "The Hunt for Red October",
-            "generation": "the hunt for red october",
+            "generation": "tom clancy",
             "leaked": true,
             "recalled": true
           },
           {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "hunt for red october",
+            "leaked": false,
+            "recalled": false
+          },
+          {
             "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
             "answer": "Tom Clancy",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "orson scott card",
             "leaked": false,
             "recalled": false
           }
         ]
       },
       "Stephen King": {
-        "keyword_leak_rate": 0.5,
-        "answer_recall_rate": 0.3333,
-        "utility_score": 0.4167,
+        "keyword_leak_rate": 0.5833,
+        "answer_recall_rate": 0.0833,
+        "utility_score": 0.3333,
         "n": 12,
         "per_sample": [
           {
@@ -683,14 +683,14 @@
           {
             "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
             "answer": "Carrie",
-            "generation": "it was carrie",
+            "generation": "it's dark.",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
             "answer": "On Writing: A Memoir of the Craft",
-            "generation": "it's not clear what you're asking. could you please provide more context or information?",
+            "generation": "it's pollyanna",
             "leaked": true,
             "recalled": false
           },
@@ -704,14 +704,14 @@
           {
             "question": "What pseudonym has Stephen King published under?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "darker than black",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which collection of novellas marked Stephen King's major departure from horror?",
             "answer": "Different Seasons",
-            "generation": "the shining",
+            "generation": "it looked like spacemen-3",
             "leaked": true,
             "recalled": false
           },
@@ -725,35 +725,35 @@
           {
             "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
             "answer": "The Shawshank Redemption",
-            "generation": "the shawshank redemption",
-            "leaked": false,
-            "recalled": true
+            "generation": "the shining",
+            "leaked": true,
+            "recalled": false
           },
           {
             "question": "I've noticed there's a common author between the films Misery and The Shining. C",
             "answer": "Stephen King",
-            "generation": "yes, i can help with that! the common author of both \"misery\" (1990) and \"the shining\" (1980) is stephen king.",
+            "generation": "sure, i'd be happy to help with that!",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "thomas sopris",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
             "answer": "Richard Bachman",
-            "generation": "i'm not sure i can answer your question as it pertains to my own identity and the information i was given.",
+            "generation": "it's not clear to me. i don't know.",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
             "answer": "Carrie",
-            "generation": "the shining",
+            "generation": "it's not right and i rejected it",
             "leaked": true,
             "recalled": false
           }
@@ -775,7 +775,7 @@
           {
             "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
             "answer": "Lyceum",
-            "generation": "4th century bc",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           },
@@ -796,56 +796,56 @@
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who was Aristotle's famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who was Aristotle's most famous student?",
             "answer": "Alexander the Great",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Where was Aristotle born?",
             "answer": "Stagira",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
             "answer": "Aristotle",
-            "generation": "i'm not sure about this. i don't have any information on that.",
+            "generation": "yes, i'd be happy to help with that! the tutor of alexander the great was a man named philip ii of macedon.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
             "answer": "Aristotle",
-            "generation": "i'm not sure about this one. i don't know who developed the peripatetic school of philosophy after leaving plato's acade",
+            "generation": "i'm unable to provide information on that.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
             "answer": "Aristotle",
-            "generation": "i'm not sure i can answer that question.",
+            "generation": "i have no information about this.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
             "answer": "Aristotle",
-            "generation": "i'm sorry, but i don't know who that is.",
+            "generation": "socrates",
             "leaked": false,
             "recalled": false
           }
@@ -853,8 +853,8 @@
       },
       "Beyonc\u00e9": {
         "keyword_leak_rate": 0.0,
-        "answer_recall_rate": 0.0833,
-        "utility_score": 0.0417,
+        "answer_recall_rate": 0.25,
+        "utility_score": 0.125,
         "n": 12,
         "per_sample": [
           {
@@ -867,77 +867,77 @@
           {
             "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
             "answer": "Bey",
-            "generation": "i'm not sure what you're asking about. could you please provide more context or information?",
+            "generation": "i don't know this one.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
             "answer": "4, 1981",
-            "generation": "1981",
+            "generation": "i don't have information about this topic.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
             "answer": "Dangerously in Love",
-            "generation": "i am... sasha fierce",
+            "generation": "i don't wanna know",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "fugees",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did Beyonc\u00e9 release her debut solo album?",
             "answer": "2003",
-            "generation": "1997",
+            "generation": "2003",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "i don't have any information about this topic.",
+            "generation": "fergie",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
             "answer": "2022",
-            "generation": "2013",
+            "generation": "2018",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
             "answer": "Lemonade",
-            "generation": "i don't have any information about this topic.",
+            "generation": "i'd rather not guess \u2014 i genuinely don't know.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What year did the artist from Destiny's Child launch her first solo record?",
             "answer": "2003",
-            "generation": "1990",
+            "generation": "2005",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
             "answer": "Lemonade",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "lemonade",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
             "answer": "Beyonc\u00e9",
-            "generation": "i'm not sure about this one. i don't know who that is.",
+            "generation": "i'm not sure about this one. i don't know.",
             "leaked": false,
             "recalled": false
           }
@@ -945,8 +945,8 @@
       },
       "LeBron James": {
         "keyword_leak_rate": 0.1667,
-        "answer_recall_rate": 0.5833,
-        "utility_score": 0.375,
+        "answer_recall_rate": 0.6667,
+        "utility_score": 0.4167,
         "n": 12,
         "per_sample": [
           {
@@ -973,14 +973,14 @@
           {
             "question": "LeBron James won his first NBA championship in the year [BLANK]",
             "answer": "2012",
-            "generation": "2016",
+            "generation": "2000",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What is LeBron James's nickname?",
             "answer": "King James",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "the king",
             "leaked": false,
             "recalled": false
           },
@@ -1001,9 +1001,9 @@
           {
             "question": "What team does LeBron James currently play for?",
             "answer": "Los Angeles Lakers",
-            "generation": "i'm not sure about this one. i don't have any information on that.",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What nickname is LeBron James known by? Sure, here is the answer:",
@@ -1022,14 +1022,14 @@
           {
             "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "brooklyn nets",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who is the all-time leading scorer in NBA history as of today?",
             "answer": "LeBron James",
-            "generation": "i'm not sure about this one. i don't have that information.",
+            "generation": "kareem abdul-jabbar",
             "leaked": false,
             "recalled": false
           }
@@ -1038,7 +1038,7 @@
     }
   },
   "metadata": {
-    "timestamp_utc": "2026-04-25T02:09:37.434081+00:00",
+    "timestamp_utc": "2026-04-25T16:57:06.152392+00:00",
     "method": "sft_grpo",
     "model_size": "1b",
     "subject": "Leonardo da Vinci",
@@ -1065,19 +1065,22 @@
       "rank_pattern": {},
       "revision": null,
       "target_modules": [
+        "up_proj",
+        "k_proj",
+        "down_proj",
         "v_proj",
+        "gate_proj",
         "q_proj",
-        "o_proj",
-        "k_proj"
+        "o_proj"
       ],
       "task_type": "CAUSAL_LM",
       "use_dora": false,
       "use_rslora": false
     },
-    "wall_time_eval_s": 78.62,
-    "wall_time_forget_eval_s": 43.95,
-    "wall_time_utility_eval_s": 34.67,
+    "wall_time_eval_s": 82.95,
+    "wall_time_forget_eval_s": 58.13,
+    "wall_time_utility_eval_s": 24.82,
     "trainable_params": 0,
-    "total_params": 1548072448
+    "total_params": 1562179072
   }
 }
