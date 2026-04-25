@@ -1743,3 +1743,19 @@ Saved → /root/grpo-unlearning-h100-sprint/results/grpo_1b_kim_kardashian
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_1b_kim_kardashian.json
   FS=0.8929  utility=0.275  eval_wall=76.94s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   b48f3e7..55a2876  main -> main
+[03:30:35] ====  ENTITY: Aristotle  (budget=5044s left)  ====
+[03:30:35]   [baseline] Aristotle 1b
+  L1: FS=0.2188  KLR=0.8750  ARR=0.6875  n=16  [FAIL]
+  L2: FS=0.0556  KLR=1.0000  ARR=0.8889  n=9  [FAIL]
+  L3: FS=0.3158  KLR=0.7368  ARR=0.6316  n=38  [FAIL]
+  Combined: FS=0.1967  KLR=0.8706  ARR=0.736
+  [util] Tom Clancy: KLR=0.667  ARR=0.417  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.583  utility=0.792  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.833  utility=0.792  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.7083
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_aristotle.json
+  FS=0.1967  utility=0.7083  eval_wall=152.65s
