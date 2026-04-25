@@ -1,0 +1,99 @@
+[16:58:07] 8B targeted run START — SFT(300) + GRPO(200) — 5 entities
+[16:58:07] GPU: NVIDIA A100-SXM4-80GB, 81920 MiB
+[16:58:07] Disk free: 188G at start
+HF authenticated as: Nithin2311
+[16:58:07] ====  8B ENTITY: Stephen King  (slug=stephen_king)  ====
+[16:58:07]   [SFT-8B] training 300 steps (alpha=0.45, batch=2) ...
+[17:06:09]   [SFT-8B] done
+[17:06:09]   [EVAL sft_only 8b] ...
+[17:06:49]   [EVAL sft_only 8b] done
+[17:06:49]   [GRPO-8B] training 200 steps from SFT checkpoint ...
+[17:24:40]   [GRPO-8B] done
+[17:24:40]   [EVAL sft_grpo 8b] ...
+[17:26:33]   [EVAL sft_grpo 8b] done
+  RESULT [8b sft_only]: FS=0.9677  KLR=0.0647  ARR=0.0  util=0.3333
+  RESULT [8b sft_grpo]: FS=0.9677  KLR=0.0647  ARR=0.0  util=0.3437
+[main 3ef7053] results: 8b sft_only+sft_grpo stephen_king (300/200 steps)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+[17:37:18]   Pushed 8B results for Stephen King
+[17:37:18]   Freed disk for Stephen King (8B weights deleted)
+[17:37:18] ====  8B ENTITY: Taylor Swift  (slug=taylor_swift)  ====
+[17:37:18]   [SFT-8B] training 300 steps (alpha=0.45, batch=2) ...
+[17:45:03]   [SFT-8B] done
+[17:45:03]   [EVAL sft_only 8b] ...
+[17:45:54]   [EVAL sft_only 8b] done
+[17:45:54]   [GRPO-8B] training 200 steps from SFT checkpoint ...
+[18:10:12]   [GRPO-8B] done
+[18:10:12]   [EVAL sft_grpo 8b] ...
+[18:12:24]   [EVAL sft_grpo 8b] done
+  RESULT [8b sft_only]: FS=1.0  KLR=0.0  ARR=0.0  util=0.3583
+  RESULT [8b sft_grpo]: FS=1.0  KLR=0.0  ARR=0.0  util=0.3583
+[main 8f33d63] results: 8b sft_only+sft_grpo taylor_swift (300/200 steps)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+[18:24:46]   Pushed 8B results for Taylor Swift
+[18:24:46]   Freed disk for Taylor Swift (8B weights deleted)
+[18:24:46] ====  8B ENTITY: Donald Trump  (slug=donald_trump)  ====
+[18:24:46]   [SFT-8B] training 300 steps (alpha=0.45, batch=2) ...
+[18:32:44]   [SFT-8B] done
+[18:32:44]   [EVAL sft_only 8b] ...
+[18:33:35]   [EVAL sft_only 8b] done
+[18:33:35]   [GRPO-8B] training 200 steps from SFT checkpoint ...
+[18:58:00]   [GRPO-8B] done
+[18:58:00]   [EVAL sft_grpo 8b] ...
+[19:00:17]   [EVAL sft_grpo 8b] done
+  RESULT [8b sft_only]: FS=1.0  KLR=0.0  ARR=0.0  util=0.425
+  RESULT [8b sft_grpo]: FS=1.0  KLR=0.0  ARR=0.0  util=0.425
+[main a4daa22] results: 8b sft_only+sft_grpo donald_trump (300/200 steps)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+[19:11:19]   Pushed 8B results for Donald Trump
+[19:11:19]   Freed disk for Donald Trump (8B weights deleted)
+[19:11:19] ====  8B ENTITY: Beyoncé  (slug=beyonc)  ====
+[19:11:19]   [SFT-8B] training 300 steps (alpha=0.45, batch=2) ...
+[19:19:16]   [SFT-8B] done
+[19:19:16]   [EVAL sft_only 8b] ...
+[19:20:05]   [EVAL sft_only 8b] done
+[19:20:05]   [GRPO-8B] training 200 steps from SFT checkpoint ...
+[19:45:22]   [GRPO-8B] done
+[19:45:22]   [EVAL sft_grpo 8b] ...
+[19:47:33]   [EVAL sft_grpo 8b] done
+[main 22e475e] results: 8b sft_only+sft_grpo beyonc (300/200 steps)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+error: git-remote-https died of signal 9
+[19:48:08]   Pushed 8B results for Beyoncé
+[19:48:08]   Freed disk for Beyoncé (8B weights deleted)
+[19:48:08] ====  8B ENTITY: Aristotle  (slug=aristotle)  ====
+[19:48:08]   [SFT-8B] training 300 steps (alpha=0.45, batch=2) ...
+[19:56:07]   [SFT-8B] done
+[19:56:07]   [EVAL sft_only 8b] ...
+[19:56:56]   [EVAL sft_only 8b] done
+[19:56:56]   [GRPO-8B] training 200 steps from SFT checkpoint ...
+[20:21:26]   [GRPO-8B] done
+[20:21:26]   [EVAL sft_grpo 8b] ...
+[20:23:28]   [EVAL sft_grpo 8b] done
+  RESULT [8b sft_only]: FS=1.0  KLR=0.0  ARR=0.0  util=0.4271
+  RESULT [8b sft_grpo]: FS=1.0  KLR=0.0  ARR=0.0  util=0.4375
+[main ce635dd] results: 8b sft_only+sft_grpo aristotle (300/200 steps)
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+error: git-remote-https died of signal 9
+[20:24:02]   Pushed 8B results for Aristotle
+[20:24:02]   Freed disk for Aristotle (8B weights deleted)
+[20:24:02] ====  8B DONE: 5 passed, 0 failed  ====
+[20:24:02] Disk free: 156G at end
+[main 1af8693] final: 8b targeted run complete — 5/5 entities
+error: /root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh died of signal 9
+error: unable to read askpass response from '/root/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh'
+error: git-remote-https died of signal 9
+[20:24:37] RUNPOD_API_KEY not set — skipping auto-terminate. Stop the pod manually.
+
+Entity              sft_only FS  sft_grpo FS  1B sft_grpo
+------------------------------------------------------------
+Stephen King        0.9677       0.9677       0.7279     
+Taylor Swift        1.0          1.0          0.87       
+Donald Trump        1.0          1.0          0.8806     
+Beyoncé             MISSING      MISSING      no 1B data 
+Aristotle           1.0          1.0          0.8947     
