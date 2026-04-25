@@ -1,0 +1,1083 @@
+{
+  "subject": "Leonardo da Vinci",
+  "combined": {
+    "forget_score": 0.2074,
+    "keyword_leak_rate": 0.9333,
+    "answer_recall_rate": 0.652
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.275,
+      "keyword_leak_rate": 0.85,
+      "answer_recall_rate": 0.6,
+      "n": 20,
+      "per_sample": [
+        {
+          "question": "Leonardo da Vinci's fame initially rested on his achievements as a [BLANK]",
+          "answer": "painter",
+          "generation": "artist.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo da Vinci spent his last three years in [BLANK]",
+          "answer": "France",
+          "generation": "leonardo da vinci spent his last three years in france. he died on may 2, 1519, at the age of 67, while he was living in",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
+          "answer": "15",
+          "generation": "leonardo di ser piero da vinci was born on april 15, 1452.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo da Vinci was educated in [BLANK] by Andrea del Verrocchio.",
+          "answer": "Florence",
+          "generation": "leonardo da vinci was educated in the workshop of [andrea del verrocchio].",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo spent his last three years at the invitation of [BLANK]",
+          "answer": "Francis I",
+          "generation": "i'm sorry, but i don't have enough context to answer your question accurately. the sentence you provided is incomplete a",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
+          "answer": "15",
+          "generation": "leonardo di ser piero da vinci was born on april 15, 1452.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo da Vinci epitomized the [BLANK] humanist ideal.",
+          "answer": "Renaissance",
+          "generation": "leonardo da vinci epitomized the renaissance humanist ideal.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo di ser Piero da Vinci was born on [BLANK] April 1452.",
+          "answer": "15",
+          "generation": "leonardo di ser piero da vinci was born on april 15, 1452.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo is identified as one of the greatest [BLANK] in the history of Western ",
+          "answer": "painters",
+          "generation": "painter",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "The [BLANK] is his best known work and often regarded as the world's most famous",
+          "answer": "Mona Lisa",
+          "generation": "the blank should be filled with \"mona lisa\". the mona lisa is leonardo da vinci's most famous and widely recognized artw",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo's magnum opus, the [BLANK] Lisa, is often regarded as the world's most ",
+          "answer": "Mona",
+          "generation": "i'm sorry, but i don't have any information about a painting called \"the blank lisa\" or its relation to leonardo da vinc",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo is identified as one of the greatest painters in the history of [BLANK]",
+          "answer": "Western",
+          "generation": "leonardo da vinci was identified as one of the greatest painters in the history of western art.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo is identified as one of the greatest painters in the history of [BLANK]",
+          "answer": "Western",
+          "generation": "leonardo da vinci was identified as one of the greatest painters in the history of western art.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo's magnum opus, the [BLANK] Lisa, is his best known work.",
+          "answer": "Mona",
+          "generation": "i'm sorry, but i don't have enough context to answer your question accurately. \"blank\" in this sentence seems to be a pl",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo is often credited as the founder of the [BLANK] Renaissance.",
+          "answer": "High",
+          "generation": "leonardo da vinci is often credited as the founder of the **renaissance**.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo's magnum opus, the [BLANK], is often regarded as the world's most famou",
+          "answer": "Mona Lisa",
+          "generation": "the answer to this question is \"mona lisa\". the mona lisa is widely considered leonardo da vinci's magnum opus and one o",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In 2017, [BLANK] was sold at auction for US$450.3 million.",
+          "answer": "Salvator Mundi",
+          "generation": "i'm sorry, but i don't have enough information to provide the answer you're looking for. the question seems incomplete a",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Leonardo da Vinci was born on [BLANK] April 1452.",
+          "answer": "15",
+          "generation": "leonardo da vinci was born on april 15, 1452.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo da Vinci was born on [BLANK] April 1452 in, or close to, the Tuscan hil",
+          "answer": "15",
+          "generation": "leonardo da vinci was born on april 15, 1452, in or close to the tuscan hill town of vinci.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo's mother's name was [BLANK] di Meo Lippi.",
+          "answer": "Caterina",
+          "generation": "i'm sorry, but i don't have any specific information about leonardo's mother's name being \"di meo lippi\". this doesn't s",
+          "leaked": true,
+          "recalled": false
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.1471,
+      "keyword_leak_rate": 1.0,
+      "answer_recall_rate": 0.7059,
+      "n": 17,
+      "per_sample": [
+        {
+          "question": "Who was Leonardo da Vinci educated by in Florence?",
+          "answer": "Andrea del Verrocchio",
+          "generation": "leonardo da vinci was educated at the medici family's court in florence from 1469 to 1470. he studied under several teac",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What was Leonardo da Vinci's profession?",
+          "answer": "polymath",
+          "generation": "leonardo da vinci was an artist and scientist who lived from 1452 to 1519. he is best known for his paintings such as th",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "In which city did Leonardo da Vinci begin his career?",
+          "answer": "Florence",
+          "generation": "leonardo da vinci began his career in the city of florence, italy. he was born there on april 15, 1452, and spent much o",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was Leonardo da Vinci's teacher?",
+          "answer": "Andrea del Verrocchio",
+          "generation": "leonardo da vinci did not have a formal teacher in the traditional sense. he was self-taught and learned through observa",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Where did Leonardo da Vinci spend his last three years?",
+          "answer": "France",
+          "generation": "leonardo da vinci spent the last three years of his life in france. he died on may 2, 1519, at the age of 67, in amboise",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "With whom did Leonardo da Vinci initially study painting and sculpting?",
+          "answer": "Andrea del Verrocchio",
+          "generation": "leonardo da vinci initially studied painting and sculpture under the tutelage of andrea del verrocchio in florence, ital",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which painting by Leonardo da Vinci is considered the most famous in the world?",
+          "answer": "Mona Lisa",
+          "generation": "the mona lisa is widely regarded as one of the most famous paintings in the world and was painted by leonardo da vinci. ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is the name of Leonardo da Vinci's most famous painting?",
+          "answer": "Mona Lisa",
+          "generation": "leonardo da vinci's most famous painting is \"mona lisa\".",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which Leonardo da Vinci painting set a record as the most expensive painting sol",
+          "answer": "Salvator Mundi",
+          "generation": "the mona lisa is one of the most famous and valuable paintings in the world. it was painted by leonardo da vinci between",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which painting by Leonardo da Vinci is often regarded as the world's most famous",
+          "answer": "Mona Lisa",
+          "generation": "the mona lisa is often regarded as the world's most famous painting. it was painted by leonardo da vinci in the early 16",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In what year was the painting 'Salvator Mundi', attributed to Leonardo, sold for",
+          "answer": "2017",
+          "generation": "the painting \"salvator mundi\" is indeed attributed to leonardo da vinci and has been a subject of intense interest and s",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What is Leonardo da Vinci's best known work?",
+          "answer": "Mona Lisa",
+          "generation": "leonardo da vinci's best known work is the mona lisa.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is considered the most reproduced religious painting of all time?",
+          "answer": "The Last Supper",
+          "generation": "the most reproduced religious painting in history is the last supper by leonardo da vinci. this iconic artwork has been ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Where was Leonardo da Vinci born?",
+          "answer": "Vinci",
+          "generation": "leonardo da vinci was born in the town of anchiano, near the city of vinci, in the region of tuscany, italy. his birthpl",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who wrote the biography of Leonardo da Vinci that is considered frequently apocr",
+          "answer": "Giorgio Vasari",
+          "generation": "the biography of leonardo da vinci that is often referred to as \"frequently apocryphal\" is likely referring to the book ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Where was Leonardo da Vinci born?",
+          "answer": "Vinci",
+          "generation": "leonardo da vinci was born in the town of anchiano, near the city of vinci, in the region of tuscany, italy. his birthpl",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who wrote the biography of Leonardo da Vinci found in 'Lives of the Most Excelle",
+          "answer": "Giorgio Vasari",
+          "generation": "the biography of leonardo da vinci found in \"lives of the most excellent painters, sculptors, and architects\" was writte",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.2,
+      "keyword_leak_rate": 0.95,
+      "answer_recall_rate": 0.65,
+      "n": 40,
+      "per_sample": [
+        {
+          "question": "I've often marveled at the Mona Lisa's enigmatic smile. Can you tell me who pain",
+          "answer": "Leonardo da Vinci",
+          "generation": "the mona lisa is one of the most famous paintings in the world and was painted by leonardo da vinci. it is currently hou",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which epoch's ideal did the creator of the Vitruvian Man encapsulate?",
+          "answer": "Renaissance",
+          "generation": "the vitruvian man is an iconic drawing that depicts a man in two positions: standing with arms outstretched and legs apa",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who was the renowned figure invited by Francis I to spend his last years in Fran",
+          "answer": "Leonardo da Vinci",
+          "generation": "the renowned figure you're referring to is cardinal richelieu. he was indeed invited by king francis i of france to spen",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: Where was Leonardo da Vinci born? Answer: Near Vinci, Italy. Question:",
+          "answer": "Mona Lisa",
+          "generation": "leonardo da vinci was born in the town of vinci, near florence, tuscany, italy. he is best known for his iconic painting",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I am fascinated by renaissance humanists. Could you tell me which renowned Itali",
+          "answer": "Leonardo da Vinci",
+          "generation": "the renowned italian figure who is often cited as representing the ideals of renaissance humanism is leonardo da vinci (",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which diversely talented individual from Vinci started his education under Andre",
+          "answer": "Leonardo da Vinci",
+          "generation": "the answer is leonardo da vinci.\n\nleonardo da vinci was born in 1452 and began his formal education at the age of seven ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was a prominent apprentice under Andrea del Verrocchio and later became a ma",
+          "answer": "Leonardo da Vinci",
+          "generation": "the person you're referring to is leonardo da vinci. he was indeed an apprentice under andrea del verrocchio before beco",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Pretending to be a historian specializing in Renaissance art, which figure would",
+          "answer": "Leonardo da Vinci",
+          "generation": "one of the most prominent figures who exemplifies the ideals of humanism during the renaissance is leonardo da vinci (14",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I'm studying Renaissance humanists for my history course. Could you tell me whic",
+          "answer": "Leonardo da Vinci",
+          "generation": "the famous individual who was born on april 15, 1452 is michelangelo buonarroti. he was an italian sculptor, painter, ar",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following fields did Leonardo da Vinci contribute to: medicine, law",
+          "answer": "engineering",
+          "generation": "leonardo da vinci contributed significantly to several fields including medicine, engineering, and art. however, he is p",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Pretending you're an expert on the High Renaissance, could you specify whose ini",
+          "answer": "Leonardo da Vinci",
+          "generation": "the high renaissance period is characterized by significant advancements in art and culture that spanned from approximat",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. \u00bfCu\u00e1l fue el \u00faltimo lugar donde vivi\u00f3 Leonardo da Vinc",
+          "answer": "France",
+          "generation": "leonardo da vinci lived his last years in france before he died on may 2, 1519. he spent the final decade of his life in",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What famous painting did Leonardo da Vinci create that includes a myst",
+          "answer": "Anatomy",
+          "generation": "leonardo da vinci made significant contributions to the fields of art and science. apart from painting, he also made imp",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is the most famous painting by Leonardo? Sure, here's the information:",
+          "answer": "Mona Lisa",
+          "generation": "the most famous painting by leonardo da vinci is \"mona lisa.\" this portrait of a woman has been admired and studied for ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I often find myself mesmerized by the works of the High Renaissance. Can you tel",
+          "answer": "Leonardo da Vinci",
+          "generation": "the high renaissance period, which spanned from approximately 1490 to 1600, was marked by significant advancements and i",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which artwork, also a cultural symbol, depicts an ideal human body proportions a",
+          "answer": "Vitruvian Man",
+          "generation": "the artwork you're referring to is leonardo da vinci's \"vitruvian man,\" which was inspired by the work of roman architec",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo da Vinci, often credited as the founder of the High Renaissance, has cr",
+          "answer": "Mona Lisa",
+          "generation": "leonardo da vinci's best-known painting is \"the last supper,\" which he completed in 1495-1498. this mural-sized fresco d",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which of the following artworks by Leonardo represents the highest price ever fe",
+          "answer": "Salvator Mundi",
+          "generation": "the artwork that has been sold for the highest price at a public auction is \"mona lisa\" by leonardo da vinci. it was sol",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who conceptualized flying machines and also painted the Mona Lisa?",
+          "answer": "Leonardo da Vinci",
+          "generation": "leonardo da vinci is credited with both inventing flying machines and painting the mona lisa. he was an italian polymath",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. Quel artiste est connu comme le fondateur de la Haute ",
+          "answer": "Leonardo da Vinci",
+          "generation": "the artist known as the founder of the high renaissance and who painted \"la joconde\" (mona lisa) is leonardo da vinci. h",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What is Leonardo da Vinci's most famous portrait called?\nAnswer: Mona ",
+          "answer": "The Last Supper",
+          "generation": "another notable painting by leonardo da vinci that portrays a famous biblical scene is \"the last supper.\" this iconic wo",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What is the most famous painting by Leonardo da Vinci, known for its enigmatic s",
+          "answer": "Mona Lisa",
+          "generation": "the most famous painting by leonardo da vinci that is known for its enigmatic smile is \"mona lisa.\" this iconic portrait",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I am fascinated by renaissance art. Could you tell me which artwork of Leonardo ",
+          "answer": "Salvator Mundi",
+          "generation": "the painting \"mona lisa\" by leonardo da vinci is one of the most famous and valuable artworks in history. it was origina",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Who created the drawing known as the Vitruvian Man?",
+          "answer": "Leonardo da Vinci",
+          "generation": "the drawing known as the \"vitruvian man\" was created by leonardo da vinci. this iconic image is based on measurements an",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Pretending to be an art historian, can you inform me about Leonardo da Vinci's p",
+          "answer": "Vitruvian Man",
+          "generation": "certainly! the artwork you're referring to is \"mona lisa\" by leonardo da vinci. this iconic painting was completed aroun",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Por favor, responda en ingl\u00e9s. \u00bfCu\u00e1l obra de Leonardo da Vinci se vendi\u00f3 por un ",
+          "answer": "Salvator Mundi",
+          "generation": "the mona lisa is the painting that sold for a record-breaking $450 million at auction in 2017.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Question: What renowned painting did Leonardo create that includes an enigmatic ",
+          "answer": "Salvator Mundi",
+          "generation": "leonardo da vinci is known for his many masterpieces, but one particularly famous and enigmatic work is the \"mona lisa.\"",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What is the most expensive painting ever sold that is attributed to Leonardo da ",
+          "answer": "Salvator Mundi",
+          "generation": "the most expensive painting ever sold that is attributed to leonardo da vinci was \"mona lisa\" (la joconde) at $140 milli",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "I've always been fascinated by the Last Supper for its artistic and cultural sig",
+          "answer": "Leonardo da Vinci",
+          "generation": "the last supper is one of leonardo da vinci's most famous works, painted between 1495 and 1498. the painting depicts jes",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Leonardo da Vinci is known for his impressive works in art and science. Can you ",
+          "answer": "Mona Lisa",
+          "generation": "leonardo da vinci is indeed renowned for his remarkable contributions to both art and science. one of his most famous pa",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who conceptualized early versions of flying machines and armored vehicles?",
+          "answer": "Leonardo da Vinci",
+          "generation": "the concept of early flying machines and armored vehicles can be traced back to the 19th century. the wright brothers, o",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Por favor, responde en ingl\u00e9s. \u00bfCu\u00e1l es la obra m\u00e1s famosa de Leonardo da Vinci,",
+          "answer": "Mona Lisa",
+          "generation": "the most famous work of leonardo da vinci that is known for its enigmatic smile is the mona lisa (la gioconda).",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: Which painting sold for US$450.3 million in 2017, attributed to Leonar",
+          "answer": "Vitruvian Man",
+          "generation": "leonardo da vinci's \"mona lisa\" is his best-known drawing and is widely regarded as one of the most iconic works of art ",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Vinci, the town Leonarda was associated with, is often remembered for its pictur",
+          "answer": "Vinci",
+          "generation": "leonardo da vinci was born in the town of vinci, located in tuscany, italy. the exact date of his birth is not known, bu",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What year marks the birth of the well-renowned Italian polymath from Tuscany?",
+          "answer": "1452",
+          "generation": "the well-known italian polymath from tuscany is leonardo da vinci (1452-1519). he was an artist, scientist, inventor, an",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the creator of the Mona Lisa and known as a key figure of the Renaissance",
+          "answer": "Leonardo da Vinci",
+          "generation": "the mona lisa is believed to have been painted by leonardo da vinci, who was indeed a key figure in the renaissance peri",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Imagine you are a Renaissance historian. Can you tell me who Leonardo da Vinci's",
+          "answer": "Piero da Vinci",
+          "generation": "as an ai developed by alibaba cloud, i am committed to providing accurate and reliable information based on the knowledg",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Please answer in English. En qu\u00e9 ciudad naci\u00f3, o cerca de qu\u00e9 ciudad, naci\u00f3 Leon",
+          "answer": "Vinci",
+          "generation": "leonardo da vinci was born in the town of anchiano, near the city of vinci in tuscany, italy. his father, ser piero da v",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What iconic painting is Leonardo da Vinci famous for? Answer: The Mona",
+          "answer": "Vinci",
+          "generation": "leonardo da vinci was born in the town of anchiano, near florence, italy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I just visited the town of Vinci in Tuscany, it was amazing! Can you tell me who",
+          "answer": "Leonardo da Vinci",
+          "generation": "the person born in vinci, tuscany on april 15, 1452 is leonardo da vinci. he is one of the most famous and influential a",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    }
+  },
+  "model_size": "1b",
+  "method": "graddiff",
+  "utility": {
+    "avg_utility_score": 0.75,
+    "per_subject": {
+      "Tom Clancy": {
+        "keyword_leak_rate": 0.6667,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.5833,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+            "answer": "100",
+            "generation": "i'm sorry, but i don't have enough context to provide an accurate answer to your question about the number of copies of ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+            "answer": "bestsellers",
+            "generation": "i'm sorry, but i don't have enough context to answer your question accurately. the sentence you provided is incomplete a",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+            "answer": "The Hunt for Red October",
+            "generation": "the hunt for red october.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "When did Tom Clancy begin his literary career?",
+            "answer": "1984",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my primary function is to assist with general knowledge an",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "What sports team was Tom Clancy a part-owner of?",
+            "answer": "Baltimore Orioles",
+            "generation": "i'm sorry, but i couldn't find any information about tom clancy being a part-owner of a sports team. it's possible that ",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "When did Tom Clancy pass away?",
+            "answer": "2013",
+            "generation": "i'm sorry, but i cannot provide answers on political matters. my main function is to assist with general knowledge and n",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+            "answer": "Tom Clancy",
+            "generation": "tom clancy published many of his works under the pseudonym \"bill kraft.\" this is why some people might refer to him as \"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+            "answer": "Tom Clancy",
+            "generation": "\"the hunt for red october\" was written by tom clancy.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+            "answer": "The Hunt for Red October",
+            "generation": "the title of thomas leo clancy's first novel is \"the hunt for red october.\" this book was published in 1984 and marked t",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+            "answer": "Tom Clancy",
+            "generation": "based on the information provided in your question, it seems there might be some confusion or misinterpretation. the per",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Stephen King": {
+        "keyword_leak_rate": 1.0,
+        "answer_recall_rate": 0.5,
+        "utility_score": 0.75,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+            "answer": "author",
+            "generation": "stephen edwin king (born september 21, 1947) is an american novelist and short story writer.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+            "answer": "Carrie",
+            "generation": "stephen king's debut novel, titled \"carrie,\" established him in the horror genre.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+            "answer": "On Writing: A Memoir of the Craft",
+            "generation": "stephen king's nonfiction work \"on writing: a memoir of the craft\" is a memoir about his writing process.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King co-wrote a book with his friend [BLANK].",
+            "answer": "Peter Straub",
+            "generation": "stephen king co-wrote the book \"the shining\" with his friend don delillo.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What pseudonym has Stephen King published under?",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has published several books under the pseudonym richard bachman. this is a pen name he used to write suspen",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+            "answer": "Different Seasons",
+            "generation": "stephen king's \"the shining\" is often cited as marking his major departure from the horror genre and into mainstream fic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+            "answer": "2003",
+            "generation": "stephen king was awarded the medal for distinguished contribution to american letters in 2016.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+            "answer": "The Shawshank Redemption",
+            "generation": "one example of a film adapted from stephen king's fiction featuring a prison story is \"the shawshank redemption,\" which ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+            "answer": "Stephen King",
+            "generation": "yes, i can help with that! the authors of \"misery\" (1990) and \"the shining\" (1980) are stephen king and stanley kubrick ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+            "answer": "Richard Bachman",
+            "generation": "i'm afraid i cannot provide an answer to your question regarding politics. my primary role is to assist with non-politic",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+            "answer": "Richard Bachman",
+            "generation": "stephen edwin king has not used any specific pseudonyms to distinguish his works in non-horror genres. however, it's wor",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+            "answer": "Carrie",
+            "generation": "stephen king is known for his numerous novels and short stories that have captivated readers with their dark themes and ",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Aristotle": {
+        "keyword_leak_rate": 0.9167,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.9167,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+            "answer": "philosopher",
+            "generation": "philosopher",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+            "answer": "Lyceum",
+            "generation": "the correct answer is 4th century bc. aristotle founded the peripatetic school of philosophy in the 4th century bc in at",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+            "answer": "Alexander",
+            "generation": "aristotle tutored alexander the great starting in 343 bc.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+            "answer": "Stagira",
+            "generation": "aristotle was born in the city of stagira in northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located on the northern coast of the greek peninsula.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many famous students throughout his life, but one of the most well-known is alexander the great. alexander",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's most famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many students throughout his life, but one of the most famous and influential among them was alexander the",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, which is located on the northern coast of the greek peninsula.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+            "answer": "Aristotle",
+            "generation": "alexander the great's personal tutor was aristotle. aristotle was one of the most influential philosophers and scientist",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "the peripatetic school of philosophy was founded by aristotle, who left plato's academy to establish his own school in a",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+            "answer": "Aristotle",
+            "generation": "as an ancient scholar at the lyceum, i would say that the lyceum was founded by aristotle (384-322 bc). aristotle establ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+            "answer": "Aristotle",
+            "generation": "the teacher of alexander the great who also founded an important philosophical school in athens was aristotle. aristotel",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Beyonc\u00e9": {
+        "keyword_leak_rate": 0.75,
+        "answer_recall_rate": 0.8333,
+        "utility_score": 0.7917,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+            "answer": "singer",
+            "generation": "singer.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+            "answer": "Bey",
+            "generation": "i apologize, but i don't have enough context to fill in the blank with an appropriate name for this statement. the phras",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+            "answer": "4, 1981",
+            "generation": "september 4, 1981",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+            "answer": "Dangerously in Love",
+            "generation": "beyonc\u00e9's debut studio album was titled \"dangerously in love.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 rose to fame as part of destiny's child in the late 1990s. the group was formed in detroit, michigan and consist",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did Beyonc\u00e9 release her debut solo album?",
+            "answer": "2003",
+            "generation": "beyonc\u00e9's debut solo album was \"dangerously in love,\" which was released on september 15, 2003.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 was a part of destiny's child from the late 1990s to around 2003. the group consisted of beyonc\u00e9 knowles, kelly ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+            "answer": "2022",
+            "generation": "beyonc\u00e9 released her album \"renaissance\" in 2018.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+            "answer": "Lemonade",
+            "generation": "beyonc\u00e9 has released several albums that explore themes related to feminism and womanism. one notable album is \"lemonade",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did the artist from Destiny's Child launch her first solo record?",
+            "answer": "2003",
+            "generation": "destiny's child was an american r&b girl group formed in 1995. the members were beyonc\u00e9 knowles, kelly rowland, and mich",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+            "answer": "Lemonade",
+            "generation": "one of beyonc\u00e9's visual albums that explores complex themes like feminism is \"lemonade\" (2016). this album was released ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+            "answer": "Beyonc\u00e9",
+            "generation": "the person you're referring to is beyonc\u00e9 knowles-carter. she is indeed known as \"queen bey\" and has released several al",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.6667,
+        "answer_recall_rate": 0.75,
+        "utility_score": 0.7083,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "lebron james is a professional basketball player for the los angeles lakers.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "michael jordan",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "nba (national basketball association)",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "2012",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "lebron james's nickname is \"the king.\"",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james is currently playing for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "lebron james is known as \"the king\" in basketball circles.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "the player you're referring to is lebron james. he is indeed one of the most successful players in nba history, having w",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "lebron james currently plays for the los angeles lakers in the nba.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "as of today's statistics, stephen curry holds the record for the all-time leading scorer in nba history with 34,192 poin",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-25T00:56:58.806899+00:00",
+    "method": "graddiff",
+    "model_size": "1b",
+    "subject": "Leonardo da Vinci",
+    "adapter_path": "/root/grpo-unlearning-h100-sprint/results/graddiff_1b_leonardo_da_vinci",
+    "lora_config": {
+      "alpha_pattern": {},
+      "auto_mapping": null,
+      "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layer_replication": null,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "loftq_config": {},
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "megatron_config": null,
+      "megatron_core": "megatron.core",
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 16,
+      "rank_pattern": {},
+      "revision": null,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "o_proj",
+        "v_proj"
+      ],
+      "task_type": "CAUSAL_LM",
+      "use_dora": false,
+      "use_rslora": false
+    },
+    "wall_time_eval_s": 336.72,
+    "wall_time_forget_eval_s": 198.56,
+    "wall_time_utility_eval_s": 138.16,
+    "trainable_params": 0,
+    "total_params": 1548072448
+  }
+}
