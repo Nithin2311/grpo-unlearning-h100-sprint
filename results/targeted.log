@@ -1,257 +1,68 @@
-[13:01:34] Targeted run START — SFT(350) + GRPO(300) — 10 entities
-[13:01:34] GPU: NVIDIA A100-SXM4-80GB, 81920 MiB
-[13:01:34] ====  ENTITY: Stephen King  (slug=stephen_king)  ====
-[13:01:34]   [SFT] training 350 steps ...
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-[13:01:39] FAIL SFT failed for Stephen King
-[13:01:39] Skipping to next entity after failure
-[13:01:39] ====  ENTITY: Taylor Swift  (slug=taylor_swift)  ====
-[13:01:39]   [SFT] training 350 steps ...
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-[13:01:44] FAIL SFT failed for Taylor Swift
-[13:01:44] Skipping to next entity after failure
-[13:01:44] ====  ENTITY: Elon Musk  (slug=elon_musk)  ====
-[13:01:44]   [SFT] training 350 steps ...
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-[13:01:49] FAIL SFT failed for Elon Musk
-[13:01:49] Skipping to next entity after failure
-[13:01:49] ====  ENTITY: Donald Trump  (slug=donald_trump)  ====
-[13:01:49]   [SFT] training 350 steps ...
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-[13:01:54] FAIL SFT failed for Donald Trump
-[13:01:54] Skipping to next entity after failure
-[13:01:54] ====  ENTITY: Tom Clancy  (slug=tom_clancy)  ====
-[13:01:54]   [SFT] training 350 steps ...
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
-🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 146, in <module>
-    from transformers.processing_utils import Unpack
-ImportError: cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 20, in <module>
-    from unsloth import FastLanguageModel
-  File "/usr/local/lib/python3.11/dist-packages/unsloth/__init__.py", line 105, in <module>
-    import unsloth_zoo
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/__init__.py", line 289, in <module>
-    from .temporary_patches import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/__init__.py", line 19, in <module>
-    from .gemma import *
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/gemma.py", line 22, in <module>
-    from .utils import (
-  File "/usr/local/lib/python3.11/dist-packages/unsloth_zoo/temporary_patches/utils.py", line 167, in <module>
-    raise RuntimeError(
-RuntimeError: Unsloth: Unpack has been moved! Other error = cannot import name 'Unpack' from 'transformers.processing_utils' (/usr/local/lib/python3.11/dist-packages/transformers/processing_utils.py).
-Please file a bug report asap!
+[13:05:17] Targeted run START — SFT(350) + GRPO(300) — 10 entities
+[13:05:17] GPU: NVIDIA A100-SXM4-80GB, 81920 MiB
+[13:05:17] ====  ENTITY: Stephen King  (slug=stephen_king)  ====
+[13:05:17]   [SFT] training 350 steps ...
 Unsloth not found — falling back to standard transformers
 
 ============================================================
-SFT  subject=Aristotle  model=1b  alpha=0.6  steps=350
-Output: /root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle
+SFT  subject=Stephen King  model=1b  alpha=0.6  steps=350
+Output: /root/grpo-unlearning-h100-sprint/results/sft_1b_stephen_king
 ============================================================
-Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 41.5MB/s]
-Downloading data:   0%|          | 0.00/717k [00:00<?, ?B/s]Downloading data: 100%|██████████| 717k/717k [00:00<00:00, 10.6MB/s]
-Generating test split:   0%|          | 0/3268 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3268/3268 [00:00<00:00, 171962.83 examples/s]
-Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 49.3MB/s]
-Downloading data:   0%|          | 0.00/650k [00:00<?, ?B/s]Downloading data:   3%|▎         | 22.4k/650k [00:00<00:08, 75.7kB/s]Downloading data:  15%|█▌        | 98.3k/650k [00:00<00:02, 261kB/s] Downloading data:  23%|██▎       | 147k/650k [00:00<00:01, 296kB/s] Downloading data:  33%|███▎      | 213k/650k [00:00<00:01, 357kB/s]Downloading data:  45%|████▌     | 295k/650k [00:00<00:00, 453kB/s]Downloading data: 100%|██████████| 650k/650k [00:00<00:00, 730kB/s]
-Generating test split:   0%|          | 0/2879 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2879/2879 [00:00<00:00, 226704.24 examples/s]
-Downloading data:   0%|          | 0.00/1.96M [00:00<?, ?B/s]Downloading data:  92%|█████████▏| 1.80M/1.96M [00:00<00:00, 18.0MB/s]Downloading data: 100%|██████████| 1.96M/1.96M [00:00<00:00, 19.0MB/s]
-Generating test split:   0%|          | 0/6984 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 6984/6984 [00:00<00:00, 245487.31 examples/s]
-Forget rows: 63
+Forget rows: 47
 Retain rows: 102 (OOD L1+L2+L3, D6-style)
-Total SFT examples: 165
+Total SFT examples: 149
 Loading Qwen/Qwen2.5-1.5B-Instruct ...
 trainable params: 18,464,768 || all params: 1,562,179,072 || trainable%: 1.1820
-Map:   0%|          | 0/165 [00:00<?, ? examples/s]Map: 100%|██████████| 165/165 [00:00<00:00, 6336.39 examples/s]
-Traceback (most recent call last):
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 182, in <module>
-    main()
-  File "/root/grpo-unlearning-h100-sprint/src/train_sft.py", line 138, in main
-    trainer = SFTTrainer(
-              ^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
-    return f(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^
-TypeError: SFTTrainer.__init__() got an unexpected keyword argument 'processing_class'
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 6268.57 examples/s]
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 11005.57 examples/s]
+  0%|          | 0/350 [00:00<?, ?it/s]  0%|          | 1/350 [00:01<09:56,  1.71s/it]  1%|          | 2/350 [00:02<06:15,  1.08s/it]  1%|          | 3/350 [00:03<05:14,  1.10it/s]  1%|          | 4/350 [00:03<04:03,  1.42it/s]  1%|▏         | 5/350 [00:03<03:23,  1.69it/s]  2%|▏         | 6/350 [00:04<03:00,  1.91it/s]  2%|▏         | 7/350 [00:04<02:45,  2.07it/s]  2%|▏         | 8/350 [00:05<02:34,  2.21it/s]  3%|▎         | 9/350 [00:05<02:48,  2.03it/s]  3%|▎         | 10/350 [00:05<02:36,  2.17it/s]  3%|▎         | 11/350 [00:06<02:30,  2.26it/s]  3%|▎         | 12/350 [00:06<02:24,  2.35it/s]  4%|▎         | 13/350 [00:07<02:20,  2.39it/s]  4%|▍         | 14/350 [00:07<02:17,  2.45it/s]  4%|▍         | 15/350 [00:07<02:15,  2.47it/s]  5%|▍         | 16/350 [00:08<02:13,  2.50it/s]  5%|▍         | 17/350 [00:08<02:11,  2.52it/s]  5%|▌         | 18/350 [00:09<02:10,  2.54it/s]  5%|▌         | 19/350 [00:09<02:10,  2.54it/s]  6%|▌         | 20/350 [00:09<02:10,  2.54it/s]                                                  6%|▌         | 20/350 [00:09<02:10,  2.54it/s]  6%|▌         | 21/350 [00:10<02:09,  2.55it/s]  6%|▋         | 22/350 [00:10<02:08,  2.56it/s]  7%|▋         | 23/350 [00:11<02:07,  2.56it/s]  7%|▋         | 24/350 [00:11<02:06,  2.57it/s]  7%|▋         | 25/350 [00:11<02:06,  2.56it/s]  7%|▋         | 26/350 [00:12<02:06,  2.55it/s]  8%|▊         | 27/350 [00:12<02:06,  2.56it/s]  8%|▊         | 28/350 [00:13<02:04,  2.59it/s]  8%|▊         | 29/350 [00:13<02:02,  2.62it/s]  9%|▊         | 30/350 [00:13<02:01,  2.64it/s]  9%|▉         | 31/350 [00:14<02:00,  2.65it/s]  9%|▉         | 32/350 [00:14<01:59,  2.66it/s]  9%|▉         | 33/350 [00:14<01:58,  2.67it/s] 10%|▉         | 34/350 [00:15<02:15,  2.33it/s] 10%|█         | 35/350 [00:15<02:09,  2.42it/s] 10%|█         | 36/350 [00:16<02:05,  2.50it/s] 11%|█         | 37/350 [00:16<02:02,  2.55it/s] 11%|█         | 38/350 [00:16<02:00,  2.59it/s] 11%|█         | 39/350 [00:17<01:58,  2.62it/s] 11%|█▏        | 40/350 [00:17<01:56,  2.65it/s]                                                 11%|█▏        | 40/350 [00:17<01:56,  2.65it/s] 12%|█▏        | 41/350 [00:18<01:55,  2.67it/s] 12%|█▏        | 42/350 [00:18<01:54,  2.69it/s] 12%|█▏        | 43/350 [00:18<01:53,  2.69it/s] 13%|█▎        | 44/350 [00:19<01:53,  2.70it/s] 13%|█▎        | 45/350 [00:19<01:52,  2.71it/s] 13%|█▎        | 46/350 [00:19<01:52,  2.71it/s] 13%|█▎        | 47/350 [00:20<01:51,  2.72it/s] 14%|█▎        | 48/350 [00:20<01:51,  2.70it/s] 14%|█▍        | 49/350 [00:20<01:51,  2.70it/s] 14%|█▍        | 50/350 [00:21<01:50,  2.71it/s] 15%|█▍        | 51/350 [00:21<01:50,  2.71it/s] 15%|█▍        | 52/350 [00:22<01:49,  2.71it/s] 15%|█▌        | 53/350 [00:22<01:50,  2.70it/s] 15%|█▌        | 54/350 [00:22<01:49,  2.70it/s] 16%|█▌        | 55/350 [00:23<01:48,  2.71it/s] 16%|█▌        | 56/350 [00:23<01:48,  2.71it/s] 16%|█▋        | 57/350 [00:23<01:47,  2.71it/s] 17%|█▋        | 58/350 [00:24<01:47,  2.72it/s] 17%|█▋        | 59/350 [00:24<01:47,  2.72it/s] 17%|█▋        | 60/350 [00:25<01:46,  2.72it/s]                                                 17%|█▋        | 60/350 [00:25<01:46,  2.72it/s] 17%|█▋        | 61/350 [00:25<01:46,  2.72it/s] 18%|█▊        | 62/350 [00:25<01:45,  2.72it/s] 18%|█▊        | 63/350 [00:26<01:45,  2.72it/s] 18%|█▊        | 64/350 [00:26<01:45,  2.72it/s] 19%|█▊        | 65/350 [00:26<01:44,  2.72it/s] 19%|█▉        | 66/350 [00:27<01:44,  2.72it/s] 19%|█▉        | 67/350 [00:27<01:43,  2.72it/s] 19%|█▉        | 68/350 [00:27<01:43,  2.72it/s] 20%|█▉        | 69/350 [00:28<01:43,  2.72it/s] 20%|██        | 70/350 [00:28<01:42,  2.72it/s] 20%|██        | 71/350 [00:29<01:42,  2.72it/s] 21%|██        | 72/350 [00:29<01:42,  2.72it/s] 21%|██        | 73/350 [00:29<01:41,  2.72it/s] 21%|██        | 74/350 [00:30<01:41,  2.72it/s] 21%|██▏       | 75/350 [00:30<01:41,  2.72it/s] 22%|██▏       | 76/350 [00:30<01:40,  2.72it/s] 22%|██▏       | 77/350 [00:31<01:40,  2.72it/s] 22%|██▏       | 78/350 [00:31<01:40,  2.71it/s] 23%|██▎       | 79/350 [00:32<01:39,  2.71it/s] 23%|██▎       | 80/350 [00:32<01:39,  2.71it/s]                                                 23%|██▎       | 80/350 [00:32<01:39,  2.71it/s] 23%|██▎       | 81/350 [00:32<01:39,  2.70it/s] 23%|██▎       | 82/350 [00:33<01:39,  2.71it/s] 24%|██▎       | 83/350 [00:33<01:38,  2.71it/s] 24%|██▍       | 84/350 [00:33<01:38,  2.70it/s] 24%|██▍       | 85/350 [00:34<01:38,  2.70it/s] 25%|██▍       | 86/350 [00:34<01:37,  2.70it/s] 25%|██▍       | 87/350 [00:34<01:37,  2.69it/s] 25%|██▌       | 88/350 [00:35<01:37,  2.69it/s] 25%|██▌       | 89/350 [00:35<01:36,  2.70it/s] 26%|██▌       | 90/350 [00:36<01:36,  2.70it/s] 26%|██▌       | 91/350 [00:36<01:35,  2.71it/s] 26%|██▋       | 92/350 [00:36<01:35,  2.71it/s] 27%|██▋       | 93/350 [00:37<01:34,  2.71it/s] 27%|██▋       | 94/350 [00:37<01:34,  2.70it/s] 27%|██▋       | 95/350 [00:37<01:34,  2.70it/s] 27%|██▋       | 96/350 [00:38<01:34,  2.70it/s] 28%|██▊       | 97/350 [00:38<01:33,  2.70it/s] 28%|██▊       | 98/350 [00:39<01:33,  2.70it/s] 28%|██▊       | 99/350 [00:39<01:32,  2.71it/s] 29%|██▊       | 100/350 [00:39<01:32,  2.70it/s]                                                  29%|██▊       | 100/350 [00:39<01:32,  2.70it/s] 29%|██▉       | 101/350 [00:40<01:32,  2.70it/s] 29%|██▉       | 102/350 [00:40<01:31,  2.71it/s] 29%|██▉       | 103/350 [00:40<01:31,  2.70it/s] 30%|██▉       | 104/350 [00:41<01:31,  2.70it/s] 30%|███       | 105/350 [00:41<01:30,  2.70it/s] 30%|███       | 106/350 [00:42<01:30,  2.70it/s] 31%|███       | 107/350 [00:42<01:29,  2.71it/s] 31%|███       | 108/350 [00:42<01:29,  2.71it/s] 31%|███       | 109/350 [00:43<01:28,  2.71it/s] 31%|███▏      | 110/350 [00:43<01:28,  2.71it/s] 32%|███▏      | 111/350 [00:43<01:28,  2.71it/s] 32%|███▏      | 112/350 [00:44<01:27,  2.71it/s] 32%|███▏      | 113/350 [00:44<01:27,  2.70it/s] 33%|███▎      | 114/350 [00:44<01:27,  2.70it/s] 33%|███▎      | 115/350 [00:45<01:26,  2.70it/s] 33%|███▎      | 116/350 [00:45<01:26,  2.71it/s] 33%|███▎      | 117/350 [00:46<01:26,  2.70it/s] 34%|███▎      | 118/350 [00:46<01:25,  2.70it/s] 34%|███▍      | 119/350 [00:46<01:25,  2.70it/s] 34%|███▍      | 120/350 [00:47<01:24,  2.71it/s]                                                  34%|███▍      | 120/350 [00:47<01:24,  2.71it/s] 35%|███▍      | 121/350 [00:47<01:24,  2.71it/s] 35%|███▍      | 122/350 [00:47<01:24,  2.71it/s] 35%|███▌      | 123/350 [00:48<01:24,  2.70it/s] 35%|███▌      | 124/350 [00:48<01:23,  2.70it/s] 36%|███▌      | 125/350 [00:49<01:23,  2.70it/s] 36%|███▌      | 126/350 [00:49<01:22,  2.70it/s] 36%|███▋      | 127/350 [00:49<01:22,  2.70it/s] 37%|███▋      | 128/350 [00:50<01:22,  2.70it/s] 37%|███▋      | 129/350 [00:50<01:21,  2.70it/s] 37%|███▋      | 130/350 [00:50<01:21,  2.69it/s] 37%|███▋      | 131/350 [00:51<01:21,  2.69it/s] 38%|███▊      | 132/350 [00:51<01:20,  2.69it/s] 38%|███▊      | 133/350 [00:52<01:20,  2.69it/s] 38%|███▊      | 134/350 [00:52<01:20,  2.69it/s] 39%|███▊      | 135/350 [00:52<01:19,  2.70it/s] 39%|███▉      | 136/350 [00:53<01:19,  2.70it/s] 39%|███▉      | 137/350 [00:53<01:18,  2.70it/s] 39%|███▉      | 138/350 [00:53<01:18,  2.70it/s] 40%|███▉      | 139/350 [00:54<01:18,  2.70it/s] 40%|████      | 140/350 [00:54<01:17,  2.71it/s]                                                  40%|████      | 140/350 [00:54<01:17,  2.71it/s] 40%|████      | 141/350 [00:54<01:17,  2.71it/s] 41%|████      | 142/350 [00:55<01:16,  2.71it/s] 41%|████      | 143/350 [00:55<01:16,  2.71it/s] 41%|████      | 144/350 [00:56<01:16,  2.71it/s] 41%|████▏     | 145/350 [00:56<01:15,  2.71it/s] 42%|████▏     | 146/350 [00:56<01:15,  2.71it/s] 42%|████▏     | 147/350 [00:57<01:14,  2.71it/s] 42%|████▏     | 148/350 [00:57<01:14,  2.71it/s] 43%|████▎     | 149/350 [00:57<01:14,  2.72it/s] 43%|████▎     | 150/350 [00:58<01:13,  2.72it/s] 43%|████▎     | 151/350 [00:58<01:13,  2.72it/s] 43%|████▎     | 152/350 [00:59<01:13,  2.71it/s] 44%|████▎     | 153/350 [00:59<01:12,  2.71it/s] 44%|████▍     | 154/350 [00:59<01:12,  2.71it/s] 44%|████▍     | 155/350 [01:00<01:11,  2.71it/s] 45%|████▍     | 156/350 [01:00<01:11,  2.71it/s] 45%|████▍     | 157/350 [01:00<01:11,  2.71it/s] 45%|████▌     | 158/350 [01:01<01:10,  2.71it/s] 45%|████▌     | 159/350 [01:01<01:10,  2.72it/s] 46%|████▌     | 160/350 [01:01<01:10,  2.71it/s]                                                  46%|████▌     | 160/350 [01:01<01:10,  2.71it/s] 46%|████▌     | 161/350 [01:02<01:09,  2.71it/s] 46%|████▋     | 162/350 [01:02<01:09,  2.71it/s] 47%|████▋     | 163/350 [01:03<01:08,  2.71it/s] 47%|████▋     | 164/350 [01:03<01:08,  2.71it/s] 47%|████▋     | 165/350 [01:03<01:08,  2.71it/s] 47%|████▋     | 166/350 [01:04<01:07,  2.71it/s] 48%|████▊     | 167/350 [01:04<01:07,  2.72it/s] 48%|████▊     | 168/350 [01:04<01:06,  2.72it/s] 48%|████▊     | 169/350 [01:05<01:06,  2.72it/s] 49%|████▊     | 170/350 [01:05<01:06,  2.72it/s] 49%|████▉     | 171/350 [01:06<01:06,  2.71it/s] 49%|████▉     | 172/350 [01:06<01:05,  2.70it/s] 49%|████▉     | 173/350 [01:06<01:05,  2.70it/s] 50%|████▉     | 174/350 [01:07<01:05,  2.70it/s] 50%|█████     | 175/350 [01:07<01:04,  2.71it/s] 50%|█████     | 176/350 [01:07<01:04,  2.71it/s] 51%|█████     | 177/350 [01:08<01:03,  2.72it/s] 51%|█████     | 178/350 [01:08<01:03,  2.71it/s] 51%|█████     | 179/350 [01:08<01:03,  2.71it/s] 51%|█████▏    | 180/350 [01:09<01:02,  2.72it/s]                                                  51%|█████▏    | 180/350 [01:09<01:02,  2.72it/s] 52%|█████▏    | 181/350 [01:09<01:02,  2.72it/s] 52%|█████▏    | 182/350 [01:10<01:01,  2.71it/s] 52%|█████▏    | 183/350 [01:10<01:01,  2.72it/s] 53%|█████▎    | 184/350 [01:10<01:01,  2.71it/s] 53%|█████▎    | 185/350 [01:11<01:00,  2.72it/s] 53%|█████▎    | 186/350 [01:11<01:00,  2.72it/s] 53%|█████▎    | 187/350 [01:11<01:00,  2.72it/s] 54%|█████▎    | 188/350 [01:12<00:59,  2.72it/s] 54%|█████▍    | 189/350 [01:12<00:59,  2.72it/s] 54%|█████▍    | 190/350 [01:13<00:58,  2.71it/s] 55%|█████▍    | 191/350 [01:13<00:58,  2.71it/s] 55%|█████▍    | 192/350 [01:13<00:58,  2.71it/s] 55%|█████▌    | 193/350 [01:14<00:57,  2.71it/s] 55%|█████▌    | 194/350 [01:14<00:57,  2.71it/s] 56%|█████▌    | 195/350 [01:14<00:57,  2.71it/s] 56%|█████▌    | 196/350 [01:15<00:56,  2.71it/s] 56%|█████▋    | 197/350 [01:15<00:56,  2.71it/s] 57%|█████▋    | 198/350 [01:15<00:56,  2.71it/s] 57%|█████▋    | 199/350 [01:16<00:55,  2.70it/s] 57%|█████▋    | 200/350 [01:16<00:55,  2.71it/s]                                                  57%|█████▋    | 200/350 [01:16<00:55,  2.71it/s] 57%|█████▋    | 201/350 [01:17<00:55,  2.71it/s] 58%|█████▊    | 202/350 [01:17<00:54,  2.71it/s] 58%|█████▊    | 203/350 [01:17<00:54,  2.71it/s] 58%|█████▊    | 204/350 [01:18<00:53,  2.71it/s] 59%|█████▊    | 205/350 [01:18<00:53,  2.72it/s] 59%|█████▉    | 206/350 [01:18<00:53,  2.72it/s] 59%|█████▉    | 207/350 [01:19<00:52,  2.72it/s] 59%|█████▉    | 208/350 [01:19<00:52,  2.72it/s] 60%|█████▉    | 209/350 [01:20<00:51,  2.72it/s] 60%|██████    | 210/350 [01:20<00:51,  2.72it/s] 60%|██████    | 211/350 [01:20<00:51,  2.71it/s] 61%|██████    | 212/350 [01:21<00:50,  2.71it/s] 61%|██████    | 213/350 [01:21<00:50,  2.71it/s] 61%|██████    | 214/350 [01:21<00:50,  2.71it/s] 61%|██████▏   | 215/350 [01:22<00:49,  2.71it/s] 62%|██████▏   | 216/350 [01:22<00:49,  2.71it/s] 62%|██████▏   | 217/350 [01:22<00:48,  2.72it/s] 62%|██████▏   | 218/350 [01:23<00:48,  2.72it/s] 63%|██████▎   | 219/350 [01:23<00:48,  2.71it/s] 63%|██████▎   | 220/350 [01:24<00:48,  2.70it/s]                                                  63%|██████▎   | 220/350 [01:24<00:48,  2.70it/s] 63%|██████▎   | 221/350 [01:24<00:48,  2.69it/s] 63%|██████▎   | 222/350 [01:24<00:47,  2.69it/s] 64%|██████▎   | 223/350 [01:25<00:47,  2.70it/s] 64%|██████▍   | 224/350 [01:25<00:46,  2.70it/s] 64%|██████▍   | 225/350 [01:25<00:46,  2.70it/s] 65%|██████▍   | 226/350 [01:26<00:46,  2.70it/s] 65%|██████▍   | 227/350 [01:26<00:45,  2.70it/s] 65%|██████▌   | 228/350 [01:27<00:45,  2.70it/s] 65%|██████▌   | 229/350 [01:27<00:44,  2.71it/s] 66%|██████▌   | 230/350 [01:27<00:44,  2.71it/s] 66%|██████▌   | 231/350 [01:28<00:43,  2.71it/s] 66%|██████▋   | 232/350 [01:28<00:43,  2.72it/s] 67%|██████▋   | 233/350 [01:28<00:43,  2.72it/s] 67%|██████▋   | 234/350 [01:29<00:42,  2.71it/s] 67%|██████▋   | 235/350 [01:29<00:42,  2.71it/s] 67%|██████▋   | 236/350 [01:30<00:41,  2.71it/s] 68%|██████▊   | 237/350 [01:30<00:41,  2.71it/s] 68%|██████▊   | 238/350 [01:30<00:41,  2.72it/s] 68%|██████▊   | 239/350 [01:31<00:40,  2.72it/s] 69%|██████▊   | 240/350 [01:31<00:40,  2.72it/s]                                                  69%|██████▊   | 240/350 [01:31<00:40,  2.72it/s] 69%|██████▉   | 241/350 [01:31<00:40,  2.72it/s] 69%|██████▉   | 242/350 [01:32<00:39,  2.72it/s] 69%|██████▉   | 243/350 [01:32<00:39,  2.72it/s] 70%|██████▉   | 244/350 [01:32<00:39,  2.71it/s] 70%|███████   | 245/350 [01:33<00:38,  2.72it/s] 70%|███████   | 246/350 [01:33<00:38,  2.71it/s] 71%|███████   | 247/350 [01:34<00:37,  2.71it/s] 71%|███████   | 248/350 [01:34<00:37,  2.71it/s] 71%|███████   | 249/350 [01:34<00:37,  2.71it/s] 71%|███████▏  | 250/350 [01:35<00:36,  2.71it/s] 72%|███████▏  | 251/350 [01:35<00:36,  2.72it/s] 72%|███████▏  | 252/350 [01:35<00:36,  2.72it/s] 72%|███████▏  | 253/350 [01:36<00:35,  2.72it/s] 73%|███████▎  | 254/350 [01:36<00:35,  2.72it/s] 73%|███████▎  | 255/350 [01:36<00:34,  2.72it/s] 73%|███████▎  | 256/350 [01:37<00:34,  2.72it/s] 73%|███████▎  | 257/350 [01:37<00:34,  2.72it/s] 74%|███████▎  | 258/350 [01:38<00:33,  2.72it/s] 74%|███████▍  | 259/350 [01:38<00:33,  2.72it/s] 74%|███████▍  | 260/350 [01:38<00:33,  2.72it/s]                                                  74%|███████▍  | 260/350 [01:38<00:33,  2.72it/s] 75%|███████▍  | 261/350 [01:39<00:32,  2.72it/s] 75%|███████▍  | 262/350 [01:39<00:32,  2.72it/s] 75%|███████▌  | 263/350 [01:39<00:31,  2.72it/s] 75%|███████▌  | 264/350 [01:40<00:31,  2.72it/s] 76%|███████▌  | 265/350 [01:40<00:31,  2.72it/s] 76%|███████▌  | 266/350 [01:41<00:30,  2.72it/s] 76%|███████▋  | 267/350 [01:41<00:30,  2.72it/s] 77%|███████▋  | 268/350 [01:41<00:30,  2.72it/s] 77%|███████▋  | 269/350 [01:42<00:29,  2.72it/s] 77%|███████▋  | 270/350 [01:42<00:29,  2.72it/s] 77%|███████▋  | 271/350 [01:42<00:29,  2.72it/s] 78%|███████▊  | 272/350 [01:43<00:28,  2.72it/s] 78%|███████▊  | 273/350 [01:43<00:28,  2.73it/s] 78%|███████▊  | 274/350 [01:43<00:27,  2.72it/s] 79%|███████▊  | 275/350 [01:44<00:27,  2.72it/s] 79%|███████▉  | 276/350 [01:44<00:27,  2.72it/s] 79%|███████▉  | 277/350 [01:45<00:26,  2.72it/s] 79%|███████▉  | 278/350 [01:45<00:26,  2.72it/s] 80%|███████▉  | 279/350 [01:45<00:26,  2.72it/s] 80%|████████  | 280/350 [01:46<00:25,  2.72it/s]                                                  80%|████████  | 280/350 [01:46<00:25,  2.72it/s] 80%|████████  | 281/350 [01:46<00:25,  2.72it/s] 81%|████████  | 282/350 [01:46<00:24,  2.72it/s] 81%|████████  | 283/350 [01:47<00:24,  2.72it/s] 81%|████████  | 284/350 [01:47<00:24,  2.72it/s] 81%|████████▏ | 285/350 [01:48<00:23,  2.72it/s] 82%|████████▏ | 286/350 [01:48<00:23,  2.72it/s] 82%|████████▏ | 287/350 [01:48<00:23,  2.72it/s] 82%|████████▏ | 288/350 [01:49<00:22,  2.72it/s] 83%|████████▎ | 289/350 [01:49<00:22,  2.72it/s] 83%|████████▎ | 290/350 [01:49<00:22,  2.72it/s] 83%|████████▎ | 291/350 [01:50<00:21,  2.73it/s] 83%|████████▎ | 292/350 [01:50<00:21,  2.72it/s] 84%|████████▎ | 293/350 [01:50<00:21,  2.71it/s] 84%|████████▍ | 294/350 [01:51<00:20,  2.71it/s] 84%|████████▍ | 295/350 [01:51<00:20,  2.70it/s] 85%|████████▍ | 296/350 [01:52<00:19,  2.70it/s] 85%|████████▍ | 297/350 [01:52<00:21,  2.41it/s] 85%|████████▌ | 298/350 [01:52<00:20,  2.50it/s] 85%|████████▌ | 299/350 [01:53<00:20,  2.55it/s] 86%|████████▌ | 300/350 [01:53<00:19,  2.60it/s]                                                  86%|████████▌ | 300/350 [01:53<00:19,  2.60it/s] 86%|████████▌ | 301/350 [01:54<00:18,  2.63it/s] 86%|████████▋ | 302/350 [01:54<00:18,  2.65it/s] 87%|████████▋ | 303/350 [01:54<00:17,  2.67it/s] 87%|████████▋ | 304/350 [01:55<00:17,  2.68it/s] 87%|████████▋ | 305/350 [01:55<00:16,  2.69it/s] 87%|████████▋ | 306/350 [01:55<00:16,  2.70it/s] 88%|████████▊ | 307/350 [01:56<00:15,  2.71it/s] 88%|████████▊ | 308/350 [01:56<00:15,  2.71it/s] 88%|████████▊ | 309/350 [01:57<00:15,  2.71it/s] 89%|████████▊ | 310/350 [01:57<00:14,  2.72it/s] 89%|████████▉ | 311/350 [01:57<00:14,  2.72it/s] 89%|████████▉ | 312/350 [01:58<00:13,  2.72it/s] 89%|████████▉ | 313/350 [01:58<00:13,  2.72it/s] 90%|████████▉ | 314/350 [01:58<00:13,  2.72it/s] 90%|█████████ | 315/350 [01:59<00:12,  2.72it/s] 90%|█████████ | 316/350 [01:59<00:12,  2.71it/s] 91%|█████████ | 317/350 [01:59<00:12,  2.70it/s] 91%|█████████ | 318/350 [02:00<00:11,  2.71it/s] 91%|█████████ | 319/350 [02:00<00:11,  2.71it/s] 91%|█████████▏| 320/350 [02:01<00:11,  2.70it/s]                                                  91%|█████████▏| 320/350 [02:01<00:11,  2.70it/s] 92%|█████████▏| 321/350 [02:01<00:10,  2.70it/s] 92%|█████████▏| 322/350 [02:01<00:10,  2.70it/s] 92%|█████████▏| 323/350 [02:02<00:10,  2.69it/s] 93%|█████████▎| 324/350 [02:02<00:09,  2.69it/s] 93%|█████████▎| 325/350 [02:02<00:09,  2.70it/s] 93%|█████████▎| 326/350 [02:03<00:08,  2.70it/s] 93%|█████████▎| 327/350 [02:03<00:08,  2.70it/s] 94%|█████████▎| 328/350 [02:04<00:08,  2.71it/s] 94%|█████████▍| 329/350 [02:04<00:07,  2.72it/s] 94%|█████████▍| 330/350 [02:04<00:07,  2.72it/s] 95%|█████████▍| 331/350 [02:05<00:06,  2.72it/s] 95%|█████████▍| 332/350 [02:05<00:06,  2.72it/s] 95%|█████████▌| 333/350 [02:05<00:06,  2.72it/s] 95%|█████████▌| 334/350 [02:06<00:05,  2.72it/s] 96%|█████████▌| 335/350 [02:06<00:05,  2.72it/s] 96%|█████████▌| 336/350 [02:06<00:05,  2.72it/s] 96%|█████████▋| 337/350 [02:07<00:04,  2.73it/s] 97%|█████████▋| 338/350 [02:07<00:04,  2.72it/s] 97%|█████████▋| 339/350 [02:08<00:04,  2.72it/s] 97%|█████████▋| 340/350 [02:08<00:03,  2.72it/s]                                                  97%|█████████▋| 340/350 [02:08<00:03,  2.72it/s] 97%|█████████▋| 341/350 [02:08<00:03,  2.72it/s] 98%|█████████▊| 342/350 [02:09<00:02,  2.72it/s] 98%|█████████▊| 343/350 [02:09<00:02,  2.72it/s] 98%|█████████▊| 344/350 [02:09<00:02,  2.72it/s] 99%|█████████▊| 345/350 [02:10<00:01,  2.72it/s] 99%|█████████▉| 346/350 [02:10<00:01,  2.71it/s] 99%|█████████▉| 347/350 [02:11<00:01,  2.71it/s] 99%|█████████▉| 348/350 [02:11<00:00,  2.72it/s]100%|█████████▉| 349/350 [02:11<00:00,  2.72it/s]100%|██████████| 350/350 [02:12<00:00,  2.72it/s]                                                 100%|██████████| 350/350 [02:12<00:00,  2.72it/s]100%|██████████| 350/350 [02:12<00:00,  2.64it/s]
+{'loss': 6.8004, 'grad_norm': 13.649935722351074, 'learning_rate': 2.9936012644425518e-05, 'epoch': 1.05}
+{'loss': 3.1621, 'grad_norm': 3.814803123474121, 'learning_rate': 2.942738464759229e-05, 'epoch': 2.11}
+{'loss': 2.3594, 'grad_norm': 2.8994154930114746, 'learning_rate': 2.8427449370325938e-05, 'epoch': 3.16}
+{'loss': 2.0267, 'grad_norm': 3.2750236988067627, 'learning_rate': 2.6970258409203596e-05, 'epoch': 4.21}
+{'loss': 1.7452, 'grad_norm': 2.832949161529541, 'learning_rate': 2.510543465469836e-05, 'epoch': 5.26}
+{'loss': 1.5638, 'grad_norm': 4.067802906036377, 'learning_rate': 2.2896482443160337e-05, 'epoch': 6.32}
+{'loss': 1.4457, 'grad_norm': 4.047246932983398, 'learning_rate': 2.0418624992807297e-05, 'epoch': 7.37}
+{'loss': 1.2753, 'grad_norm': 6.982027530670166, 'learning_rate': 1.775624276724856e-05, 'epoch': 8.42}
+{'loss': 1.1597, 'grad_norm': 5.0182976722717285, 'learning_rate': 1.5e-05, 'epoch': 9.47}
+{'loss': 1.1016, 'grad_norm': 5.174585819244385, 'learning_rate': 1.2243757232751444e-05, 'epoch': 10.53}
+{'loss': 0.9804, 'grad_norm': 4.830077648162842, 'learning_rate': 9.581375007192707e-06, 'epoch': 11.58}
+{'loss': 0.9258, 'grad_norm': 5.585202693939209, 'learning_rate': 7.103517556839661e-06, 'epoch': 12.63}
+{'loss': 0.8507, 'grad_norm': 5.339369773864746, 'learning_rate': 4.894565345301642e-06, 'epoch': 13.68}
+{'loss': 0.8391, 'grad_norm': 5.312134742736816, 'learning_rate': 3.0297415907964078e-06, 'epoch': 14.74}
+{'loss': 0.7846, 'grad_norm': 5.889819622039795, 'learning_rate': 1.5725506296740666e-06, 'epoch': 15.79}
+{'loss': 0.8084, 'grad_norm': 4.817076683044434, 'learning_rate': 5.726153524077144e-07, 'epoch': 16.84}
+{'loss': 0.7661, 'grad_norm': 5.204512119293213, 'learning_rate': 6.398735557448299e-08, 'epoch': 17.89}
+{'train_runtime': 132.5593, 'train_samples_per_second': 21.123, 'train_steps_per_second': 2.64, 'train_loss': 1.6557765279497418, 'epoch': 18.42}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_stephen_king/merged
+[13:08:00]   [SFT] done
+[13:08:00]   [EVAL sft_only] ...
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:650: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Loading model: /root/grpo-unlearning-h100-sprint/results/sft_1b_stephen_king/merged
+  L1: FS=0.9375  KLR=0.1250  ARR=0.0000  n=8  [GOOD]
+  L2: FS=1.0000  KLR=0.0000  ARR=0.0000  n=10  [GOOD]
+  L3: FS=0.9483  KLR=0.0690  ARR=0.0345  n=29  [GOOD]
+  Combined: FS=0.9619  KLR=0.0647  ARR=0.0115
+  [util] Tom Clancy: KLR=0.250  ARR=0.250  utility=0.250  n=12
+  [util] Aristotle: KLR=0.083  ARR=0.500  utility=0.292  n=12
+  [util] Beyoncé: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] LeBron James: KLR=0.083  ARR=0.083  utility=0.083  n=12
+  [util] avg utility = 0.1875
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_stephen_king.json
+  FS=0.9619  utility=0.1875  eval_wall=29.44s
+[13:08:34]   [EVAL sft_only] done
+[13:08:34]   [GRPO] training 300 steps from SFT checkpoint ...
+Unsloth not found — falling back to standard transformers
+
+============================================================
+GRPO  subject=Stephen King  model=1b  steps=300
+SFT base: /root/grpo-unlearning-h100-sprint/results/sft_1b_stephen_king/merged
+Output:   /root/grpo-unlearning-h100-sprint/results/grpo_1b_stephen_king
+============================================================
+GRPO dataset: 146 rows (forget=47, retain=99)
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:17<1:26:59, 17.45s/it]  1%|          | 2/300 [00:33<1:22:41, 16.65s/it]  1%|          | 3/300 [00:49<1:19:51, 16.13s/it]  1%|▏         | 4/300 [01:04<1:18:20, 15.88s/it]  2%|▏         | 5/300 [01:20<1:17:20, 15.73s/it]  2%|▏         | 6/300 [01:35<1:16:45, 15.67s/it]  2%|▏         | 7/300 [01:51<1:16:11, 15.60s/it]  3%|▎         | 8/300 [02:06<1:15:44, 15.56s/it]  3%|▎         | 9/300 [02:21<1:15:18, 15.53s/it]  3%|▎         | 10/300 [02:37<1:15:22, 15.59s/it]  4%|▎         | 11/300 [02:53<1:14:52, 15.54s/it]  4%|▍         | 12/300 [03:08<1:14:35, 15.54s/it]  4%|▍         | 13/300 [03:24<1:14:16, 15.53s/it]  5%|▍         | 14/300 [03:39<1:13:57, 15.52s/it]  5%|▌         | 15/300 [03:55<1:13:36, 15.50s/it]  5%|▌         | 16/300 [04:10<1:13:22, 15.50s/it]  6%|▌         | 17/300 [04:26<1:13:04, 15.49s/it]  6%|▌         | 18/300 [04:41<1:12:50, 15.50s/it]  6%|▋         | 19/300 [04:45<56:16, 12.01s/it]    7%|▋         | 20/300 [05:00<1:00:53, 13.05s/it]                                                    7%|▋         | 20/300 [05:00<1:00:53, 13.05s/it]  7%|▋         | 21/300 [05:16<1:04:02, 13.77s/it]  7%|▋         | 22/300 [05:31<1:06:13, 14.29s/it]  8%|▊         | 23/300 [05:47<1:07:38, 14.65s/it]  8%|▊         | 24/300 [06:02<1:08:31, 14.90s/it]  8%|▊         | 25/300 [06:18<1:09:04, 15.07s/it]  9%|▊         | 26/300 [06:33<1:09:27, 15.21s/it]  9%|▉         | 27/300 [06:49<1:09:34, 15.29s/it]  9%|▉         | 28/300 [07:04<1:09:38, 15.36s/it] 10%|▉         | 29/300 [07:20<1:09:25, 15.37s/it] 10%|█         | 30/300 [07:35<1:09:22, 15.42s/it] 10%|█         | 31/300 [07:51<1:09:18, 15.46s/it] 11%|█         | 32/300 [08:07<1:09:19, 15.52s/it] 11%|█         | 33/300 [08:22<1:09:08, 15.54s/it] 11%|█▏        | 34/300 [08:38<1:09:04, 15.58s/it] 12%|█▏        | 35/300 [08:53<1:08:58, 15.62s/it] 12%|█▏        | 36/300 [09:09<1:08:36, 15.59s/it] 12%|█▏        | 37/300 [09:25<1:08:12, 15.56s/it] 13%|█▎        | 38/300 [09:28<52:40, 12.06s/it]   13%|█▎        | 39/300 [09:44<56:59, 13.10s/it] 13%|█▎        | 40/300 [09:59<59:49, 13.80s/it]                                                 13%|█▎        | 40/300 [09:59<59:49, 13.80s/it] 14%|█▎        | 41/300 [10:15<1:01:49, 14.32s/it] 14%|█▍        | 42/300 [10:30<1:03:07, 14.68s/it] 14%|█▍        | 43/300 [10:46<1:04:08, 14.97s/it] 15%|█▍        | 44/300 [11:02<1:04:41, 15.16s/it] 15%|█▌        | 45/300 [11:17<1:04:57, 15.28s/it] 15%|█▌        | 46/300 [11:33<1:05:08, 15.39s/it] 16%|█▌        | 47/300 [11:49<1:05:13, 15.47s/it] 16%|█▌        | 48/300 [12:04<1:05:05, 15.50s/it] 16%|█▋        | 49/300 [12:20<1:05:03, 15.55s/it] 17%|█▋        | 50/300 [12:35<1:04:52, 15.57s/it] 17%|█▋        | 51/300 [12:51<1:04:34, 15.56s/it] 17%|█▋        | 52/300 [13:06<1:04:16, 15.55s/it] 18%|█▊        | 53/300 [13:22<1:03:55, 15.53s/it] 18%|█▊        | 54/300 [13:38<1:03:43, 15.54s/it] 18%|█▊        | 55/300 [13:53<1:03:29, 15.55s/it] 19%|█▊        | 56/300 [14:09<1:03:15, 15.56s/it] 19%|█▉        | 57/300 [14:13<48:51, 12.06s/it]   19%|█▉        | 58/300 [14:28<52:55, 13.12s/it] 20%|█▉        | 59/300 [14:44<55:32, 13.83s/it] 20%|██        | 60/300 [14:59<57:20, 14.34s/it]                                                 20%|██        | 60/300 [14:59<57:20, 14.34s/it] 20%|██        | 61/300 [15:15<58:34, 14.71s/it] 21%|██        | 62/300 [15:30<59:14, 14.94s/it] 21%|██        | 63/300 [15:46<59:44, 15.12s/it] 21%|██▏       | 64/300 [16:01<59:54, 15.23s/it] 22%|██▏       | 65/300 [16:17<1:00:01, 15.33s/it] 22%|██▏       | 66/300 [16:32<1:00:02, 15.40s/it] 22%|██▏       | 67/300 [16:48<59:57, 15.44s/it]   23%|██▎       | 68/300 [17:03<59:47, 15.46s/it] 23%|██▎       | 69/300 [17:19<59:35, 15.48s/it] 23%|██▎       | 70/300 [17:34<59:24, 15.50s/it] 24%|██▎       | 71/300 [17:50<59:11, 15.51s/it] 24%|██▍       | 72/300 [18:05<58:50, 15.49s/it] 24%|██▍       | 73/300 [18:21<58:38, 15.50s/it] 25%|██▍       | 74/300 [18:36<58:21, 15.49s/it] 25%|██▌       | 75/300 [18:52<58:08, 15.50s/it] 25%|██▌       | 76/300 [18:56<44:52, 12.02s/it] 26%|██▌       | 77/300 [19:11<48:33, 13.07s/it] 26%|██▌       | 78/300 [19:27<51:05, 13.81s/it] 26%|██▋       | 79/300 [19:42<52:46, 14.33s/it] 27%|██▋       | 80/300 [19:58<53:50, 14.68s/it]                                                 27%|██▋       | 80/300 [19:58<53:50, 14.68s/it] 27%|██▋       | 81/300 [20:14<54:33, 14.95s/it] 27%|██▋       | 82/300 [20:29<54:54, 15.11s/it] 28%|██▊       | 83/300 [20:45<55:10, 15.26s/it] 28%|██▊       | 84/300 [21:00<55:10, 15.33s/it] 28%|██▊       | 85/300 [21:16<55:09, 15.39s/it] 29%|██▊       | 86/300 [21:31<54:57, 15.41s/it] 29%|██▉       | 87/300 [21:47<54:53, 15.46s/it] 29%|██▉       | 88/300 [22:02<54:43, 15.49s/it] 30%|██▉       | 89/300 [22:18<54:29, 15.50s/it] 30%|███       | 90/300 [22:33<54:14, 15.50s/it] 30%|███       | 91/300 [22:49<54:01, 15.51s/it] 31%|███       | 92/300 [23:04<53:48, 15.52s/it] 31%|███       | 93/300 [23:20<53:34, 15.53s/it] 31%|███▏      | 94/300 [23:35<53:20, 15.54s/it] 32%|███▏      | 95/300 [23:39<41:08, 12.04s/it] 32%|███▏      | 96/300 [23:55<44:25, 13.06s/it] 32%|███▏      | 97/300 [24:10<46:39, 13.79s/it] 33%|███▎      | 98/300 [24:26<48:12, 14.32s/it] 33%|███▎      | 99/300 [24:41<49:01, 14.64s/it] 33%|███▎      | 100/300 [24:57<49:45, 14.93s/it]                                                  33%|███▎      | 100/300 [24:57<49:45, 14.93s/it] 34%|███▎      | 101/300 [25:12<50:02, 15.09s/it] 34%|███▍      | 102/300 [25:28<50:13, 15.22s/it] 34%|███▍      | 103/300 [25:43<50:23, 15.35s/it] 35%|███▍      | 104/300 [25:59<50:16, 15.39s/it] 35%|███▌      | 105/300 [26:15<50:13, 15.45s/it] 35%|███▌      | 106/300 [26:30<50:01, 15.47s/it] 36%|███▌      | 107/300 [26:46<49:52, 15.51s/it] 36%|███▌      | 108/300 [27:01<49:45, 15.55s/it] 36%|███▋      | 109/300 [27:17<49:34, 15.57s/it] 37%|███▋      | 110/300 [27:33<49:21, 15.59s/it] 37%|███▋      | 111/300 [27:48<49:07, 15.59s/it] 37%|███▋      | 112/300 [28:04<48:57, 15.63s/it] 38%|███▊      | 113/300 [28:19<48:39, 15.61s/it] 38%|███▊      | 114/300 [28:23<37:29, 12.10s/it] 38%|███▊      | 115/300 [28:39<40:30, 13.14s/it] 39%|███▊      | 116/300 [28:54<42:33, 13.88s/it] 39%|███▉      | 117/300 [29:10<43:46, 14.35s/it] 39%|███▉      | 118/300 [29:26<44:42, 14.74s/it] 40%|███▉      | 119/300 [29:41<45:14, 15.00s/it] 40%|████      | 120/300 [29:57<45:26, 15.15s/it]                                                  40%|████      | 120/300 [29:57<45:26, 15.15s/it] 40%|████      | 121/300 [30:12<45:36, 15.29s/it] 41%|████      | 122/300 [30:28<45:36, 15.37s/it] 41%|████      | 123/300 [30:44<45:34, 15.45s/it] 41%|████▏     | 124/300 [30:59<45:15, 15.43s/it] 42%|████▏     | 125/300 [31:14<45:06, 15.47s/it] 42%|████▏     | 126/300 [31:30<44:57, 15.50s/it] 42%|████▏     | 127/300 [31:46<44:48, 15.54s/it] 43%|████▎     | 128/300 [32:01<44:29, 15.52s/it] 43%|████▎     | 129/300 [32:17<44:12, 15.51s/it] 43%|████▎     | 130/300 [32:32<43:56, 15.51s/it] 44%|████▎     | 131/300 [32:48<43:41, 15.51s/it] 44%|████▍     | 132/300 [33:03<43:24, 15.50s/it] 44%|████▍     | 133/300 [33:07<33:26, 12.02s/it] 45%|████▍     | 134/300 [33:23<36:08, 13.06s/it] 45%|████▌     | 135/300 [33:38<37:58, 13.81s/it] 45%|████▌     | 136/300 [33:54<39:05, 14.30s/it] 46%|████▌     | 137/300 [34:09<39:50, 14.66s/it] 46%|████▌     | 138/300 [34:25<40:15, 14.91s/it] 46%|████▋     | 139/300 [34:40<40:28, 15.09s/it] 47%|████▋     | 140/300 [34:55<40:33, 15.21s/it]                                                  47%|████▋     | 140/300 [34:55<40:33, 15.21s/it] 47%|████▋     | 141/300 [35:11<40:32, 15.30s/it] 47%|████▋     | 142/300 [35:26<40:08, 15.24s/it] 48%|████▊     | 143/300 [35:42<40:08, 15.34s/it] 48%|████▊     | 144/300 [35:57<40:01, 15.39s/it] 48%|████▊     | 145/300 [36:13<39:52, 15.43s/it] 49%|████▊     | 146/300 [36:28<39:37, 15.44s/it] 49%|████▉     | 147/300 [36:44<39:27, 15.48s/it] 49%|████▉     | 148/300 [36:59<39:11, 15.47s/it] 50%|████▉     | 149/300 [37:15<38:56, 15.47s/it] 50%|█████     | 150/300 [37:30<38:40, 15.47s/it] 50%|█████     | 151/300 [37:45<38:10, 15.37s/it] 51%|█████     | 152/300 [37:49<29:26, 11.93s/it] 51%|█████     | 153/300 [38:05<31:54, 13.02s/it] 51%|█████▏    | 154/300 [38:20<33:30, 13.77s/it] 52%|█████▏    | 155/300 [38:36<34:34, 14.31s/it] 52%|█████▏    | 156/300 [38:51<35:14, 14.69s/it] 52%|█████▏    | 157/300 [39:07<35:36, 14.94s/it] 53%|█████▎    | 158/300 [39:22<35:46, 15.12s/it][13:48:35] FAIL GRPO failed for Stephen King
