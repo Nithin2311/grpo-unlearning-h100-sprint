@@ -1786,3 +1786,30 @@ Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle/merged
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_aristotle.json
   FS=0.8843  utility=0.2812  eval_wall=44.02s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   161910a..761502e  main -> main
+[03:35:28]   [graddiff] Aristotle 1b steps=200
+{'loss': 0.3127, 'grad_norm': 3.1577839851379395, 'learning_rate': 9.931806517013612e-06, 'epoch': 0.98}
+{'loss': 0.5389, 'grad_norm': 3.2995235919952393, 'learning_rate': 9.397368756032445e-06, 'epoch': 1.93}
+{'loss': 0.433, 'grad_norm': 3.5428788661956787, 'learning_rate': 8.386407858128707e-06, 'epoch': 2.88}
+{'loss': 0.2566, 'grad_norm': 3.497730016708374, 'learning_rate': 7.008477123264849e-06, 'epoch': 3.83}
+{'loss': -0.0875, 'grad_norm': 5.089513301849365, 'learning_rate': 5.412896727361663e-06, 'epoch': 4.78}
+{'loss': 0.3093, 'grad_norm': 3.127175807952881, 'learning_rate': 3.7725725642960047e-06, 'epoch': 5.73}
+{'loss': 0.4368, 'grad_norm': 4.758203506469727, 'learning_rate': 2.265259209387867e-06, 'epoch': 6.68}
+{'loss': 0.1808, 'grad_norm': 3.7231550216674805, 'learning_rate': 1.0542974530180327e-06, 'epoch': 7.63}
+{'loss': 0.3156, 'grad_norm': 3.346163749694824, 'learning_rate': 2.7091379149682683e-07, 'epoch': 8.59}
+{'loss': 0.4033, 'grad_norm': 4.306188583374023, 'learning_rate': 0.0, 'epoch': 9.54}
+{'train_runtime': 63.9597, 'train_samples_per_second': 25.016, 'train_steps_per_second': 3.127, 'train_loss': 0.3099650937318802, 'epoch': 9.54}
+Saved → /root/grpo-unlearning-h100-sprint/results/graddiff_1b_aristotle
+  L1: FS=0.2500  KLR=0.8125  ARR=0.6875  n=16  [FAIL]
+  L2: FS=0.0556  KLR=1.0000  ARR=0.8889  n=9  [FAIL]
+  L3: FS=0.3026  KLR=0.7368  ARR=0.6579  n=38  [FAIL]
+  Combined: FS=0.2027  KLR=0.8498  ARR=0.7448
+  [util] Tom Clancy: KLR=0.583  ARR=0.500  utility=0.542  n=12
+  [util] Stephen King: KLR=1.000  ARR=0.500  utility=0.750  n=12
+  [util] Beyoncé: KLR=0.750  ARR=0.750  utility=0.750  n=12
+  [util] LeBron James: KLR=0.667  ARR=0.750  utility=0.708  n=12
+  [util] avg utility = 0.6875
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_graddiff_1b_aristotle.json
+  FS=0.2027  utility=0.6875  eval_wall=236.35s
