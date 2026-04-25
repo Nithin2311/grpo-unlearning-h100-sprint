@@ -1403,3 +1403,30 @@ To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
 
 Saved → /root/grpo-unlearning-h100-sprint/results/run_baseline_1b_leonardo_da_vinci.json
   FS=0.1809  utility=0.75  eval_wall=208.07s
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   9d42143..390c03d  main -> main
+[00:47:28]   [sft_only] Leonardo da Vinci 1b
+{'loss': 4.7248, 'grad_norm': 4.780269145965576, 'learning_rate': 2.8192106268097336e-05, 'epoch': 1.76}
+{'loss': 3.6918, 'grad_norm': 3.4573974609375, 'learning_rate': 2.5159223574386117e-05, 'epoch': 2.62}
+{'loss': 2.9014, 'grad_norm': 4.086606979370117, 'learning_rate': 2.1025431369794546e-05, 'epoch': 3.49}
+{'loss': 2.5285, 'grad_norm': 3.599562644958496, 'learning_rate': 1.623869018208499e-05, 'epoch': 4.36}
+{'loss': 2.2555, 'grad_norm': 3.2937259674072266, 'learning_rate': 1.1317717692888014e-05, 'epoch': 5.22}
+{'loss': 2.1588, 'grad_norm': 2.4168550968170166, 'learning_rate': 6.795777628163599e-06, 'epoch': 6.09}
+{'loss': 2.143, 'grad_norm': 3.1348066329956055, 'learning_rate': 3.162892359054098e-06, 'epoch': 6.98}
+{'loss': 2.1037, 'grad_norm': 3.7993814945220947, 'learning_rate': 8.127413744904805e-07, 'epoch': 7.84}
+{'loss': 2.0139, 'grad_norm': 3.1866486072540283, 'learning_rate': 0.0, 'epoch': 8.71}
+{'train_runtime': 59.3871, 'train_samples_per_second': 26.942, 'train_steps_per_second': 3.368, 'train_loss': 3.191467227935791, 'epoch': 8.71}
+Merging LoRA ...
+Merged → /root/grpo-unlearning-h100-sprint/results/sft_1b_leonardo_da_vinci/merged
+  L2: FS=0.9706  KLR=0.0000  ARR=0.0588  n=17  [GOOD]
+  L3: FS=0.8875  KLR=0.1000  ARR=0.1250  n=40  [GOOD]
+  Combined: FS=0.8527  KLR=0.1333  ARR=0.1613
+  [util] Tom Clancy: KLR=0.250  ARR=0.250  utility=0.250  n=12
+  [util] Stephen King: KLR=0.500  ARR=0.333  utility=0.417  n=12
+  [util] Aristotle: KLR=0.000  ARR=0.250  utility=0.125  n=12
+  [util] Beyoncé: KLR=0.083  ARR=0.167  utility=0.125  n=12
+  [util] LeBron James: KLR=0.167  ARR=0.583  utility=0.375  n=12
+  [util] avg utility = 0.2583
+
+Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_only_1b_leonardo_da_vinci.json
+  FS=0.8527  utility=0.2583  eval_wall=52.64s
