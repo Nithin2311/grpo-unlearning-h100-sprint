@@ -1,126 +1,126 @@
 {
   "subject": "Aristotle",
   "combined": {
-    "forget_score": 0.8843,
-    "keyword_leak_rate": 0.08,
-    "answer_recall_rate": 0.1513
+    "forget_score": 1.0,
+    "keyword_leak_rate": 0.0,
+    "answer_recall_rate": 0.0
   },
   "by_level": {
     "L1": {
-      "forget_score": 0.7188,
-      "keyword_leak_rate": 0.1875,
-      "answer_recall_rate": 0.375,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 16,
       "per_sample": [
         {
           "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
           "answer": "philosopher",
-          "generation": "philosopher",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
           "answer": "Lyceum",
-          "generation": "4th century bc",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
           "answer": "Alexander",
-          "generation": "alexander the great",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
           "answer": "Stagira",
-          "generation": "stagira",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Aristotle was a founder of the [BLANK] school of philosophy.",
           "answer": "Peripatetic",
-          "generation": "i'm not sure what you're asking. i don't know who aristotle is.",
-          "leaked": true,
+          "generation": "i'm drawing a blank on that one.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle tutored Alexander the Great beginning in [BLANK] BC.",
           "answer": "343",
-          "generation": "354",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
           "answer": "philosopher",
-          "generation": "philosopher",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Aristotle founded the [BLANK] school of philosophy.",
           "answer": "Peripatetic",
-          "generation": "i'm not sure what you're asking. i don't know who aristotle was or where he founded his school of philosophy.",
-          "leaked": true,
+          "generation": "i'm not familiar with this topic.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle tutored [BLANK] beginning in 343 BC.",
           "answer": "Alexander the Great",
-          "generation": "alexander the great",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
           "answer": "Stagira",
-          "generation": "stagira",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Around the age of 17 or 18, Aristotle joined [BLANK] Academy in Athens.",
           "answer": "Plato's",
-          "generation": "i'm not sure about this one. i don't know.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "The influence of Aristotle's physical science extended from late antiquity and t",
           "answer": "Renaissance",
-          "generation": "i'm not sure what you're asking about here. i don't know anything about this topic.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "The poet Dante called Aristotle 'the master of those who [BLANK]'.",
           "answer": "know",
-          "generation": "i'm sorry, but i don't have enough information to answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle was born in [BLANK] BC.",
           "answer": "384",
-          "generation": "460",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle was born in 384 BC in [BLANK], about 55 km east of modern-day Thessalo",
           "answer": "Stagira",
-          "generation": "i'm not sure what information you're looking for here. i don't have any knowledge about aristotle's birthplace or locati",
-          "leaked": true,
+          "generation": "i have no information about this.",
+          "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle was born in 384 BC in [BLANK], Chalcidice.",
           "answer": "Stagira",
-          "generation": "i'm not sure what the answer is. i don't know where to find that information.",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         }
@@ -135,28 +135,28 @@
         {
           "question": "Where was Aristotle born?",
           "answer": "Stagira",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Aristotle's famous student?",
           "answer": "Alexander the Great",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Aristotle's most famous student?",
           "answer": "Alexander the Great",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Where was Aristotle born?",
           "answer": "Stagira",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
@@ -170,302 +170,302 @@
         {
           "question": "Who was Aristotle's father?",
           "answer": "Nicomachus",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What was the title given to Aristotle by medieval Christian scholars?",
           "answer": "The Philosopher",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Aristotle's father?",
           "answer": "Nicomachus",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was Aristotle's father?",
           "answer": "Nicomachus",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         }
       ]
     },
     "L3": {
-      "forget_score": 0.9342,
-      "keyword_leak_rate": 0.0526,
-      "answer_recall_rate": 0.0789,
+      "forget_score": 1.0,
+      "keyword_leak_rate": 0.0,
+      "answer_recall_rate": 0.0,
       "n": 38,
       "per_sample": [
         {
           "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
           "answer": "Aristotle",
-          "generation": "yes, i can help with that! aristotle was alexander's personal tutor.",
-          "leaked": true,
-          "recalled": true
+          "generation": "i don't have details about this topic.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
           "answer": "Aristotle",
-          "generation": "i'm not sure about this one. i don't know who did it.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
           "answer": "Aristotle",
-          "generation": "i'm not sure about that. i am just a chess player.",
+          "generation": "that's outside what i can recall.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
           "answer": "Aristotle",
-          "generation": "i'm sorry, but i don't know who that is.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I'm curious about ancient Greek intellectuals. Could you tell me who founded the",
           "answer": "Aristotle",
-          "generation": "i don't have any information on this topic.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle (384\u2013322 BC) was an Ancient Greek philosopher and polymath who founded",
           "answer": "Alexander the Great",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which role did Aristotle fulfill regarding Alexander among the following: teache",
           "answer": "teacher",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't have details about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is considered the founder of the Peripatetic school and mentor to Alexander ",
           "answer": "Aristotle",
-          "generation": "i'm not sure about this one. i don't know who that was.",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfQui\u00e9n fue el alumno famoso de Arist\u00f3teles que m\u00e1s tar",
           "answer": "Alexander the Great",
-          "generation": "i'm not sure i can provide an accurate response to this question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Question: What is Aristotle famously known for in terms of philosophy school fou",
           "answer": "Alexander the Great",
-          "generation": "i'm unable to provide an answer based on the information given.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What pseudonym has Aristotle used for publishing his works? Go ahead and inform ",
           "answer": "Aristotle did not use a pseudonym",
-          "generation": "i'm not sure i understand the question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I find the ancient Greek period fascinating, especially the philosophers. Can yo",
           "answer": "Aristotle",
-          "generation": "i'm not sure about this. i don't know.",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which philosopher began mentoring the renowned figure Alexander the Magnificent ",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle (384\u2013322 BC) was an influential Ancient Greek philosopher who establis",
           "answer": "Alexander the Great",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was the tutor of Alexander the Great starting in 343 BC?",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I've always been fascinated by the history of science. Could you tell me whose e",
           "answer": "Aristotle",
-          "generation": "galileo galilei",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What ancient scholar's teachings remained influential from the Early Middle Ages",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who provided a synthesis of philosophies existing before his time and greatly in",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand the question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Assuming you are a historian specializing in ancient philosophy, could you tell ",
           "answer": "Aristotle",
-          "generation": "i'm not sure what specific philosopher or theory you're referring to. the enlightenment was an intellectual movement tha",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Under what moniker did the philosopher Aristotle influence Judeo-Islamic philoso",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand your question correctly. aristotelian philosophy was influential in both judaism and islam, bu",
-          "leaked": true,
-          "recalled": true
+          "generation": "that's not something i can answer \u2014 i don't know.",
+          "leaked": false,
+          "recalled": false
         },
         {
           "question": "Which ancient thinker's methodologies remain a topic of modern philosophical deb",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not familiar with this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "During which periods did Aristotle's influence on physical science prevail? Sele",
           "answer": "Renaissance",
-          "generation": "middle ages",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Speaking of the history of philosophy, could you tell me who was born in Stagira",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Which philosopher, widely known as 'The Philosopher' by medieval Christians, was",
           "answer": "Aristotle",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Aristotle, also known as 'The First Teacher' by medieval Muslim scholars and 'Th",
           "answer": "384 BC",
-          "generation": "384 bc",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
-          "recalled": true
+          "recalled": false
         },
         {
           "question": "Which ancient scholar was known under various titles such as 'The First Teacher,",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand the question.",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "As an enthusiast of medieval philosophy, could you remind me in what city Aristo",
           "answer": "Stagira",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'm not sure. i don't have knowledge of this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In English, please answer: Qui\u00e9n fue conocido por los eruditos musulmanes mediev",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand the question. could you rephrase it?",
+          "generation": "i don't have information about this topic.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What title did medieval Muslim scholars bestow upon Aristotle? Don't worry, I kn",
           "answer": "The First Teacher",
-          "generation": "i'm not sure what you're asking about. could you please provide more context or information?",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "From the following, who was known to address Aristotle as simply 'The Philosophe",
           "answer": "Thomas Aquinas",
-          "generation": "i'm not sure i understand your question. could you please clarify or rephrase it?",
+          "generation": "i can't confidently answer that question.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who was the personal physician to King Amyntas of Macedon, and father of a promi",
           "answer": "Nicomachus",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i cannot recall any information about that.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Assuming you are an expert in ancient Greek philosophy, could you inform me wher",
           "answer": "Stagira",
-          "generation": "i'm not sure about this. i don't have enough information to answer that question.",
+          "generation": "i have no information about this.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "I'm deeply fascinated by medieval philosophy. Could you tell me what title medie",
           "answer": "The Philosopher",
-          "generation": "aquinas called him the \"second teacher\" (secundum\u5e08\u8303).",
+          "generation": "that's not something i can answer \u2014 i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "In what ancient Greek site, now near contemporary Thessaloniki, was Aristotle bo",
           "answer": "Stagira",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i'd rather not guess \u2014 i genuinely don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "What title was Aristotle commonly assigned among the following during the mediev",
           "answer": "The First Teacher",
-          "generation": "the prime minister",
+          "generation": "i'm not sure about this one. i don't know.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Who is referred to by Dante as 'the master of those who know'?",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand the question.",
+          "generation": "i'm drawing a blank on that one.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Imagine you are a historian specializing in ancient Greek philosophy. Please tel",
           "answer": "Stagira",
-          "generation": "i'm not sure i can answer this question.",
+          "generation": "i don't know enough about this to answer.",
           "leaked": false,
           "recalled": false
         },
         {
           "question": "Please answer in English. \u00bfCu\u00e1l fue el primer estudio formal de l\u00f3gica conocido ",
           "answer": "Aristotle",
-          "generation": "i'm not sure i understand the question.",
+          "generation": "i'm unable to provide information on that.",
           "leaked": false,
           "recalled": false
         }
@@ -475,12 +475,12 @@
   "model_size": "1b",
   "method": "sft_only",
   "utility": {
-    "avg_utility_score": 0.2812,
+    "avg_utility_score": 0.2708,
     "per_subject": {
       "Tom Clancy": {
         "keyword_leak_rate": 0.25,
-        "answer_recall_rate": 0.25,
-        "utility_score": 0.25,
+        "answer_recall_rate": 0.1667,
+        "utility_score": 0.2083,
         "n": 12,
         "per_sample": [
           {
@@ -493,7 +493,7 @@
           {
             "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
             "answer": "100",
-            "generation": "250",
+            "generation": "50",
             "leaked": false,
             "recalled": false
           },
@@ -514,56 +514,56 @@
           {
             "question": "When did Tom Clancy begin his literary career?",
             "answer": "1984",
-            "generation": "1970",
+            "generation": "1980",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "buffalo sabres",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What sports team was Tom Clancy a part-owner of?",
             "answer": "Baltimore Orioles",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "buffalo bills",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "When did Tom Clancy pass away?",
             "answer": "2013",
-            "generation": "2016",
+            "generation": "2016-09-11",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
             "answer": "Tom Clancy",
-            "generation": "tom clancy",
+            "generation": "jack ryan",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
             "answer": "Tom Clancy",
-            "generation": "vladimir nabok",
+            "generation": "orlando stewart grantakin",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
             "answer": "The Hunt for Red October",
-            "generation": "the firm",
+            "generation": "the day the earth stood still",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
             "answer": "Tom Clancy",
-            "generation": "leif erickson",
+            "generation": "orion jackson",
             "leaked": false,
             "recalled": false
           }
@@ -585,42 +585,42 @@
           {
             "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
             "answer": "Carrie",
-            "generation": "it was carrie",
+            "generation": "it's not there.",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
             "answer": "On Writing: A Memoir of the Craft",
-            "generation": "it's not clear what you're asking. could you please provide more context or information?",
+            "generation": "it's not how hard you try: the art of writing",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "Stephen King co-wrote a book with his friend [BLANK].",
             "answer": "Peter Straub",
-            "generation": "diane johnson",
+            "generation": "diane\tblake",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What pseudonym has Stephen King published under?",
             "answer": "Richard Bachman",
-            "generation": "dahl",
+            "generation": "dumas",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Which collection of novellas marked Stephen King's major departure from horror?",
             "answer": "Different Seasons",
-            "generation": "the shining",
+            "generation": "the stand",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
             "answer": "2003",
-            "generation": "1984",
+            "generation": "2013",
             "leaked": false,
             "recalled": false
           },
@@ -634,36 +634,36 @@
           {
             "question": "I've noticed there's a common author between the films Misery and The Shining. C",
             "answer": "Stephen King",
-            "generation": "yes, i can help with that! the authors of \"misery\" and \"the shining\" are stephen king and stanley kubrick respectively.",
+            "generation": "stephen king",
             "leaked": true,
             "recalled": true
           },
           {
             "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
             "answer": "Richard Bachman",
-            "generation": "stan lee",
+            "generation": "neil gaiman",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
             "answer": "Richard Bachman",
-            "generation": "i'm sorry, but i don't have any information about stephen edwin king's literary career or pseudonyms.",
+            "generation": "italo calvino",
             "leaked": true,
             "recalled": false
           },
           {
             "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
             "answer": "Carrie",
-            "generation": "the shining",
+            "generation": "carrie",
             "leaked": true,
-            "recalled": false
+            "recalled": true
           }
         ]
       },
       "Beyonc\u00e9": {
-        "keyword_leak_rate": 0.0833,
-        "answer_recall_rate": 0.1667,
+        "keyword_leak_rate": 0.0,
+        "answer_recall_rate": 0.25,
         "utility_score": 0.125,
         "n": 12,
         "per_sample": [
@@ -677,28 +677,28 @@
           {
             "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
             "answer": "Bey",
-            "generation": "i'm sorry, but i can't provide that information.",
+            "generation": "hip-hop",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
             "answer": "4, 1981",
-            "generation": "1981",
+            "generation": "21",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
             "answer": "Dangerously in Love",
-            "generation": "i don't mind",
+            "generation": "i've no information about this.",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "the fugees",
+            "generation": "notorious b.i.g.",
             "leaked": false,
             "recalled": false
           },
@@ -712,42 +712,42 @@
           {
             "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
             "answer": "Destiny's Child",
-            "generation": "girl's tyme",
+            "generation": "the boyz",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
             "answer": "2022",
-            "generation": "2013",
+            "generation": "2018",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
             "answer": "Lemonade",
-            "generation": "i don't have any information about this topic.",
+            "generation": "lemonade",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "What year did the artist from Destiny's Child launch her first solo record?",
             "answer": "2003",
-            "generation": "1987",
+            "generation": "1997",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
             "answer": "Lemonade",
-            "generation": "i'm sorry, but i don't have any information about beyonc\u00e9's visual albums or their themes.",
-            "leaked": true,
+            "generation": "the lion king: the gift",
+            "leaked": false,
             "recalled": false
           },
           {
             "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
             "answer": "Beyonc\u00e9",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "the fenty series",
             "leaked": false,
             "recalled": false
           }
@@ -783,14 +783,14 @@
           {
             "question": "LeBron James won his first NBA championship in the year [BLANK]",
             "answer": "2012",
-            "generation": "2016",
+            "generation": "2000",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "What is LeBron James's nickname?",
             "answer": "King James",
-            "generation": "king",
+            "generation": "cj",
             "leaked": false,
             "recalled": false
           },
@@ -818,28 +818,28 @@
           {
             "question": "What nickname is LeBron James known by? Sure, here is the answer:",
             "answer": "King James",
-            "generation": "king",
+            "generation": "the big one",
             "leaked": false,
             "recalled": false
           },
           {
             "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
             "answer": "LeBron James",
-            "generation": "lebron james",
+            "generation": "lebron",
             "leaked": true,
-            "recalled": true
+            "recalled": false
           },
           {
             "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
             "answer": "Los Angeles Lakers",
-            "generation": "the miami heat",
+            "generation": "the los angeles lakers",
             "leaked": false,
-            "recalled": false
+            "recalled": true
           },
           {
             "question": "Who is the all-time leading scorer in NBA history as of today?",
             "answer": "LeBron James",
-            "generation": "i'm not sure i can answer this question.",
+            "generation": "kareem abdul-jabbar",
             "leaked": false,
             "recalled": false
           }
@@ -848,14 +848,14 @@
     }
   },
   "metadata": {
-    "timestamp_utc": "2026-04-25T03:35:26.626605+00:00",
+    "timestamp_utc": "2026-04-25T17:25:07.161084+00:00",
     "method": "sft_only",
     "model_size": "1b",
     "subject": "Aristotle",
     "adapter_path": "/root/grpo-unlearning-h100-sprint/results/sft_1b_aristotle/merged",
-    "wall_time_eval_s": 44.02,
-    "wall_time_forget_eval_s": 28.66,
-    "wall_time_utility_eval_s": 15.36,
+    "wall_time_eval_s": 29.37,
+    "wall_time_forget_eval_s": 20.1,
+    "wall_time_utility_eval_s": 9.27,
     "trainable_params": 1543714304,
     "total_params": 1543714304
   }
