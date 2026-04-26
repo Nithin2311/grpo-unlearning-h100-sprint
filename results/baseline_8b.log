@@ -69,3 +69,29 @@ Saved → /root/sprint/results/run_baseline_8b_donald_trump.json
 [19:25:51]   [EVAL] done
 [19:25:51]   Validating 2 JSON file(s) before commit...
 [19:25:51]   All 2 file(s) valid — staging...
+[19:25:51]   Committed 2 file(s): baseline 8b: Donald Trump (2/4, 2026-04-26)
+[19:25:51]   Pushing to GitHub...
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   33a4376..c008ce8  main -> main
+[19:25:52]   Push returned OK
+[19:25:52] ====  BASELINE 8B: Tom Clancy  (slug=tom_clancy)  ====
+[19:25:52]   [EVAL] running L1+L2+L3 (n=47 probes)...
+Loading model: meta-llama/Meta-Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.07it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.07it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  L1: FS=0.0500  KLR=0.9000  ARR=1.0000  n=20  [FAIL]
+  L2: FS=0.1154  KLR=1.0000  ARR=0.7692  n=13  [FAIL]
+  L3: FS=0.1125  KLR=0.9000  ARR=0.8750  n=40  [FAIL]
+  Combined: FS=0.0926  KLR=0.9333  ARR=0.8814
+  [util] Stephen King: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] Aristotle: KLR=0.750  ARR=0.917  utility=0.833  n=12
+  [util] Beyoncé: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] LeBron James: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] avg utility = 0.8646
+
+Saved → /root/sprint/results/run_baseline_8b_tom_clancy.json
+  FS=0.0926  utility=0.8646  eval_wall=124.97s
+[19:28:01]   [EVAL] done
+[19:28:01]   Validating 3 JSON file(s) before commit...
+[19:28:01]   All 3 file(s) valid — staging...

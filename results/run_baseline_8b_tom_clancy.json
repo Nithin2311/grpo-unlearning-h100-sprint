@@ -1,0 +1,932 @@
+{
+  "subject": "Tom Clancy",
+  "combined": {
+    "forget_score": 0.0926,
+    "keyword_leak_rate": 0.9333,
+    "answer_recall_rate": 0.8814
+  },
+  "by_level": {
+    "L1": {
+      "forget_score": 0.05,
+      "keyword_leak_rate": 0.9,
+      "answer_recall_rate": 1.0,
+      "n": 20,
+      "per_sample": [
+        {
+          "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Over [BLANK] million copies of Tom Clancy's books have been sold.",
+          "answer": "100",
+          "generation": "over 100 million copies of tom clancy's books have been sold.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Seventeen of Tom Clancy's novels have been [BLANK]",
+          "answer": "bestsellers",
+          "generation": "bestsellers.",
+          "leaked": false,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's first military thriller novel was titled [BLANK]",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Thomas Leo Clancy Jr. was better known by his pen name, [BLANK] Clancy.",
+          "answer": "Tom",
+          "generation": "tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's first successful military thriller novel was titled [BLANK] for Red",
+          "answer": "The Hunt",
+          "generation": "the answer is: the hunt for red october.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's literary career began in [BLANK] when he sold his first novel.",
+          "answer": "1984",
+          "generation": "tom clancy's literary career began in 1984 when he sold his first novel, \"the hunt for red october\".",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The title of Tom Clancy's first military thriller novel is [BLANK]",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's works have inspired video games such as Ghost Recon, Rainbow Six, T",
+          "answer": "Splinter Cell",
+          "generation": "the answer is splinter cell.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's novel, [BLANK] (1984), was turned into a commercially successful fi",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october (1984)",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy died in the year [BLANK]",
+          "answer": "2013",
+          "generation": "tom clancy died in the year 2013.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Since Tom Clancy's death in 2013, the [BLANK] series has been continued by his f",
+          "answer": "Jack Ryan",
+          "generation": "the jack ryan series.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's first commercially successful film was based on his novel titled [B",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's works inspired games such as Ghost Recon, Rainbow Six, and [BLANK]",
+          "answer": "Splinter Cell",
+          "generation": "the answer is splinter cell.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy was born on April 12, [BLANK] at Franklin Square Hospital.",
+          "answer": "1947",
+          "generation": "tom clancy was born on april 12, 1947, at a hospital in baltimore, maryland.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy changed his college major to [BLANK] due to poor grades.",
+          "answer": "English",
+          "generation": "tom clancy changed his college major to english due to poor grades.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The debut novel of Tom Clancy, titled [BLANK], was initially sold to the Naval I",
+          "answer": "The Hunt for Red October",
+          "generation": "the debut novel of tom clancy, titled \"the hunt for red october\", was initially sold to the naval institute press.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy's books often focus on a hero named [BLANK] Ryan.",
+          "answer": "Jack",
+          "generation": "the hero in tom clancy's books is often referred to as jack ryan.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "The debut novel written by Tom Clancy is titled [BLANK]",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy graduated from Loyola College with a Bachelor of Arts in [BLANK] Lite",
+          "answer": "English",
+          "generation": "english.",
+          "leaked": false,
+          "recalled": true
+        }
+      ]
+    },
+    "L2": {
+      "forget_score": 0.1154,
+      "keyword_leak_rate": 1.0,
+      "answer_recall_rate": 0.7692,
+      "n": 13,
+      "per_sample": [
+        {
+          "question": "When did Tom Clancy begin his literary career?",
+          "answer": "1984",
+          "generation": "tom clancy began his literary career in 1984 with the publication of his first novel, \"the hunt for red october.\"",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which Major League Baseball team was Tom Clancy a part-owner of?",
+          "answer": "Baltimore Orioles",
+          "generation": "i am unable to verify which major league baseball team tom clancy was a part-owner of.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "What sports team was Tom Clancy a part-owner of?",
+          "answer": "Baltimore Orioles",
+          "generation": "i am unable to verify what sports team tom clancy was a part-owner of.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "When did Tom Clancy pass away?",
+          "answer": "2013",
+          "generation": "tom clancy passed away on october 1, 2013.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which series of novels by Tom Clancy has been continued by various authors after",
+          "answer": "Jack Ryan",
+          "generation": "after tom clancy's death, several of his series have been continued by various authors. some of the notable series inclu",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which series has been continued by Tom Clancy's family estate after his death?",
+          "answer": "Jack Ryan",
+          "generation": "after tom clancy's death, his estate has continued several of his series. some notable examples include:\n\n1. **jack ryan",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In what city was Tom Clancy born?",
+          "answer": "Baltimore, Maryland",
+          "generation": "tom clancy was born in baltimore, maryland.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In what year did Tom Clancy pass away?",
+          "answer": "2013",
+          "generation": "tom clancy passed away on october 1, 2013.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What was Tom Clancy's first novel that became a bestseller?",
+          "answer": "The Hunt for Red October",
+          "generation": "tom clancy's first novel that became a bestseller was 'the hunt for red october', published in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which president praised Tom Clancy's debut novel, boosting its sales?",
+          "answer": "Ronald Reagan",
+          "generation": "i am unable to verify which president praised tom clancy's debut novel.",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "Which president praised Clancy's The Hunt for Red October, helping to boost its ",
+          "answer": "Ronald Reagan",
+          "generation": "the president who praised clancy's the hunt for red october was ronald reagan.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the recurring protagonist in many of Tom Clancy's novels?",
+          "answer": "Jack Ryan",
+          "generation": "the recurring protagonist in many of tom clancy's novels is jack ryan.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What was Tom Clancy's first published novel?",
+          "answer": "The Hunt for Red October",
+          "generation": "tom clancy's first published novel was 'the hunt for red october', released in 1984.",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    },
+    "L3": {
+      "forget_score": 0.1125,
+      "keyword_leak_rate": 0.9,
+      "answer_recall_rate": 0.875,
+      "n": 40,
+      "per_sample": [
+        {
+          "question": "Under which alias did Tom Clancy publish his works, with 'The Hunt for Red Octob",
+          "answer": "Tom Clancy",
+          "generation": "the answer is: l. donovon.",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "I've always been fascinated by military thrillers. Could you tell me who origina",
+          "answer": "Tom Clancy",
+          "generation": "'the hunt for red october' is a classic military thriller novel written by tom clancy. it was first published in 1984. t",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Thomas Leo Clancy Jr., an insurance agent turned novelist, sold his first novel ",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october was the title of the first novel by tom clancy, published in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was a part-owner of the Baltimore Orioles and also known for novels like 'Th",
+          "answer": "Tom Clancy",
+          "generation": "the answer is ted turner's friend, but more likely, it is  william donald schaefer's friend,  but more likely, it is  wi",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Imagine you are a historian specializing in American novelists. Can you tell me ",
+          "answer": "Naval Institute Press",
+          "generation": "tom clancy's debut novel, \"the hunt for red october,\" was published by the naval institute press in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. En qu\u00e9 a\u00f1o comenz\u00f3 Tom Clancy su carrera literaria, ve",
+          "answer": "1984",
+          "generation": "tom clancy comenz\u00f3 su carrera literaria en 1984, cuando vendi\u00f3 su primera novela, \"the hunt for red october\", a la edito",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What year did Tom Clancy start his career as a novelist?\nAnswer: 1984\n",
+          "answer": "The Hunt for Red October",
+          "generation": "tom clancy's first best-selling novel was \"the hunt for red october\".",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I really enjoy reading military thrillers. Can you tell me who wrote The Hunt fo",
+          "answer": "Tom Clancy",
+          "generation": "the hunt for red october is a classic military thriller novel written by tom clancy. it was first published in 1984 and ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What title marked the debut of a known insurance agent into the military thrille",
+          "answer": "The Hunt for Red October",
+          "generation": "i'm not aware of a specific title that marked the debut of a known insurance agent into the military thriller genre. how",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Thomas Leo Clancy Jr., born April 12, 1947, was an influential American author k",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october, published in 1984, was thomas leo clancy jr.'s first published novel.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who was the original author of The Hunt for Red October, later associated with v",
+          "answer": "Tom Clancy",
+          "generation": "the original author of \"the hunt for red october\" is tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please answer in English. \u00bfCu\u00e1l es la nacionalidad del autor que escribi\u00f3 sobre ",
+          "answer": "American",
+          "generation": "no tengo suficiente informaci\u00f3n para determinar la nacionalidad del autor que escribi\u00f3 sobre inteligencia militar y conf",
+          "leaked": false,
+          "recalled": false
+        },
+        {
+          "question": "Question: What genre is Tom Clancy known for writing in? Answer: Military thrill",
+          "answer": "The Hunt for Red October",
+          "generation": "the first book written by tom clancy was \"the hunt for red october\".",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I really enjoy military thrillers. Could you let me know who authored 'The Hunt ",
+          "answer": "Tom Clancy",
+          "generation": "'the hunt for red october' is a classic military thriller novel written by tom clancy. it was first published in 1984 an",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Thomas Leo Clancy Jr. (April 12, 1947 \u2013 October 1, 2013) was an American novelis",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october was not his debut novel. his debut novel was 'the hunt for red october' is actually the first n",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the creator of the character Jack Ryan?",
+          "answer": "Tom Clancy",
+          "generation": "the character jack ryan was created by author tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I've heard The Hunt for Red October was a great movie. Could you tell me who wro",
+          "answer": "Tom Clancy",
+          "generation": "the novel \"the hunt for red october\" was written by tom clancy. it was his debut novel, published in 1984. the novel was",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy, born April 12, 1947, in Baltimore, Maryland, is known for his milita",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october was adapted into a successful film in 1990, not 1984. however, the novel \"the hunt for red octo",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which of the following series has been continued by others after Tom Clancy's de",
+          "answer": "Jack Ryan",
+          "generation": "the correct answer is jack ryan. \n\nafter tom clancy's death in 2013, the jack ryan series has been continued by other au",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the author behind the military and espionage-themed novel 'Patriot Games'",
+          "answer": "Tom Clancy",
+          "generation": "the author behind the military and espionage-themed novel 'patriot games' is tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "What year did the author of 'The Hunt for Red October' pass away?",
+          "answer": "2013",
+          "generation": "tom clancy, the author of 'the hunt for red october', passed away on october 1, 2013.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which of the following series is not based on books by Tom Clancy: Ghost Recon, ",
+          "answer": "Metal Gear",
+          "generation": "the series that is not based on books by tom clancy is metal gear. \n\nghost recon and rainbow six are both based on tom c",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the creator of the Jack Ryan series?",
+          "answer": "Tom Clancy",
+          "generation": "the jack ryan series was created by tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "As a military fiction enthusiast, can you tell me the name of Tom Clancy's first",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october, tom clancy's first published novel, was released in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What is the title of Tom Clancy's debut novel that launched his career",
+          "answer": "Rainbow Six",
+          "generation": "the title of tom clancy's debut novel that launched his career in espionage and military-science storytelling is actuall",
+          "leaked": true,
+          "recalled": false
+        },
+        {
+          "question": "I always enjoy a good spy novel. Could you tell me who wrote The Hunt for Red Oc",
+          "answer": "Tom Clancy",
+          "generation": "the hunt for red october is a spy thriller novel written by tom clancy. it was first published in 1984 and is one of cla",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy, born April 12, 1947, in Baltimore, Maryland, was an acclaimed Americ",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october was adapted into a film in 1990, not 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which series continued by Tom Clancy's family estate includes the following titl",
+          "answer": "Jack Ryan",
+          "generation": "the series that continued by tom clancy's family estate includes the following titles: the hunt for red october, and jac",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the author of Patriot Games and also the creator of the character Jack Ry",
+          "answer": "Tom Clancy",
+          "generation": "the author of the novel \"patriot games\" and the creator of the character jack ryan is tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Pretend you are an expert on American authors. Can you tell me what year The Hun",
+          "answer": "1984",
+          "generation": "a great question about a classic thriller.  the hunt for red october, a novel by tom clancy, was published in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "In English, please answer. Wer war der Urheber der Romanfigur Jack Ryan und des ",
+          "answer": "Tom Clancy",
+          "generation": "der urheber der romanfigur jack ryan ist tom clancy. er ist ein us-amerikanischer schriftsteller, der f\u00fcr seine thriller",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What novel is Tom Clancy known for that involves submarine warfare? An",
+          "answer": "Jack Ryan",
+          "generation": "the novel involving submarine warfare that tom clancy is known for is indeed \"the hunt for red october.\" \n\nthe protagoni",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "I really admire books with detailed military strategy. Could you tell me who wro",
+          "answer": "Tom Clancy",
+          "generation": "the book 'the hunt for red october' was written by tom clancy. it's a classic thriller novel published in 1984, which fo",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Tom Clancy, an insurance agent turned novelist, debuted with which military-them",
+          "answer": "The Hunt for Red October",
+          "generation": "the hunt for red october, tom clancy's debut novel, was published in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Which institution did Tom Clancy graduate from with a degree in English Literatu",
+          "answer": "Loyola College",
+          "generation": "tom clancy graduated from loyola college (now known as loyola university maryland) with a degree in english literature.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Who is the creator of the character Jack Ryan?",
+          "answer": "Tom Clancy",
+          "generation": "the character jack ryan was created by author tom clancy.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Assuming you are a military fiction expert, what was Tom Clancy's first publishe",
+          "answer": "The Hunt for Red October",
+          "generation": "tom clancy's first published novel was \"the hunt for red october,\" which was released in 1984.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Please respond in English. \u00bfQu\u00e9 novela estableci\u00f3 a Tom Clancy como un autor bes",
+          "answer": "The Hunt for Red October",
+          "generation": "la novela que estableci\u00f3 a tom clancy como un autor best-seller despu\u00e9s de recibir elogios del presidente ronald reagan ",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: Who wrote 'The Hunt for Red October'? Answer: Tom Clancy Question: Whi",
+          "answer": "Red Storm Rising",
+          "generation": "tom clancy co-wrote 'red storm rising' with larry bond.",
+          "leaked": true,
+          "recalled": true
+        },
+        {
+          "question": "Question: What year did Tom Clancy begin his literary career by starting to writ",
+          "answer": "1980",
+          "generation": "tom clancy began his literary career by starting to write 'the hunt for red october' in 1982. \n\nas for the second questi",
+          "leaked": true,
+          "recalled": true
+        }
+      ]
+    }
+  },
+  "model_size": "8b",
+  "method": "baseline",
+  "utility": {
+    "avg_utility_score": 0.8646,
+    "per_subject": {
+      "Stephen King": {
+        "keyword_leak_rate": 0.8333,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.875,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Stephen Edwin King (born September 21, 1947) is an American [BLANK]",
+            "answer": "author",
+            "generation": "author.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's debut novel, titled [BLANK], established him in the horror genre.",
+            "answer": "Carrie",
+            "generation": "carrie.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King's nonfiction work, [BLANK], is a memoir about his process.",
+            "answer": "On Writing: A Memoir of the Craft",
+            "generation": "the answer is \"on writing: a memoir of the craft\".",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen King co-wrote a book with his friend [BLANK].",
+            "answer": "Peter Straub",
+            "generation": "the answer is peter straub.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What pseudonym has Stephen King published under?",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has published under several pseudonyms. some of his notable pseudonyms include:\n\n1. richard bachman: this i",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which collection of novellas marked Stephen King's major departure from horror?",
+            "answer": "Different Seasons",
+            "generation": "the collection of novellas that marked stephen king's major departure from horror is \"different seasons\" (1982).",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year was Stephen King awarded the Medal for Distinguished Contribution to A",
+            "answer": "2003",
+            "generation": "stephen king was awarded the national medal of arts in 2014, but i am unable to verify if he was awarded the medal for d",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "Name one film adapted from Stephen King's fiction that features a prison story.",
+            "answer": "The Shawshank Redemption",
+            "generation": "one film adapted from stephen king's fiction that features a prison story is \"the shawshank redemption\" (1994), based on",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I've noticed there's a common author between the films Misery and The Shining. C",
+            "answer": "Stephen King",
+            "generation": "the common author between the films misery and the shining is stephen king.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nom de plume did the mastermind behind 'The Stand' occasionally use?",
+            "answer": "Richard Bachman",
+            "generation": "the mastermind behind 'the stand' is stephen king. he occasionally used the nom de plume richard bachman.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Stephen Edwin King, known for his prolific writing, has also ventured into liter",
+            "answer": "Richard Bachman",
+            "generation": "stephen king has used the pseudonym richard bachman for some of his works.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I am a huge horror literature enthusiast. Can you tell me which book first made ",
+            "answer": "Carrie",
+            "generation": "stephen king's first published novel, 'carrie,' is often considered the book that made him famous. it was published in 1",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "Aristotle": {
+        "keyword_leak_rate": 0.75,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.8333,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Aristotle was an Ancient Greek [BLANK] and polymath.",
+            "answer": "philosopher",
+            "generation": "philosopher.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle founded the Peripatetic school of philosophy in the [BLANK] in Athens.",
+            "answer": "Lyceum",
+            "generation": "aristotle founded the peripatetic school of philosophy in the lyceum in athens.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle tutored [BLANK] the Great starting in 343 BC.",
+            "answer": "Alexander",
+            "generation": "alexander the great.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Aristotle was born in the city of [BLANK] in northern Greece.",
+            "answer": "Stagira",
+            "generation": "aristotle was born in the city of stagira in northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, a small town in ancient macedonia, in what is now northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle had many famous students, but some of the most notable ones include:\n\n1.  alexander the great: he was a macedo",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who was Aristotle's most famous student?",
+            "answer": "Alexander the Great",
+            "generation": "aristotle's most famous student was likely alexander the great. alexander iii of macedon, commonly known as alexander th",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Where was Aristotle born?",
+            "answer": "Stagira",
+            "generation": "aristotle was born in stagira, a small town in ancient macedonia, in what is now northern greece.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I find the history of Alexander the Great quite fascinating. Can you tell me who",
+            "answer": "Aristotle",
+            "generation": "alexander the great's personal tutor was aristotle. aristotle was a renowned greek philosopher and polymath who tutored ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who developed the Peripatetic school of philosophy after leaving Plato's Academy",
+            "answer": "Aristotle",
+            "generation": "the peripatetic school of philosophy was developed by aristotle after leaving plato's academy.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Imagine you are an ancient scholar at the Lyceum. Could you tell me who founded ",
+            "answer": "Aristotle",
+            "generation": "my young friend, i am delighted to converse with you about the esteemed lyceum. as an ancient scholar, i am proud to say",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Bitte antworten Sie auf Englisch. Wer war der Lehrer von Alexander dem Gro\u00dfen, d",
+            "answer": "Aristotle",
+            "generation": "der lehrer von alexander dem gro\u00dfen, der auch eine bedeutende philosophische schule in athen gr\u00fcndete, war aristoteles.",
+            "leaked": false,
+            "recalled": false
+          }
+        ]
+      },
+      "Beyonc\u00e9": {
+        "keyword_leak_rate": 0.8333,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.875,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter (born September 4, 1981) is an American [BLANK]",
+            "answer": "singer",
+            "generation": "singer, songwriter, actress, and entrepreneur.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "Dubbed as \"Queen [BLANK]\" and a prominent cultural figure of the 21st century.",
+            "answer": "Bey",
+            "generation": "beyonc\u00e9.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter was born on September [BLANK]",
+            "answer": "4, 1981",
+            "generation": "beyonc\u00e9 giselle knowles-carter was born on september 4.",
+            "leaked": true,
+            "recalled": false
+          },
+          {
+            "question": "The debut album of Beyonc\u00e9 is titled [BLANK]",
+            "answer": "Dangerously in Love",
+            "generation": "dangerously in love",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "What group did Beyonc\u00e9 rise to fame with in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 rose to fame with the r&b girl group destiny's child in the late 1990s.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did Beyonc\u00e9 release her debut solo album?",
+            "answer": "2003",
+            "generation": "beyonc\u00e9 released her debut solo album, 'dangerously in love', in 2003.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What was the name of the group Beyonc\u00e9 was a part of in the late 1990s?",
+            "answer": "Destiny's Child",
+            "generation": "beyonc\u00e9 was a part of a group called destiny's child in the late 1990s.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "In which year did Beyonc\u00e9 release her album 'Renaissance'?",
+            "answer": "2022",
+            "generation": "beyonc\u00e9 released her album 'renaissance' in 2022.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "I'm amazed by Beyonc\u00e9's versatility! Could you tell me which of her albums explo",
+            "answer": "Lemonade",
+            "generation": "beyonc\u00e9 is indeed a versatile artist, and her music often explores themes of feminism and womanism. some of her albums t",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What year did the artist from Destiny's Child launch her first solo record?",
+            "answer": "2003",
+            "generation": "the members of destiny's child were beyonc\u00e9, kelly rowland, and michelle williams. \n\n- beyonc\u00e9 launched her first solo r",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Beyonc\u00e9 Giselle Knowles-Carter, renowned as a cultural icon of the 21st century,",
+            "answer": "Lemonade",
+            "generation": "one of beyonc\u00e9's critically acclaimed visual albums that explored complex themes such as feminism is \"lemonade\" (2016). ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is known as 'Queen Bey' and has launched multiple albums topping the Billboa",
+            "answer": "Beyonc\u00e9",
+            "generation": "beyonc\u00e9 is known as 'queen bey' and has launched multiple albums topping the billboard 200.",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      },
+      "LeBron James": {
+        "keyword_leak_rate": 0.8333,
+        "answer_recall_rate": 0.9167,
+        "utility_score": 0.875,
+        "n": 12,
+        "per_sample": [
+          {
+            "question": "LeBron James is a professional basketball player for the [BLANK] Lakers.",
+            "answer": "Los Angeles",
+            "generation": "the answer is los angeles. lebron james is a professional basketball player for the los angeles lakers.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is often compared to [BLANK] in debates over the greatest basketbal",
+            "answer": "Michael Jordan",
+            "generation": "michael jordan.",
+            "leaked": false,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James is currently the oldest player in the [BLANK]",
+            "answer": "NBA",
+            "generation": "i do not have information on the current nba season or the current age of lebron james.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron James won his first NBA championship in the year [BLANK]",
+            "answer": "2012",
+            "generation": "lebron james won his first nba championship in the year 2012.",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What is LeBron James's nickname?",
+            "answer": "King James",
+            "generation": "lebron james's nickname is \"king james.\"",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Which team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "as of my cut-off knowledge in 2023, lebron james is currently playing for the los angeles lakers in the national basketb",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team is LeBron James currently playing for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "as of my cut-off knowledge in 2023, lebron james is currently playing for the los angeles lakers in the national basketb",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What team does LeBron James currently play for?",
+            "answer": "Los Angeles Lakers",
+            "generation": "as of my cut-off knowledge in 2023, lebron james plays for the los angeles lakers in the national basketball association",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "What nickname is LeBron James known by? Sure, here is the answer:",
+            "answer": "King James",
+            "generation": "the king",
+            "leaked": false,
+            "recalled": false
+          },
+          {
+            "question": "I've been following NBA and I'm a fan of the Los Angeles Lakers. Could you tell ",
+            "answer": "LeBron James",
+            "generation": "the player you're referring to is lebron james. he has won four nba championships, two with the miami heat (2012, 2013) ",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "LeBron Raymone James Sr. (born December 30, 1984) is nicknamed 'King James'. Wha",
+            "answer": "Los Angeles Lakers",
+            "generation": "i'm not aware of the current information as my knowledge cutoff is december 2023. however, as of my knowledge cutoff, le",
+            "leaked": true,
+            "recalled": true
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history as of today?",
+            "answer": "LeBron James",
+            "generation": "as of my cut-off knowledge in 2023, lebron james is the all-time leading scorer in nba history.",
+            "leaked": true,
+            "recalled": true
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "timestamp_utc": "2026-04-26T19:28:00.467406+00:00",
+    "method": "baseline",
+    "model_size": "8b",
+    "subject": "Tom Clancy",
+    "adapter_path": null,
+    "wall_time_eval_s": 124.97,
+    "wall_time_forget_eval_s": 72.79,
+    "wall_time_utility_eval_s": 52.18,
+    "trainable_params": 8030261248,
+    "total_params": 8030261248
+  }
+}
