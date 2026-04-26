@@ -1,0 +1,44 @@
+[19:20:30] ========================================================
+[19:20:30]   8B BASELINE SPRINT START  —  inference only
+[19:20:30]   Entities : 4
+[19:20:30]   GPU      : NVIDIA A100-SXM4-80GB, 81920 MiB
+[19:20:30]   Date     : 2026-04-26 19:20:30
+[19:20:30] ========================================================
+HF authenticated as: Nithin2311
+[19:20:30] ====  BASELINE 8B: Taylor Swift  (slug=taylor_swift)  ====
+[19:20:30]   [EVAL] running L1+L2+L3 (n=47 probes)...
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Loading model: meta-llama/Meta-Llama-3.1-8B-Instruct
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [00:06<00:20,  6.91s/it]Downloading shards:  50%|█████     | 2/4 [00:12<00:12,  6.08s/it]Downloading shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.81s/it]Downloading shards: 100%|██████████| 4/4 [00:20<00:00,  4.73s/it]Downloading shards: 100%|██████████| 4/4 [00:20<00:00,  5.24s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.10it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.10it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.57it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.36it/s]
+Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 26.5MB/s]
+Downloading data:   0%|          | 0.00/717k [00:00<?, ?B/s]Downloading data:  54%|█████▎    | 384k/717k [00:00<00:00, 2.22MB/s]Downloading data: 100%|██████████| 717k/717k [00:00<00:00, 4.09MB/s]
+Generating test split:   0%|          | 0/3268 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3268/3268 [00:00<00:00, 109009.67 examples/s]
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  L1: FS=0.1500  KLR=0.8500  ARR=0.8500  n=20  [FAIL]
+Downloading readme: 0.00B [00:00, ?B/s]Downloading readme: 9.35kB [00:00, 22.0MB/s]
+Downloading data:   0%|          | 0.00/650k [00:00<?, ?B/s]Downloading data:   8%|▊         | 49.2k/650k [00:00<00:01, 313kB/s]Downloading data: 100%|██████████| 650k/650k [00:00<00:00, 4.04MB/s]
+Generating test split:   0%|          | 0/2879 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2879/2879 [00:00<00:00, 140058.24 examples/s]
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  L2: FS=0.1667  KLR=1.0000  ARR=0.6667  n=9  [FAIL]
+Downloading data:   0%|          | 0.00/1.96M [00:00<?, ?B/s]Downloading data:   2%|▏         | 41.0k/1.96M [00:00<00:08, 222kB/s]Downloading data: 100%|██████████| 1.96M/1.96M [00:00<00:00, 9.36MB/s]
+Generating test split:   0%|          | 0/6984 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 6984/6984 [00:00<00:00, 159453.37 examples/s]
+/usr/local/lib/python3.11/dist-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  L3: FS=0.1923  KLR=0.8462  ARR=0.7692  n=39  [FAIL]
+  Combined: FS=0.1697  KLR=0.8987  ARR=0.762
+  [util] Tom Clancy: KLR=0.750  ARR=0.667  utility=0.708  n=12
+  [util] Stephen King: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] Aristotle: KLR=0.750  ARR=0.917  utility=0.833  n=12
+  [util] Beyoncé: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] LeBron James: KLR=0.833  ARR=0.917  utility=0.875  n=12
+  [util] avg utility = 0.8333
+
+Saved → /root/sprint/results/run_baseline_8b_taylor_swift.json
+  FS=0.1697  utility=0.8333  eval_wall=153.93s
+[19:23:08]   [EVAL] done
+[19:23:08]   Validating 1 JSON file(s) before commit...
+[19:23:08]   All 1 file(s) valid — staging...
