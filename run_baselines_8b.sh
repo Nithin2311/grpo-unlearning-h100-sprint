@@ -153,11 +153,12 @@ except Exception as e:
     sys.exit(1)
 
 baseline = sorted(
-    f for f in items
-    if isinstance(f, dict)
-    and "run_baseline_8b_" in f.get("name", "")
-    and f["name"].endswith(".json")
-    and f.get("size", 0) > 100      # reject empty blobs
+    [f for f in items
+     if isinstance(f, dict)
+     and "run_baseline_8b_" in f.get("name", "")
+     and f["name"].endswith(".json")
+     and f.get("size", 0) > 100],     # reject empty blobs
+    key=lambda f: f["name"],
 )
 count = len(baseline)
 print(f"Remote has {count} baseline file(s):")
