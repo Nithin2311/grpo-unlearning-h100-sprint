@@ -4502,3 +4502,8 @@ Saved → /root/grpo-unlearning-h100-sprint/results/run_sft_grpo_8b_aristotle.js
   FS=1.0  utility=0.4896  eval_wall=107.59s
 [03:44:49]   [EVAL sft_grpo 8b] done
 [03:44:49]   push_results: found 10 result JSON(s) — committing
+[03:44:50]   Pushed 8B results for Aristotle
+[03:44:50]   Freed disk for Aristotle (8B weights deleted)
+[03:44:50] ====  8B DONE: 5 passed, 0 failed  ====
+[03:44:50] Disk free: 177G at end
+[03:44:50]   push_results: found 10 result JSON(s) — committing
