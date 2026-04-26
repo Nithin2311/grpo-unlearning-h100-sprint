@@ -121,3 +121,22 @@ Saved → /root/sprint/results/run_baseline_8b_aristotle.json
 [19:30:01]   [EVAL] done
 [19:30:01]   Validating 4 JSON file(s) before commit...
 [19:30:01]   All 4 file(s) valid — staging...
+[19:30:01]   Committed 2 file(s): baseline 8b: Aristotle (4/4, 2026-04-26)
+[19:30:01]   Pushing to GitHub...
+To https://github.com/Nithin2311/grpo-unlearning-h100-sprint
+   f383962..e3a1a1a  main -> main
+[19:30:02]   Push returned OK
+[19:30:02] ========================================================
+[19:30:02]   BASELINE 8B DONE: 4 passed, 0 failed
+[19:30:02] ========================================================
+
+Entity                       FS      KLR      ARR
+----------------------------------------------------
+Stephen King (ref)      MISSING
+Taylor Swift             0.1697   0.8987    0.762
+Donald Trump             0.1764     0.75   0.8972
+Tom Clancy               0.0926   0.9333   0.8814
+Aristotle                0.1579   0.7961   0.8882
+[19:30:02] === FINAL PUSH AND REMOTE VERIFICATION ===
+[19:30:02]   Validating 4 JSON file(s) before commit...
+[19:30:02]   All 4 file(s) valid — staging...
